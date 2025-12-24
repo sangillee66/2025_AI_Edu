@@ -1,0 +1,14 @@
+---
+title: ""
+date-modified: last-modified
+---
+
+## 인터렉티브 교수ㆍ학습 웹 앱 예시
+
+### 쿼토-중심(quarto-centered) 방식
+
+-   <https://sangillee.snu.ac.kr/dashboard_examples/>
+
+### 샤이니-중심(shiny-centered) 방식
+
+-   <https://sangillee.shinyapps.io/Dashboard_Example/>

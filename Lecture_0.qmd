@@ -1,0 +1,124 @@
+---
+title: |
+  | [개회식]{style="color:coral;font-size:0.6em"}   
+  | [연수 프로그램 소개]{style="font-size:1em"} 
+author: <br> 이상일(서울대학교 지리교육과 교수)
+date: 2025-12-29
+format: 
+  revealjs:
+    logo: snu_edu_1.png
+    footer: https://sangillee.snu.ac.kr/
+    transition: fade
+    transition-speed: fast
+    margin: 0.05
+    center: false
+    # smaller: false
+    # scrollable: false
+    code-link: true
+    code-line-numbers: false
+    code-copy: true
+    code-overflow: scroll
+    slide-number: true
+    width: 960 * 1.5
+    height: 700 * 1.5
+    lightbox: false
+    # min-scale: 1
+    # max-scale: 1
+    pointer:
+      pointerSize: 20
+      color: red
+    menu: true
+    embed-resources: false
+    theme: [default, custom_hq_pretendard_step.scss] # 슬라이드 본문 폰트 크기 조정
+    revealjs-plugins:
+      - pointer
+    css: styles.css
+code-link: true
+execute: 
+  warning: false
+  error: false
+  freeze: auto  
+dpi: 600
+editor: visual
+# suppress-bibliography: true
+editor_options: 
+  chunk_output_type: console
+---
+
+## 마이크로디그리형 연수 프로그램
+
+-   **서울시교육청**과 [서울대학교 학습과학연구소](https://ls.snu.ac.kr/) [**미래교육혁신센터**](https://ls.snu.ac.kr/sub_center/center4.php)가 주관하는 2025년 하반기 서울대학교 마이크로디그리형 연수 프로그램
+
+    -   45시간 연수를 이수한 경우 석사 학위 이수 학점 중 3학점 인정
+
+-   주관: 서울대학교 [미래교육혁신센터](https://ls.snu.ac.kr/sub_center/center4.php)
+
+    -   센터장: [서울대학교 교육학과](https://learning.snu.ac.kr/) [**임철일**](https://iled.snu.ac.kr/)교수
+
+    -   주무: 이은서(서울대학교 교육학과 박사과정)
+
+-   연수 프로그램
+
+    -   **AI 융합교육을 위한 인문사회 콘텐츠 설계**
+
+    -   과학핵심역량교육을 위한 디지털기반 교육평가 과정
+
+## AI 융합교육을 위한 인문사회 콘텐츠 설계
+
+-   **AIㆍ디지털** 기술 및 원리와 **사회과**(일반사회, 역사, 지리, 윤리)의 구체적인 주제(**인구**)를 결합한 **융합형 수업 콘텐츠 설계 능력**을 함양한다.
+
+-   오픈소스 프로그래밍 언어(**R**), 마크다운 기반 디지털 출판 도구(**Quarto**), 서버형 웹 앱 개발 도구(**Shiny**)를 활용한 **인터랙티브 교수ㆍ학습 웹 앱**의 개발 역량을 함양한다.
+
+-   **생성형 AI**를 인터랙티브 교수ㆍ학습 웹 앱과 결합하는 다양한 방안에 대해 모색한다.
+
+## 운영진
+
+-   [이상일](https://sangillee.snu.ac.kr/): 서울대학교 [지리교육과](https://geoedu.snu.ac.kr/) 교수
+
+    -   서울대학교 [AI융합교육학과](https://aied.snu.ac.kr/)
+
+    -   서울대학교 데이터사이언스대학원 [응용데이터사이언스](https://gsds.snu.ac.kr/integrated/)
+
+-   이소영: 가톨릭관동대학교 [지리교육과](https://www.cku.ac.kr/geography/index.do) 교수
+
+-   실습 조교
+
+    -   김우형: 서울대학교 지리교육과 조교 & 석사과정
+
+    -   박서우: 서울대학교 지리교육과 석사과정
+
+## 연수 참가자 {.smaller}
+
+|  성명  |  소속청  |  소속고  |    학과    | 그룹 |
+|:------:|:--------:|:--------:|:----------:|:----:|
+|  강성  |   북부   |  염광중  |  사회교육  |  A   |
+| 오미숙 |   본청   |  자운고  |  지리교육  |  B   |
+| 서현지 |   본청   | 경기여고 |  역사교육  |  C   |
+| 박래혁 | 강동송파 |  오주중  |  윤리교육  |  A   |
+| 백지영 |   동부   |  숭인중  | AI융합교육 |  C   |
+| 신유나 | 강서양천 |  삼정중  |  역사교육  |  A   |
+| 정미경 |   남부   |  개웅중  |  윤리교육  |  B   |
+| 김근홍 |   동부   |  숭인중  |  사회교육  |  B   |
+| 전지원 |   본청   | 경기여고 |  사회교육  |  C   |
+
+## 연수 내용
+
+-   교사의 AIㆍ디지털 역량: 1일
+
+-   세 가지 사이언스의 융합과 오픈소스 프로그래밍: 5일
+
+-   인구 현상과 인문사회 콘텐츠: 2일
+
+-   인터랙티브 교수ㆍ학습 웹 앱의 디자인: 3일
+
+-   인터랙티브 교수ㆍ학습 웹 앱의 구현: 4일
+
+## 일시 및 장소
+
+-   2025년 12월 29일 \~ 2026년 1월 16일 오후 6\~9시
+
+-   서울대학교 사범대학 교육정보관 VR-LAB(10-1동 316호)
+
+## 연수 홈페이지
+
+-   <https://sangillee.snu.ac.kr/2025_AI_Edu/>

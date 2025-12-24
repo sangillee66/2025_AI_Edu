@@ -1,0 +1,299 @@
+---
+title: |
+  | [Lecture 1-1]{style="color:coral;font-size:0.6em"}   
+  | [교사의 AIㆍ디지털 역량]{style="font-size:1em"} 
+author: <br> 이상일(서울대학교 지리교육과 교수)
+date: 2025-12-29
+format: 
+  revealjs:
+    logo: snu_edu_1.png
+    footer: https://sangillee.snu.ac.kr/
+    transition: fade
+    transition-speed: fast
+    margin: 0.05
+    center: false
+    # smaller: false
+    # scrollable: false
+    code-link: true
+    code-line-numbers: false
+    code-copy: true
+    code-overflow: scroll
+    slide-number: true
+    width: 960 * 1.5
+    height: 700 * 1.5
+    lightbox: false
+    # min-scale: 1
+    # max-scale: 1
+    pointer:
+      pointerSize: 20
+      color: red
+    menu: true
+    embed-resources: false
+    theme: [default, custom_hq_pretendard_step.scss] # 슬라이드 본문 폰트 크기 조정
+    revealjs-plugins:
+      - pointer
+    css: styles.css
+code-link: true
+execute: 
+  warning: false
+  error: false
+  freeze: auto  
+dpi: 600
+editor: visual
+# suppress-bibliography: true
+editor_options: 
+  chunk_output_type: console
+---
+
+##  {.center}
+
+![](images/clipboard-627613244.png)
+
+## 
+
+![](images/clipboard-1292444055.png){fig-align="center" height="950px"}
+
+## 
+
+![](images/clipboard-4164862292.png){.center}
+
+## 
+
+![](images/clipboard-3107289254.png){.center}
+
+## 
+
+![](images/clipboard-2175297264.png)
+
+## 
+
+::: {style="position: absolute; top: 0%; left: 0%; padding: 10px; border: 1px solid #ccc; border-radius: 8px; background-color: rgba(255, 255, 255, 0.8); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1.2; font-size: 2rem"}
+**ChatGPT** <br> by <br> OpenAI <br> (2022.11.30.)
+:::
+
+![[https://en.wikipedia.org/wiki/ChatGPT](https://en.wikipedia.org/wiki/ChatGPT){style="font-size:1rem"}](images/clipboard-2646416712.png)
+
+## 
+
+::: {style="position: absolute; top: 0%; left: 0%; padding: 10px; border: 1px solid #ccc; border-radius: 8px; background-color: rgba(255, 255, 255, 0.8); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1.2; font-size: 2rem"}
+**튜링 테스트** <br> by <br> 앤런 튜링 <br> (1949)
+:::
+
+![[https://en.wikipedia.org/wiki/Turing_test](https://en.wikipedia.org/wiki/Turing_test){style="font-size:1rem"}](images/clipboard-1016257508.png){fig-align="center"}
+
+## 
+
+![[https://www.technologystories.org/ai-evolution/](https://www.technologystories.org/ai-evolution/){style="font-size:1rem"}](images/clipboard-81184544.png){style="font-size:1.25rem" fig-align="center"}
+
+## 
+
+::: {style="position: absolute; top: 0%; left: 0%; padding: 10px; border: 1px solid #ccc; border-radius: 8px; background-color: rgba(255, 255, 255, 0.8); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1.2; font-size: 2rem"}
+**Google DeepMind** <br> vs.Lee Sedol <br> 2016.3.13.
+:::
+
+![](images/clipboard-117337635.png){style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"}
+
+## 
+
+![](images/clipboard-700543263.png){style="position: absolute; top: 0%; left: 0%; width: 650px;"}
+
+![[https://wikidocs.net/161975](https://wikidocs.net/161975){style="font-size:1rem"}](images/clipboard-2688393840.png){style="position: absolute; top: 50%; left: 0%;" width="700"}
+
+![[https://en.wikipedia.org/wiki/Transformer\_(deep_learning_architecture)](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)){style="font-size:1rem"}](images/clipboard-1598365557.png){style="position: absolute; top: 0%; left: 60%;"}
+
+::: {style="position: absolute; top: 0%; left: 55%; padding: 10px; border: 1px solid #ccc; border-radius: 8px; background-color: rgba(255, 255, 255, 0.8); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1.2; font-size: 1.5rem;"}
+**트랜스포머(Transformer)** <br> "Attention is All You Need" (2017)
+:::
+
+::: {style="position: absolute; top: 75%; left: 40%; padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1.2; font-size: 1.5rem;"}
+2013
+:::
+
+## 
+
+::: {style="position: absolute; top: 0%; left: 0%; padding: 10px; border: 1px solid #ccc; border-radius: 8px; background-color: rgba(255, 255, 255, 0.8); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1.2; font-size: 2rem"}
+**ChatGPT** <br> by <br> OpenAI <br> (2022.11.30.)
+:::
+
+![[https://en.wikipedia.org/wiki/ChatGPT](https://en.wikipedia.org/wiki/ChatGPT){style="font-size:1rem"}](images/clipboard-2646416712.png)
+
+::: {style="position: absolute; top: 0%; left: 73%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1.2; font-size: 2rem"}
+"생성 능력을 가진, 사전학습된, <br> 트랜스포머 구조 기반 언어모델" <br> **G**enerative <br> **P**re-tranind <br> **T**ransformer
+:::
+
+## GPT
+
+-   Generative 생성적
+
+    -   입력을 분류 및 분석하는 것이 아니라 새로운 텍스트를 생성할 수 있음
+
+    -   텍스트 뿐만 아니라, 이미지, 음성/오디오, 비디오, 코드, 멀티모달 생성
+
+-   Pre-trained 사전학습된
+
+    -   방대한 범용 텍스트 데이터로 일반 언어 패턴을 미리 학습
+
+    -   문법, 의미, 맥락, 지식 패턴을 학습
+
+-   Transformer 트랜스포머
+
+    -   학습 메커니즘: 딥러닝 신경망 구조
+
+    -   '셀프 어텐션(self attention)'
+
+        -   문장 내 각 요소를 문장 전체 맥락 속에서 재정의
+
+        -   문맥에 맞는 해석 및 거리 단어 간 관계 포착에 유리
+
+##  {.center}
+
+::: {layout-ncol="2"}
+![[https://dataaspirant.com/llm/](https://dataaspirant.com/llm/){style="font-size:1rem"}](images/clipboard-1021409242.png)
+
+![[https://x.com/samuraipreneur/status/1888530105280168421](https://x.com/samuraipreneur/status/1888530105280168421){style="font-size:1rem"}](images/clipboard-3341631511.png)
+:::
+
+##  {.center}
+
+![[https://microsoft.github.io/Workshop-Interact-with-OpenAI-models/ko/llms/](https://microsoft.github.io/Workshop-Interact-with-OpenAI-models/ko/llms/){style="font-size:1rem"}](images/clipboard-1727070972.png)
+
+## 
+
+::: {layout-ncol="2" layout-valign="center"}
+![[https://dunoit.com/blogs/30-ai-64f7e9d81cb43](https://dunoit.com/blogs/30-ai-64f7e9d81cb43){style="font-size:1rem"}](images/clipboard-1848369011.png)
+
+![[https://if-blog.tistory.com/12919](https://if-blog.tistory.com/12919){style="font-size:1rem"}](images/clipboard-4073771849.png)
+:::
+
+##  {.center}
+
+![](images/clipboard-419758347.png)
+
+## TPACK: 개념
+
+-   Technological Pedagogical Content Knowledge, 기술 교수 내용 지식
+
+    -   Lee Shulman의 PCK(1986)
+
+    -   Mishra & Koehler(2006): 교사가 "무엇을, 어떻게, 그리고 어떤 기술로" 가르칠지를 통합적으로 이해하고 실천하는 프레임워크
+
+-   세 가지 기본 지식 영역
+
+    -   CK(Content Knowledge, 내용 지식): 교과 내용에 대한 전문 지식
+
+    -   PK(Pedagogical Knowledge, 교수 지식): 교수ㆍ학습 방법에 대한 지식
+
+    -   TK(Techonological Knowledge, 기술 지식): 다양한 기술 도구와 시스템에 대한 지식
+
+## 
+
+![[https://tpack.org/tpack-image/](https://tpack.org/tpack-image/){style="font-size:1rem"}](images/clipboard-198118978.png){fig-align="center"}
+
+## TPACK: 개념
+
+-   결합 영역
+
+    -   PCK(Pedagogical Centent Knowledge, 교수내용지식): 특정 내용을 효과적으로 가르치는 방법에 대한 지식
+
+    -   TCK(Technological Content Knowledge, 기술내용지식): 특정 기술이 어떤 방식으로 내용 지식으로 표현, 탐구, 적용할 수 있는지에 대한 이해
+
+    -   TPK(Technological Pedagogical Knowledge, 기술교수지식): 특정 기술이 교수ㆍ학습을 어떻게 강화 및 변형할 수 있는지에 대한 이해
+
+    -   TPACK(기술교수내용지식): 세 가지 요소가 통합된 상태, 특정 내용을 특정 교수법과 특정 기술을 활용해 효과적으로 가르치는 지식
+
+## TPACK: 적용
+
+-   PCK (교수내용지식)
+
+    -   여러 나라의 인구 피라미드를 비교하도록 하여, 저출산과 고령화의 다른 원인을 토론하게 하는 수업
+
+-   TCK(기술내용지식)
+
+    -   GIS 소프트웨어(QGIS)를 활용하여 TFR을 지도 위에 시각화
+
+-   TPK(기술교수지식)
+
+    -   저출산 고령화 문제에 대한 협동학습에서 학생들이 Padlet이나 Google Docs를 활용해 공동으로 답안을 작성하게 함
+
+    -   Google My Maps를 통해 지도를 제작하게 함
+
+-   TPACK(기술교수내용지식)
+
+    -   학생들이 전 세계 국가별 TFR을 시각화하고, 토론을 통해 지역적ㆍ세계적 맥락에서 저출산 문제를 분석 및 해결책을 모색하게 하는 프로젝트 수업
+
+## TPACK: 확장
+
+-   AI-TPACK: Nign et al. (2024)
+
+-   TPACK-Uotl: Sifyan et al. (2023)
+
+-   TDL-TPACK: Cui and Zhang (2022)
+
+-   DPACK: Thyssen et al. (2023)
+
+-   AI Literacy TPACK: Ng et al. (2021)
+
+## 
+
+![[https://www.mdpi.com/2071-1050/16/3/978](https://www.mdpi.com/2071-1050/16/3/978){style="font-size:1rem"}](images/clipboard-1669834467.png){fig-align="center"}
+
+## TPACK-DBL 프레임워크 {.cent}
+
+![](images/clipboard-3692320336.png){fig-align="center"}
+
+[(Baran and Uygun, 2016, 49)]{style="font-size:1rem"}
+
+## 교사의 교사의 AIㆍ디지털 역량
+
+-   교사는 디지털 교육 콘텐츠의 주체적 생산자
+
+-   교사는 단순히 수업에서 활용할 AIㆍ디지털 도구를 배우는데 그치지 않고, 직접 기술이 통합된 교육 산출물(artifacts)를 설계 및 구현할 수 있는 능력 필요
+
+    -   교수ㆍ학습 상황 설계: 특정 교과 내용을 가를칠 때 어떤 AIㆍ디지털 도구를 통합할지 계획
+
+    -   디지털 산출물 제작: 교사가 직접 기술을 활용해 교육 자료를 제작
+
+    -   동료 협업 및 피드백: 만든 산출물을 다른 교사와 공유하고, 수업 적용 가능성을 논의
+
+## 인터랙티브 교수ㆍ학습 웹 앱: 기본 개념
+
+-   학습자와 콘텐츠 간의 상호작용을 중심으로 설계되어, 능동적 참여, 즉각적 피드백, 탐구 활동 등을 개인의 학습 경험을 향상 시키는 교육용 웹 애플리케이션
+
+-   성격
+
+    -   디지털 학습지: 교과의 학습 내용을 효과적으로 교수ㆍ학습하도록 도와주는 도구
+
+    -   탐수 학습 도구: 데이터 탐색을 통해 학습자 스스로 이해, 지식, 통찰을 얻도록 도와주는 도구
+
+## 인터랙티브 교수ㆍ학습 웹 앱: 기본 개념
+
+-   웹 브라우저를 통해 접근하고 사용하는 교수ㆍ학습 목적의 애플리케이션
+
+-   데이터 대시보드: 단일한 주제에 대한 상호연관된 다양한 데이터 정보를 그래픽 형태로 일관성 있게 제시한 것
+
+    -   레이아웃 요소: 대시보드의 기본 구조
+
+        -   카드
+
+        -   페이지, 네비게이션바, 사이드바, 툴바, 탭셋 등
+
+    -   내용 요소: 카드를 채우는 콘텐츠
+
+        -   텍스트, 표, 그래프, 동영상, 밸류 박스, 지도, 챗봇(LLM 활용) 등
+
+    -   작동 요소: 상호작용성의 형식과 정도
+
+## 
+
+```{=html}
+<iframe src="https://ivelasq.github.io/mortgage-dashboard/
+" loading="lazy" style="width: 100%; height: 1000px; border: 
+0px none;" allow="web-share; clipboard-write"></iframe>
+```
+
+[https://ivelasq.github.io/mortgage-dashboard/](https://ivelasq.github.io/mortgage-dashboard/){style="font-size:1rem"}
+
+## 인터랙티브 교수ㆍ학습 웹 앱: 예시
+
+-   <https://sangillee.snu.ac.kr/dashboard_examples/>
+-   <https://sangillee.snu.ac.kr/dashboard_popgeo/>

@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+
+lang: ko
+
+website:
+  title: "AI 융합교육을 위한 인문사회 콘텐츠 설계"
+  navbar:
+    logo: snu_edu_1.png
+    left:
+      - href: index.qmd
+        text: 프로그램 개요
+      - href: lecture.qmd
+        text: 학습 자료
+      - href: webapp.qmd
+        text: 교수ㆍ학습 웹 앱
+      - href: reference.qmd
+        text: 참고문헌
+    right: 
+      - icon: house-door
+        href: https://sangillee.snu.ac.kr/
+      - icon: envelope-arrow-up
+        href: mailto:si_lee@snu.ac.kr
+      - icon: github
+        href: https://github.com/sangillee66
+  # comments: 
+  #   hypothesis:
+  #     theme: clean
+  #     openSidebar: false        
+format:
+  html:
+    theme: [simplex, custom_basic_pretendard.scss]
+    css: styles.css
+    toc: true
+
+editor: visual
+
