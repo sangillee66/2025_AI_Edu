@@ -1,0 +1,985 @@
+---
+title: |
+  | [세 가지 사이언스의 융합과 오픈소스 프로그래밍 1]{style="color:coral;font-size:0.6em"}   
+  | [세 가지 사이언스의 융합]{style="font-size:0.9em"} 
+author: <br> 이상일(서울대학교 지리교육과 교수)
+date: 2025-12-30
+format: 
+  revealjs:
+    logo: snu_edu_1.png
+    footer: https://sangillee.snu.ac.kr/
+    transition: fade
+    transition-speed: fast
+    margin: 0.05
+    center: false
+    # smaller: false
+    # scrollable: false
+    code-link: true
+    code-overflow: scroll
+    slide-number: true
+    width: 960 * 1.5
+    height: 700 * 1.5
+    lightbox: false
+    # min-scale: 1
+    # max-scale: 1
+    pointer:
+      pointerSize: 20
+      color: red
+    menu: true
+    embed-resources: false
+    theme: [default, custom_hq_pretendard_step.scss]
+    revealjs-plugins:
+      - pointer
+code-link: true
+execute: 
+  warning: false
+  error: false
+  freeze: auto  
+dpi: 600
+editor: visual
+# suppress-bibliography: true
+---
+
+## 
+
+![](images/clipboard-313591340.png){fig-align="center" height="950px"}
+
+## 
+
+![[https://en.wikipedia.org/wiki/ChatGPT](https://en.wikipedia.org/wiki/ChatGPT){style="font-size:1rem"}](images/clipboard-349779989.png)
+
+## 
+
+::: {layout="[75,-3,25]" layout-valign="center" style="text-align:center; line-height:1"}
+![[https://en.wikipedia.org/wiki/John_Snow](https://en.wikipedia.org/wiki/John_Snow){style="font-size:1rem"}](images/Snow-cholera-map-1.jpg){height="920px"}
+
+![[존 스노(John Snow) <br> (1813-1858)]{style="font-size:1.75rem"}](images/John_Snow.jpg)
+:::
+
+## 
+
+![](images/clipboard-827286574.png){fig-align="center" height="950"}
+
+## 
+
+![[찰스 체핀스(Charles Cheffins)(1807-1861)]{style="font-size:1.5rem"}](images/clipboard-1810340250.png)
+
+## 
+
+```{=html}
+<iframe src="Snow Map.html" width="100%" height="1000px" style="border:none;"></iframe>
+```
+
+## 오픈공간데이터사이언스
+
+-   오픈공간데이터
+
+    -   로빈 윌슨(Robin Wilson)의 블로그
+
+        -   <https://blog.rtwilson.com/john-snows-cholera-data-in-more-formats/>
+
+    -   GitHub: epibayes/john-snow-data
+
+        -   <https://github.com/epibayes/john-snow-data?tab=readme-ov-file>
+
+-   공간데이터사이언스
+
+    -   R의 데이터사이언스 패키지: [**tidyverse**](https://tidyverse.org/)
+
+    -   R의 공간사이언스 패키지: [**sf**](https://r-spatial.github.io/sf/), [**tmap**](https://r-tmap.github.io/tmap/), [**leaflet**](https://rstudio.github.io/leaflet/)
+
+    -   Leaflet Open Base Map 제공자
+
+# [데이터사이언스 <br> Data Science]{style="color:coral;font-size:0.85em"}
+
+## 
+
+::: {layout-ncol="2"}
+![](images/clipboard-3656386038.png)
+
+![[https://mokeya.tistory.com/76](https://mokeya.tistory.com/76){style="font-size:1rem"}](images/clipboard-2179833248.png)
+:::
+
+## 
+
+> 데이터사이언스는 [원(raw) 데이터]{style="color:red"}로부터 [지식, 이해, 통찰]{style="color:green"}을 획득하기 위해 [수학 및 통계학, 컴퓨터 과학, 도메인(분야) 지식에서 발전해 온 이론, 기술, 방법론]{style="color:blue"} 등을 융합적으로 활용하는 간학문적 영역
+
+> 지식, 이해, 통찰을 효과적으로 [소통]{style="color:purple"}하고, 현실 [문제 해결]{style="color:purple"}에 대안을 제시
+
+## 원데이터: 빅 데이터
+
+![[https://opensistemas.com/en/the-four-vs-of-big-data/](https://opensistemas.com/en/the-four-vs-of-big-data/){style="font-size:1rem"}](images/clipboard-1135786247.png)
+
+## 원데이터: 유형
+
+![[https://www.docsumo.com/blogs/data-extraction/structured-vs-unstructured-vs-semistructured](https://www.docsumo.com/blogs/data-extraction/structured-vs-unstructured-vs-semistructured){style="font-size:1rem"}](images/clipboard-1679945068.png)
+
+## 원데이터: 유형 {visibility="hidden"}
+
+![](images/clipboard-3368708896.png)
+
+## 원데이터: JSON
+
+::::: columns
+::: {.column width="60%"}
+-   구조는 존재
+
+    -   구분 규칙({ }, \[ \], :) 존재
+
+    -   기계가 파싱(parsing)하기 용이
+
+    -   완전한 비정형(자유 텍스트, 이미지 등)은 아님
+
+-   스키마는 유연
+
+    -   관계형 DB처럼 고정된 컬럼 정의를 강제하지 않음
+
+    -   같은 데이터셋 안에서도 레코드마다 필드를 다르게 하거나 새 필드 추가 등이 용이
+
+    -   정형 데이터처럼 엄격히 표준화된 구조는 아미
+:::
+
+::: {.column width="40%"}
+![[https://jurgen-94.tistory.com/30](https://jurgen-94.tistory.com/30){style="font-size:1rem"}](images/clipboard-3032414262.png){style="font-size:1rem"}
+:::
+:::::
+
+## 지식, 이해, 통찰: DIKW 모형
+
+![[https://en.wikipedia.org/wiki/DIKW_pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid){style="font-size:1rem"}](images/clipboard-1048227726.png){fig-align="center"}
+
+## 이론, 기술, 방법론: 데이터사이언스의 심장
+
+-   탐색적 데이터 분석(exploratory data analysis, **EDA**)
+
+    -   통계학(+ 수학) 위주
+
+    -   변형(transformation), 요약(summarization), 시각화(visalization)
+
+-   머신러닝(machine learning, **ML**)
+
+    -   컴퓨터과학(+ 수학) 위주
+
+    -   전통적 머신러닝: 의사결정 트리, 랜덤 포레스트, 서포트 벡터 머신
+
+    -   인공신경망 기반 다양한 딥러닝 기법
+
+    -   LLM(large language model, 거대 언어 모델): 생성형 AI
+
+-   결합: "LLM-기반 EDA"
+
+## EDA: 역사
+
+::: {layout="[23,24.4,28,24.6]" style="text-align:center; line-height:1"}
+![[칼 피어슨<br>(Karl Pearson)<br>(1857-1936)<br>영국]{style="font-size:1.75rem"}](images/clipboard-1253279159.png)
+
+![[로널드 피셔<br>(Ronald A. Fisher)<br>(1890-1962)<br>영국]{style="font-size:1.75rem"}](images/clipboard-1096917300.png)
+
+![[토머스 베이즈<br>(Thomas Bayes)<br>(1701-1761)<br>영국]{style="font-size:1.75rem"}](images/clipboard-2587239095.png)
+
+![[존 튜키<br>(John Tukey)<br>(1915-2000)<br>미국]{style="font-size:1.75rem"}](images/clipboard-3710453974.png)
+:::
+
+## EDA: 정의 및 핵심 기법
+
+-   정의: 데이터와의 상호작용을 통해 다음을 행하는 과정
+
+    -   데이터 구조 이해
+
+    -   패턴 탐지 및 이례적 현상 확인
+
+    -   모형 평가 및 가설 설정
+
+-   핵심 기법
+
+    -   변형: 데이터의 구조를 변경하여 요약 및 시각화가 용이하게 하는 과정
+
+    -   요약: 데이터를 요약해주는 통계값의 산출 및 정리
+
+    -   시각화: 데이터의 다양한 측면을 검토할 수 있게, 데이터를 그래픽으로 전환하는 과정
+
+## 
+
+::: {layout="[10,-5,85]"}
+![[https://github.com/jumpingrivers/datasauRus?tab=readme-ov-file](https://github.com/jumpingrivers/datasauRus?tab=readme-ov-file){style="font-size:1rem"}](images/clipboard-477515731.png){style="font-size:1rem"}
+
+![](images/clipboard-1917453122.png)
+:::
+
+## 
+
+![](images/clipboard-431508935.png){fig-align="center"}
+
+##  {style="text-align:center"}
+
+![[샤를 조제프 미나르(Charles Joseph Minard)(1781-1870)]{style="font-size:1.75rem"}](images/Minard.png)
+
+## 
+
+![[https://www.jla-data.net/eng/minard-map-tidygeocoder/](https://www.jla-data.net/eng/minard-map-tidygeocoder/){style="font-size:1rem"}](images/clipboard-1174672964.png)
+
+## 머신러닝: 정의와 특징
+
+-   정의
+
+    -   데이터로부터 패턴을 학습하여 예측이나 분류를 수행하는 인공지능의 한 분야
+
+-   특징
+
+    -   데이터 기반 학습: 알고리즘이 주어진 데이터에서 규칙 및 패턴을 스스로 찾아냄
+
+    -   일반화 능력: 학습한 패턴을 새로운 데이터에 적용할 수 있음
+
+    -   반복적 성능 개선: 더 많은 데이터와 더 나은 알고리즘을 통해 성능 향상 가능
+
+    -   응용 분야: 이미지 인식, 음성 인식, 추천 시스템, 자연어 처리, 자율 주행, 의료 진단 등
+
+## 
+
+![[https://iq.opengenus.org/relation-of-data-science/](https://iq.opengenus.org/relation-of-data-science/){style="font-size:1rem"}](images/clipboard-1214552798.png)
+
+## 머신러닝: 주요 기법
+
+![](images/clipboard-4176264508.png){fig-align="center"}
+
+## 
+
+![](images/clipboard-3631230673.png){fig-align="center" height="950px"}
+
+## 
+
+![](images/clipboard-3658438326.png)
+
+## 
+
+![](images/clipboard-3615901135.png)
+
+## 데이터사이언스 과정: EDA 중심
+
+![[https://medium.com/\@ajaymaurya_72779/basic-questions-on-eda-analysis-for-data-science-ec61ddab61d6](https://medium.com/@ajaymaurya_72779/basic-questions-on-eda-analysis-for-data-science-ec61ddab61d6){style="font-size:1rem"}](images/clipboard-481789310.png)
+
+## 데이터사이언스 과정
+
+해들리 위컴(Hadley Wickham)
+
+![[https://posit.co/blog/artist-in-residence/](https://posit.co/blog/artist-in-residence/){style="font-size:1rem"}](images/clipboard-1618509730.png)
+
+## 데이터사이언스 과정
+
+해들리 위컴(Hadley Wickham)
+
+![[https://r4ds.hadley.nz/intro](https://r4ds.hadley.nz/intro){style="font-size:1rem"}](images/clipboard-411135231.png)
+
+## 데이터사이언스 과정
+
+해들리 위컴(Hadley Wickham)
+
+![[https://r4ds.hadley.nz/intro](https://r4ds.hadley.nz/intro){style="font-size:1rem"}](images/clipboard-1523219013.png)
+
+## 데이터사이언스 경관
+
+![[https://commons.wikimedia.org/wiki/File:Data-Science-Landscape.jpg](https://commons.wikimedia.org/wiki/File:Data-Science-Landscape.jpg){style="font-size:1rem"}](images/Data-Science-Landscape.jpg){fig-align="center"}
+
+# [오픈사이언스 <br> Open Science]{style="color:coral;font-size:0.85em"}
+
+## 
+
+::: {layout-ncol="2"}
+![](images/clipboard-2588991240.png)
+
+![[https://www.openscience-maastricht.nl/the-open-science-mission/](https://www.openscience-maastricht.nl/the-open-science-mission/){style="font-size:1rem"}](images/clipboard-1890534398.png)
+:::
+
+## 과학 혹은 철학 혹은 운동
+
+::: {layout="[24,24,27,24]" layout-valign="bottom"}
+![](images/clipboard-3133713054.png){style="height:470px"}
+
+![](images/clipboard-35727526.png){style="height:470px"}
+
+![](images/clipboard-2237235057.png){style="height:470px"}
+
+![](images/clipboard-1529822628.png){style="height:470px"}
+:::
+
+## 정의와 핵심 가치
+
+-   정의
+
+    -   연구 설계, 데이터 수집, 분석, 결과의 공개 및 재현 검증 등 과학 연구 과정 전반을 투명하고 개방적으로 수행·공유함으로써, 연구의 신뢰성과 재현성을 제고하고 과학 지식을 공공재로 확립하려는 학문적·사회적 운동
+    -   "연구 관행의 새로운 패러다임"
+
+-   핵심 가치
+
+    -   개방성(openess): 연구 결과(논문, 데이터, 코드)에 누구나 접근
+
+    -   재현가능성(reporducibility): 동일한 데이터와 방법으로 결과 검증
+
+    -   참여와 협업(participation & collaboration): 연구자 뿐만 아니라 시민, 기업, 정부 등이 연구 과정에 참여
+
+    -   투명성과 책무성(transparency & accountability): 과학 연구의 신뢰성을 높이고 사회적 영향력 강화
+
+## 역사 {.smaller}
+
+-   17세기: 근대 과학의 시작
+
+    -   학회 설립(예: 영국 왕립학회, 1660년)과 학술지(예: Philosophical Transactions, 1665년) 출간을 통해 연구 결과 공유 문화 시작
+
+-   19-20세기: 학술 출판 체제 확립
+
+    -   학술지가 표준화되고, 연구자들이 업적을 남기는 주요 수단이 됨
+
+    -   상업 출판사의 부상으로 구독료 장벽이 생겨 연구 접근성이 제한됨
+
+-   1990년대: 오픈액세스 운동
+
+    -   학술 논문 무료 공개 운동
+
+-   2010년대: 오픈사이언스 개념 확립
+
+    -   연구 데이터, 소프트웨엉, 동료 평가, 교육 자료 등을 포괄하는 운동으로 발전
+
+-   2020년대: 국제적 제도화
+
+    -   UNESCO 오픈사이언스 권고안(2021년)
+
+    -   각국 정부와 연구재단이 연구 데이터 관리 계획, 연구성과 공개 의무화를 강화
+
+## 
+
+::: {layout="[88,-1,12]" layout-valign="center"}
+![[https://es.wikipedia.org/wiki/The_Cost_of_Knowledge](https://es.wikipedia.org/wiki/The_Cost_of_Knowledge){style="font-size:1rem"}](images/clipboard-2223234416.png)
+
+![[https://en.wikipedia.org/wiki/The_Cost_of_Knowledge](https://en.wikipedia.org/wiki/The_Cost_of_Knowledge){style="font-size:1rem"}](images/clipboard-3545995152.png)
+:::
+
+## 범주별 특징 {.smaller}
+
+| 범주 | 정의 | 목적 및 효과 |
+|------------------------|------------------------|------------------------|
+| 오픈데이터 | 연구에서 수집된 데이터 공개 | 재현성 확보, 연구 검증, 데이터 재활용 |
+| 오픈소스 | 연구 코드, 소프트웨어, 알고리즘의 공개 | 투명성 강화, 공동 발전, 수정 및 확산 가능 |
+| 오픈방법론 | 연구 절차, 설계, 분석 방법의 공유 | 연구 과정 신뢰성 제고, 재현 연구 용이 |
+| 오픈동료평가 | 논문 심사 과정 공개(심사 의견, 심사자 신원 등) | 평가의 공정성 및 투명성 강화, 책임성 제고 |
+| 오픈액세스 | 연구 결과물(논문 등)을 무료로 공개 | 누구가 자유롭게 접근 및 활용, 지식 확산 |
+| 오픈교육자원 | 교재, 강의자료, 콘텐츠 공유 | 교육 기회 확대, 학습 자원 개방 및 재사용 |
+
+: {tbl-colwidths="\[18,34,48\]"}
+
+## 오픈데이터: 네 가지 조건
+
+-   가용성(availability): 데이터가 실제로 공개되어 있어야 함. 전체 데이터셋이, 적절한 포맷으로, 가능한한 온라인으로 접근 가능해야 함
+
+-   재사용(reuse): 다름 사람들이 데이터를 가져다가 자유롭게 사용, 수정, 분석, 응용할 수 있어야 함
+
+-   상호운영성(interoperability): 여러 데이터 소스 또는 시스템 간에 데이터가 상호 연동될 수 있는 형식이어야 함
+
+-   보편적 참여/포용성(universal participation): 차별 없이 데이터에 접근할 수 있어야 함
+
+## 오픈데이터: FAIR 데이터
+
+![[https://libereurope.eu/article/fairdataconsultation/](https://libereurope.eu/article/fairdataconsultation/){style="font-size:1rem"}](images/clipboard-2537230218.png){fig-align="center"}
+
+## 오픈데이터: FAIR 데이터
+
+![[https://libraries.mit.edu/news/data-necessarily/31421/](https://libraries.mit.edu/news/data-necessarily/31421/){style="font-size:1rem"}](images/FAIRNotOpen-e1604960355240.png)
+
+## 오픈데이터: 오픈 API
+
+-   정의
+
+    -   누구나 접근 가능한 응용프로그래밍 인터페이스(application programming inteface)
+
+    -   데이터나 기능을 위부 개발자 및 사용자가 자유롭게 활용할 수 있도록 공개된 API
+
+-   특징
+
+    -   표준 프로토콜(REST, JSON, XML 등)
+
+    -   인증키(API 키) 발급을 통해 관리 가능
+
+    -   문서화가 잘 되어 있어야 활용 가능
+
+-   활용
+
+    -   정부/공공: 공공데이터포털의 API, KOSIS API, 기상청 날씨 API 등
+
+    -   학문/연구: World Bank API 등
+
+    -   민간/서비스: 구글맵스 API, 네이버 API, 오픈스트리트맵 API 등
+
+## 
+
+![[https://cloud.google.com/apigee/docs/api-platform/tutorials/create-api-proxy-openapi-spec?hl=ko](https://cloud.google.com/apigee/docs/api-platform/tutorials/create-api-proxy-openapi-spec?hl=ko){style="font-size:1rem"}](images/clipboard-2626696061.png)
+
+## 오픈소스
+
+-   "오픈소스 = 협업과 혁신의 엔진"
+
+-   정의
+
+    -   누구나 접근할 수 있는 소스 코드를 공개하여 자유롭게 사용, 수정, 재배포할 수 있도록 한 소프트웨어 개발 방식
+    -   연구에 사용되는 오픈소프트웨어
+
+-   의의
+
+    -   연구 재현성 확보
+
+    -   연구 비용 절감 및 효율적 개발
+
+    -   전 세계 연구자 및 개발자 간 협업 촉진
+
+    -   폐쇄형 소프트웨어에 대한 의존도 감소
+
+## 오픈소스: 오픈소스 이니셔티브
+
+![[https://en.wikipedia.org/wiki/Open_Source_Initiative](https://en.wikipedia.org/wiki/Open_Source_Initiative){style="font-size:1rem"}](images/clipboard-4148451024.png)
+
+## 오픈소스: 오픈소스 이니셔티브
+
+-   연혁
+
+    -   오픈소스 소프트웨어의 정의와 라이선스를 관리 및 보급하는 국제 비영리 단체
+
+    -   1998년 설립, 본부는 미국
+
+-   목적
+
+    -   오픈소스의 정의(Open Source Definition, OSD) 수립 및 관리
+
+    -   오픈소스 라이선스 승인 및 검정(OSI Approved License)
+
+    -   오픈소스 철학과 실천을 전 세계로 확산
+
+## 오픈소스: 오픈소스 이니셔티브 {.smaller}
+
+-   OSD의 10대 조건
+
+    -   자유로운 재배포
+    -   소스코드 접근 가능
+    -   2차 저작물 허용
+    -   저작자 명시와 무결성 보장
+    -   차별 금지(사람/분야)
+    -   기술 중립성 등
+
+-   라이선스 승인: 7대 권장 라이선스
+
+    -   Apache License 2.0: 기업 친화적, 특허 권리 명시, 상용 소프트웨어와 호환성 높음
+
+    -   BSD 2-Clause “Simplified” License: 짧고 단순, 제한이 거의 없음
+
+    -   BSD 3-Clause “New” or “Revised” License: 2-Clause 버전에 “홍보 금지” 조건 추가
+
+    -   GNU General Public License (GPL) v2.0: 강력한 copyleft 성격(2차 저작물도 동일 라이선스 필요)
+
+    -   GNU General Public License (GPL) v3.0: 특허, Tivoization(기기 제한) 문제 대응을 추가
+
+    -   MIT License: 가장 간단하고 보편적, 누구나 자유롭게 사용, 수정, 배포 가능
+
+    -   Mozilla Public License 2.0: 소스 공개 요구 범위가 파일 단위로 한정, 기업 및 개발자 모두에 적합
+
+## 
+
+![[https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/javier-perez1/2021/03/30/the-growing-ecosystem-of-open-source-software-for](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/javier-perez1/2021/03/30/the-growing-ecosystem-of-open-source-software-for){style="font-size:1rem"}](images/clipboard-1703462114.png)
+
+## 
+
+::: {layout="[50, -2, 50]"}
+![](images/clipboard-2155436625.png)
+
+![](images/clipboard-738403483.png)
+:::
+
+## 
+
+![[https://r-tmap.github.io/tmap/](https://r-tmap.github.io/tmap/){style="font-size:1rem"}](images/clipboard-1040209982.png)
+
+## 오픈방법론
+
+-   "연구 과정을 공유하여 재현가능한 과학 구현"
+
+-   정의
+
+    -   연구에서 사용된 설계, 절차, 분석기법(코드 포함), 알고리즘, 프로토콜 등을 공개하는 것
+
+    -   다른 연구자가 동일한 과정을 따라 할 수 있도록 투명한 문서화 제공
+
+-   의의
+
+    -   재현성과 신뢰성 고양
+
+    -   블랙박스 연구를 줄이고 검증 가능한 과학으로 발전
+
+    -   방법 공유를 통한 연구 커뮤니티 간 협업 촉진
+
+-   활용
+
+    -   실험 프로토콜 공유 플랫폼(예: Protocols.io)
+
+    -   데이터 분석 워크플로 공개(예: Github, Jupyter Notebook 등)
+
+    -   임상시험, 사회조사에서의 연구 설계 매뉴얼 공개
+
+## 오픈교육자료
+
+-   "오픈교육자료 = 모두에게 열려 있는 지식의 공유와 확산"
+
+-   정의
+
+    -   교육, 학습, 연구에 활용되는 자료를 개방형 라이선스로 제공
+
+    -   누가나 자유롭게 접근, 사용, 수정, 재배포할 수 있는 교재, 강의자료, 멀티미디어 콘텐츠 등
+
+-   의의
+
+    -   교육 기회의 평등성 확대
+
+    -   교재 비용 절감 → 학습 장벽 낮춤
+
+    -   교육 콘텐츠의 지속적 개선과 공동 제작 촉진
+
+    -   평생학습과 글로벌 학습 공동체 강화
+
+## 
+
+![[https://blogs.oregonstate.edu/inspire/2021/11/15/open-educational-resources-for-language-teaching-and-learning/](https://blogs.oregonstate.edu/inspire/2021/11/15/open-educational-resources-for-language-teaching-and-learning/){style="font-size:1rem"}](images/clipboard-878028619.png)
+
+## 오픈액세스
+
+-   "오픈액세스는 연구 성과를 개방해 지식의 확산과 민주화를 실현한다."
+
+-   정의
+
+    -   학술 논문, 연구보고서, 데이터 등 연구 결과물을 구독료나 장벽 없이 누구나 자유롭게 접근, 읽기, 활용할 수 있도록 공개하는 출판 방식
+
+-   의의
+
+    -   지식의 민주화: 모든 연구자가 동등하게 접근 가능
+
+    -   연구 확산 촉진: 인용 증가, 협업 기회 확대
+
+    -   공공 투자 회수: 세금으로 수행된 연구 결과를 대중과 공유
+
+    -   교육 및 혁신 강화: 학습자, 스타트업, 정책 입안자 등 다양한 주체가 활용 가능
+
+## 
+
+![[https://en.wikipedia.org/wiki/Open_access](https://en.wikipedia.org/wiki/Open_access){style="font-size:1rem"}](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Open_Access_logo_PLoS_transparent.svg/1280px-Open_Access_logo_PLoS_transparent.svg.png){fig-align="center"}
+
+## 크리에이티브 커먼즈: 개요
+
+-   Creative Commons: 창의적 공유 라이선스 혹은 저작물 자유 이용 라이선스
+
+    -   "지식 공유의 표준"
+
+-   의미
+
+    -   저작물이 어떻게 공유 및 재사용될 수 있는지 명확히 규정하는 표준 라이선스 체계
+
+    -   이것을 운영하고 있는 비영리 단체(본부: 미국 샌프란시스코, 2001년 설립)
+
+-   사용
+
+    -   오픈데이터, 오픈액세스, 오픈교육자원 등에서 가장 널리 활용
+
+    -   연구, 교육, 출판, 예술 분야에서 글로벌 표준
+
+## 크리에이티브 커먼즈: 6가지 라이선스 유형
+
+-   [CC0 (퍼블릭 도메인 기증)]{style="color:gray"}
+
+-   CC BY (저작자 표시)
+
+-   CC BY-SA (저작자 표시 + 동일조건 변경허락)
+
+-   CC BY-NC (저작자 표시 + 비상업적 이용)
+
+-   CC BY-NC-SA (저작자 표시 + 비상업적 이용 + 동일조건 변경허락)
+
+-   CC BY-ND (저작자 표시 + 변경금지)
+
+-   CC BY-NC-ND (저작자 표시 + 비상업적 이용 + 변경금지)
+
+## 
+
+![[https://en.wikipedia.org/wiki/Creative_Commons_license](https://en.wikipedia.org/wiki/Creative_Commons_license){style="font-size:1rem"}](https://blog.tubesift.com/wp-content/uploads/creative-commons-chart3.png){fig-align="center"}
+
+## 
+
+![[http://dx.doi.org/10.1002/psp.70049](http://dx.doi.org/10.1002/psp.70049){style="font-size:1rem"}](images/2025_02_PSP_김세창_이상일_1.jpg){fig-align="center"}
+
+## 재현가능 연구 {visibility="hidden"}
+
+![[https://openeconomics.zbw.eu/en/knowledgebase/interests-of-others-in-your-own-research-data/](https://openeconomics.zbw.eu/en/knowledgebase/interests-of-others-in-your-own-research-data/){style="font-size:1rem"}](images/clipboard-3958400836.png){fig-align="center"}
+
+## 과학의 재현성 위기
+
+![[https://www.tvguide.com/movies/king-of-clones/2030523593/](https://www.tvguide.com/movies/king-of-clones/2030523593/){style="font-size:1rem"}](images/clipboard-1523173553.png){fig-align="center"}
+
+## 과학의 재현성 위기
+
+::::: columns
+::: {.column width="35%"}
+![](images/clipboard-3260558648.png)
+:::
+
+::: {.column style="width: 65%; font-size: 2rem; background-color: #f8f9fa"}
+**"LK-99는 '초전도체' 아냐"…사이언스 "짧고 화려했던 삶 끝나"**
+
+국내 연구진이 지난달 22일 개발했다고 주장한 상온상압 초전도체 'LK-99'에 대해 '초전도체가 아니다'라는 검증 연구결과가 최근 2\~3일 사이 집중적으로 쏟아졌다. 국제 학술지 '네이처'가 앞서 LK-99에 대한 과학계의 '회의론'을 제기한 데 이어 이번엔 국제 학술지 '사이언스'가 LK-99에 대해 '짧고 화려했던 삶(The short, spectacular life)'이라는 표현을 쓰며 "온라인에서의 명성이 곤두박질치기 시작했다"라고 8일(현지시간) 보도했다.
+
+(동아사이언스, 2023년 8월 9일)
+:::
+:::::
+
+## 재현가능 연구
+
+-   정의
+
+    -   동일한 데이터와 방법(분석 코드, 알고리즘, 환경 등)을 사용했을 때 동일한 결과를 다시 얻을 수 있는 연구
+
+    -   연구자가 데이터와 분석 절차를 투명하게 공개하여, 다른 연구자가 그대로 따라 했을 때 같은 결과가 산출되는 것이 핵심
+
+-   배경과 필요성
+
+    -   현대 과학 연구에서 복잡한 데이터 처리와 프로그래밍을 많이 활용하면서, 단순히 논문에 기술된 설명만으로는 결과를 다시 얻기 어려워 짐
+
+    -   연구 데이터, 코드, 워크플로를 공개하여 연구의 투명성(transparency)과 신뢰성(reliability)을 높이려는 움직임이 생겨남
+
+    -   오픈사이언스 운동과 밀접히 관련
+
+-   특징
+
+    -   데이터 공유, 코드 공개, 환경 명시, 워크플로 문서화
+
+## 
+
+![[https://www.technologynetworks.com/informatics/articles/repeatability-vs-reproducibility-317157](https://www.technologynetworks.com/informatics/articles/repeatability-vs-reproducibility-317157){style="font-size:1rem"}](images/clipboard-4103629629.png)
+
+## 
+
+![[https://ttw-rtd.readthedocs.io/en/latest/reproducible-research/reproducible-research.html](https://ttw-rtd.readthedocs.io/en/latest/reproducible-research/reproducible-research.html){style="font-size:1rem"}](images/clipboard-434627674.png)
+
+## 
+
+![[https://velog.io/\@eldoradodo/an96ydx7](https://velog.io/@eldoradodo/an96ydx7){style="font-size:1rem"}](images/clipboard-4151381358.png){fig-align="center"}
+
+## 재현가능 연구 {.smaller}
+
+-   재현성(reproducibility)
+
+    -   동일한 데이터에 동일한 분석 단계를 수행했을 때 일관되게 같은 답이 나오면 그 결과는 재현 가능한 것으로 간주
+
+-   복제성(replicability)
+
+    -   서로 다른 데이터에 동일한 분석을 수행했을 때 유사한 결과를 얻을 수 있다면, 그 결과는 복제성이 있는 것으로 간주
+
+-   강건성(robustness)
+
+    -   동일한 데이터를 다른 분석 절차(예를 들어, R 파이프라인과 Python 파이프라인)에 적용하여 같은 연구 질문에 대한 유사하거나 동일한 답을 얻을 수 있다면, 그 결과는 강건한 것으로 간주. 강건한 결과는 작업이 특정 프로그래밍 언어의 특수성에 의존하지 않는다는 것을 반증.
+
+-   일반화(generalization)
+
+    -   서로 다른 데이터에 다른 분석 절차에 적용하여 일반화된 결과를 도출할 수 있다면 그 결과는 재현 가능한 것으로 간주. 일반화는 결과가 특정 데이터나 분석 파이프라인 버전에 의존하지 않는다는 것을 이해하는 데 중요한 단계.
+
+## 
+
+![[https://r2bit.com/gpt-quarto/setup_reproducible.html](https://r2bit.com/gpt-quarto/setup_reproducible.html){style="font-size:1rem"}](images/clipboard-1330482179.png){fig-align="center"}
+
+## 
+
+::: {layout-ncol="3"}
+![](images/clipboard-4110213897.png)
+
+![](images/clipboard-608165154.png)
+
+![](images/clipboard-1530956463.png)
+:::
+
+# [공간사이언스 <br> Spatial Science]{style="color:coral;font-size:0.85em"}
+
+## 
+
+::: {layout-ncol="2"}
+![](images/clipboard-990944168.png)
+
+![](images/clipboard-3501198911.png)
+:::
+
+## 
+
+![[https://en.wikipedia.org/wiki/Open_Geospatial_Consortium](https://en.wikipedia.org/wiki/Open_Geospatial_Consortium){style="font-size:1rem"}](images/clipboard-535484622.png)
+
+## 
+
+![[https://stacspec.org/](https://stacspec.org/){style="font-size:1rem"}](images/clipboard-1330191016.png){fig-align="center"}
+
+## 
+
+![[https://en.wikipedia.org/wiki/QGIS](https://en.wikipedia.org/wiki/QGIS){style="font-size:1rem"}](images/clipboard-418300092.png){fig-align="center"}
+
+## 
+
+![](images/clipboard-1249344456.png){fig-align="center"}
+
+## 
+
+![[https://practicalgeoskills.blogspot.com/2020/04/map-projections-meaning-and-examples.html](https://practicalgeoskills.blogspot.com/2020/04/map-projections-meaning-and-examples.html){style="font-size:1rem"}](images/clipboard-1828512742.png)
+
+## 
+
+![](images/clipboard-501177376.png){fig-align="center"}
+
+## 
+
+::: panel-tabset
+## EPSG:4326
+
+![[https://earthobservatory.nasa.gov/features/NightLights](https://earthobservatory.nasa.gov/features/NightLights){style="font-size:1rem"}](images/clipboard-3176197551.png)
+
+## EPSG: 54030
+
+![](images/clipboard-570478346.png)
+
+## EPSG: ???
+
+![](images/clipboard-3866962389.png) [PROJ.4 문자열: +proj=robin +lon_0=150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs]{style="font-size:0.4em"}
+:::
+
+## 
+
+![](images/clipboard-996831222.png){fig-align="center"}
+
+## 
+
+![](images/clipboard-1250067210.png){height="950px" fig-align="center" height="900"}
+
+## 주제도 유형
+
+::: {layout-ncol="3"}
+![](images/clipboard-3814750310.png)
+
+![](images/clipboard-2806611500.png)
+
+![](images/clipboard-402768516.jpeg)
+
+![](images/clipboard-364487088.png)
+
+![](images/clipboard-2528161497.png)
+
+![](images/clipboard-794024909.png)
+:::
+
+## 시각 변수
+
+![](images/clipboard-728095982.png){fig-align="center"}
+
+## 컬러
+
+::: {layout-ncol="3"}
+![[https://colorbrewer2.org/](https://colorbrewer2.org/){style="font-size:0.5em"}](images/clipboard-1760436018.png)
+
+![](images/clipboard-318236472.png)
+
+![](images/clipboard-4048727015.png)
+:::
+
+## 디지털 일반도
+
+![](images/clipboard-2534192281.png){fig-align="center"}
+
+## 지오비주얼라이제이션
+
+::: {layout="[60,40]"}
+![[https://x.com/researchremora](https://x.com/researchremora){style="font-size:1rem"}](images/clipboard-1236175047.jpeg)
+
+![[https://x.com/researchremora](https://x.com/researchremora){style="font-size:1rem"}](images/clipboard-2000070558.jpeg){style="font-size:1rem"}
+:::
+
+## 
+
+![](images/clipboard-2624998369.png)
+
+## 
+
+::: {layout-ncol="4" layout-valign="bottom"}
+![](images/clipboard-3135673163.png)
+
+![](images/clipboard-1832968661.png)
+
+![](images/clipboard-919092692.png)
+
+![](images/clipboard-2008499493.png)
+:::
+
+## 데이터와 오퍼레이션
+
+![](images/clipboard-738230052.png){fig-align="center"}
+
+## 데이터의 종류
+
+![](images/clipboard-882911598.png){height="900px" fig-align="center" width="1351"}
+
+## 
+
+![](images/피처%20클래스.jpg){fig-align="center"}
+
+## 
+
+![](images/NDVI.png){fig-align="center"}
+
+## 
+
+![[https://qgis.org/](https://qgis.org/){style="font-size:1rem"}](images/clipboard-3877566042.png){fig-align="center"}
+
+## 벡터-기반 GIS 분석
+
+::: {layout-ncol="3"}
+![](images/clipboard-2313727414.jpeg)
+
+![](images/clipboard-2000084540.jpeg)
+
+![](images/clipboard-2948073899.jpeg)
+
+![](images/clipboard-1868868499.jpeg)
+
+![](images/clipboard-3782405139.jpeg)
+
+![](images/clipboard-825423489.jpeg)
+:::
+
+## 래스터-기반 GIS 분석
+
+::: {layout-ncol="3"}
+![](images/clipboard-3015490615.jpeg)
+
+![](images/clipboard-831764398.jpeg)
+
+![](images/clipboard-587255044.jpeg)
+
+![](images/clipboard-489605013.jpeg)
+
+![](images/clipboard-3473970319.jpeg)
+
+![](images/clipboard-3864052789.jpeg)
+:::
+
+## 
+
+![](images/clipboard-3031997386.png){fig-align="center"}
+
+## 다양한 RS 시스템
+
+![](images/clipboard-2862454563.png)
+
+## 다중분광센서
+
+![[https://www.usgs.gov/media/images/spectral-bandpasses-all-landsat-sensors](https://www.usgs.gov/media/images/spectral-bandpasses-all-landsat-sensors){style="font-size:1rem"}](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/LandsatSpectralBands_20240319.png)
+
+## 다중분광센서
+
+![](images/clipboard-4079043681.jpeg){fig-align="center"}
+
+## 영상 조합
+
+![[https://gsp.humboldt.edu/olm/Courses/GSP_216/lessons/composites.html](https://gsp.humboldt.edu/olm/Courses/GSP_216/lessons/composites.html){style="font-size:1rem"}](images/bands.jpg)
+
+## 
+
+![](images/영상_매핑_밴드_조합_1.jpg){fig-align="center"}
+
+## 
+
+![](images/영상_매핑_밴드_조합_2.jpg){fig-align="center"}
+
+## 영상 분류
+
+![](images/IDIP_4e_Figure_10_17_L.jpg){fig-align="center"}
+
+## 
+
+![](images/clipboard-2641525290.jpeg){fig-align="center"}
+
+## 변화 탐지
+
+::: {layout="[50,50]"}
+![](images/변화_탐지_영상_대수_2.jpg)
+
+![](images/변화_탐지_영상_대수_1-01.jpg)
+:::
+
+## 변화 탐지
+
+![](images/변화_탐지_영상_대수_3.jpg){fig-align="center"}
+
+## GPS
+
+![](images/clipboard-3592328452.png){fig-align="center"}
+
+## 루크 올드-토마스(Luke Auld-Thomas)
+
+::::: {layout-rows="2"}
+::: {style="font-size: 2.5rem; background-color: #f0f0f0; margin-top: 50px"}
+"29일(현지시각) BBC와 Nesweek 등 외신은 미국 툴레인대 고고학 연구팀이 멕시코 남동부 캄페체주에서 마야인들이 세운 피라미드와 원형극장, 도로, 운동장 등 6,764개의 건축물을 발견했다고 보도했다. 이러한 연구 결과는 영국 케임브리지대 고고학 학술지 ‘앤티쿼티’ 최신호에 실렸다." (2024년 10월 29일)
+:::
+
+::: {style="margin-top: 40px"}
+![[https://www.bbc.com/news/articles/crmznzkly3go](https://www.bbc.com/news/articles/crmznzkly3go){style="font-size:1rem"}](images/clipboard-2894005824.png)
+:::
+:::::
+
+## 라이다(LiDAR)
+
+![[https://www.zdnet.com/article/am-vs-fm-the-battle-brewing-in-lidar-technology/](https://www.zdnet.com/article/am-vs-fm-the-battle-brewing-in-lidar-technology/){style="font-size:1rem"}](images/clipboard-1146318200.png)
+
+## 라이다(LiDAR)
+
+![[https://store.clearpathrobotics.com/blogs/blog/how-to-choose-a-lidar](https://store.clearpathrobotics.com/blogs/blog/how-to-choose-a-lidar){style="font-size:1rem"}](images/clipboard-2875412503.png)
+
+## 
+
+![](images/clipboard-779750977.png)
+
+## 공간적 자기상관
+
+![](images/age-adjusted%20death%20rates.png){height="900px" fig-align="center"}
+
+## 공간적 자기상관
+
+![](images/spatial%20autocorrelation.png){fig-align="center"}
+
+## 
+
+::: {layout-ncol="3"}
+![](images/clipboard-3717655883.png)
+
+![](images/clipboard-2105802138.png)
+
+![](images/clipboard-2983629726.png)
+
+![](images/clipboard-2323674267.png)
+
+![](images/clipboard-1281700759.png)
+
+![](images/clipboard-3517218905.png)
+:::
+
+## 오픈공간데이터사이언스의 실제
+
+::: panel-tabset
+## Old
+
+![[https://en.wikipedia.org/wiki/Population_density](https://en.wikipedia.org/wiki/Population_density){style="font-size:1rem"}](images/clipboard-3404369694.png)
+
+## New
+
+![](images/clipboard-886164121.png){fig-align="center"}
+:::
+
+## 
+
+::: {layout="[64,-5,34]"}
+![[https://farda.staff.ugm.ac.id/2020/08/05/spatial-data-science/](https://farda.staff.ugm.ac.id/2020/08/05/spatial-data-science/){style="font-size:1rem"}](images/clipboard-1270623929.png)
+
+![[https://r-spatial.org/book/](https://r-spatial.org/book/){style="font-size:1rem"}](images/clipboard-3760900325.png){fig-align="center"}
+:::

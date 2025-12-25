@@ -74,14 +74,14 @@
     "href": "Lecture_1_1.html#section-5",
     "title": "Lecture 1-1\n교사의 AIㆍ디지털 역량",
     "section": "",
-    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT"
+    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT"
   },
   {
     "objectID": "Lecture_1_1.html#section-6",
     "href": "Lecture_1_1.html#section-6",
     "title": "Lecture 1-1\n교사의 AIㆍ디지털 역량",
     "section": "",
-    "text": "튜링 테스트  by  앤런 튜링  (1949)\n\n\nhttps://en.wikipedia.org/wiki/Turing_test"
+    "text": "튜링 테스트  by  앤런 튜링  (1949)\n\n\n\n\nhttps://en.wikipedia.org/wiki/Turing_test"
   },
   {
     "objectID": "Lecture_1_1.html#section-7",
@@ -109,7 +109,7 @@
     "href": "Lecture_1_1.html#section-10",
     "title": "Lecture 1-1\n교사의 AIㆍ디지털 역량",
     "section": "",
-    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT\n“생성 능력을 가진, 사전학습된,  트랜스포머 구조 기반 언어모델”  Generative  Pre-tranind  Transformer"
+    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT\n\n\n\n“생성 능력을 가진, 사전학습된,  트랜스포머 구조 기반 언어모델”  Generative  Pre-tranind  Transformer"
   },
   {
     "objectID": "Lecture_1_1.html#gpt",
@@ -186,7 +186,7 @@
     "href": "Lecture_1_1.html#tpack-dbl-프레임워크",
     "title": "Lecture 1-1\n교사의 AIㆍ디지털 역량",
     "section": "TPACK-DBL 프레임워크",
-    "text": "TPACK-DBL 프레임워크\n\n(Baran and Uygun, 2016, 49)"
+    "text": "TPACK-DBL 프레임워크\n\n\n\n\n\n(Baran and Uygun, 2016, 49)"
   },
   {
     "objectID": "Lecture_1_1.html#교사의-교사의-aiㆍ디지털-역량",
@@ -242,7 +242,7 @@
     "href": "lecture.html#주차-2025년-12월-29일-2026년-1월-2일",
     "title": "AI 융합교육을 위한 인문사회 콘텐츠 설계",
     "section": "1주차 (2025년 12월 29일 ~ 2026년 1월 2일)",
-    "text": "1주차 (2025년 12월 29일 ~ 2026년 1월 2일)\n\n\n\n\n\n\n\n\n\n날짜\n주제\n강의 자료\n실습 자료\n\n\n\n\n12월 29일  (월)\n교사의 AIㆍ디지털 역량\n연수 소개\nLecture_1_1\n\n\n\n12월 30일  (화)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n\n세 가지 사이언스의 융합\n\n\n\n\n\n12월 31일  (수)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 2\n\n데이터 불러오기, 정돈하기, 변형하기\n\n\n\n\n\n1월 1일  (목)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 3\n\n복습\n\n\n\n\n\n1월 2일  (금)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 4\n\n데이터 시각화하기, 수집하기"
+    "text": "1주차 (2025년 12월 29일 ~ 2026년 1월 2일)\n\n\n\n\n\n\n\n\n\n날짜\n주제\n강의 자료\n실습 자료\n\n\n\n\n12월 29일  (월)\n교사의 AIㆍ디지털 역량\n연수 소개\nLecture_1_1\n\n\n\n12월 30일  (화)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n\n세 가지 사이언스의 융합\n\nLecture_1_2\n\n\n\n12월 31일  (수)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 2\n\n데이터 불러오기, 정돈하기, 변형하기\n\n\n\n\n\n1월 1일  (목)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 3\n\n복습\n\n\n\n\n\n1월 2일  (금)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 4\n\n데이터 시각화하기, 수집하기"
   },
   {
     "objectID": "lecture.html#주차-2026년-1월-5일-9일",
@@ -355,5 +355,1013 @@
     "title": "AI 융합교육을 위한 인문사회 콘텐츠 설계",
     "section": "텍스트 마이닝과 자연어처리",
     "text": "텍스트 마이닝과 자연어처리\n\n한국 R 사용자회ㆍ안도현, 2022, R 텍스트마이닝, 오픈전자책.\n\n한국 R 사용자회의 무료 웹북 중의 하나입니다. Tidyverse와 파이프 연산자에 기반하고 있습니다. 좋은 책입니다.\n\n김영우, 2021, 쉽게 배우는 R 텍스트 마이닝, 서울: 이지스퍼블리싱.\n\n이렇게 훌륭한 R 기반 텍스트 마이닝 책이 있다는 것이 너무 감사할 뿐입니다. 웹복이 아닌 것이 아쉬울 뿐입니다."
+  },
+  {
+    "objectID": "Lecture_1_1.html#section-2",
+    "href": "Lecture_1_1.html#section-2",
+    "title": "Lecture 1-1\n교사의 AIㆍ디지털 역량",
+    "section": "",
+    "text": "http://dx.doi.org/10.17232/KSET.41.1.79"
+  },
+  {
+    "objectID": "Lecture_1_1.html#section-3",
+    "href": "Lecture_1_1.html#section-3",
+    "title": "Lecture 1-1\n교사의 AIㆍ디지털 역량",
+    "section": "",
+    "text": "https://doi.org/10.17279/jkagee.2025.33.4.53"
+  },
+  {
+    "objectID": "Lecture_1_1.html#tpack-dbl-프레임워크-1",
+    "href": "Lecture_1_1.html#tpack-dbl-프레임워크-1",
+    "title": "Lecture 1-1\n교사의 AIㆍ디지털 역량",
+    "section": "TPACK-DBL 프레임워크",
+    "text": "TPACK-DBL 프레임워크\n\n디지털 제작 도구에 대한 이해와 활용 능력(디지털 역량)\n복잡한 개념을 시각적이고 구조적으로 전달하는 능력(커뮤니케이션 역량)\n분석적 사고 및 데이터 기반 수업 구현 능력(데이터 리터러시 + 기술력)\n오픈 지식 생태계에의 기여(공유 및 협업 역량)"
+  },
+  {
+    "objectID": "Lecture_1_1.html#제작-도구",
+    "href": "Lecture_1_1.html#제작-도구",
+    "title": "Lecture 1-1\n교사의 AIㆍ디지털 역량",
+    "section": "제작 도구",
+    "text": "제작 도구\n\nQuarto(쿼토): 대시보드 제작 및 프론트앤드 웹 앱 생성\n\n“과학적, 기술적 출판을 위한 위한 오픈소스 시스템”\n다양한 형식의 저작물(노트, 연구 논문, 프레젠테이션, 대시보드, 웹사이트, 블로그, 서적 등)을 다양한 디지털 포맷(HTML, PDF, MS Word, ePub 등)으로 출판할 수 있게 해주는 도구\n\nR(혹은 Python): 인터랙티브 콘텐츠 제작\n\n데이터사이언스 과정의 실행\n인터랙티브 지리공간 시각화 및 탐색 기능의 구현\n\nShiny: 서버-기반 웹 앱 개발\n\nUI-Server 이원 구조\n반응형 프로그래밍(reactivity)"
+  },
+  {
+    "objectID": "Lecture_1_2.html#소개-운영진",
+    "href": "Lecture_1_2.html#소개-운영진",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "소개: 운영진",
+    "text": "소개: 운영진\n\n이상일: 서울대학교 지리교육과 교수\n\n서울대학교 AI융합교육학과\n서울대학교 데이터사이언스대학원 응용데이터사이언스\n\n이소영: 가톨릭관동대학교 지리교육과 교수\n실습 조교\n\n김세창: 서울대학교 지리교육과 석사 졸업\n김우형: 서울대학교 지리교육과 조교, 석사과정\n전혜민: 서울대학교 지리교육과 석사과정\n이하은: 서울대학교 지리교육과 조교, 박사과정"
+  },
+  {
+    "objectID": "Lecture_1_2.html#소개-연수-참가자",
+    "href": "Lecture_1_2.html#소개-연수-참가자",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "소개: 연수 참가자",
+    "text": "소개: 연수 참가자\n\n고등학교 지리 교사\n\n김한성(압구정고등학교)\n남혜경(둔촌고등학교)\n배선주(가락고등학교)\n정고은(상명대학교부속여자고등학교)\n최기중(경동고등학교)\n이용훈(한광여자고등학교)\n정종석(광주고등학교)\n\n국토지리정보원: 송민희"
+  },
+  {
+    "objectID": "Lecture_1_2.html#프로그램-홈페이지",
+    "href": "Lecture_1_2.html#프로그램-홈페이지",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "프로그램 홈페이지",
+    "text": "프로그램 홈페이지\n\nhttps://sangillee.snu.ac.kr/2025_Geospatial_Edu/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#강의-목차",
+    "href": "Lecture_1_2.html#강의-목차",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "강의 목차",
+    "text": "강의 목차\n\nAIㆍ디지털 전환과 세 가지 사이언스의 융합\n인터랙티브 지리공간 교수-학습 웹 앱 개발 역량"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-1",
+    "href": "Lecture_1_2.html#section-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://en.wikipedia.org/wiki/ChatGPT"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-2",
+    "href": "Lecture_1_2.html#section-2",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://en.wikipedia.org/wiki/John_Snow\n\n\n\n\n \n\n\n\n\n\n존 스노(John Snow)  (1813-1858)"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-5",
+    "href": "Lecture_1_2.html#section-5",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "2",
+    "text": "2"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-7",
+    "href": "Lecture_1_2.html#section-7",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "데이터사이언스는 원(raw) 데이터로부터 지식, 이해, 통찰을 획득하기 위해 수학 및 통계학, 컴퓨터 과학, 도메인(분야) 지식에서 발전해 온 이론, 기술, 방법론 등을 융합적으로 활용하는 간학문적 영역\n\n\n지식, 이해, 통찰을 효과적으로 소통하고, 현실 문제 해결에 대안을 제시"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-9",
+    "href": "Lecture_1_2.html#section-9",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://www.openscience-maastricht.nl/the-open-science-mission/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-10",
+    "href": "Lecture_1_2.html#section-10",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "샤를 조제프 미나르(Charles Joseph Minard)(1781-1870)"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-11",
+    "href": "Lecture_1_2.html#section-11",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://www.jla-data.net/eng/minard-map-tidygeocoder/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-12",
+    "href": "Lecture_1_2.html#section-12",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://iq.opengenus.org/relation-of-data-science/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-13",
+    "href": "Lecture_1_2.html#section-13",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://cloud.google.com/apigee/docs/api-platform/tutorials/create-api-proxy-openapi-spec?hl=ko"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-14",
+    "href": "Lecture_1_2.html#section-14",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://www.openscience-maastricht.nl/the-open-science-mission/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-15",
+    "href": "Lecture_1_2.html#section-15",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://libraries.mit.edu/news/data-necessarily/31421/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-16",
+    "href": "Lecture_1_2.html#section-16",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://www.openscience-maastricht.nl/the-open-science-mission/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-17",
+    "href": "Lecture_1_2.html#section-17",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://es.wikipedia.org/wiki/The_Cost_of_Knowledge\n\n\n\n\n \n\n\n\n\n\nhttps://en.wikipedia.org/wiki/The_Cost_of_Knowledge"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-18",
+    "href": "Lecture_1_2.html#section-18",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://cloud.google.com/apigee/docs/api-platform/tutorials/create-api-proxy-openapi-spec?hl=ko"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-19",
+    "href": "Lecture_1_2.html#section-19",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/javier-perez1/2021/03/30/the-growing-ecosystem-of-open-source-software-for"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-23",
+    "href": "Lecture_1_2.html#section-23",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://en.wikipedia.org/wiki/Open_access"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-25",
+    "href": "Lecture_1_2.html#section-25",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "http://dx.doi.org/10.1002/psp.70049"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-30",
+    "href": "Lecture_1_2.html#section-30",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "EPSG:4326EPSG: 54030EPSG: ???\n\n\n\n\n\nhttps://earthobservatory.nasa.gov/features/NightLights\n\n\n\n\n\n\n\n PROJ.4 문자열: +proj=robin +lon_0=150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-38",
+    "href": "Lecture_1_2.html#section-38",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "EPSG:4326EPSG: 54030EPSG: ???\n\n\n\n\n\nhttps://earthobservatory.nasa.gov/features/NightLights\n\n\n\n\n\n\n\n PROJ.4 문자열: +proj=robin +lon_0=150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-41",
+    "href": "Lecture_1_2.html#section-41",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://colorbrewer2.org/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#인터랙티브-교수-학습-웹-앱",
+    "href": "Lecture_1_2.html#인터랙티브-교수-학습-웹-앱",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "인터랙티브 교수-학습 웹 앱",
+    "text": "인터랙티브 교수-학습 웹 앱\n\n학습자와 콘텐츠 간의 상호작용을 중심으로 설계되어, 능동적 참여, 즉각적 피드백, 탐구 활동 등을 통해 개인의 학습 경험을 향상시키는 교육용 웹 애플리케이션\n성격\n\n디지털 학습지: 교과의 학습 내용을 효과적으로 교수/학습하도록 도와주는 도구\n탐구 학습 도구: 데이터 탐색을 통해 학습자 스스로 이해, 지식, 통찰을 얻도록 도와주는 도구"
+  },
+  {
+    "objectID": "Lecture_1_2.html#인터랙티브-교수-학습-웹-앱-1",
+    "href": "Lecture_1_2.html#인터랙티브-교수-학습-웹-앱-1",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "인터랙티브 교수-학습 웹 앱",
+    "text": "인터랙티브 교수-학습 웹 앱\n\n웹 브라우저를 통해 접근하고 사용하는 교수-학습 목적의 애플리케이션\n데이터 대시보드: 단일한 주제에 대한 상호연관된 다양한 데이터 정보를 그래픽의 형태로 일관성 있게 제시한 것\n\n레이아웃 요소: 카드(행과 열), 페이지, 내비게이션바, 사이드바, 툴바, 탭셋\n내용 요소: 텍스트, 표, 그래프, 지도, 동영상, 밸류 박스\n작동 요소: 정적, 동적, 인터랙티브"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-42",
+    "href": "Lecture_1_2.html#section-42",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://farda.staff.ugm.ac.id/2020/08/05/spatial-data-science/\n\n\n\n\n \n\n\n\n\n\nhttps://r-spatial.org/book/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#인터랙티브-지리공간-교수-학습-웹-앱",
+    "href": "Lecture_1_2.html#인터랙티브-지리공간-교수-학습-웹-앱",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "인터랙티브 지리공간 교수-학습 웹 앱",
+    "text": "인터랙티브 지리공간 교수-학습 웹 앱\n\n지리공간 요소가 강화된 인터랙티브 교수-학습 웹 앱\n학습자가 지리공간정보를 직접 조작하거나 탐색하면서, 지리 개념, 공간 사고력, 문제 해결 능력 등을 능동적·체험적 방식으로 학습할 수 있도록 설계된 교육용 웹 애플리케이션\n\n인터렉티브 지리공간 시각화 및 탐색 기능\n\n예시\n\nhttps://sangillee.snu.ac.kr/dashboard_examples/\nhttps://sangillee.snu.ac.kr/dashboard_popgeo/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#tpack-dbl-프레임워크",
+    "href": "Lecture_1_2.html#tpack-dbl-프레임워크",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "TPACK-DBL 프레임워크",
+    "text": "TPACK-DBL 프레임워크\n\n\n\n\n\n\nhttps://tpack.org/tpack-image/\n\n\n\n\n\n\n\nBaran and Uygun, 2016"
+  },
+  {
+    "objectID": "Lecture_1_2.html#tpack-dbl",
+    "href": "Lecture_1_2.html#tpack-dbl",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "TPACK-DBL",
+    "text": "TPACK-DBL\n\n디지털 제작 도구에 대한 이해와 활용 능력(디지털 역량)\n복잡한 개념을 시각적이고 구조적으로 전달하는 능력(커뮤니케이션 역량)\n분석적 사고 및 데이터 기반 수업 구현 능력(데이터 리터러시 + 기술력)\n오픈 지식 생태계에의 기여(공유 및 협업 역량)"
+  },
+  {
+    "objectID": "Lecture_1_2.html#제작-도구",
+    "href": "Lecture_1_2.html#제작-도구",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "제작 도구",
+    "text": "제작 도구\n\nQuarto(쿼토): 대시보드 제작 및 웹 앱 생성\n\n“과학적, 기술적 출판을 위한 위한 오픈소스 시스템”\n다양한 형식의 저작물(노트, 연구 논문, 프레젠테이션, 대시보드, 웹사이트, 블로그, 서적 등)을 다양한 디지털 포맷(HTML, PDF, MS Word, ePub 등)으로 출판할 수 있게 해주는 도구\n\nR(혹은 Python): 인터랙티브 콘텐츠 제작\n\n데이터사이언스 프로세스의 실행\n인터랙티브 지리공간 시각화 및 탐색 기능의 구현"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-43",
+    "href": "Lecture_1_2.html#section-43",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://farda.staff.ugm.ac.id/2020/08/05/spatial-data-science/\n\n\n\n\n \n\n\n\n\n\nhttps://r-spatial.org/book/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-44",
+    "href": "Lecture_1_2.html#section-44",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://qgis.org/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-45",
+    "href": "Lecture_1_2.html#section-45",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://qgis.org/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-46",
+    "href": "Lecture_1_2.html#section-46",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://gsp.humboldt.edu/olm/Courses/GSP_216/lessons/composites.html"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-47",
+    "href": "Lecture_1_2.html#section-47",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://farda.staff.ugm.ac.id/2020/08/05/spatial-data-science/\n\n\n\n\n \n\n\n\n\n\nhttps://r-spatial.org/book/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-50",
+    "href": "Lecture_1_2.html#section-50",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "",
+    "text": "https://sangillee.shinyapps.io/ThiessenPolygon/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#자바스크립트-라이브러리",
+    "href": "Lecture_1_2.html#자바스크립트-라이브러리",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "자바스크립트 라이브러리",
+    "text": "자바스크립트 라이브러리\n\n웹 앱의 3요소\n\nHTML: 구조와 내용\nCSS: 시각적 디자인\nJavaScript: 동작 및 인터랙션 제어\n\n자바스크립트 라이브러리(JS Library)\n\n자바스크립트로 구현된, 특정 기능을 수행하기 위한 코드들의 모음\n테이블, 차트, 지도\nR 래퍼 패키지"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-51",
+    "href": "Lecture_1_2.html#section-51",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://farda.staff.ugm.ac.id/2020/08/05/spatial-data-science/\n\n\n\n\n \n\n\n\n\n\nhttps://r-spatial.org/book/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-52",
+    "href": "Lecture_1_2.html#section-52",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://farda.staff.ugm.ac.id/2020/08/05/spatial-data-science/\n\n\n\n\n \n\n\n\n\n\nhttps://r-spatial.org/book/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-53",
+    "href": "Lecture_1_2.html#section-53",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://farda.staff.ugm.ac.id/2020/08/05/spatial-data-science/\n\n\n\n\n \n\n\n\n\n\nhttps://r-spatial.org/book/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-54",
+    "href": "Lecture_1_2.html#section-54",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://farda.staff.ugm.ac.id/2020/08/05/spatial-data-science/\n\n\n\n\n \n\n\n\n\n\nhttps://r-spatial.org/book/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-55",
+    "href": "Lecture_1_2.html#section-55",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "",
+    "text": "https://leafletjs.com/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#생성형-ai",
+    "href": "Lecture_1_2.html#생성형-ai",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "생성형 AI",
+    "text": "생성형 AI\n\n\n\n\n\n\nhttps://ellmer.tidyverse.org/\n\n\n\n\n\n\n\nhttps://ragnar.tidyverse.org/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section",
+    "href": "Lecture_1_2.html#section",
+    "title": "지리공간정보 교육 프로그램\nAIㆍ디지털 시대의 지리 교사의 역량",
+    "section": "",
+    "text": "https://en.wikipedia.org/wiki/ChatGPT"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-4",
+    "href": "Lecture_1_2.html#section-4",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "찰스 체핀스(Charles Cheffins)(1807-1861)"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-6",
+    "href": "Lecture_1_2.html#section-6",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://mokeya.tistory.com/76"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-8",
+    "href": "Lecture_1_2.html#section-8",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://github.com/jumpingrivers/datasauRus?tab=readme-ov-file"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-22",
+    "href": "Lecture_1_2.html#section-22",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://blogs.oregonstate.edu/inspire/2021/11/15/open-educational-resources-for-language-teaching-and-learning/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-24",
+    "href": "Lecture_1_2.html#section-24",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://en.wikipedia.org/wiki/Creative_Commons_license"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-29",
+    "href": "Lecture_1_2.html#section-29",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://r2bit.com/gpt-quarto/setup_reproducible.html"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-37",
+    "href": "Lecture_1_2.html#section-37",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "EPSG:4326EPSG: 54030EPSG: ???\n\n\n\n\n\nhttps://earthobservatory.nasa.gov/features/NightLights\n\n\n\n\n\n\n\n PROJ.4 문자열: +proj=robin +lon_0=150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-3",
+    "href": "Lecture_1_2.html#section-3",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://mokeya.tistory.com/76"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-32",
+    "href": "Lecture_1_2.html#section-32",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://en.wikipedia.org/wiki/Open_Geospatial_Consortium"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-20",
+    "href": "Lecture_1_2.html#section-20",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/javier-perez1/2021/03/30/the-growing-ecosystem-of-open-source-software-for"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-33",
+    "href": "Lecture_1_2.html#section-33",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://stacspec.org/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-21",
+    "href": "Lecture_1_2.html#section-21",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://r-tmap.github.io/tmap/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-26",
+    "href": "Lecture_1_2.html#section-26",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://www.technologynetworks.com/informatics/articles/repeatability-vs-reproducibility-317157"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-34",
+    "href": "Lecture_1_2.html#section-34",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://en.wikipedia.org/wiki/QGIS"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-27",
+    "href": "Lecture_1_2.html#section-27",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://ttw-rtd.readthedocs.io/en/latest/reproducible-research/reproducible-research.html"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-35",
+    "href": "Lecture_1_2.html#section-35",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://practicalgeoskills.blogspot.com/2020/04/map-projections-meaning-and-examples.html"
+  },
+  {
+    "objectID": "Lecture_1_2.html#f",
+    "href": "Lecture_1_2.html#f",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "f",
+    "text": "f"
+  },
+  {
+    "objectID": "Lecture_1_2.html#d",
+    "href": "Lecture_1_2.html#d",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "d",
+    "text": "d"
+  },
+  {
+    "objectID": "Lecture_1_2.html#오픈공간데이터사이언스",
+    "href": "Lecture_1_2.html#오픈공간데이터사이언스",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "오픈공간데이터사이언스",
+    "text": "오픈공간데이터사이언스\n\n오픈공간데이터\n\n로빈 윌슨(Robin Wilson)의 블로그\n\nhttps://blog.rtwilson.com/john-snows-cholera-data-in-more-formats/\n\nGitHub: epibayes/john-snow-data\n\nhttps://github.com/epibayes/john-snow-data?tab=readme-ov-file\n\n\n공간데이터사이언스\n\nR의 데이터사이언스 패키지: tidyverse\nR의 공간사이언스 패키지: sf, tmap, leaflet\nLeaflet Open Base Map 제공자"
+  },
+  {
+    "objectID": "Lecture_1_2.html#원데이터-빅-데이터",
+    "href": "Lecture_1_2.html#원데이터-빅-데이터",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "원데이터: 빅 데이터",
+    "text": "원데이터: 빅 데이터\n\nhttps://opensistemas.com/en/the-four-vs-of-big-data/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#원데이터-유형",
+    "href": "Lecture_1_2.html#원데이터-유형",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "원데이터: 유형",
+    "text": "원데이터: 유형\n\nhttps://www.docsumo.com/blogs/data-extraction/structured-vs-unstructured-vs-semistructured"
+  },
+  {
+    "objectID": "Lecture_1_2.html#원데이터-유형-1",
+    "href": "Lecture_1_2.html#원데이터-유형-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "원데이터: 유형",
+    "text": "원데이터: 유형"
+  },
+  {
+    "objectID": "Lecture_1_2.html#원데이터-json",
+    "href": "Lecture_1_2.html#원데이터-json",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "원데이터: JSON",
+    "text": "원데이터: JSON\n\n\n\n구조는 존재\n\n구분 규칙({ }, [ ], :) 존재\n기계가 파싱(parsing)하기 용이\n완전한 비정형(자유 텍스트, 이미지 등)은 아님\n\n스키마는 유연\n\n관계형 DB처럼 고정된 컬럼 정의를 강제하지 않음\n같은 데이터셋 안에서도 레코드마다 필드를 다르게 하거나 새 필드 추가 등이 용이\n정형 데이터처럼 엄격히 표준화된 구조는 아미\n\n\n\n\n\n\nhttps://jurgen-94.tistory.com/30"
+  },
+  {
+    "objectID": "Lecture_1_2.html#ㅇ",
+    "href": "Lecture_1_2.html#ㅇ",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "ㅇ",
+    "text": "ㅇ\n\nhttps://en.wikipedia.org/wiki/Open_access"
+  },
+  {
+    "objectID": "Lecture_1_2.html#지식-이해-통찰-dikw-모형",
+    "href": "Lecture_1_2.html#지식-이해-통찰-dikw-모형",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "지식, 이해, 통찰: DIKW 모형",
+    "text": "지식, 이해, 통찰: DIKW 모형\n\nhttps://en.wikipedia.org/wiki/DIKW_pyramid"
+  },
+  {
+    "objectID": "Lecture_1_2.html#데이터사이언스의-심장-이론-기술-방법론",
+    "href": "Lecture_1_2.html#데이터사이언스의-심장-이론-기술-방법론",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "데이터사이언스의 심장: 이론, 기술, 방법론",
+    "text": "데이터사이언스의 심장: 이론, 기술, 방법론\n\n탐색적 데이터 분석(exploratory data analysis, EDA)\n\n통계학(+ 수학) 위주\n변형(transformation), 요약(summarization), 시각화(visalization)\n\n머신러닝(machine learning)\n\n컴퓨터과학(+ 수학) 위주\n전통적 머신러닝: 의사결정 트리, 랜덤 포레스트, 서포트 벡터 머신\n인공신경망 기반 다양한 딥러닝 기법\nNLP(natural language processing, 자연어 처리)\nLLM(large language model, 거대 언어 모델)\n생성형 AI\n\n결합: “LLM-기반 EDA”"
+  },
+  {
+    "objectID": "Lecture_1_2.html#eda-역사",
+    "href": "Lecture_1_2.html#eda-역사",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "EDA: 역사",
+    "text": "EDA: 역사\n\n\n\n\n\n\n칼 피어슨(Karl Pearson)(1857-1936)영국\n\n\n\n\n\n\n\n로널드 피셔(Ronald A. Fisher)(1890-1962)영국\n\n\n\n\n\n\n\n토머스 베이즈(Thomas Bayes)(1701-1761)영국\n\n\n\n\n\n\n\n존 튜키(John Tukey)(1915-2000)미국"
+  },
+  {
+    "objectID": "Lecture_1_2.html#eda-정의-및-핵심-기법",
+    "href": "Lecture_1_2.html#eda-정의-및-핵심-기법",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "EDA: 정의 및 핵심 기법",
+    "text": "EDA: 정의 및 핵심 기법\n\n정의: 데이터와의 상호작용을 통해 다음을 행하는 과정\n\n데이터 구조 이해\n패턴 탐지 및 이례적 현상 확인\n모형 평가 및 가설 설정\n\n핵심 기법\n\n변형: 데이터의 구조를 변경하여 요약 및 시각화가 용이하게 하는 과정\n요약: 데이터를 요약해주는 통계값의 산출 및 정리\n시각화: 데이터의 다양한 측면을 검토할 수 있게, 데이터를 그래픽으로 전환하는 과정"
+  },
+  {
+    "objectID": "Lecture_1_2.html#ㄹ",
+    "href": "Lecture_1_2.html#ㄹ",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "ㄹ",
+    "text": "ㄹ"
+  },
+  {
+    "objectID": "Lecture_1_2.html#f-1",
+    "href": "Lecture_1_2.html#f-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "f",
+    "text": "f\n\nhttps://commons.wikimedia.org/wiki/File:Data-Science-Landscape.jpg"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-28",
+    "href": "Lecture_1_2.html#section-28",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://velog.io/@eldoradodo/an96ydx7"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-36",
+    "href": "Lecture_1_2.html#section-36",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://practicalgeoskills.blogspot.com/2020/04/map-projections-meaning-and-examples.html"
+  },
+  {
+    "objectID": "Lecture_1_2.html#머신러닝-정의와-특징",
+    "href": "Lecture_1_2.html#머신러닝-정의와-특징",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "머신러닝: 정의와 특징",
+    "text": "머신러닝: 정의와 특징\n\n정의\n\n데이터로부터 패턴을 학습하여 예측이나 분류를 수행하는 인공지능의 한 분야\n\n특징\n\n데이터 기반 학습: 알고리즘이 주어진 데이터에서 규칙 및 패턴을 스스로 찾아냄\n일반화 능력: 학습한 패턴을 새로운 데이터에 적용할 수 있음\n반복적 성능 개선: 더 많은 데이터와 더 나은 알고리즘을 통해 성능 향상 가능\n응용 분야: 이미지 인식, 음성 인식, 추천 시스템, 자연어 처리, 자율 주행, 의료 진단 등"
+  },
+  {
+    "objectID": "Lecture_1_2.html#머신러닝-주요-기법",
+    "href": "Lecture_1_2.html#머신러닝-주요-기법",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "머신러닝: 주요 기법",
+    "text": "머신러닝: 주요 기법"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-40",
+    "href": "Lecture_1_2.html#section-40",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://gsp.humboldt.edu/olm/Courses/GSP_216/lessons/composites.html"
+  },
+  {
+    "objectID": "Lecture_1_2.html#데이터사이언스-과정-eda-중심",
+    "href": "Lecture_1_2.html#데이터사이언스-과정-eda-중심",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "데이터사이언스 과정: EDA 중심",
+    "text": "데이터사이언스 과정: EDA 중심\n\nhttps://medium.com/@ajaymaurya_72779/basic-questions-on-eda-analysis-for-data-science-ec61ddab61d6"
+  },
+  {
+    "objectID": "Lecture_1_2.html#데이터사이언스-과정-해들리-위컴hadley-wickham",
+    "href": "Lecture_1_2.html#데이터사이언스-과정-해들리-위컴hadley-wickham",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "데이터사이언스 과정: 해들리 위컴(Hadley Wickham)",
+    "text": "데이터사이언스 과정: 해들리 위컴(Hadley Wickham)\n\nhttps://r4ds.hadley.nz/intro"
+  },
+  {
+    "objectID": "Lecture_1_2.html#데이터사이언스-과정-해들리-위컴hadley-wickham-1",
+    "href": "Lecture_1_2.html#데이터사이언스-과정-해들리-위컴hadley-wickham-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "데이터사이언스 과정: 해들리 위컴(Hadley Wickham)",
+    "text": "데이터사이언스 과정: 해들리 위컴(Hadley Wickham)\n\nhttps://r4ds.hadley.nz/intro"
+  },
+  {
+    "objectID": "Lecture_1_2.html#데이터사이언스-과정-해들리-위컴hadley-wickham-2",
+    "href": "Lecture_1_2.html#데이터사이언스-과정-해들리-위컴hadley-wickham-2",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "데이터사이언스 과정: 해들리 위컴(Hadley Wickham)",
+    "text": "데이터사이언스 과정: 해들리 위컴(Hadley Wickham)\n\nhttps://r4ds.hadley.nz/intro"
+  },
+  {
+    "objectID": "Lecture_1_2.html#데이터사이언스-경관",
+    "href": "Lecture_1_2.html#데이터사이언스-경관",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "데이터사이언스 경관",
+    "text": "데이터사이언스 경관\n\nhttps://commons.wikimedia.org/wiki/File:Data-Science-Landscape.jpg"
+  },
+  {
+    "objectID": "Lecture_1_2.html#과학-혹은-철학-혹은-운동",
+    "href": "Lecture_1_2.html#과학-혹은-철학-혹은-운동",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "과학 혹은 철학 혹은 운동",
+    "text": "과학 혹은 철학 혹은 운동"
+  },
+  {
+    "objectID": "Lecture_1_2.html#정의와-핵심-가치",
+    "href": "Lecture_1_2.html#정의와-핵심-가치",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "정의와 핵심 가치",
+    "text": "정의와 핵심 가치\n\n정의\n\n연구 설계, 데이터 수집, 분석, 결과의 공개 및 재현 검증 등 과학 연구 과정 전반을 투명하고 개방적으로 수행·공유함으로써, 연구의 신뢰성과 재현성을 제고하고 과학 지식을 공공재로 확립하려는 학문적·사회적 운동\n“연구 관행의 새로운 패러다임”\n\n핵심 가치\n\n개방성(openess): 연구 결과(논문, 데이터, 코드)에 누구나 접근\n재현가능성(reporducibility): 동일한 데이터와 방법으로 결과 검증\n참여와 협업(participation & collaboration): 연구자 뿐만 아니라 시민, 기업, 정부 등이 연구 과정에 참여\n투명성과 책무성(transparency & accountability): 과학 연구의 신뢰성을 높이고 사회적 영향력 강화"
+  },
+  {
+    "objectID": "Lecture_1_2.html#역사",
+    "href": "Lecture_1_2.html#역사",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "역사",
+    "text": "역사\n\n17세기: 근대 과학의 시작\n\n학회 설립(예: 영국 왕립학회, 1660년)과 학술지(예: Philosophical Transactions, 1665년) 출간을 통해 연구 결과 공유 문화 시작\n\n19-20세기: 학술 출판 체제 확립\n\n학술지가 표준화되고, 연구자들이 업적을 남기는 주요 수단이 됨\n상업 출판사의 부상으로 구독료 장벽이 생겨 연구 접근성이 제한됨\n\n1990년대: 오픈액세스 운동\n\n학술 논문 무료 공개 운동\n\n2010년대: 오픈사이언스 개념 확립\n\n연구 데이터, 소프트웨엉, 동료 평가, 교육 자료 등을 포괄하는 운동으로 발전\n\n2020년대: 국제적 제도화\n\nUNESCO 오픈사이언스 권고안(2021년)\n각국 정부와 연구재단이 연구 데이터 관리 계획, 연구성과 공개 의무화를 강화"
+  },
+  {
+    "objectID": "Lecture_1_2.html#개요",
+    "href": "Lecture_1_2.html#개요",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "개요",
+    "text": "개요\n\n\n\n\n\n\n\n\n범주\n정의\n목적 및 효과\n\n\n\n\n오픈데이터\n연구에서 수집된 데이터 공개\n재현성 확보, 연구 검증, 데이터 재활용\n\n\n오픈소스\n연구 코드, 소프트웨어, 알고리즘의 공개\n투명성 강화, 공동 발전, 수정 및 확산 가능\n\n\n오픈방법론\n연구 절차, 설계, 분석 방법의 공유\n연구 과정 신뢰성 제고, 재현 연구 용이\n\n\n오픈동료평가\n논문 심사 과정 공개(심사 의견, 심사자 신원 등)\n평가의 공정성 및 투명성 강화, 책임성 제고\n\n\n오픈액세스\n연구 결과물(논문 등)을 무료로 공개\n누구가 자유롭게 접근 및 활용, 지식 확산\n\n\n오픈교육자원\n교재, 강의자료, 콘텐츠 공유\n교육 기회 확대, 학습 자원 개방 및 재사용"
+  },
+  {
+    "objectID": "Lecture_1_2.html#범주별-특징",
+    "href": "Lecture_1_2.html#범주별-특징",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "범주별 특징",
+    "text": "범주별 특징\n\n\n\n\n\n\n\n\n범주\n정의\n목적 및 효과\n\n\n\n\n오픈데이터\n연구에서 수집된 데이터 공개\n재현성 확보, 연구 검증, 데이터 재활용\n\n\n오픈소스\n연구 코드, 소프트웨어, 알고리즘의 공개\n투명성 강화, 공동 발전, 수정 및 확산 가능\n\n\n오픈방법론\n연구 절차, 설계, 분석 방법의 공유\n연구 과정 신뢰성 제고, 재현 연구 용이\n\n\n오픈동료평가\n논문 심사 과정 공개(심사 의견, 심사자 신원 등)\n평가의 공정성 및 투명성 강화, 책임성 제고\n\n\n오픈액세스\n연구 결과물(논문 등)을 무료로 공개\n누구가 자유롭게 접근 및 활용, 지식 확산\n\n\n오픈교육자원\n교재, 강의자료, 콘텐츠 공유\n교육 기회 확대, 학습 자원 개방 및 재사용"
+  },
+  {
+    "objectID": "Lecture_1_2.html#오픈데이터-네-가지-조건",
+    "href": "Lecture_1_2.html#오픈데이터-네-가지-조건",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "오픈데이터: 네 가지 조건",
+    "text": "오픈데이터: 네 가지 조건\n\n가용성(availability): 데이터가 실제로 공개되어 있어야 함. 전체 데이터셋이, 적절한 포맷으로, 가능한한 온라인으로 접근 가능해야 함\n재사용(reuse): 다름 사람들이 데이터를 가져다가 자유롭게 사용, 수정, 분석, 응용할 수 있어야 함\n상호운영성(interoperability): 여러 데이터 소스 또는 시스템 간에 데이터가 상호 연동될 수 있는 형식이어야 함\n보편적 참여/포용성(universal participation): 차별 없이 데이터에 접근할 수 있어야 함"
+  },
+  {
+    "objectID": "Lecture_1_2.html#오픈데이터-fair-데이터",
+    "href": "Lecture_1_2.html#오픈데이터-fair-데이터",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "오픈데이터: FAIR 데이터",
+    "text": "오픈데이터: FAIR 데이터\n\nhttps://libereurope.eu/article/fairdataconsultation/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#오픈데이터-fair-데이터-1",
+    "href": "Lecture_1_2.html#오픈데이터-fair-데이터-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "오픈데이터: FAIR 데이터",
+    "text": "오픈데이터: FAIR 데이터\n\nhttps://libraries.mit.edu/news/data-necessarily/31421/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#오픈데이터-오픈-api",
+    "href": "Lecture_1_2.html#오픈데이터-오픈-api",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "오픈데이터: 오픈 API",
+    "text": "오픈데이터: 오픈 API\n\n정의\n\n누구나 접근 가능한 응용프로그래밍 인터페이스(application programming inteface)\n데이터나 기능을 위부 개발자 및 사용자가 자유롭게 활용할 수 있도록 공개된 API\n\n특징\n\n표준 프로토콜(REST, JSON, XML 등)\n인증키(API 키) 발급을 통해 관리 가능\n문서화가 잘 되어 있어야 활용 가능\n\n활용\n\n정부/공공: 공공데이터포털의 API, KOSIS API, 기상청 날씨 API 등\n학문/연구: World Bank API 등\n민간/서비스: 구글맵스 API, 네이버 API, 오픈스트리트맵 API 등"
+  },
+  {
+    "objectID": "Lecture_1_2.html#오픈소스",
+    "href": "Lecture_1_2.html#오픈소스",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "오픈소스",
+    "text": "오픈소스\n\n“오픈소스 = 협업과 혁신의 엔진”\n정의\n\n누구나 접근할 수 있는 소스 코드를 공개하여 자유롭게 사용, 수정, 재배포할 수 있도록 한 소프트웨어 개발 방식\n연구에 사용되는 오픈소프트웨어\n\n의의\n\n연구 재현성 확보\n연구 비용 절감 및 효율적 개발\n전 세계 연구자 및 개발자 간 협업 촉진\n폐쇄형 소프트웨어에 대한 의존도 감소"
+  },
+  {
+    "objectID": "Lecture_1_2.html#오픈소스-오픈소스-이니셔티브",
+    "href": "Lecture_1_2.html#오픈소스-오픈소스-이니셔티브",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "오픈소스: 오픈소스 이니셔티브",
+    "text": "오픈소스: 오픈소스 이니셔티브\n\nhttps://en.wikipedia.org/wiki/Open_Source_Initiative"
+  },
+  {
+    "objectID": "Lecture_1_2.html#오픈소스-오픈소스-이니셔티브-1",
+    "href": "Lecture_1_2.html#오픈소스-오픈소스-이니셔티브-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "오픈소스: 오픈소스 이니셔티브",
+    "text": "오픈소스: 오픈소스 이니셔티브\n\n연혁\n\n오픈소스 소프트웨어의 정의와 라이선스를 관리 및 보급하는 국제 비영리 단체\n1998년 설립, 본부는 미국\n\n목적\n\n오픈소스의 정의(Open Source Definition, OSD) 수립 및 관리\n오픈소스 라이선스 승인 및 검정(OSI Approved License)\n오픈소스 철학과 실천을 전 세계로 확산"
+  },
+  {
+    "objectID": "Lecture_1_2.html#오픈소스-오픈소스-이니셔티브-2",
+    "href": "Lecture_1_2.html#오픈소스-오픈소스-이니셔티브-2",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "오픈소스: 오픈소스 이니셔티브",
+    "text": "오픈소스: 오픈소스 이니셔티브\n\nOSD의 10대 조건\n\n자유로운 재배포\n소스코드 접근 가능\n2차 저작물 허용\n저작자 명시와 무결성 보장\n차별 금지(사람/분야)\n기술 중립성 등\n\n라이선스 승인: 7대 권장 라이선스\n\nApache License 2.0: 기업 친화적, 특허 권리 명시, 상용 소프트웨어와 호환성 높음\nBSD 2-Clause “Simplified” License: 짧고 단순, 제한이 거의 없음\nBSD 3-Clause “New” or “Revised” License: 2-Clause 버전에 “홍보 금지” 조건 추가\nGNU General Public License (GPL) v2.0: 강력한 copyleft 성격(2차 저작물도 동일 라이선스 필요)\nGNU General Public License (GPL) v3.0: 특허, Tivoization(기기 제한) 문제 대응을 추가\nMIT License: 가장 간단하고 보편적, 누구나 자유롭게 사용, 수정, 배포 가능\nMozilla Public License 2.0: 소스 공개 요구 범위가 파일 단위로 한정, 기업 및 개발자 모두에 적합"
+  },
+  {
+    "objectID": "Lecture_1_2.html#오픈방법론",
+    "href": "Lecture_1_2.html#오픈방법론",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "오픈방법론",
+    "text": "오픈방법론\n\n“연구 과정을 공유하여 재현가능한 과학 구현”\n정의\n\n연구에서 사용된 설계, 절차, 분석기법(코드 포함), 알고리즘, 프로토콜 등을 공개하는 것\n다른 연구자가 동일한 과정을 따라 할 수 있도록 투명한 문서화 제공\n\n의의\n\n재현성과 신뢰성 고양\n블랙박스 연구를 줄이고 검증 가능한 과학으로 발전\n방법 공유를 통한 연구 커뮤니티 간 협업 촉진\n\n활용\n\n실험 프로토콜 공유 플랫폼(예: Protocols.io)\n데이터 분석 워크플로 공개(예: Github, Jupyter Notebook 등)\n임상시험, 사회조사에서의 연구 설계 매뉴얼 공개"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-31",
+    "href": "Lecture_1_2.html#section-31",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://en.wikipedia.org/wiki/Open_Geospatial_Consortium"
+  },
+  {
+    "objectID": "Lecture_1_2.html#오픈교육자료",
+    "href": "Lecture_1_2.html#오픈교육자료",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "오픈교육자료",
+    "text": "오픈교육자료\n\n“오픈교육자료 = 모두에게 열려 있는 지식의 공유와 확산”\n정의\n\n교육, 학습, 연구에 활용되는 자료를 개방형 라이선스로 제공\n누가나 자유롭게 접근, 사용, 수정, 재배포할 수 있는 교재, 강의자료, 멀티미디어 콘텐츠 등\n\n의의\n\n교육 기회의 평등성 확대\n교재 비용 절감 → 학습 장벽 낮춤\n교육 콘텐츠의 지속적 개선과 공동 제작 촉진\n평생학습과 글로벌 학습 공동체 강화"
+  },
+  {
+    "objectID": "Lecture_1_2.html#오픈액세스",
+    "href": "Lecture_1_2.html#오픈액세스",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "오픈액세스",
+    "text": "오픈액세스\n\n“오픈액세스는 연구 성과를 개방해 지식의 확산과 민주화를 실현한다.”\n정의\n\n학술 논문, 연구보고서, 데이터 등 연구 결과물을 구독료나 장벽 없이 누구나 자유롭게 접근, 읽기, 활용할 수 있도록 공개하는 출판 방식\n\n의의\n\n지식의 민주화: 모든 연구자가 동등하게 접근 가능\n연구 확산 촉진: 인용 증가, 협업 기회 확대\n공공 투자 회수: 세금으로 수행된 연구 결과를 대중과 공유\n교육 및 혁신 강화: 학습자, 스타트업, 정책 입안자 등 다양한 주체가 활용 가능"
+  },
+  {
+    "objectID": "Lecture_1_2.html#크리에이티브-커먼즈-개요",
+    "href": "Lecture_1_2.html#크리에이티브-커먼즈-개요",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "크리에이티브 커먼즈: 개요",
+    "text": "크리에이티브 커먼즈: 개요\n\nCreative Commons: 창의적 공유 라이선스 혹은 저작물 자유 이용 라이선스\n\n“지식 공유의 표준”\n\n의미\n\n저작물이 어떻게 공유 및 재사용될 수 있는지 명확히 규정하는 표준 라이선스 체계\n이것을 운영하고 있는 비영리 단체(본부: 미국 샌프란시스코, 2001년 설립)\n\n사용\n\n오픈데이터, 오픈액세스, 오픈교육자원 등에서 가장 널리 활용\n연구, 교육, 출판, 예술 분야에서 글로벌 표준"
+  },
+  {
+    "objectID": "Lecture_1_2.html#크리에이티브-커먼즈-6가지-라이선스-유형",
+    "href": "Lecture_1_2.html#크리에이티브-커먼즈-6가지-라이선스-유형",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "크리에이티브 커먼즈: 6가지 라이선스 유형",
+    "text": "크리에이티브 커먼즈: 6가지 라이선스 유형\n\nCC0 (퍼블릭 도메인 기증)\nCC BY (저작자 표시)\nCC BY-SA (저작자 표시 + 동일조건 변경허락)\nCC BY-NC (저작자 표시 + 비상업적 이용)\nCC BY-NC-SA (저작자 표시 + 비상업적 이용 + 동일조건 변경허락)\nCC BY-ND (저작자 표시 + 변경금지)\nCC BY-NC-ND (저작자 표시 + 비상업적 이용 + 변경금지)"
+  },
+  {
+    "objectID": "Lecture_1_2.html#재현가능-연구",
+    "href": "Lecture_1_2.html#재현가능-연구",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "재현가능 연구",
+    "text": "재현가능 연구\n\nhttps://openeconomics.zbw.eu/en/knowledgebase/interests-of-others-in-your-own-research-data/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#과학의-재현성-위기",
+    "href": "Lecture_1_2.html#과학의-재현성-위기",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "과학의 재현성 위기",
+    "text": "과학의 재현성 위기\n\nhttps://www.tvguide.com/movies/king-of-clones/2030523593/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#과학의-재현성-위기-1",
+    "href": "Lecture_1_2.html#과학의-재현성-위기-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "과학의 재현성 위기",
+    "text": "과학의 재현성 위기\n\n\n\n\n“LK-99는 ‘초전도체’ 아냐”…사이언스 “짧고 화려했던 삶 끝나”\n국내 연구진이 지난달 22일 개발했다고 주장한 상온상압 초전도체 ’LK-99’에 대해 ’초전도체가 아니다’라는 검증 연구결과가 최근 2~3일 사이 집중적으로 쏟아졌다. 국제 학술지 ’네이처’가 앞서 LK-99에 대한 과학계의 ’회의론’을 제기한 데 이어 이번엔 국제 학술지 ’사이언스’가 LK-99에 대해 ’짧고 화려했던 삶(The short, spectacular life)’이라는 표현을 쓰며 “온라인에서의 명성이 곤두박질치기 시작했다”라고 8일(현지시간) 보도했다.\n(동아사이언스, 2023년 8월 9일)"
+  },
+  {
+    "objectID": "Lecture_1_2.html#재현가능-연구-1",
+    "href": "Lecture_1_2.html#재현가능-연구-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "재현가능 연구",
+    "text": "재현가능 연구\n\n정의\n\n동일한 데이터와 방법(분석 코드, 알고리즘, 환경 등)을 사용했을 때 동일한 결과를 다시 얻을 수 있는 연구\n연구자가 데이터와 분석 절차를 투명하게 공개하여, 다른 연구자가 그대로 따라 했을 때 같은 결과가 산출되는 것이 핵심\n\n배경과 필요성\n\n현대 과학 연구에서 복잡한 데이터 처리와 프로그래밍을 많이 활용하면서, 단순히 논문에 기술된 설명만으로는 결과를 다시 얻기 어려워 짐\n연구 데이터, 코드, 워크플로를 공개하여 연구의 투명성(transparency)과 신뢰성(reliability)을 높이려는 움직임이 생겨남\n오픈사이언스 운동과 밀접히 관련\n\n특징\n\n데이터 공유, 코드 공개, 환경 명시, 워크플로 문서화"
+  },
+  {
+    "objectID": "Lecture_1_2.html#재현가능-연구-2",
+    "href": "Lecture_1_2.html#재현가능-연구-2",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "재현가능 연구",
+    "text": "재현가능 연구\n\n재현성(reproducibility)\n\n동일한 데이터에 동일한 분석 단계를 수행했을 때 일관되게 같은 답이 나오면 그 결과는 재현 가능한 것으로 간주\n\n복제성(replicability)\n\n서로 다른 데이터에 동일한 분석을 수행했을 때 유사한 결과를 얻을 수 있다면, 그 결과는 복제성이 있는 것으로 간주\n\n강건성(robustness)\n\n동일한 데이터를 다른 분석 절차(예를 들어, R 파이프라인과 Python 파이프라인)에 적용하여 같은 연구 질문에 대한 유사하거나 동일한 답을 얻을 수 있다면, 그 결과는 강건한 것으로 간주. 강건한 결과는 작업이 특정 프로그래밍 언어의 특수성에 의존하지 않는다는 것을 반증.\n\n일반화(generalization)\n\n서로 다른 데이터에 다른 분석 절차에 적용하여 일반화된 결과를 도출할 수 있다면 그 결과는 재현 가능한 것으로 간주. 일반화는 결과가 특정 데이터나 분석 파이프라인 버전에 의존하지 않는다는 것을 이해하는 데 중요한 단계."
+  },
+  {
+    "objectID": "Lecture_1_2.html#재현가능-연구-3",
+    "href": "Lecture_1_2.html#재현가능-연구-3",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "재현가능 연구",
+    "text": "재현가능 연구\n\nhttps://ttw-rtd.readthedocs.io/en/latest/reproducible-research/reproducible-research.html"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-39",
+    "href": "Lecture_1_2.html#section-39",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://gsp.humboldt.edu/olm/Courses/GSP_216/lessons/composites.html"
+  },
+  {
+    "objectID": "Lecture_1_2.html#section-48",
+    "href": "Lecture_1_2.html#section-48",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "",
+    "text": "https://farda.staff.ugm.ac.id/2020/08/05/spatial-data-science/\n\n\n\n\n \n\n\n\n\n\nhttps://r-spatial.org/book/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#주제도-유형",
+    "href": "Lecture_1_2.html#주제도-유형",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "주제도 유형",
+    "text": "주제도 유형"
+  },
+  {
+    "objectID": "Lecture_1_2.html#시각-변수",
+    "href": "Lecture_1_2.html#시각-변수",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "시각 변수",
+    "text": "시각 변수"
+  },
+  {
+    "objectID": "Lecture_1_2.html#컬러",
+    "href": "Lecture_1_2.html#컬러",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "컬러",
+    "text": "컬러\n\n\n\n\n\n\nhttps://colorbrewer2.org/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#디지털-일반도",
+    "href": "Lecture_1_2.html#디지털-일반도",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "디지털 일반도",
+    "text": "디지털 일반도"
+  },
+  {
+    "objectID": "Lecture_1_2.html#지오비주얼라이제이션",
+    "href": "Lecture_1_2.html#지오비주얼라이제이션",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "지오비주얼라이제이션",
+    "text": "지오비주얼라이제이션\n\n\n\n\n\n\nhttps://x.com/researchremora\n\n\n\n\n\n\n\nhttps://x.com/researchremora"
+  },
+  {
+    "objectID": "Lecture_1_2.html#데이터와-오퍼레이션",
+    "href": "Lecture_1_2.html#데이터와-오퍼레이션",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "데이터와 오퍼레이션",
+    "text": "데이터와 오퍼레이션"
+  },
+  {
+    "objectID": "Lecture_1_2.html#데이터의-종류",
+    "href": "Lecture_1_2.html#데이터의-종류",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "데이터의 종류",
+    "text": "데이터의 종류"
+  },
+  {
+    "objectID": "Lecture_1_2.html#벡터-기반-gis-분석",
+    "href": "Lecture_1_2.html#벡터-기반-gis-분석",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "벡터-기반 GIS 분석",
+    "text": "벡터-기반 GIS 분석"
+  },
+  {
+    "objectID": "Lecture_1_2.html#래스터-기반-gis-분석",
+    "href": "Lecture_1_2.html#래스터-기반-gis-분석",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "래스터-기반 GIS 분석",
+    "text": "래스터-기반 GIS 분석"
+  },
+  {
+    "objectID": "Lecture_1_2.html#다양한-rs-시스템",
+    "href": "Lecture_1_2.html#다양한-rs-시스템",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "다양한 RS 시스템",
+    "text": "다양한 RS 시스템"
+  },
+  {
+    "objectID": "Lecture_1_2.html#다중분광센서",
+    "href": "Lecture_1_2.html#다중분광센서",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "다중분광센서",
+    "text": "다중분광센서\n\nhttps://www.usgs.gov/media/images/spectral-bandpasses-all-landsat-sensors"
+  },
+  {
+    "objectID": "Lecture_1_2.html#다중분광센서-1",
+    "href": "Lecture_1_2.html#다중분광센서-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "다중분광센서",
+    "text": "다중분광센서"
+  },
+  {
+    "objectID": "Lecture_1_2.html#영상-조합",
+    "href": "Lecture_1_2.html#영상-조합",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "영상 조합",
+    "text": "영상 조합\n\nhttps://gsp.humboldt.edu/olm/Courses/GSP_216/lessons/composites.html"
+  },
+  {
+    "objectID": "Lecture_1_2.html#영상-분류",
+    "href": "Lecture_1_2.html#영상-분류",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "영상 분류",
+    "text": "영상 분류"
+  },
+  {
+    "objectID": "Lecture_1_2.html#변화-탐지",
+    "href": "Lecture_1_2.html#변화-탐지",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "변화 탐지",
+    "text": "변화 탐지"
+  },
+  {
+    "objectID": "Lecture_1_2.html#변화-탐지-1",
+    "href": "Lecture_1_2.html#변화-탐지-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "변화 탐지",
+    "text": "변화 탐지"
+  },
+  {
+    "objectID": "Lecture_1_2.html#gps",
+    "href": "Lecture_1_2.html#gps",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "GPS",
+    "text": "GPS"
+  },
+  {
+    "objectID": "Lecture_1_2.html#라이다lidar",
+    "href": "Lecture_1_2.html#라이다lidar",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "라이다(LiDAR)",
+    "text": "라이다(LiDAR)\n\nhttps://www.zdnet.com/article/am-vs-fm-the-battle-brewing-in-lidar-technology/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#라이다lidar-루크-올드-토마스luke-auld-thomas",
+    "href": "Lecture_1_2.html#라이다lidar-루크-올드-토마스luke-auld-thomas",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "라이다(Lidar): 루크 올드-토마스(Luke Auld-Thomas)",
+    "text": "라이다(Lidar): 루크 올드-토마스(Luke Auld-Thomas)\n\n\n\n노트\n\n\n“29일(현지시각) BBC와 Nesweek 등 외신은 미국 툴레인대 고고학 연구팀이 멕시코 남동부 캄페체주에서 마야인들이 세운 피라미드와 원형극장, 도로, 운동장 등 6,764개의 건축물을 발견했다고 보도했다. 이러한 연구 결과는 영국 케임브리지대 고고학 학술지 ‘앤티쿼티’ 최신호에 실렸다.” (2024년 10월 29일)”\n\n\n\n\nhttps://www.bbc.com/news/articles/crmznzkly3go"
+  },
+  {
+    "objectID": "Lecture_1_2.html#루크-올드-토마스luke-auld-thomas",
+    "href": "Lecture_1_2.html#루크-올드-토마스luke-auld-thomas",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "루크 올드-토마스(Luke Auld-Thomas)",
+    "text": "루크 올드-토마스(Luke Auld-Thomas)\n\n\n“29일(현지시각) BBC와 Nesweek 등 외신은 미국 툴레인대 고고학 연구팀이 멕시코 남동부 캄페체주에서 마야인들이 세운 피라미드와 원형극장, 도로, 운동장 등 6,764개의 건축물을 발견했다고 보도했다. 이러한 연구 결과는 영국 케임브리지대 고고학 학술지 ‘앤티쿼티’ 최신호에 실렸다.” (2024년 10월 29일)\n\n\n\n\n\nhttps://www.bbc.com/news/articles/crmznzkly3go"
+  },
+  {
+    "objectID": "Lecture_1_2.html#라이다lidar-1",
+    "href": "Lecture_1_2.html#라이다lidar-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "라이다(LiDAR)",
+    "text": "라이다(LiDAR)\n\nhttps://store.clearpathrobotics.com/blogs/blog/how-to-choose-a-lidar"
+  },
+  {
+    "objectID": "Lecture_1_2.html#공간적-자기상관",
+    "href": "Lecture_1_2.html#공간적-자기상관",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "공간적 자기상관",
+    "text": "공간적 자기상관"
+  },
+  {
+    "objectID": "Lecture_1_2.html#공간적-자기상관-1",
+    "href": "Lecture_1_2.html#공간적-자기상관-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "공간적 자기상관",
+    "text": "공간적 자기상관"
+  },
+  {
+    "objectID": "Lecture_1_2.html#오픈공간데이터사이언스의-실제",
+    "href": "Lecture_1_2.html#오픈공간데이터사이언스의-실제",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "오픈공간데이터사이언스의 실제",
+    "text": "오픈공간데이터사이언스의 실제\n\nOldNew\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Population_density"
+  },
+  {
+    "objectID": "Lecture_1_2.html#이론-기술-방법론-데이터사이언스의-심장",
+    "href": "Lecture_1_2.html#이론-기술-방법론-데이터사이언스의-심장",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "이론, 기술, 방법론: 데이터사이언스의 심장",
+    "text": "이론, 기술, 방법론: 데이터사이언스의 심장\n\n탐색적 데이터 분석(exploratory data analysis, EDA)\n\n통계학(+ 수학) 위주\n변형(transformation), 요약(summarization), 시각화(visalization)\n\n머신러닝(machine learning, ML)\n\n컴퓨터과학(+ 수학) 위주\n전통적 머신러닝: 의사결정 트리, 랜덤 포레스트, 서포트 벡터 머신\n인공신경망 기반 다양한 딥러닝 기법\nLLM(large language model, 거대 언어 모델): 생성형 AI\n\n결합: “LLM-기반 EDA”"
+  },
+  {
+    "objectID": "Lecture_1_2.html#데이터사이언스-과정",
+    "href": "Lecture_1_2.html#데이터사이언스-과정",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "데이터사이언스 과정",
+    "text": "데이터사이언스 과정\n해들리 위컴(Hadley Wickham)\n\nhttps://posit.co/blog/artist-in-residence/"
+  },
+  {
+    "objectID": "Lecture_1_2.html#데이터사이언스-과정-1",
+    "href": "Lecture_1_2.html#데이터사이언스-과정-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "데이터사이언스 과정",
+    "text": "데이터사이언스 과정\n해들리 위컴(Hadley Wickham)\n\nhttps://r4ds.hadley.nz/intro"
+  },
+  {
+    "objectID": "Lecture_1_2.html#데이터사이언스-과정-2",
+    "href": "Lecture_1_2.html#데이터사이언스-과정-2",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n세 가지 사이언스의 융합",
+    "section": "데이터사이언스 과정",
+    "text": "데이터사이언스 과정\n해들리 위컴(Hadley Wickham)\n\nhttps://r4ds.hadley.nz/intro"
   }
 ]
