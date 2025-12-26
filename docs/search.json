@@ -242,14 +242,14 @@
     "href": "lecture.html#주차-2025년-12월-29일-2026년-1월-2일",
     "title": "AI 융합교육을 위한 인문사회 콘텐츠 설계",
     "section": "1주차 (2025년 12월 29일 ~ 2026년 1월 2일)",
-    "text": "1주차 (2025년 12월 29일 ~ 2026년 1월 2일)\n\n\n\n\n\n\n\n\n\n날짜\n주제\n강의 자료\n실습 자료\n\n\n\n\n12월 29일  (월)\n교사의 AIㆍ디지털 역량\n연수 소개\nLecture_1_1\n\n\n\n12월 30일  (화)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n\n세 가지 사이언스의 융합\n\nLecture_1_2\n\n\n\n12월 31일  (수)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 2\n\n데이터 불러오기, 정돈하기, 변형하기\n\nLecture_1_3\n\n\n\n1월 1일  (목)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 3\n\n복습\n\nLecture_1_4\n\n\n\n1월 2일  (금)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 4\n\n데이터 시각화하기, 수집하기\n\nLecture_1_5"
+    "text": "1주차 (2025년 12월 29일 ~ 2026년 1월 2일)\n\n\n\n\n\n\n\n\n\n날짜\n주제\n강의 자료\n실습 자료\n\n\n\n\n12월 29일  (월)\n교사의 AIㆍ디지털 역량\n연수 소개\nLecture_1_1\n\n\n\n12월 30일  (화)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 1\n\n세 가지 사이언스의 융합\n\nLecture_1_2\n\n\n\n12월 31일  (수)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 2\n\n데이터 불러오기ㆍ정돈하기ㆍ변형하기\n\nLecture_1_3\n\n\n\n1월 1일  (목)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 3\n\n복습: 데이터 탐색하기\n\nLecture_1_4\n\n\n\n1월 2일  (금)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 4\n\n데이터 시각화하기ㆍ수집하기\n\nLecture_1_5"
   },
   {
     "objectID": "lecture.html#주차-2026년-1월-5일-9일",
     "href": "lecture.html#주차-2026년-1월-5일-9일",
     "title": "AI 융합교육을 위한 인문사회 콘텐츠 설계",
     "section": "2주차 (2026년 1월 5일 ~ 9일)",
-    "text": "2주차 (2026년 1월 5일 ~ 9일)\n\n\n\n\n\n\n\n\n\n날짜\n주제\n강의 자료\n실습 자료\n\n\n\n\n1월 5일  (월)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n\nQuarto를 활용한 대시보드 만들기\n\n\n\n\n\n1월 6일  (화)\n인구 현상과 인문사회 콘텐츠 1\n\n인구 데이터, 인구 성장, 인구 분포\n\n\n\n\n\n1월 7일  (수)\n인구 현상과 인문사회 콘텐츠 2\n\n인구 구조, 인구 동태, 인구 이동\n\n\n\n\n\n1월 8일  (목)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n\n인터랙티브 및 지리공간적 시각화\n\n\n\n\n\n1월 9일  (금)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2\n\nShiny를 활용한 웹 앱 제작"
+    "text": "2주차 (2026년 1월 5일 ~ 9일)\n\n\n\n\n\n\n\n\n\n날짜\n주제\n강의 자료\n실습 자료\n\n\n\n\n1월 5일  (월)\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n\nQuarto를 활용한 대시보드 만들기\n\nLecture_2_1\n\n\n\n1월 6일  (화)\n인구 현상과 인문사회 콘텐츠 1\n\n인구 데이터, 인구 성장, 인구 분포\n\n\n\n\n\n1월 7일  (수)\n인구 현상과 인문사회 콘텐츠 2\n\n인구 구조, 인구 동태, 인구 이동\n\n\n\n\n\n1월 8일  (목)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n\n인터랙티브 및 지리공간적 시각화\n\n\n\n\n\n1월 9일  (금)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2\n\nShiny를 활용한 웹 앱 제작"
   },
   {
     "objectID": "lecture.html#주차-2026년-1월-12일-16일",
@@ -3442,5 +3442,215 @@
     "title": "\n세 가지 사이언스의 융합과 오픈소스 프로그래밍 2데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
     "section": "단일 테이블 조작 함수의 유형",
     "text": "단일 테이블 조작 함수의 유형\n\n행(rows) 함수: 행에 적용되는 함수, 즉 행의 변화를 야기하는 함수\n열(columns) 함수: 열에 적용되는 함수, 즉 열의 변화를 야기하는 함수\n그룹(groups) 함수: 그룹에 적용되는 함수"
+  },
+  {
+    "objectID": "Lecture_2_1.html#데이터사이언스-프로세스-소통",
+    "href": "Lecture_2_1.html#데이터사이언스-프로세스-소통",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "데이터사이언스 프로세스: 소통",
+    "text": "데이터사이언스 프로세스: 소통\n\nhttps://r4ds.hadley.nz/\n소통하기(communicate): 분석 과정과 결과를 대상 청중의 이해 수준과 목적에 맞게 해석ㆍ구성하여, 적절한 형식과 매체를 통해 의미있게 전달하는 과정"
+  },
+  {
+    "objectID": "Lecture_2_1.html#패키지",
+    "href": "Lecture_2_1.html#패키지",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "패키지",
+    "text": "패키지\n\nhttps://r4ds.hadley.nz/"
+  },
+  {
+    "objectID": "Lecture_2_1.html#section",
+    "href": "Lecture_2_1.html#section",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "",
+    "text": "https://quarto.org/"
+  },
+  {
+    "objectID": "Lecture_2_1.html#정의",
+    "href": "Lecture_2_1.html#정의",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "정의",
+    "text": "정의\n\n“과학적, 기술적 출판을 위한 오픈소스 시스템(an open-source scientific and technical publishing system)”\n\n오픈소스 저작 시스템\n\n다양한 형식의 저작물(노트, 연구 논문, 프레젠테이션, 대시보드, 웹사이트, 블로그, 서적 등)을 다양한 디지털 포맷(HTML, PDF, MS Word, ePub 등)으로 출판할 수 있게 해주는 도구\n적용 분야의 스케일\n\n개인 스케일: 노트, 레포트, 연구 논문, 프레젠테이션, 블로그 등의 작성 도구\n그룹 스케일: 프로젝트의 원할한 진행을 위한 협업 프레임워크\n사회 스케일: 과학 커뮤니티의 재현성(reproducibility) 고양"
+  },
+  {
+    "objectID": "Lecture_2_1.html#기능",
+    "href": "Lecture_2_1.html#기능",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "기능",
+    "text": "기능\n\nhttps://allisonhorst.com/cetinkaya-rundel-lowndes-quarto-keynote"
+  },
+  {
+    "objectID": "Lecture_2_1.html#기능-1",
+    "href": "Lecture_2_1.html#기능-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "기능",
+    "text": "기능\n\nhttps://quarto.org/"
+  },
+  {
+    "objectID": "Lecture_2_1.html#결과물-예시",
+    "href": "Lecture_2_1.html#결과물-예시",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "결과물 예시",
+    "text": "결과물 예시\n\n개인 홈페이지 및 블로그: https://sangillee.snu.ac.kr/\n웹북: https://r4ds.hadley.nz/\n프레젠테이션: https://sangillee.snu.ac.kr/2024_AIEDAP/lecture_3.html\n대시보드: https://sangillee.snu.ac.kr/dashboard_popgeo/\n논문, 포스터, 소식지 등"
+  },
+  {
+    "objectID": "Lecture_2_1.html#구문syntax",
+    "href": "Lecture_2_1.html#구문syntax",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "구문(syntax)",
+    "text": "구문(syntax)\n\n마크다운(markdown) 언어: 팬독(pandoc)\n\n마크업(markup) 언어: 다큐먼트의 구조와 포맷을 관장하는 텍스트-엔코딩 시스템\n사용자의 편의성을 크게 향상시킨 마크업 언어\n\nQuarto 다규먼트: .qmd\n\n프로그래밍 언어 + 워드프로세서"
+  },
+  {
+    "objectID": "Lecture_2_1.html#렌더링rendering",
+    "href": "Lecture_2_1.html#렌더링rendering",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "렌더링(rendering)",
+    "text": "렌더링(rendering)\n\nknitr 패키지: .qmd를 .md로 전환\npandoc: .md를 다양한 디지털 포맷으로 전환\n\n\nhttps://r4ds.hadley.nz/quarto"
+  },
+  {
+    "objectID": "Lecture_2_1.html#quarto-다큐먼트의-기본-구조",
+    "href": "Lecture_2_1.html#quarto-다큐먼트의-기본-구조",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "Quarto 다큐먼트의 기본 구조",
+    "text": "Quarto 다큐먼트의 기본 구조\n\nYAML 헤더(header)\n\n일종의 메타데이터\n다큐먼트의 전반적인 사항을 관장\n\n코드 청크(code chunk)\n\n프로그래밍 언어가 들어가는 부분\nR 스크립트 파일\n\n마크다운 텍스트(markdown text)\n\n워드프로세서처럼 텍스트를 작성(도표 포함)"
+  },
+  {
+    "objectID": "Lecture_2_1.html#section-1",
+    "href": "Lecture_2_1.html#section-1",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "",
+    "text": "https://r4ds.hadley.nz/quarto"
+  },
+  {
+    "objectID": "Lecture_2_1.html#yaml-헤더",
+    "href": "Lecture_2_1.html#yaml-헤더",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "YAML 헤더",
+    "text": "YAML 헤더\n\n\n\n\n\n\n\n키(key)\n설명\n\n\n\n\ntitle\n다큐먼트의 제목\n\n\ndate\n다큐먼트 작성 날짜\n\n\nauthor\n다큐먼트 저자 이름\n\n\nformat\n다양한 포맷 관련 사항의 지정\n\n\ntoc\n목차 삽입\n\n\nnumber-section\n섹션 제목에 자동 번호 부여 여부\n\n\nexecute: echo\n소스 코드의 포함 여부를 글로벌하게 설정, 보통 true\n\n\nexecute: warning\n경고 메시지를 산출물에 나타나게 할지를 글로벌하게 설정, 보통 false\n\n\neditor\n비주얼 에디터와 소스 에디터 중 선택, 보통 visual"
+  },
+  {
+    "objectID": "Lecture_2_1.html#코드-청크",
+    "href": "Lecture_2_1.html#코드-청크",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "코드 청크",
+    "text": "코드 청크\n\n\n\n\n\n\n\n\n\n\n\n\nOption\nRun code\nShow code\nOutput\nPlots\nMessages\nWarnings\n\n\n\n\neval: false\nX\n\nX\nX\nX\nX\n\n\ninclude: false\n\nX\nX\nX\nX\nX\n\n\necho: false\n\nX\n\n\n\n\n\n\nresults: hide\n\n\nX\n\n\n\n\n\nfig-show: hide\n\n\n\nX\n\n\n\n\nmessage: false\n\n\n\n\nX\n\n\n\nwarning: false\n\n\n\n\n\nX"
+  },
+  {
+    "objectID": "Lecture_2_1.html#마크다운-텍스트",
+    "href": "Lecture_2_1.html#마크다운-텍스트",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "마크다운 텍스트",
+    "text": "마크다운 텍스트\n\n소스 에디터(source editor) vs. 비주얼 에디터(visual editor)\n마크다운 언어의 사용자 편이성을 한 번 더 강화한 것"
+  },
+  {
+    "objectID": "Lecture_2_1.html#zotero",
+    "href": "Lecture_2_1.html#zotero",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "Zotero",
+    "text": "Zotero\n\nhttps://quarto.org/docs/visual-editor/technical.html"
+  },
+  {
+    "objectID": "Lecture_2_1.html#웹-발행publishing과-호스팅hosting-서비스",
+    "href": "Lecture_2_1.html#웹-발행publishing과-호스팅hosting-서비스",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "웹 발행(publishing)과 호스팅(hosting) 서비스",
+    "text": "웹 발행(publishing)과 호스팅(hosting) 서비스\n\nQuarto Pub(https://quartopub.com/)\nGitHub Pages(https://pages.github.com/)\nNetlify(https://www.netlify.com/)"
+  },
+  {
+    "objectID": "Lecture_2_1.html#quarto-pub",
+    "href": "Lecture_2_1.html#quarto-pub",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "Quarto Pub",
+    "text": "Quarto Pub\n\nhttps://quarto.org/docs/publishing/quarto-pub.html"
+  },
+  {
+    "objectID": "Lecture_2_1.html#데이터-대시보드",
+    "href": "Lecture_2_1.html#데이터-대시보드",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "데이터 대시보드",
+    "text": "데이터 대시보드\n\n레이아웃 요소: 대시보드의 기본 구조\n\n카드(행과 열)\n페이지, 내비게이션 바, 사이드바, 툴바, 탭셋\n\n내용 요소: 카드를 채우는 내용의 유형\n\n텍스트, 표, 그래프, 동영상, 밸류박스, 지도, 챗봇 등\n\n작동 요소: 상호작용성의 형식과 정도"
+  },
+  {
+    "objectID": "Lecture_2_1.html#예시",
+    "href": "Lecture_2_1.html#예시",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "예시",
+    "text": "예시\nhttps://sangillee.quarto.pub/my-first-dashboard/"
+  },
+  {
+    "objectID": "Lecture_2_1.html#레이아웃-요소-1-카드",
+    "href": "Lecture_2_1.html#레이아웃-요소-1-카드",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "레이아웃 요소 1: 카드",
+    "text": "레이아웃 요소 1: 카드\n\nCodeResult\n\n\n## Row {height=70%}\n\nCard 1\n\n## Row {height=30%}\n\n### Column {width=40%}\n\nCard 2-1 \n\n### Column {width=60%}\n\nCard 2-2"
+  },
+  {
+    "objectID": "Lecture_2_1.html#레이아웃-요소-2-탭셋",
+    "href": "Lecture_2_1.html#레이아웃-요소-2-탭셋",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "레이아웃 요소 2: 탭셋",
+    "text": "레이아웃 요소 2: 탭셋\n\nCodeResult\n\n\n## Row {height=70%}\n\nCard 1\n\n## Row {height=30% .tabset}\n\n### Column\n\nCard 2-1 {width=50%}\n\n### Column\n\nCard 2-2 {width=50%}"
+  },
+  {
+    "objectID": "Lecture_2_1.html#레이아웃-요소-3-페이지",
+    "href": "Lecture_2_1.html#레이아웃-요소-3-페이지",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "레이아웃 요소 3: 페이지",
+    "text": "레이아웃 요소 3: 페이지\n\nCodeResult\n\n\n# Page A\n\n## Row {height=70%}\n\nCard 1\n\n## Row {height=30%}\n\n### Column {width=40%}\n\nCard 2-1\n\n### Column {width=60%}\n\nCard 2-2\n\n# Page B\n\nCard 3"
+  },
+  {
+    "objectID": "Lecture_2_1.html#레이아웃-요소-4-내비게이션-바",
+    "href": "Lecture_2_1.html#레이아웃-요소-4-내비게이션-바",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "레이아웃 요소 4: 내비게이션 바",
+    "text": "레이아웃 요소 4: 내비게이션 바\n\n\ntitle\nauthor\nformat: dashboard\n\nlogo\nnav-buttons\nscrolling: true\n\ntheme: 25 bootswatch themes(https://quarto.org/docs/dashboards/theming.html)"
+  },
+  {
+    "objectID": "Lecture_2_1.html#레이아웃-요소-5-사이드바",
+    "href": "Lecture_2_1.html#레이아웃-요소-5-사이드바",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "레이아웃 요소 5: 사이드바",
+    "text": "레이아웃 요소 5: 사이드바"
+  },
+  {
+    "objectID": "Lecture_2_1.html#내용-요소-1-그래프",
+    "href": "Lecture_2_1.html#내용-요소-1-그래프",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "내용 요소 1: 그래프",
+    "text": "내용 요소 1: 그래프\n\n그래프 카드: 그래프 하나를 만들어내는 코드 청크\nggplot2 패키지, plotly 패키지\n\n#| title: \"Histogram of GDP per capita\"\nlibrary(tidyverse)\nlibrary(gapminder)\ngapminder |&gt; \n  filter(year == 2007) |&gt;\n  ggplot(aes(x = gdpPercap)) +\n  geom_histogram()"
+  },
+  {
+    "objectID": "Lecture_2_1.html#내용-요소-2-테이블",
+    "href": "Lecture_2_1.html#내용-요소-2-테이블",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "내용 요소 2: 테이블",
+    "text": "내용 요소 2: 테이블\n\n테이블 카드: 테이블 하나를 만들어내는 코드 청크\nDT 패키지, knitr 패키지\n\n#| title: Lookup Table\nlibrary(DT)\ndatatable(gapminder, filter = \"top\", \n          options = list(\n            pageLength = 5, autoWidth = TRUE\n          ))"
+  },
+  {
+    "objectID": "Lecture_2_1.html#내용-요소-3-지도",
+    "href": "Lecture_2_1.html#내용-요소-3-지도",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "내용 요소 3: 지도",
+    "text": "내용 요소 3: 지도\n\n지도 카드: 지도 하나를 만들어내는 코드 청크\nggplot2 패키지, leaflet 패키지\n\n#| title: A Reference Map \nlibrary(leaflet) \nleaflet() |&gt;  \n  addTiles()"
+  },
+  {
+    "objectID": "Lecture_2_1.html#내용-요소-4-텍스트",
+    "href": "Lecture_2_1.html#내용-요소-4-텍스트",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "내용 요소 4: 텍스트",
+    "text": "내용 요소 4: 텍스트\n\n텍스트 카드: 텍스트 박스 하나를 만들어내는 div\n{.card} 탭과 title 속성\n\n::: {.card title=\"Text\"}\nThis is my first dashboard.\n:::"
+  },
+  {
+    "objectID": "Lecture_2_1.html#내용-요소-5-밸류박스valueboxe",
+    "href": "Lecture_2_1.html#내용-요소-5-밸류박스valueboxe",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "내용 요소 5: 밸류박스(valueboxe)",
+    "text": "내용 요소 5: 밸류박스(valueboxe)\n\n밸류박스 카드: 밸류박스 하나를 만들어내는 코드 청크\n아이콘: bootstrap icon(https://icons.getbootstrap.com/)\n컬러: 8개(https://quarto.org/docs/dashboards/data-display.html)\n\n#| content: valuebox\n#| title: \"Number of Countries\"\nn_countries &lt;- gapminder |&gt; distinct(country) |&gt; nrow()\nlist(\n  icon = \"asterisk\",\n  color = \"primary\",\n  value = n_countries\n)"
+  },
+  {
+    "objectID": "Lecture_2_1.html#웹-발행",
+    "href": "Lecture_2_1.html#웹-발행",
+    "title": "세 가지 사이언스의 융합과 오픈소스 프로그래밍 5\n데이터로 소통하기: Quarto",
+    "section": "웹 발행",
+    "text": "웹 발행\n\nQuarto Pub(https://quartopub.com/)"
   }
 ]
