@@ -1,0 +1,2342 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+<meta name="author" content="  이상일(서울대학교 지리교육과 교수)">
+<meta name="dcterms.date" content="2025-12-31">
+<title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-inpute9d9dc014579b548</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+<link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+<link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
+<style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+  </style>
+<link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-379ada49d402fbc145bbc15eac7d5a0e.css">
+<link rel="stylesheet" href="styles.css">
+<link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+<link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+<link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+<link href="site_libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
+<link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+<style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center"><h1 class="title"><div class="line-block">
+<span style="color:coral;font-size:0.6em">세 가지 사이언스의 융합과 오픈소스 프로그래밍 2</span><br><span style="font-size:0.9em">데이터 불러오기ㆍ정돈하기ㆍ변형하기</span>
+</div></h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+<br> 이상일(서울대학교 지리교육과 교수) 
+</div>
+</div>
+</div>
+
+  <p class="date">2025-12-31</p>
+</section><section><section id="r과-데이터사이언스-프로세스" class="title-slide slide level1 center"><h1><span style="color:coral">R과 데이터사이언스 프로세스</span></h1>
+
+</section><section id="바이블" class="slide level2"><h2>바이블</h2>
+
+<img data-src="images/clipboard-4118011220.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://r4ds.hadley.nz/" style="font-size:1rem">https://r4ds.hadley.nz/</a></p></section><section id="데이터사이언스-프로세스와-r" class="slide level2"><h2>데이터사이언스 프로세스와 R</h2>
+
+<img data-src="images/clipboard-411135231.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://r4ds.hadley.nz/intro" style="font-size:1rem">https://r4ds.hadley.nz/intro</a></p></section><section id="데이터사이언스-프로세스-타이디버스" class="slide level2"><h2>데이터사이언스 프로세스: 타이디버스</h2>
+
+<img data-src="images/data_science_process_packages-03.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://r4ds.hadley.nz/intro.html" style="font-size:1rem">https://r4ds.hadley.nz/intro.html</a></p></section><section id="타이디버스" class="slide level2"><h2>타이디버스</h2>
+
+<img data-src="images/clipboard-3736095484.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/r-packages-functions" style="font-size:1rem">https://allisonhorst.com/r-packages-functions</a></p></section><section id="tidy-universe" class="slide level2"><h2>Tidy + Universe</h2>
+<ul>
+<li><p>“정돈된 데이터(tidy data) 처리와 분석을 위한 하나의 우주적 생태계”</p></li>
+<li>
+<p>데이터사이언스를 일관성 있게 수행하기 위한 패키지들의 패키지</p>
+<ul>
+<li><code><a href="https://tidyverse.tidyverse.org">library(tidyverse)</a></code></li>
+</ul>
+</li>
+</ul>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/clipboard-2981827317.png" style="width:65.0%"></p>
+<figcaption><a href="https://tidyverse.tidyverse.org/" style="font-size:1rem">https://tidyverse.tidyverse.org/</a></figcaption></figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="https://sangillee.snu.ac.kr/data_science/images/tidyverse_9.PNG" style="width:70.0%"></p>
+<figcaption><a href="https://www.tidyverse.org/" style="font-size:1rem">https://www.tidyverse.org/</a></figcaption></figure>
+</div>
+</div>
+</div>
+</div>
+</section><section id="타이디버스-철학-4대-원리" class="slide level2"><h2>타이디버스 철학: 4대 원리</h2>
+<p><a href="https://design.tidyverse.org/">타이디 디자인 원리(Tidy Design Principles)</a></p>
+<ul>
+<li>
+<p>인간중심성 Human-centeredness</p>
+<ul>
+<li>For an end-user programmer</li>
+</ul>
+</li>
+<li>
+<p>일관성 Consistency</p>
+<ul>
+<li>The smallest possible set of key ideas, used as comprehensively as possible</li>
+</ul>
+</li>
+<li>
+<p>조합성 Composability</p>
+<ul>
+<li>Many simple pieces, composed for a larger task using operators such as |&gt; and +</li>
+</ul>
+</li>
+<li>
+<p>포용성 Inclusiveness</p>
+<ul>
+<li>Towards a diverse, open, and friendly community</li>
+</ul>
+</li>
+</ul></section><section id="파이프-연산자pipe-operator" class="slide level2"><h2>파이프 연산자(pipe operator)</h2>
+
+<img data-src="images/piping in R is like baking.gif" class="quarto-figure quarto-figure-center r-stretch"></section><section id="파이프-연산자pipe-operator-1" class="slide level2"><h2>파이프 연산자(pipe operator)</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-1-1">Base R 1</a></li>
+<li><a href="#tabset-1-2">Base R 2</a></li>
+<li><a href="#tabset-1-3">파이프 연산자(pipe operator)</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">ingredients</span> <span class="op">&lt;-</span> <span class="fu">tibble</span><span class="op">(</span><span class="va">우유</span>, <span class="va">계란</span>, <span class="va">밀가루</span><span class="op">)</span></span>
+<span><span class="va">mix_result</span> <span class="op">&lt;-</span> <span class="fu">mix</span><span class="op">(</span><span class="va">ingredients</span>, <span class="va">강도</span>, <span class="va">혼합시간</span>, <span class="va">...</span><span class="op">)</span></span>
+<span><span class="va">bake_result</span> <span class="op">&lt;-</span> <span class="fu">bake</span><span class="op">(</span><span class="va">mix_result</span>, <span class="va">온도</span>, <span class="va">굽기시간</span>, <span class="va">...</span><span class="op">)</span></span>
+<span><span class="va">decorate_result</span> <span class="op">&lt;-</span> <span class="fu">decorate</span><span class="op">(</span><span class="va">bake_result</span>, <span class="va">장식1</span>, <span class="va">장식2</span>, <span class="va">...</span><span class="op">)</span></span>
+<span><span class="va">slice_result</span> <span class="op">&lt;-</span> <span class="fu">slice</span><span class="op">(</span><span class="va">decorate_result</span>, <span class="va">절단도구</span>, <span class="va">등분수</span>, <span class="va">...</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+<div id="tabset-1-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">slice_result</span> <span class="op">&lt;-</span> <span class="fu">slice</span><span class="op">(</span></span>
+<span>  <span class="fu">decorate</span><span class="op">(</span></span>
+<span>    <span class="fu">bake</span><span class="op">(</span></span>
+<span>      <span class="fu">mix</span><span class="op">(</span></span>
+<span>        <span class="fu">tibble</span><span class="op">(</span></span>
+<span>          <span class="va">우유</span>, <span class="va">계란</span>, <span class="va">밀가루</span></span>
+<span>        <span class="op">)</span>, <span class="va">강도</span>, <span class="va">혼합시간</span>, <span class="va">...</span></span>
+<span>      <span class="op">)</span>, <span class="va">온도</span>, <span class="va">굽기시간</span>, <span class="va">...</span></span>
+<span>    <span class="op">)</span>, <span class="va">장식1</span>, <span class="va">장식2</span>, <span class="va">...</span> </span>
+<span>  <span class="op">)</span>, <span class="va">절단도구</span>, <span class="va">등분수</span>, <span class="va">...</span></span>
+<span><span class="op">)</span> </span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+<div id="tabset-1-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">tibble</span><span class="op">(</span><span class="va">우유</span>, <span class="va">계란</span>, <span class="va">밀가루</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu">mix</span><span class="op">(</span><span class="va">강도</span>, <span class="va">혼합시간</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu">bake</span><span class="op">(</span><span class="va">온도</span>, <span class="va">굽기시간</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu">decorate</span><span class="op">(</span><span class="va">장식1</span>, <span class="va">장식2</span>, <span class="va">...</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu">slice</span><span class="op">(</span><span class="va">절단도구</span>, <span class="va">등분수</span><span class="op">)</span> <span class="op">-&gt;</span> <span class="va">slice_result</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="파이프-연산자pipe-operator-네이티브native" class="slide level2"><h2>파이프 연산자(pipe operator): 네이티브(native)</h2>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="images/clipboard-2382832838.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="images/clipboard-39249103.png"></p>
+</div>
+</div>
+</div>
+</section><section id="no-error-no-gain" class="slide level2"><h2>No error, no gain!</h2>
+
+<img data-src="images/clipboard-229605073.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/everything-else" style="font-size:1rem">https://allisonhorst.com/everything-else</a></p></section></section><section><section id="데이터-불러오기" class="title-slide slide level1 center"><h1><span style="color:coral">데이터 불러오기</span></h1>
+
+</section><section id="데이터사이언스-프로세스" class="slide level2"><h2>데이터사이언스 프로세스</h2>
+
+<img data-src="images/data_science_process_import-02.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://r4ds.hadley.nz/import.html" style="font-size:1rem">https://r4ds.hadley.nz/import.html</a></p><ul>
+<li>데이터 불러오기(importing): 데이터를 ‘가져와’ R 객체로 만들기</li>
+</ul></section><section id="데이터사이언스-프로세스-타이디버스-1" class="slide level2"><h2>데이터사이언스 프로세스: 타이디버스</h2>
+
+<img data-src="images/data_science_process_packages-03.png" class="r-stretch quarto-figure-center"><p class="caption">https://r4ds.hadley.nz/intro.html</p></section><section id="tibble-패키지" class="slide level2"><h2>
+<strong>tibble</strong> 패키지</h2>
+
+<img data-src="images/clipboard-3459494907.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://tibble.tidyverse.org/" style="font-size:1rem">https://tibble.tidyverse.org/</a></p></section><section id="tibble-vs.-data.frame" class="slide level2"><h2>tibble vs.&nbsp;data.frame</h2>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-2-1">데이터 프레임</a></li>
+<li><a href="#tabset-2-2">data.frame</a></li>
+<li><a href="#tabset-2-3">tibble 1</a></li>
+<li><a href="#tabset-2-4">tibble 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<span><span class="va">a</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>, <span class="cn">FALSE</span><span class="op">)</span></span>
+<span><span class="va">b</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">58L</span>, <span class="fl">26L</span>, <span class="fl">28L</span>, <span class="fl">22L</span><span class="op">)</span></span>
+<span><span class="va">c</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">3.19</span>, <span class="fl">2.09</span>, <span class="fl">2.11</span>, <span class="fl">2.03</span><span class="op">)</span></span>
+<span><span class="va">d</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"이상일"</span>, <span class="st">"김우형"</span>, <span class="st">"이하은"</span>, <span class="st">"박서우"</span><span class="op">)</span></span>
+<span><span class="va">e</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"남자"</span>, <span class="st">"남자"</span>, <span class="st">"여자"</span>, <span class="st">"여자"</span><span class="op">)</span></span>
+<span><span class="va">df_1</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span><span class="va">a</span>, <span class="va">b</span>, <span class="va">c</span>, <span class="va">d</span>, <span class="va">e</span><span class="op">)</span></span>
+<span><span class="va">df_2</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://tibble.tidyverse.org/reference/tibble.html">tibble</a></span><span class="op">(</span><span class="va">a</span>, <span class="va">b</span>, <span class="va">c</span>, <span class="va">d</span>, <span class="va">e</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+<div id="tabset-2-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">df_1</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      a  b    c      d    e
+1  TRUE 58 3.19 이상일 남자
+2 FALSE 26 2.09 김우형 남자
+3  TRUE 28 2.11 이하은 여자
+4 FALSE 22 2.03 박서우 여자</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-2-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">df_2</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 4 × 5
+  a         b     c d      e    
+  &lt;lgl&gt; &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;
+1 TRUE     58  3.19 이상일 남자 
+2 FALSE    26  2.09 김우형 남자 
+3 TRUE     28  2.11 이하은 여자 
+4 FALSE    22  2.03 박서우 여자 </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-2-4">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">df_2</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span></span>
+<span>  e <span class="op">=</span> <span class="fu"><a href="https://forcats.tidyverse.org/reference/fct.html">fct</a></span><span class="op">(</span><span class="va">e</span>, levels <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"남자"</span>, <span class="st">"여자"</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 4 × 5
+  a         b     c d      e    
+  &lt;lgl&gt; &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;fct&gt;
+1 TRUE     58  3.19 이상일 남자 
+2 FALSE    26  2.09 김우형 남자 
+3 TRUE     28  2.11 이하은 여자 
+4 FALSE    22  2.03 박서우 여자 </code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="readr-패키지" class="slide level2"><h2>
+<strong>readr</strong> 패키지</h2>
+
+<img data-src="images/clipboard-1251213286.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://readr.tidyverse.org/" style="font-size:1rem">https://readr.tidyverse.org/</a></p></section><section id="readr-패키지-주요-불러오기-함수" class="slide level2"><h2>
+<strong>readr</strong> 패키지: 주요 불러오기 함수</h2>
+<table class="caption-top">
+<thead><tr class="header">
+<th>함수명</th>
+<th>포맷</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td><code><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv()</a></code></td>
+<td>콤마분리(comma-separated values, CSV) 형식</td>
+</tr>
+<tr class="even">
+<td><code><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv2()</a></code></td>
+<td>세미콜론분리(semicolon-separated) 형식</td>
+</tr>
+<tr class="odd">
+<td><code><a href="https://readr.tidyverse.org/reference/read_delim.html">read_tsv()</a></code></td>
+<td>탭구분(tab-limited) 형식</td>
+</tr>
+<tr class="even">
+<td><code><a href="https://readr.tidyverse.org/reference/read_delim.html">read_delim()</a></code></td>
+<td>여타의 구분 형식</td>
+</tr>
+<tr class="odd">
+<td><code><a href="https://readr.tidyverse.org/reference/read_fwf.html">read_fwf()</a></code></td>
+<td>고정폭(fixed-width) 형식</td>
+</tr>
+<tr class="even">
+<td><code><a href="https://readr.tidyverse.org/reference/read_table.html">read_table()</a></code></td>
+<td>공백구분 형식</td>
+</tr>
+<tr class="odd">
+<td><code><a href="https://readr.tidyverse.org/reference/read_log.html">read_log()</a></code></td>
+<td>아파치 형식(Apache-style)의 로그 파일</td>
+</tr>
+</tbody>
+</table></section><section id="readr-패키지-주요-파싱parsing-함수" class="slide level2"><h2>
+<strong>readr</strong> 패키지: 주요 파싱(parsing) 함수</h2>
+<table class="caption-top">
+<thead><tr class="header">
+<th>컬럼 유형</th>
+<th>새로운 벡터</th>
+<th>기존 벡터</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>논리형 <code>lgl</code>
+</td>
+<td><code><a href="https://readr.tidyverse.org/reference/parse_atomic.html">col_logical()</a></code></td>
+<td><code><a href="https://readr.tidyverse.org/reference/parse_atomic.html">parse_logical()</a></code></td>
+</tr>
+<tr class="even">
+<td>정수형 <code>int</code>
+</td>
+<td><code><a href="https://readr.tidyverse.org/reference/parse_atomic.html">col_integer()</a></code></td>
+<td><code><a href="https://readr.tidyverse.org/reference/parse_atomic.html">parse_integer()</a></code></td>
+</tr>
+<tr class="odd">
+<td>실수형 <code>dbl</code>
+</td>
+<td><code><a href="https://readr.tidyverse.org/reference/parse_atomic.html">col_double()</a></code></td>
+<td><code><a href="https://readr.tidyverse.org/reference/parse_atomic.html">parse_double()</a></code></td>
+</tr>
+<tr class="even">
+<td>문자형 <code>chr</code>
+</td>
+<td><code><a href="https://readr.tidyverse.org/reference/parse_atomic.html">col_character()</a></code></td>
+<td><code><a href="https://readr.tidyverse.org/reference/parse_atomic.html">parse_character()</a></code></td>
+</tr>
+<tr class="odd">
+<td>범주형 <code>fct</code>
+</td>
+<td><code><a href="https://readr.tidyverse.org/reference/parse_factor.html">col_factor()</a></code></td>
+<td><code><a href="https://readr.tidyverse.org/reference/parse_factor.html">parse_factor()</a></code></td>
+</tr>
+</tbody>
+</table></section><section id="read_csv-함수의-활용" class="slide level2"><h2>
+<code>read_csv()</code> 함수의 활용</h2>
+<div class="panel-tabset">
+<ul id="tabset-3" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-3-1">불러오기 1</a></li>
+<li><a href="#tabset-3-2">결과 1</a></li>
+<li><a href="#tabset-3-3">불러오기 2</a></li>
+<li><a href="#tabset-3-4">결과 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-3-1">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv</a></span><span class="op">(</span><span class="st">"https://pos.it/r4ds-students-csv"</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+<div id="tabset-3-2">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 5
+  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  
+         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;
+1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    
+2            2 Barclay Lynn     French fries       Lunch only          5    
+3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    
+4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; 
+5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five 
+6            6 Güvenç Attila    Ice cream          Lunch only          6    </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-3-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv</a></span><span class="op">(</span></span>
+<span>  file <span class="op">=</span> <span class="st">"https://pos.it/r4ds-students-csv"</span>, </span>
+<span>  skip <span class="op">=</span> <span class="fl">1</span>, </span>
+<span>  col_names <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"student_id"</span>, <span class="st">"full_name"</span>, <span class="st">"favorite_food"</span>, <span class="st">"meal_plan"</span>, <span class="st">"age"</span><span class="op">)</span>,</span>
+<span>  col_types <span class="op">=</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/cols.html">cols</a></span><span class="op">(</span></span>
+<span>    meal_plan <span class="op">=</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/parse_factor.html">col_factor</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>    age <span class="op">=</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/parse_number.html">col_number</a></span><span class="op">(</span><span class="op">)</span></span>
+<span>  <span class="op">)</span>,</span>
+<span>  na <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"N/A"</span><span class="op">)</span></span>
+<span>  <span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+<div id="tabset-3-4">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 5
+  student_id full_name        favorite_food      meal_plan             age
+       &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;fct&gt;               &lt;dbl&gt;
+1          1 Sunil Huffmann   Strawberry yoghurt Lunch only              4
+2          2 Barclay Lynn     French fries       Lunch only              5
+3          3 Jayendra Lyne    &lt;NA&gt;               Breakfast and lunch     7
+4          4 Leon Rossini     Anchovies          Lunch only             NA
+5          5 Chidiegwu Dunkel Pizza              Breakfast and lunch    NA
+6          6 Güvenç Attila    Ice cream          Lunch only              6</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="관련-패키지" class="slide level2"><h2>관련 패키지</h2>
+<div class="quarto-layout-panel" data-layout="[30,30, 30]">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/clipboard-2419843589.png"></p>
+<figcaption><a href="https://readxl.tidyverse.org/" style="font-size:1rem">https://readxl.tidyverse.org/</a></figcaption></figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/clipboard-2386206028.png"></p>
+<figcaption><a href="https://ycphs.github.io/openxlsx/" style="font-size:1rem">https://ycphs.github.io/openxlsx/</a></figcaption></figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/clipboard-812069546.png"></p>
+<figcaption><a href="https://googlesheets4.tidyverse.org/" style="font-size:1rem">https://googlesheets4.tidyverse.org/</a></figcaption></figure>
+</div>
+</div>
+</div>
+</div>
+</section><section id="readxl-패키지" class="slide level2"><h2>
+<strong>readxl</strong> 패키지</h2>
+<ul>
+<li>
+<p><code>read_xls(), read_xlsx(), read_excel()</code></p>
+<ul>
+<li><p><code>path</code>: 파일 경로와 파일명</p></li>
+<li><p><code>sheet</code>: 특정 시트의 선택</p></li>
+<li><p><code>range</code>: 특정 범위의 셀 선택</p></li>
+<li><p><code>skip</code>: 불러들이지 않을 최소 행 번호</p></li>
+<li><p><code>col_names</code>: 컬럼 이름 지정</p></li>
+<li><p><code>col_types</code>: 컬럼 데이터 유형 지정(“skip”, “guess”, “text”, “logical”, “numeric”, etc.)</p></li>
+<li><p><code>na</code>: 결측치 규정</p></li>
+</ul>
+</li>
+</ul></section></section><section><section id="데이터-정돈하기" class="title-slide slide level1 center"><h1><span style="color:coral">데이터 정돈하기</span></h1>
+
+</section><section id="데이터사이언스-프로세스-1" class="slide level2"><h2>데이터사이언스 프로세스</h2>
+
+<img data-src="images/data_science_process_import-02.png" class="r-stretch quarto-figure-center"><p class="caption">https://r4ds.hadley.nz/import.html</p><ul>
+<li>데이터 정돈하기(tidying): 불러온 데이터를 ‘정돈된(tidy)’ 데이터로 만들기</li>
+</ul></section><section id="데이터사이언스-프로세스-타이디버스-2" class="slide level2"><h2>데이터사이언스 프로세스: 타이디버스</h2>
+
+<img data-src="images/data_science_process_packages-03.png" class="r-stretch quarto-figure-center"><p class="caption">https://r4ds.hadley.nz/intro.html</p></section><section id="tidyr-패키지" class="slide level2"><h2>
+<strong>tidyr</strong> 패키지</h2>
+
+<img data-src="images/clipboard-1046439731.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://tidyr.tidyverse.org/" style="font-size:1rem">https://tidyr.tidyverse.org/</a></p></section><section id="정돈된-데이터의-정의" class="slide level2"><h2>’정돈된 데이터’의 정의</h2>
+
+<img data-src="images/clipboard-4067066416.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/other-r-fun" style="font-size:1rem">https://allisonhorst.com/other-r-fun</a></p></section><section id="정돈된-데이터의-정의-1" class="slide level2"><h2>’정돈된 데이터’의 정의</h2>
+
+<img data-src="images/clipboard-3412852372.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/other-r-fun" style="font-size:1rem">https://allisonhorst.com/other-r-fun</a></p></section><section id="정돈된-데이터의-정의-2" class="slide level2"><h2>’정돈된 데이터’의 정의</h2>
+<ul>
+<li><p>개별 변수(variable)는 열(column) 하나를 차지한다. 즉, 개별 열에는 하나의 변수가 위치한다.</p></li>
+<li><p>개별 관측개체(observation)는 하나의 행(row)을 차지한다. 즉, 개별 행에는 하나의 관측개체가 위치한다.</p></li>
+<li><p>개별 값(value)은 하나의 셀(cell)을 차지한다. 즉, 개별 셀에는 하나의 값이 위치한다.</p></li>
+</ul></section><section id="정돈된-데이터의-예시" class="slide level2"><h2>’정돈된 데이터’의 예시</h2>
+<div class="panel-tabset">
+<ul id="tabset-4" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-4-1">table1</a></li>
+<li><a href="#tabset-4-2">table4a</a></li>
+<li><a href="#tabset-4-3">table2</a></li>
+<li><a href="#tabset-4-4">table3</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-4-1">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<span><span class="va">table1</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 4
+  country      year  cases population
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  1999    745   19987071
+2 Afghanistan  2000   2666   20595360
+3 Brazil       1999  37737  172006362
+4 Brazil       2000  80488  174504898
+5 China        1999 212258 1272915272
+6 China        2000 213766 1280428583</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-4-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table4a</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 3
+  country     `1999` `2000`
+  &lt;chr&gt;        &lt;dbl&gt;  &lt;dbl&gt;
+1 Afghanistan    745   2666
+2 Brazil       37737  80488
+3 China       212258 213766</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-4-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table2</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 12 × 4
+   country      year type            count
+   &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;           &lt;dbl&gt;
+ 1 Afghanistan  1999 cases             745
+ 2 Afghanistan  1999 population   19987071
+ 3 Afghanistan  2000 cases            2666
+ 4 Afghanistan  2000 population   20595360
+ 5 Brazil       1999 cases           37737
+ 6 Brazil       1999 population  172006362
+ 7 Brazil       2000 cases           80488
+ 8 Brazil       2000 population  174504898
+ 9 China        1999 cases          212258
+10 China        1999 population 1272915272
+11 China        2000 cases          213766
+12 China        2000 population 1280428583</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-4-4">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table3</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 3
+  country      year rate             
+  &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;            
+1 Afghanistan  1999 745/19987071     
+2 Afghanistan  2000 2666/20595360    
+3 Brazil       1999 37737/172006362  
+4 Brazil       2000 80488/174504898  
+5 China        1999 212258/1272915272
+6 China        2000 213766/1280428583</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="정돈된-데이터의-이점" class="slide level2"><h2>’정돈된 데이터’의 이점</h2>
+
+<img data-src="images/clipboard-3106963859.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/other-r-fun" style="font-size:1rem">https://allisonhorst.com/other-r-fun</a></p></section><section id="정돈된-데이터의-이점-1" class="slide level2"><h2>’정돈된 데이터’의 이점</h2>
+
+<img data-src="images/clipboard-3609380673.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/other-r-fun" style="font-size:1rem">https://allisonhorst.com/other-r-fun</a></p></section><section id="정돈된-데이터의-이점-2" class="slide level2"><h2>’정돈된 데이터’의 이점</h2>
+
+<img data-src="images/clipboard-1736663833.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/other-r-fun" style="font-size:1rem">https://allisonhorst.com/other-r-fun</a></p></section><section id="데이터-정돈하기의-핵심-기능" class="slide level2"><h2>데이터 정돈하기의 핵심 기능</h2>
+<ul>
+<li>
+<p>데이터 구조 변형</p>
+<ul>
+<li>핵심 기능으로 데이터 늘이기와 데이터 넓히기가 포함</li>
+</ul>
+</li>
+<li>
+<p>컬럼의 결합 및 분할</p>
+<ul>
+<li>두 개 이상의 컬럼을 하나의 컬럼으로 결합하거나 한 컬럼을 두 개 이상의 컬럼으로 분할</li>
+</ul>
+</li>
+<li>
+<p>결측치 처리</p>
+<ul>
+<li>결측치가 포함된 행을 다양한 방식으로 처리</li>
+</ul>
+</li>
+</ul></section><section id="데이터-구조-변형" class="slide level2"><h2>데이터 구조 변형</h2>
+
+<img data-src="images/clipboard-1179593338.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://www.r-bloggers.com/2024/09/mastering-data-transformation-in-r-with-pivot_longer-and-pivot_wider/" style="font-size:1rem">https://www.r-bloggers.com/2024/09/mastering-data-transformation-in-r-with-pivot_longer-and-pivot_wider/</a></p></section><section id="와이드-폼wide-form-vs.-롱-폼long-form" class="slide level2"><h2>와이드 폼(wide form) vs.&nbsp;롱 폼(long form)</h2>
+
+<img data-src="images/clipboard-2491549849.png" class="quarto-figure quarto-figure-center r-stretch"></section><section id="데이터-늘이기-pivot_longer" class="slide level2"><h2>데이터 늘이기: <code>pivot_longer()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-5" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-5-1">table4a</a></li>
+<li><a href="#tabset-5-2">정돈 결과</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-5-1">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb23"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table4a</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 3
+  country     `1999` `2000`
+  &lt;chr&gt;        &lt;dbl&gt;  &lt;dbl&gt;
+1 Afghanistan    745   2666
+2 Brazil       37737  80488
+3 China       212258 213766</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-5-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table4a</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://tidyr.tidyverse.org/reference/pivot_longer.html">pivot_longer</a></span><span class="op">(</span></span>
+<span>    cols <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">`1999`</span>, <span class="va">`2000`</span><span class="op">)</span>,</span>
+<span>    names_to <span class="op">=</span> <span class="st">"year"</span>, </span>
+<span>    values_to <span class="op">=</span> <span class="st">"cases"</span></span>
+<span>  <span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 3
+  country     year   cases
+  &lt;chr&gt;       &lt;chr&gt;  &lt;dbl&gt;
+1 Afghanistan 1999     745
+2 Afghanistan 2000    2666
+3 Brazil      1999   37737
+4 Brazil      2000   80488
+5 China       1999  212258
+6 China       2000  213766</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="데이터-늘이기-pivot_longer-1" class="slide level2"><h2>데이터 늘이기: <code>pivot_longer()</code>
+</h2>
+
+<img data-src="images/clipboard-2601245679.png" class="r-stretch"></section><section id="데이터-넓히기-pivot_wider" class="slide level2"><h2>데이터 넓히기: <code>pivot_wider()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-6" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-6-1">table2</a></li>
+<li><a href="#tabset-6-2">정돈 결과</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-6-1">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table2</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 12 × 4
+   country      year type            count
+   &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;           &lt;dbl&gt;
+ 1 Afghanistan  1999 cases             745
+ 2 Afghanistan  1999 population   19987071
+ 3 Afghanistan  2000 cases            2666
+ 4 Afghanistan  2000 population   20595360
+ 5 Brazil       1999 cases           37737
+ 6 Brazil       1999 population  172006362
+ 7 Brazil       2000 cases           80488
+ 8 Brazil       2000 population  174504898
+ 9 China        1999 cases          212258
+10 China        1999 population 1272915272
+11 China        2000 cases          213766
+12 China        2000 population 1280428583</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-6-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb29"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table2</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://tidyr.tidyverse.org/reference/pivot_wider.html">pivot_wider</a></span><span class="op">(</span></span>
+<span>    id_cols <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">country</span>, <span class="va">year</span><span class="op">)</span>,</span>
+<span>    names_from <span class="op">=</span> <span class="va">type</span>, </span>
+<span>    values_from <span class="op">=</span> <span class="va">count</span></span>
+<span>  <span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 4
+  country      year  cases population
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  1999    745   19987071
+2 Afghanistan  2000   2666   20595360
+3 Brazil       1999  37737  172006362
+4 Brazil       2000  80488  174504898
+5 China        1999 212258 1272915272
+6 China        2000 213766 1280428583</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="데이터-넓히기-pivot_wider-1" class="slide level2"><h2>데이터 넓히기: <code>pivot_wider()</code>
+</h2>
+
+<img data-src="images/clipboard-3400622461.png" class="r-stretch"></section><section id="컬럼의-결합-및-분할" class="slide level2"><h2>컬럼의 결합 및 분할</h2>
+<div class="panel-tabset">
+<ul id="tabset-7" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-7-1">table3</a></li>
+<li><a href="#tabset-7-2">정돈 결과</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-7-1">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb31"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table3</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 3
+  country      year rate             
+  &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;            
+1 Afghanistan  1999 745/19987071     
+2 Afghanistan  2000 2666/20595360    
+3 Brazil       1999 37737/172006362  
+4 Brazil       2000 80488/174504898  
+5 China        1999 212258/1272915272
+6 China        2000 213766/1280428583</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-7-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb33"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table3</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://tidyr.tidyverse.org/reference/separate_wider_delim.html">separate_wider_delim</a></span><span class="op">(</span></span>
+<span>  <span class="va">rate</span>, delim <span class="op">=</span> <span class="st">"/"</span>, names <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"cases"</span>, <span class="st">"population"</span><span class="op">)</span> </span>
+<span><span class="op">)</span> </span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 4
+  country      year cases  population
+  &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     
+1 Afghanistan  1999 745    19987071  
+2 Afghanistan  2000 2666   20595360  
+3 Brazil       1999 37737  172006362 
+4 Brazil       2000 80488  174504898 
+5 China        1999 212258 1272915272
+6 China        2000 213766 1280428583</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section></section><section><section id="데이터-변형하기" class="title-slide slide level1 center"><h1><span style="color:coral">데이터 변형하기</span></h1>
+
+</section><section id="데이터사이언스-프로세스-2" class="slide level2"><h2>데이터사이언스 프로세스</h2>
+
+<img data-src="images/data_science_process_transform-02.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://r4ds.hadley.nz/transform.html" style="font-size:1rem">https://r4ds.hadley.nz/transform.html</a></p><ul>
+<li>데이터 변형하기(transform): 정돈된 데이터에 구조적ㆍ의미적 변동을 가해 다음 단계(시각화 및 모델링)에 적합한 상태로 만드는 과정</li>
+</ul></section><section id="데이터사이언스-프로세스-타이디버스-3" class="slide level2"><h2>데이터사이언스 프로세스: 타이디버스</h2>
+
+<img data-src="images/data_science_process_packages-04.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://r4ds.hadley.nz/intro.html" style="font-size:1rem">https://r4ds.hadley.nz/intro.html</a></p></section><section id="dplyr-패키지" class="slide level2"><h2>
+<strong>dplyr</strong> 패키지</h2>
+
+<img data-src="images/clipboard-3059639685.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://dplyr.tidyverse.org/" style="font-size:1rem">https://dplyr.tidyverse.org/</a></p></section><section id="dplyr-패키지-기본-원리" class="slide level2"><h2>
+<strong>dplyr</strong> 패키지: 기본 원리</h2>
+<ul>
+<li><p>함수의 이름은 기본적으로 <span style="color:coral"><strong>동사</strong></span>이다.</p></li>
+<li><p>첫 번째 아규먼트는 항상 <span style="color:coral"><strong>데이터 프레임</strong></span>이다.</p></li>
+<li><p>그 다음 아규먼트(들)는 데이터 변형에 결부되는 <span style="color:coral"><strong>변수</strong></span>(들)를 지정한다 .</p></li>
+<li><p>산출물은 항상 <span style="color:coral"><strong>데이터 프레임</strong></span>이다.</p></li>
+</ul></section><section id="dplyr-패키지-기능-분류" class="slide level2"><h2>
+<strong>dplyr</strong> 패키지: 기능 분류</h2>
+<ul>
+<li><p>단일 테이블 조작: 데이터 변형하기의 핵심 부분으로, 한 데이터 프레임의 데이터 구조를 조작</p></li>
+<li><p>다중 테이블 결합: 두 개 이상의 데이터 프레임으로 결합</p></li>
+</ul></section><section id="단일-테이블-조작-함수의-유형" class="slide level2"><h2>단일 테이블 조작 함수의 유형</h2>
+<ul>
+<li><p>행(rows) 함수: 행에 적용되는 함수, 즉 행의 변화를 야기하는 함수</p></li>
+<li><p>열(columns) 함수: 열에 적용되는 함수, 즉 열의 변화를 야기하는 함수</p></li>
+<li><p>그룹(groups) 함수: 그룹에 적용되는 함수</p></li>
+</ul></section><section id="section" class="slide level2"><h2></h2>
+
+<img data-src="images/clipboard-2728894062.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://kilhwan.github.io/rprogramming/ch-dataTransformation.html" style="font-size:1rem">https://kilhwan.github.io/rprogramming/ch-dataTransformation.html</a></p></section><section id="행-함수-네-개의-주요-함수" class="slide level2"><h2>행 함수: 네 개의 주요 함수</h2>
+<ul>
+<li><p><code><a href="https://dplyr.tidyverse.org/reference/filter.html">filter()</a></code>: 특정 변수(들)에 의거한 조건을 만족하는 행(들)을 추출</p></li>
+<li><p><code><a href="https://dplyr.tidyverse.org/reference/arrange.html">arrange()</a></code>: 특정 변수(들)에 의거해 행(들)의 순서를 변경</p></li>
+<li><p><code><a href="https://dplyr.tidyverse.org/reference/distinct.html">distinct()</a></code>: 특정 변수(들)에 의거해 (중복을 제거한) 고유한 행(들)을 추출</p></li>
+<li>
+<p><code><a href="https://dplyr.tidyverse.org/reference/slice.html">slice()</a></code>: <code><a href="https://dplyr.tidyverse.org/reference/filter.html">filter()</a></code> 함수처럼 특정 행(들)을 추출</p>
+<ul>
+<li><p>특정 변수와 관계 없이, 행의 위치에 의거해 특정 행(들)을 추출</p></li>
+<li><p>특정 변수에 따른, 행의 위치에 의거해 행(들)을 추출</p></li>
+</ul>
+</li>
+</ul></section><section id="행-함수-1-filter" class="slide level2"><h2>행 함수 1: <code>filter()</code>
+</h2>
+
+<img data-src="images/clipboard-2723506167.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/r-packages-functions" style="font-size:1rem">https://allisonhorst.com/r-packages-functions</a></p></section><section id="행-함수-1-filter-1" class="slide level2"><h2>행 함수 1: <code>filter()</code>
+</h2>
+
+<img data-src="images/clipboard-565233092.png" class="r-stretch"></section><section id="행-함수-1-filter-2" class="slide level2"><h2>행 함수 1: <code>filter()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-8" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-8-1">Data</a></li>
+<li><a href="#tabset-8-2"><code>filter()</code> 1</a></li>
+<li><a href="#tabset-8-3"><code>filter()</code> 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-8-1">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 4
+  country      year  cases population
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  1999    745   19987071
+2 Afghanistan  2000   2666   20595360
+3 Brazil       1999  37737  172006362
+4 Brazil       2000  80488  174504898
+5 China        1999 212258 1272915272
+6 China        2000 213766 1280428583</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-8-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb36"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">table1</span>, <span class="va">year</span> <span class="op">==</span> <span class="fl">2000</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 4
+  country      year  cases population
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  2000   2666   20595360
+2 Brazil       2000  80488  174504898
+3 China        2000 213766 1280428583</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-8-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb38"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span></span>
+<span>    <span class="va">year</span> <span class="op">==</span> <span class="fl">2000</span> <span class="op">&amp;</span> <span class="va">population</span> <span class="op">&gt;</span> <span class="fl">50000000</span></span>
+<span>  <span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+  country  year  cases population
+  &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 Brazil   2000  80488  174504898
+2 China    2000 213766 1280428583</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="행-함수-2-arrange" class="slide level2"><h2>행 함수 2: <code>arrange()</code>
+</h2>
+
+<img data-src="images/clipboard-3074305878.png" class="r-stretch"></section><section id="행-함수-2-arrange-1" class="slide level2"><h2>행 함수 2: <code>arrange()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-9" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-9-1">Data</a></li>
+<li><a href="#tabset-9-2"><code>arrange()</code> 1</a></li>
+<li><a href="#tabset-9-3"><code>arrange()</code> 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-9-1">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 4
+  country      year  cases population
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  1999    745   19987071
+2 Afghanistan  2000   2666   20595360
+3 Brazil       1999  37737  172006362
+4 Brazil       2000  80488  174504898
+5 China        1999 212258 1272915272
+6 China        2000 213766 1280428583</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-9-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb41"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/arrange.html">arrange</a></span><span class="op">(</span><span class="va">table1</span>, <span class="va">cases</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 4
+  country      year  cases population
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  1999    745   19987071
+2 Afghanistan  2000   2666   20595360
+3 Brazil       1999  37737  172006362
+4 Brazil       2000  80488  174504898
+5 China        1999 212258 1272915272
+6 China        2000 213766 1280428583</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-9-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb43"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/arrange.html">arrange</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/desc.html">desc</a></span><span class="op">(</span><span class="va">cases</span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 4
+  country      year  cases population
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 China        2000 213766 1280428583
+2 China        1999 212258 1272915272
+3 Brazil       2000  80488  174504898
+4 Brazil       1999  37737  172006362
+5 Afghanistan  2000   2666   20595360
+6 Afghanistan  1999    745   19987071</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="행-함수-3-distinct" class="slide level2"><h2>행 함수 3: <code>distinct()</code>
+</h2>
+
+<img data-src="images/clipboard-3425030843.png" class="r-stretch"></section><section id="행-함수-3-distinct-1" class="slide level2"><h2>행 함수 3: <code>distinct()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-10" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-10-1">Data</a></li>
+<li><a href="#tabset-10-2"><code>distinct()</code> 1</a></li>
+<li><a href="#tabset-10-3"><code>distinct()</code> 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-10-1">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 4
+  country      year  cases population
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  1999    745   19987071
+2 Afghanistan  2000   2666   20595360
+3 Brazil       1999  37737  172006362
+4 Brazil       2000  80488  174504898
+5 China        1999 212258 1272915272
+6 China        2000 213766 1280428583</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-10-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb46"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/distinct.html">distinct</a></span><span class="op">(</span><span class="va">table1</span>, <span class="va">country</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 1
+  country    
+  &lt;chr&gt;      
+1 Afghanistan
+2 Brazil     
+3 China      </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-10-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb48"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/distinct.html">distinct</a></span><span class="op">(</span></span>
+<span>    <span class="va">country</span>, .keep_all <span class="op">=</span> <span class="cn">TRUE</span></span>
+<span>  <span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 4
+  country      year  cases population
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  1999    745   19987071
+2 Brazil       1999  37737  172006362
+3 China        1999 212258 1272915272</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="행-함수-4-slice" class="slide level2"><h2>행 함수 4: <code>slice()</code>
+</h2>
+
+<img data-src="images/clipboard-1830339037.png" class="r-stretch"></section><section id="행-함수-4-slice-1" class="slide level2"><h2>행 함수 4: <code>slice()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-11" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-11-1">Data</a></li>
+<li><a href="#tabset-11-2"><code>slice()</code></a></li>
+<li><a href="#tabset-11-3"><code>slice_head()</code></a></li>
+<li><a href="#tabset-11-4"><code>slice_tail()</code></a></li>
+<li><a href="#tabset-11-5"><code>slice_max()</code></a></li>
+<li><a href="#tabset-11-6"><code>slice_min()</code></a></li>
+<li><a href="#tabset-11-7"><code>slice_sample()</code></a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-11-1">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 4
+  country      year  cases population
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  1999    745   19987071
+2 Afghanistan  2000   2666   20595360
+3 Brazil       1999  37737  172006362
+4 Brazil       2000  80488  174504898
+5 China        1999 212258 1272915272
+6 China        2000 213766 1280428583</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-11-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb51"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice</a></span><span class="op">(</span><span class="va">table1</span>, <span class="fl">2</span><span class="op">:</span><span class="fl">3</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+  country      year cases population
+  &lt;chr&gt;       &lt;dbl&gt; &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  2000  2666   20595360
+2 Brazil       1999 37737  172006362</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-11-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb53"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_head</a></span><span class="op">(</span>n <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+  country      year cases population
+  &lt;chr&gt;       &lt;dbl&gt; &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  1999   745   19987071
+2 Afghanistan  2000  2666   20595360</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-11-4">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb55"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_tail</a></span><span class="op">(</span>prop <span class="op">=</span> <span class="fl">1</span><span class="op">/</span><span class="fl">3</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+  country  year  cases population
+  &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 China    1999 212258 1272915272
+2 China    2000 213766 1280428583</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-11-5">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb57"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_max</a></span><span class="op">(</span><span class="va">cases</span>, n <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+  country  year  cases population
+  &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 China    2000 213766 1280428583
+2 China    1999 212258 1272915272</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-11-6">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb59"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_min</a></span><span class="op">(</span><span class="va">cases</span>, prop <span class="op">=</span> <span class="fl">1</span><span class="op">/</span><span class="fl">3</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+  country      year cases population
+  &lt;chr&gt;       &lt;dbl&gt; &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  1999   745   19987071
+2 Afghanistan  2000  2666   20595360</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-11-7">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb61"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_sample</a></span><span class="op">(</span>n <span class="op">=</span> <span class="fl">2</span>, replace <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+  country      year  cases population
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  1999    745   19987071
+2 China        1999 212258 1272915272</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="열-함수-네-개의-주요-함수" class="slide level2"><h2>열 함수: 네 개의 주요 함수</h2>
+<ul>
+<li><p><code><a href="https://dplyr.tidyverse.org/reference/select.html">select()</a></code>: 변수(들) 중 일부를 추출</p></li>
+<li><p><code><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate()</a></code>: 변수(들)를 변형해 새로운 변수를 생성</p></li>
+<li><p><code><a href="https://dplyr.tidyverse.org/reference/rename.html">rename()</a></code>: 변수(들)의 이름을 변경</p></li>
+<li><p><code><a href="https://dplyr.tidyverse.org/reference/relocate.html">relocate()</a></code>: 변수(들)의 위치(순서)를 변경</p></li>
+</ul></section><section id="열-함수-1-select" class="slide level2"><h2>열 함수 1: <code>select()</code>
+</h2>
+
+<img data-src="images/clipboard-3651470406.png" class="r-stretch"></section><section id="열-함수-1-select-1" class="slide level2"><h2>열 함수 1: <code>select()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-12" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-12-1">Data</a></li>
+<li><a href="#tabset-12-2"><code>select()</code> 1</a></li>
+<li><a href="#tabset-12-3"><code>select()</code> 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-12-1">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 4
+  country      year  cases population
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  1999    745   19987071
+2 Afghanistan  2000   2666   20595360
+3 Brazil       1999  37737  172006362
+4 Brazil       2000  80488  174504898
+5 China        1999 212258 1272915272
+6 China        2000 213766 1280428583</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-12-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb64"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">table1</span>, <span class="va">country</span>, <span class="va">year</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 2
+  country      year
+  &lt;chr&gt;       &lt;dbl&gt;
+1 Afghanistan  1999
+2 Afghanistan  2000
+3 Brazil       1999
+4 Brazil       2000
+5 China        1999
+6 China        2000</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-12-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb66"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="op">-</span><span class="va">cases</span>, <span class="op">-</span><span class="va">population</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 2
+  country      year
+  &lt;chr&gt;       &lt;dbl&gt;
+1 Afghanistan  1999
+2 Afghanistan  2000
+3 Brazil       1999
+4 Brazil       2000
+5 China        1999
+6 China        2000</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="열-함수-2-mutate" class="slide level2"><h2>열 함수 2: <code>mutate()</code>
+</h2>
+
+<img data-src="images/clipboard-417835741.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/r-packages-functions" style="font-size:1rem">https://allisonhorst.com/r-packages-functions</a></p></section><section id="열-함수-2-mutate-1" class="slide level2"><h2>열 함수 2: <code>mutate()</code>
+</h2>
+
+<img data-src="images/clipboard-1943055285.png" class="r-stretch"></section><section id="열-함수-2-mutate-2" class="slide level2"><h2>열 함수 2: <code>mutate()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-13" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-13-1">Data</a></li>
+<li><a href="#tabset-13-2"><code>mutate()</code> 1</a></li>
+<li><a href="#tabset-13-3"><code>mutate()</code> 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-13-1">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 4
+  country      year  cases population
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;
+1 Afghanistan  1999    745   19987071
+2 Afghanistan  2000   2666   20595360
+3 Brazil       1999  37737  172006362
+4 Brazil       2000  80488  174504898
+5 China        1999 212258 1272915272
+6 China        2000 213766 1280428583</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-13-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb69"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span><span class="va">table1</span>, rate <span class="op">=</span> <span class="va">cases</span> <span class="op">/</span> <span class="va">population</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 5
+  country      year  cases population      rate
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;
+1 Afghanistan  1999    745   19987071 0.0000373
+2 Afghanistan  2000   2666   20595360 0.000129 
+3 Brazil       1999  37737  172006362 0.000219 
+4 Brazil       2000  80488  174504898 0.000461 
+5 China        1999 212258 1272915272 0.000167 
+6 China        2000 213766 1280428583 0.000167 </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-13-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb71"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1_new</span> <span class="op">&lt;-</span> <span class="va">table1</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span></span>
+<span>    rate <span class="op">=</span> <span class="va">cases</span> <span class="op">/</span> <span class="va">population</span>,</span>
+<span>    continent <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/if_else.html">if_else</a></span><span class="op">(</span><span class="va">country</span> <span class="op">==</span> <span class="st">"Brazil"</span>, <span class="st">"Americas"</span>, <span class="st">"Asia"</span><span class="op">)</span></span>
+<span>  <span class="op">)</span></span>
+<span><span class="va">table1_new</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  country      year  cases population      rate continent
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    
+1 Afghanistan  1999    745   19987071 0.0000373 Asia     
+2 Afghanistan  2000   2666   20595360 0.000129  Asia     
+3 Brazil       1999  37737  172006362 0.000219  Americas 
+4 Brazil       2000  80488  174504898 0.000461  Americas 
+5 China        1999 212258 1272915272 0.000167  Asia     
+6 China        2000 213766 1280428583 0.000167  Asia     </code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="열-함수-3-rename" class="slide level2"><h2>열 함수 3: <code>rename()</code>
+</h2>
+
+<img data-src="images/clipboard-3953189394.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/r-packages-functions" style="font-size:1rem">https://allisonhorst.com/r-packages-functions</a></p></section><section id="열-함수-3-rename-1" class="slide level2"><h2>열 함수 3: <code>rename()</code>
+</h2>
+
+<img data-src="images/clipboard-654990545.png" class="r-stretch"></section><section id="열-함수-3-rename-2" class="slide level2"><h2>열 함수 3: <code>rename()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-14" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-14-1">Data</a></li>
+<li><a href="#tabset-14-2"><code>rename()</code> 1</a></li>
+<li><a href="#tabset-14-3"><code>rename()</code> 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-14-1">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  country      year  cases population      rate continent
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    
+1 Afghanistan  1999    745   19987071 0.0000373 Asia     
+2 Afghanistan  2000   2666   20595360 0.000129  Asia     
+3 Brazil       1999  37737  172006362 0.000219  Americas 
+4 Brazil       2000  80488  174504898 0.000461  Americas 
+5 China        1999 212258 1272915272 0.000167  Asia     
+6 China        2000 213766 1280428583 0.000167  Asia     </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-14-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb74"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/rename.html">rename</a></span><span class="op">(</span><span class="va">table1_new</span>, cont <span class="op">=</span> <span class="va">continent</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  country      year  cases population      rate cont    
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;   
+1 Afghanistan  1999    745   19987071 0.0000373 Asia    
+2 Afghanistan  2000   2666   20595360 0.000129  Asia    
+3 Brazil       1999  37737  172006362 0.000219  Americas
+4 Brazil       2000  80488  174504898 0.000461  Americas
+5 China        1999 212258 1272915272 0.000167  Asia    
+6 China        2000 213766 1280428583 0.000167  Asia    </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-14-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb76"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1_new</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/rename.html">rename</a></span><span class="op">(</span></span>
+<span>    cont <span class="op">=</span> <span class="va">continent</span>,</span>
+<span>    pop <span class="op">=</span> <span class="va">population</span></span>
+<span>  <span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  country      year  cases        pop      rate cont    
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;   
+1 Afghanistan  1999    745   19987071 0.0000373 Asia    
+2 Afghanistan  2000   2666   20595360 0.000129  Asia    
+3 Brazil       1999  37737  172006362 0.000219  Americas
+4 Brazil       2000  80488  174504898 0.000461  Americas
+5 China        1999 212258 1272915272 0.000167  Asia    
+6 China        2000 213766 1280428583 0.000167  Asia    </code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="열-함수-4-relocate" class="slide level2"><h2>열 함수 4: <code>relocate()</code>
+</h2>
+
+<img data-src="images/clipboard-2066290782.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/r-packages-functions" style="font-size:1rem">https://allisonhorst.com/r-packages-functions</a></p></section><section id="열-함수-4-relocate-1" class="slide level2"><h2>열 함수 4: <code>relocate()</code>
+</h2>
+
+<img data-src="images/clipboard-1813959402.png" class="r-stretch"></section><section id="열-함수-4-relocate-2" class="slide level2"><h2>열 함수 4: <code>relocate()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-15" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-15-1">Data</a></li>
+<li><a href="#tabset-15-2"><code>relocate()</code> 1</a></li>
+<li><a href="#tabset-15-3"><code>relocate()</code> 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-15-1">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  country      year  cases population      rate continent
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    
+1 Afghanistan  1999    745   19987071 0.0000373 Asia     
+2 Afghanistan  2000   2666   20595360 0.000129  Asia     
+3 Brazil       1999  37737  172006362 0.000219  Americas 
+4 Brazil       2000  80488  174504898 0.000461  Americas 
+5 China        1999 212258 1272915272 0.000167  Asia     
+6 China        2000 213766 1280428583 0.000167  Asia     </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-15-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb79"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/relocate.html">relocate</a></span><span class="op">(</span><span class="va">table1_new</span>, <span class="va">year</span>, <span class="va">continent</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+   year continent country      cases population      rate
+  &lt;dbl&gt; &lt;chr&gt;     &lt;chr&gt;        &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;
+1  1999 Asia      Afghanistan    745   19987071 0.0000373
+2  2000 Asia      Afghanistan   2666   20595360 0.000129 
+3  1999 Americas  Brazil       37737  172006362 0.000219 
+4  2000 Americas  Brazil       80488  174504898 0.000461 
+5  1999 Asia      China       212258 1272915272 0.000167 
+6  2000 Asia      China       213766 1280428583 0.000167 </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-15-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb81"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1_new</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/relocate.html">relocate</a></span><span class="op">(</span></span>
+<span>    <span class="va">rate</span>,</span>
+<span>    .before <span class="op">=</span> <span class="va">year</span></span>
+<span>  <span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  country          rate  year  cases population continent
+  &lt;chr&gt;           &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt; &lt;chr&gt;    
+1 Afghanistan 0.0000373  1999    745   19987071 Asia     
+2 Afghanistan 0.000129   2000   2666   20595360 Asia     
+3 Brazil      0.000219   1999  37737  172006362 Americas 
+4 Brazil      0.000461   2000  80488  174504898 Americas 
+5 China       0.000167   1999 212258 1272915272 Asia     
+6 China       0.000167   2000 213766 1280428583 Asia     </code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="그룹-함수-네-개의-주요-함수" class="slide level2"><h2>그룹 함수: 네 개의 주요 함수</h2>
+<ul>
+<li><p><code><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by()</a></code>: 변수(들)에 의거해 전체 행(들)을 그룹으로 분할</p></li>
+<li><p><code><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize()</a></code>: 그룹별로 변수(들)의 통계량을 산출하여 새로운 변수(들)로 저장</p></li>
+<li><p><code><a href="https://dplyr.tidyverse.org/reference/count.html">count()</a></code>: 그룹별로 해당 관측개체의 빈도수를 계산</p></li>
+<li><p><code><a href="https://dplyr.tidyverse.org/reference/across.html">across()</a></code>: 그룹별로 여러 변수에 걸쳐 동일한 통계량을 산출하고 새로운 변수들로 저장</p></li>
+</ul></section><section id="그룹-함수-1-group_by" class="slide level2"><h2>그룹 함수 1: <code>group_by()</code>
+</h2>
+
+<img data-src="images/clipboard-1542658472.png" class="r-stretch"></section><section id="그룹-함수-1-group_by-1" class="slide level2"><h2>그룹 함수 1: <code>group_by()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-16" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-16-1">Data</a></li>
+<li><a href="#tabset-16-2"><code>group_by()</code> 1</a></li>
+<li><a href="#tabset-16-3"><code>group_by()</code> 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-16-1">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  country      year  cases population      rate continent
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    
+1 Afghanistan  1999    745   19987071 0.0000373 Asia     
+2 Afghanistan  2000   2666   20595360 0.000129  Asia     
+3 Brazil       1999  37737  172006362 0.000219  Americas 
+4 Brazil       2000  80488  174504898 0.000461  Americas 
+5 China        1999 212258 1272915272 0.000167  Asia     
+6 China        2000 213766 1280428583 0.000167  Asia     </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-16-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb84"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">table1_new</span>, <span class="va">continent</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+# Groups:   continent [2]
+  country      year  cases population      rate continent
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    
+1 Afghanistan  1999    745   19987071 0.0000373 Asia     
+2 Afghanistan  2000   2666   20595360 0.000129  Asia     
+3 Brazil       1999  37737  172006362 0.000219  Americas 
+4 Brazil       2000  80488  174504898 0.000461  Americas 
+5 China        1999 212258 1272915272 0.000167  Asia     
+6 China        2000 213766 1280428583 0.000167  Asia     </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-16-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb86"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1_new</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">continent</span>, <span class="va">year</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+# Groups:   continent, year [4]
+  country      year  cases population      rate continent
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    
+1 Afghanistan  1999    745   19987071 0.0000373 Asia     
+2 Afghanistan  2000   2666   20595360 0.000129  Asia     
+3 Brazil       1999  37737  172006362 0.000219  Americas 
+4 Brazil       2000  80488  174504898 0.000461  Americas 
+5 China        1999 212258 1272915272 0.000167  Asia     
+6 China        2000 213766 1280428583 0.000167  Asia     </code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="그룹-함수-2-summarize" class="slide level2"><h2>그룹 함수 2: <code>summarize()</code>
+</h2>
+
+<img data-src="images/clipboard-1592063625.png" class="r-stretch"></section><section id="그룹-함수-2-summarize-1" class="slide level2"><h2>그룹 함수 2: <code>summarize()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-17" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-17-1">Data</a></li>
+<li><a href="#tabset-17-2"><code>summarize()</code> 1</a></li>
+<li><a href="#tabset-17-3"><code>summarize()</code> 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-17-1">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  country      year  cases population      rate continent
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    
+1 Afghanistan  1999    745   19987071 0.0000373 Asia     
+2 Afghanistan  2000   2666   20595360 0.000129  Asia     
+3 Brazil       1999  37737  172006362 0.000219  Americas 
+4 Brazil       2000  80488  174504898 0.000461  Americas 
+5 China        1999 212258 1272915272 0.000167  Asia     
+6 China        2000 213766 1280428583 0.000167  Asia     </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-17-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb89"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize</a></span><span class="op">(</span><span class="va">table1_new</span>, </span>
+<span>  sum_cases <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">cases</span><span class="op">)</span></span>
+<span>  <span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 1
+  sum_cases
+      &lt;dbl&gt;
+1    547660</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-17-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb91"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1_new</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize</a></span><span class="op">(</span></span>
+<span>    sum_cases <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">cases</span><span class="op">)</span>, </span>
+<span>    mean_rate <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="va">rate</span><span class="op">)</span></span>
+<span>  <span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 2
+  sum_cases mean_rate
+      &lt;dbl&gt;     &lt;dbl&gt;
+1    547660  0.000197</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="그룹-함수-1-2-group_by-summarize" class="slide level2"><h2>그룹 함수 1 + 2: <code>group_by()</code> + <code>summarize()</code>
+</h2>
+
+<img data-src="images/clipboard-1318711495.png" class="r-stretch"></section><section id="그룹-함수-1-2-group_by-summarize-1" class="slide level2"><h2>그룹 함수 1 + 2: <code>group_by()</code> + <code>summarize()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-18" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-18-1">Data</a></li>
+<li><a href="#tabset-18-2">Combination 1</a></li>
+<li><a href="#tabset-18-3">Combination 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-18-1">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  country      year  cases population      rate continent
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    
+1 Afghanistan  1999    745   19987071 0.0000373 Asia     
+2 Afghanistan  2000   2666   20595360 0.000129  Asia     
+3 Brazil       1999  37737  172006362 0.000219  Americas 
+4 Brazil       2000  80488  174504898 0.000461  Americas 
+5 China        1999 212258 1272915272 0.000167  Asia     
+6 China        2000 213766 1280428583 0.000167  Asia     </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-18-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb94"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1_new_group</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">table1_new</span>, <span class="va">continent</span>, <span class="va">year</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize</a></span><span class="op">(</span><span class="va">table1_new_group</span>, </span>
+<span>  sum_cases <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">cases</span><span class="op">)</span>,</span>
+<span>  mean_rate <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="va">rate</span><span class="op">)</span></span>
+<span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 4 × 4
+# Groups:   continent [2]
+  continent  year sum_cases mean_rate
+  &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+1 Americas   1999     37737  0.000219
+2 Americas   2000     80488  0.000461
+3 Asia       1999    213003  0.000102
+4 Asia       2000    216432  0.000148</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-18-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb96"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1_new</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">continent</span>, <span class="va">year</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize</a></span><span class="op">(</span></span>
+<span>    sum_cases <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">cases</span><span class="op">)</span>, </span>
+<span>    sum_pop <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">population</span><span class="op">)</span></span>
+<span>  <span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span></span>
+<span>    rate <span class="op">=</span> <span class="va">sum_cases</span> <span class="op">/</span> <span class="va">sum_pop</span></span>
+<span>  <span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">ungroup</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 4 × 5
+  continent  year sum_cases    sum_pop     rate
+  &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;      &lt;dbl&gt;    &lt;dbl&gt;
+1 Americas   1999     37737  172006362 0.000219
+2 Americas   2000     80488  174504898 0.000461
+3 Asia       1999    213003 1292902343 0.000165
+4 Asia       2000    216432 1301023943 0.000166</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="그룹-함수-3-count" class="slide level2"><h2>그룹 함수 3: <code>count()</code>
+</h2>
+
+<img data-src="images/clipboard-2066641215.png" class="r-stretch"></section><section id="그룹-함수-3-count-1" class="slide level2"><h2>그룹 함수 3: <code>count()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-19" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-19-1">Data</a></li>
+<li><a href="#tabset-19-2"><code>count()</code> 1</a></li>
+<li><a href="#tabset-19-3"><code>count()</code> 2</a></li>
+<li><a href="#tabset-19-4"><code>count()</code> 3</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-19-1">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  country      year  cases population      rate continent
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    
+1 Afghanistan  1999    745   19987071 0.0000373 Asia     
+2 Afghanistan  2000   2666   20595360 0.000129  Asia     
+3 Brazil       1999  37737  172006362 0.000219  Americas 
+4 Brazil       2000  80488  174504898 0.000461  Americas 
+5 China        1999 212258 1272915272 0.000167  Asia     
+6 China        2000 213766 1280428583 0.000167  Asia     </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-19-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb99"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/count.html">count</a></span><span class="op">(</span><span class="va">table1_new</span>, <span class="va">year</span>, <span class="va">continent</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 4 × 3
+   year continent     n
+  &lt;dbl&gt; &lt;chr&gt;     &lt;int&gt;
+1  1999 Americas      1
+2  1999 Asia          2
+3  2000 Americas      1
+4  2000 Asia          2</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-19-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb101"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1_new</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/count.html">count</a></span><span class="op">(</span><span class="va">year</span>, <span class="va">continent</span>, wt <span class="op">=</span> <span class="va">cases</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 4 × 3
+   year continent      n
+  &lt;dbl&gt; &lt;chr&gt;      &lt;dbl&gt;
+1  1999 Americas   37737
+2  1999 Asia      213003
+3  2000 Americas   80488
+4  2000 Asia      216432</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-19-4">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb103"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1_new</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">year</span>, <span class="va">continent</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize</a></span><span class="op">(</span></span>
+<span>    cases_n <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/context.html">n</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>    cases_sum <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">cases</span><span class="op">)</span></span>
+<span>  <span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 4 × 4
+# Groups:   year [2]
+   year continent cases_n cases_sum
+  &lt;dbl&gt; &lt;chr&gt;       &lt;int&gt;     &lt;dbl&gt;
+1  1999 Americas        1     37737
+2  1999 Asia            2    213003
+3  2000 Americas        1     80488
+4  2000 Asia            2    216432</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="그룹-함수-4-across" class="slide level2"><h2>그룹 함수 4: <code>across()</code>
+</h2>
+
+<img data-src="images/clipboard-2406373084.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/r-packages-functions" style="font-size:1rem">https://allisonhorst.com/r-packages-functions</a></p></section><section id="그룹-함수-4-across-1" class="slide level2"><h2>그룹 함수 4: <code>across()</code>
+</h2>
+<div class="panel-tabset">
+<ul id="tabset-20" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-20-1">Data</a></li>
+<li><a href="#tabset-20-2"><code>across()</code> 1</a></li>
+<li><a href="#tabset-20-3"><code>across()</code> 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-20-1">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  country      year  cases population      rate continent
+  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    
+1 Afghanistan  1999    745   19987071 0.0000373 Asia     
+2 Afghanistan  2000   2666   20595360 0.000129  Asia     
+3 Brazil       1999  37737  172006362 0.000219  Americas 
+4 Brazil       2000  80488  174504898 0.000461  Americas 
+5 China        1999 212258 1272915272 0.000167  Asia     
+6 China        2000 213766 1280428583 0.000167  Asia     </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-20-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb106"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize</a></span><span class="op">(</span><span class="va">table1_new</span>, <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">cases</span>, <span class="va">population</span><span class="op">)</span>, <span class="va">mean</span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 2
+   cases population
+   &lt;dbl&gt;      &lt;dbl&gt;
+1 91277. 490072924.</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-20-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb108"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">table1_new</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">year</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize</a></span><span class="op">(</span></span>
+<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
+<span>      <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">cases</span>, <span class="va">population</span>, <span class="va">rate</span><span class="op">)</span>,</span>
+<span>      <span class="va">mean</span>,</span>
+<span>      .names <span class="op">=</span> <span class="st">"mean_{.col}"</span></span>
+<span>    <span class="op">)</span></span>
+<span>  <span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+   year mean_cases mean_population mean_rate
+  &lt;dbl&gt;      &lt;dbl&gt;           &lt;dbl&gt;     &lt;dbl&gt;
+1  1999     83580       488302902.  0.000141
+2  2000     98973.      491842947   0.000253</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="다중-테이블-결합-종류" class="slide level2"><h2>다중 테이블 결합: 종류</h2>
+<ul>
+<li><p>테이블 조인(join): 두 개 데이터 프레임을 공통키(common key)를 이용해 결합함으로써 하나의 데이터 프레임을 생성</p></li>
+<li><p>테이블 병합(merge): 두 데이터 프레임을 결합해 새로운 단일한 프레임을 생성한다는 의미에서는 테이블 조인과 동일하지만, 공통키가 없으며, 행과 열 중 하나는 반드시 동일해야 함.</p></li>
+</ul></section><section id="테이블-조인-키key" class="slide level2"><h2>테이블 조인: 키(key)</h2>
+
+<img data-src="images/clipboard-1575493085.png" class="r-stretch"></section><section id="테이블-조인-유형" class="slide level2"><h2>테이블 조인: 유형</h2>
+<ul>
+<li><p><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html"><code>left_join()</code></a>: 첫 번째 테이블은 그대로 둔 상태에서 두 번째 테이블을 결합함으로써 두 번째 테이블의 열을 가져옴</p></li>
+<li><p><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html"><code>right_join()</code></a>: 두 번째 테이블은 그대로 둔 상태에서 첫 번째 테이블을 결합함으로써 첫 번째 테이블의 열을 가져옴</p></li>
+<li><p><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html"><code>inner_join()</code></a>: 두 테이블 모두에 존재하는 열을 취함</p></li>
+<li><p><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html"><code>full_join()</code></a>: 최소한 한 테이블에 존재하는 열을 모두 취함</p></li>
+<li><p><a href="https://dplyr.tidyverse.org/reference/filter-joins.html"><code>semi_join()</code></a>: 첫 번째 테이블의 행 중 두 번째 테이블에 대응하는 행이 있는 것만 취함</p></li>
+<li><p><a href="https://dplyr.tidyverse.org/reference/filter-joins.html"><code>anti_join()</code></a>: 첫 번째 테이블의 행 중 두 번째 테이블에 대응하는 행이 없는 것만 취함</p></li>
+</ul></section><section id="테이블-조인-유형-1" class="slide level2"><h2>테이블 조인: 유형</h2>
+
+<img data-src="images/clipboard-1394869847.png" class="quarto-figure quarto-figure-center r-stretch"></section><section id="테이블-조인-유형-2" class="slide level2"><h2>테이블 조인: 유형</h2>
+<div class="quarto-layout-panel" data-layout="[45, -5, 45]">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 47.4%;justify-content: center;">
+<p><img data-src="images/clipboard-3276497169.png"></p>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 5.3%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 47.4%;justify-content: center;">
+<p><img data-src="images/clipboard-1577298199.png"></p>
+</div>
+</div>
+</div>
+</section><section id="테이블-조인-유형-3" class="slide level2"><h2>테이블 조인: 유형</h2>
+<div class="quarto-layout-panel" data-layout="[45, -5, 45]">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 47.4%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/clipboard-2197162614.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 5.3%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 47.4%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/clipboard-2555805146.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section><section id="테이블-병합-주요-함수" class="slide level2"><h2>테이블 병합: 주요 함수</h2>
+<ul>
+<li>
+<code>bind_row()</code>: 컬럼이 동일한 두 테이블을 상하로 연결</li>
+<li>
+<code>bind_col()</code>: 행이 동일한 두 테이블을 좌우로 연결</li>
+</ul></section><section id="테이블-병합-주요-함수-1" class="slide level2"><h2>테이블 병합: 주요 함수</h2>
+<div class="panel-tabset">
+<ul id="tabset-21" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-21-1">bind_row 1</a></li>
+<li><a href="#tabset-21-2">bind_row 2</a></li>
+<li><a href="#tabset-21-3">bind_col 1</a></li>
+<li><a href="#tabset-21-4">bind_col 2</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-21-1">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb110"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/jennybc/gapminder">gapminder</a></span><span class="op">)</span></span>
+<span><span class="va">gap_1957</span> <span class="op">&lt;-</span> <span class="va">gapminder</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">year</span> <span class="op">==</span> <span class="fl">1957</span><span class="op">)</span></span>
+<span><span class="va">gap_1982</span> <span class="op">&lt;-</span> <span class="va">gapminder</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">year</span> <span class="op">==</span> <span class="fl">1982</span><span class="op">)</span></span>
+<span><span class="va">gap_2007</span> <span class="op">&lt;-</span> <span class="va">gapminder</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">year</span> <span class="op">==</span> <span class="fl">2007</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+<div id="tabset-21-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb111"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">gapminder_merge_row</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/bind_rows.html">bind_rows</a></span><span class="op">(</span></span>
+<span>  <span class="va">gap_1957</span>, <span class="va">gap_1982</span>, <span class="va">gap_2007</span></span>
+<span><span class="op">)</span></span>
+<span><span class="va">gapminder_merge_row</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 426 × 6
+   country     continent  year lifeExp      pop gdpPercap
+   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;
+ 1 Afghanistan Asia       1957    30.3  9240934      821.
+ 2 Albania     Europe     1957    59.3  1476505     1942.
+ 3 Algeria     Africa     1957    45.7 10270856     3014.
+ 4 Angola      Africa     1957    32.0  4561361     3828.
+ 5 Argentina   Americas   1957    64.4 19610538     6857.
+ 6 Australia   Oceania    1957    70.3  9712569    10950.
+ 7 Austria     Europe     1957    67.5  6965860     8843.
+ 8 Bahrain     Asia       1957    53.8   138655    11636.
+ 9 Bangladesh  Asia       1957    39.3 51365468      662.
+10 Belgium     Europe     1957    69.2  8989111     9715.
+# ℹ 416 more rows</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-21-3">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb113"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">gap_var1</span> <span class="op">&lt;-</span> <span class="va">gapminder</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">country</span>, <span class="va">continent</span>, <span class="va">year</span><span class="op">)</span></span>
+<span><span class="va">gap_var2</span> <span class="op">&lt;-</span> <span class="va">gapminder</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">lifeExp</span>, <span class="va">pop</span>, <span class="va">gdpPercap</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+<div id="tabset-21-4">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb114"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">gapminder_merge_col</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/bind_cols.html">bind_cols</a></span><span class="op">(</span><span class="va">gap_var1</span>, <span class="va">gap_var2</span><span class="op">)</span></span>
+<span><span class="va">gapminder_merge_col</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1,704 × 6
+   country     continent  year lifeExp      pop gdpPercap
+   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;
+ 1 Afghanistan Asia       1952    28.8  8425333      779.
+ 2 Afghanistan Asia       1957    30.3  9240934      821.
+ 3 Afghanistan Asia       1962    32.0 10267083      853.
+ 4 Afghanistan Asia       1967    34.0 11537966      836.
+ 5 Afghanistan Asia       1972    36.1 13079460      740.
+ 6 Afghanistan Asia       1977    38.4 14880372      786.
+ 7 Afghanistan Asia       1982    39.9 12881816      978.
+ 8 Afghanistan Asia       1987    40.8 13867957      852.
+ 9 Afghanistan Asia       1992    41.7 16317921      649.
+10 Afghanistan Asia       1997    41.8 22227415      635.
+# ℹ 1,694 more rows</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</section></section>
+</div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="snu_edu_1.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>https://sangillee.snu.ac.kr/</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="site_libs/revealjs/dist/reveal.js"></script><!-- reveal.js plugins --><script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script><script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script><script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script><script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script><script src="site_libs/revealjs/plugin/reveal-pointer/pointer.js"></script><script src="site_libs/revealjs/plugin/quarto-support/support.js"></script><script src="site_libs/revealjs/plugin/notes/notes.js"></script><script src="site_libs/revealjs/plugin/search/search.js"></script><script src="site_libs/revealjs/plugin/zoom/zoom.js"></script><script src="site_libs/revealjs/plugin/math/math.js"></script><script>window.define = window.backupDefine; window.backupDefine = undefined;</script><script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'pointer': {"key":"q","color":"red","pointerSize":20,"alwaysVisible":false},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'fast',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 960 * 1.5,
+
+        height: 700 * 1.5,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 5.0e-2,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealPointer, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script><script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+    
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+    
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+    
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+    
+      })();
+    </script><script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "복사완료!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "복사완료!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+
+
+</body></html>

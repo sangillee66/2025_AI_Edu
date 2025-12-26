@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="  이상일(서울대학교 지리교육과 교수)">
+<title>quarto-inputdf665afdae55efd8 – AI 융합교육을 위한 인문사회 콘텐츠 설계</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-2257b62178e5756be85c38e9dcb41134.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "일치 없음",
+    "search-matching-documents-text": "일치된 문서",
+    "search-copy-link-title": "검색 링크 복사",
+    "search-hide-matches-text": "추가 검색 결과 숨기기",
+    "search-more-match-text": "추가 검색결과",
+    "search-more-matches-text": "추가 검색결과",
+    "search-clear-button-title": "제거",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "취소",
+    "search-submit-button-title": "검색",
+    "search-label": "검색"
+  }
+}</script><link rel="stylesheet" href="styles.css">
+</head>
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./snu_edu_1.png" alt="" class="navbar-logo light-content"><img src="./snu_edu_1.png" alt="" class="navbar-logo dark-content"></a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">AI 융합교육을 위한 인문사회 콘텐츠 설계</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="검색"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="탐색 전환" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+<li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">프로그램 개요</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./lecture.html"> 
+<span class="menu-text">학습 자료</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./webapp.html"> 
+<span class="menu-text">교수ㆍ학습 웹 앱</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./reference.html"> 
+<span class="menu-text">참고문헌</span></a>
+  </li>  
+</ul>
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://sangillee.snu.ac.kr/"> <i class="bi bi-house-door" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:si_lee@snu.ac.kr"> <i class="bi bi-envelope-arrow-up" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/sangillee66"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+</div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">목차</h2>
+   
+  <ul>
+<li>
+<a href="#%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-r" id="toc-데이터사이언스를-위한-r" class="nav-link active" data-scroll-target="#%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-r"><span style="color:coral">데이터사이언스를 위한 R</span></a>
+  <ul class="collapse">
+<li><a href="#%EB%B0%94%EC%9D%B4%EB%B8%94" id="toc-바이블" class="nav-link" data-scroll-target="#%EB%B0%94%EC%9D%B4%EB%B8%94">바이블</a></li>
+  <li><a href="#%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-r" id="toc-데이터사이언스-프로세스와-r" class="nav-link" data-scroll-target="#%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-r">데이터사이언스 프로세스와 R</a></li>
+  <li><a href="#%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-r-1" id="toc-데이터사이언스-프로세스와-r-1" class="nav-link" data-scroll-target="#%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-r-1">데이터사이언스 프로세스와 R</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#%ED%8C%A8%ED%82%A4%EC%A7%80-packages" id="toc-패키지-packages" class="nav-link" data-scroll-target="#%ED%8C%A8%ED%82%A4%EC%A7%80-packages"><span style="color:coral">패키지 Packages</span></a>
+  <ul class="collapse">
+<li><a href="#%ED%8C%A8%ED%82%A4%EC%A7%80%EB%9E%80" id="toc-패키지란" class="nav-link" data-scroll-target="#%ED%8C%A8%ED%82%A4%EC%A7%80%EB%9E%80">패키지란?</a></li>
+  <li><a href="#%ED%8C%A8%ED%82%A4%EC%A7%80%EC%9D%98-%EC%A2%85%EB%A5%98" id="toc-패키지의-종류" class="nav-link" data-scroll-target="#%ED%8C%A8%ED%82%A4%EC%A7%80%EC%9D%98-%EC%A2%85%EB%A5%98">패키지의 종류</a></li>
+  <li><a href="#%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0" id="toc-패키지-설치하기" class="nav-link" data-scroll-target="#%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0">패키지 설치하기</a></li>
+  <li><a href="#%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0" id="toc-패키지-불러오기" class="nav-link" data-scroll-target="#%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0">패키지 불러오기</a></li>
+  <li><a href="#%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0" id="toc-패키지-만들기" class="nav-link" data-scroll-target="#%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0">패키지 만들기</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#%ED%83%80%EC%9D%B4%EB%94%94%EB%B2%84%EC%8A%A4-tidyverse" id="toc-타이디버스-tidyverse" class="nav-link" data-scroll-target="#%ED%83%80%EC%9D%B4%EB%94%94%EB%B2%84%EC%8A%A4-tidyverse"><span style="color:coral">타이디버스 Tidyverse</span></a>
+  <ul class="collapse">
+<li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#tidy-universe" id="toc-tidy-universe" class="nav-link" data-scroll-target="#tidy-universe">Tidy + Universe</a></li>
+  <li><a href="#%ED%83%80%EC%9D%B4%EB%94%94%EB%B2%84%EC%8A%A4%EC%99%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4" id="toc-타이디버스와-데이터사이언스-프로세스" class="nav-link" data-scroll-target="#%ED%83%80%EC%9D%B4%EB%94%94%EB%B2%84%EC%8A%A4%EC%99%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4">타이디버스와 데이터사이언스 프로세스</a></li>
+  <li><a href="#%ED%83%80%EC%9D%B4%EB%94%94%EB%B2%84%EC%8A%A4-%EC%B2%A0%ED%95%99-4%EB%8C%80-%EC%9B%90%EB%A6%AC" id="toc-타이디버스-철학-4대-원리" class="nav-link" data-scroll-target="#%ED%83%80%EC%9D%B4%EB%94%94%EB%B2%84%EC%8A%A4-%EC%B2%A0%ED%95%99-4%EB%8C%80-%EC%9B%90%EB%A6%AC">타이디버스 철학: 4대 원리</a></li>
+  <li><a href="#%ED%83%80%EC%9D%B4%EB%94%94%EB%B2%84%EC%8A%A4-%EC%B2%A0%ED%95%99" id="toc-타이디버스-철학" class="nav-link" data-scroll-target="#%ED%83%80%EC%9D%B4%EB%94%94%EB%B2%84%EC%8A%A4-%EC%B2%A0%ED%95%99">타이디버스 철학</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#%ED%8C%8C%EC%9D%B4%ED%94%84-%EC%97%B0%EC%82%B0%EC%9E%90-pipe-operator" id="toc-파이프-연산자-pipe-operator" class="nav-link" data-scroll-target="#%ED%8C%8C%EC%9D%B4%ED%94%84-%EC%97%B0%EC%82%B0%EC%9E%90-pipe-operator"><span style="color:coral">파이프 연산자 Pipe Operator</span></a>
+  <ul class="collapse">
+<li><a href="#magrittr-%ED%8C%A8%ED%82%A4%EC%A7%80" id="toc-magrittr-패키지" class="nav-link" data-scroll-target="#magrittr-%ED%8C%A8%ED%82%A4%EC%A7%80">magrittr 패키지</a></li>
+  <li><a href="#%EA%B8%B0%EB%B3%B8-%EC%9B%90%EB%A6%AC" id="toc-기본-원리" class="nav-link" data-scroll-target="#%EA%B8%B0%EB%B3%B8-%EC%9B%90%EB%A6%AC">기본 원리</a></li>
+  <li><a href="#%EA%B8%B0%EB%B3%B8-%EC%9B%90%EB%A6%AC-1" id="toc-기본-원리-1" class="nav-link" data-scroll-target="#%EA%B8%B0%EB%B3%B8-%EC%9B%90%EB%A6%AC-1">기본 원리</a></li>
+  <li><a href="#%EA%B8%B0%EB%B3%B8-%EC%9B%90%EB%A6%AC-2" id="toc-기본-원리-2" class="nav-link" data-scroll-target="#%EA%B8%B0%EB%B3%B8-%EC%9B%90%EB%A6%AC-2">기본 원리</a></li>
+  <li><a href="#%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%ED%8C%8C%EC%9D%B4%ED%94%84-%EC%97%B0%EC%82%B0%EC%9E%90" id="toc-네이티브-파이프-연산자" class="nav-link" data-scroll-target="#%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%ED%8C%8C%EC%9D%B4%ED%94%84-%EC%97%B0%EC%82%B0%EC%9E%90">네이티브 파이프 연산자</a></li>
+  <li><a href="#%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%ED%8C%8C%EC%9D%B4%ED%94%84-%EC%97%B0%EC%82%B0%EC%9E%90" id="toc-데이터사이언스-프로세스와-파이프-연산자" class="nav-link" data-scroll-target="#%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%ED%8C%8C%EC%9D%B4%ED%94%84-%EC%97%B0%EC%82%B0%EC%9E%90">데이터사이언스 프로세스와 파이프 연산자</a></li>
+  <li><a href="#no-error-no-gain" id="toc-no-error-no-gain" class="nav-link" data-scroll-target="#no-error-no-gain">No error, no gain!</a></li>
+  </ul>
+</li>
+  </ul><div class="quarto-alternate-formats"><h2>기타 형식</h2><ul><li><a href="R_lec_02_2025.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title"><div class="line-block">
+<span style="color:coral;font-size:0.6em">R Lecture 2</span><br><span style="font-size:1em">R과 데이터사이언스</span>
+</div></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">저자</div>
+    <div class="quarto-title-meta-contents">
+             <p><br> 이상일(서울대학교 지리교육과 교수) </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">공개</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2025년 9월 16일</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header><section id="데이터사이언스를-위한-r" class="level1"><h1><span style="color:coral">데이터사이언스를 위한 R</span></h1>
+<section id="바이블" class="level2"><h2 class="anchored" data-anchor-id="바이블">바이블</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="images/clipboard-4118011220.png" class="img-fluid figure-img"></p>
+<figcaption><a href="https://r4ds.hadley.nz/" style="font-size:1.25rem">https://r4ds.hadley.nz/</a></figcaption></figure>
+</div>
+</section><section id="데이터사이언스-프로세스와-r" class="level2"><h2 class="anchored" data-anchor-id="데이터사이언스-프로세스와-r">데이터사이언스 프로세스와 R</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="images/clipboard-3326006124.png" class="img-fluid figure-img"></p>
+<figcaption><a href="https://posit.co/blog/artist-in-residence/" style="font-size:1.25rem">https://posit.co/blog/artist-in-residence/</a></figcaption></figure>
+</div>
+</section><section id="데이터사이언스-프로세스와-r-1" class="level2"><h2 class="anchored" data-anchor-id="데이터사이언스-프로세스와-r-1">데이터사이언스 프로세스와 R</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="images/clipboard-411135231.png" class="img-fluid figure-img"></p>
+<figcaption><a href="https://r4ds.hadley.nz/intro" style="font-size:1.25rem">https://r4ds.hadley.nz/intro</a></figcaption></figure>
+</div>
+</section></section><section id="패키지-packages" class="level1"><h1><span style="color:coral">패키지 Packages</span></h1>
+<section id="패키지란" class="level2"><h2 class="anchored" data-anchor-id="패키지란">패키지란?</h2>
+<ul>
+<li>특정 기능을 손쉽게 사용할 수 있도록 <strong>함수</strong>, 데이터셋, 설명 문서 등을 하나로 묶어 배포하는 단위</li>
+</ul>
+<p><img src="images/clipboard-3555057991.png" class="img-fluid"></p>
+</section><section id="패키지의-종류" class="level2"><h2 class="anchored" data-anchor-id="패키지의-종류">패키지의 종류</h2>
+<ul>
+<li><p><a href="https://cran.r-project.org/">CRAN (The Comprehensive R Archive Network)</a></p></li>
+<li><p><a href="https://gallery.shinyapps.io/cran-gauge/">CRAN Download Monitor</a></p></li>
+<li>
+<p>사례: <a href="https://ggplot2.tidyverse.org/">ggplot2</a>의 경우</p>
+<ul>
+<li><p><a href="https://ggplot2.tidyverse.org/">패키지 홈페이지</a></p></li>
+<li><p><a href="https://exts.ggplot2.tidyverse.org/">익스텐션 패키지</a></p></li>
+</ul>
+</li>
+</ul>
+<p><img src="images/clipboard-3146270133.png" class="absolute img-fluid" data-top="250" data-right="100" width="550"></p>
+</section><section id="패키지-설치하기" class="level2"><h2 class="anchored" data-anchor-id="패키지-설치하기">패키지 설치하기</h2>
+<ul>
+<li>
+<p>CRAN 패키지인 경우</p>
+<ul>
+<li><p><code>install.packages("패키지명")</code></p></li>
+<li><p>아웃풋(output) 창의 Packages 탭</p></li>
+</ul>
+</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="images/clipboard-1002522383.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ul>
+<li>
+<p>비 CRAN 패키지의 경우</p>
+<ul>
+<li><code>remotes::install_github("사용자명/저장소명")</code></li>
+</ul>
+</li>
+</ul></section><section id="패키지-불러오기" class="level2"><h2 class="anchored" data-anchor-id="패키지-불러오기">패키지 불러오기</h2>
+<ul>
+<li>
+<p>패키지의 네임스페이스(namespace)를 현재 R 세션에 로드하는 것</p>
+<ul>
+<li>패키지 안의 함수, 객체 등을 지금 세션에서 바로 사용할 수 있도록 연결</li>
+</ul>
+</li>
+<li><p><code><a href="https://rdrr.io/r/base/library.html">library(패키지명)</a></code></p></li>
+<li><p>새로운 R 세션이 시작되면 필요한 패키지를 다시 불어와야 함</p></li>
+</ul></section><section id="패키지-만들기" class="level2" data-visibility="hidden"><h2 data-visibility="hidden" class="anchored" data-anchor-id="패키지-만들기">패키지 만들기</h2>
+<ul>
+<li><p><a href="https://r-pkgs.org/">해들리 위컴의 책</a></p></li>
+<li><p><a href="https://psyteachr.github.io/intro-r-pkgs/">가이드 1</a></p></li>
+<li><p><a href="https://indrajeetpatil.github.io/awesome-r-pkgtools/">가이드 2</a></p></li>
+<li><p><a href="https://pkgdown.r-lib.org/">패키지 웹사이트</a></p></li>
+<li><p><a href="https://github.com/rstudio/hex-stickers/?tab=readme-ov-file">헥사곤 로고</a></p></li>
+<li><p><a href="https://github.com/GuangchuangYu/hexSticker?tab=readme-ov-file">헥사곤 로고 만들기 패키지</a></p></li>
+</ul></section></section><section id="타이디버스-tidyverse" class="level1"><h1><span style="color:coral">타이디버스 Tidyverse</span></h1>
+<section id="section" class="level2"><h2 class="anchored" data-anchor-id="section"></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="images/clipboard-3736095484.png" class="img-fluid figure-img"></p>
+<figcaption><a href="https://allisonhorst.com/r-packages-functions" style="font-size:1.25rem">https://allisonhorst.com/r-packages-functions</a></figcaption></figure>
+</div>
+</section><section id="tidy-universe" class="level2"><h2 class="anchored" data-anchor-id="tidy-universe">Tidy + Universe</h2>
+<ul>
+<li><p>“정돈된 데이터(tidy data) 처리와 분석을 위한 하나의 우주적 생태계”</p></li>
+<li>
+<p>데이터사이언스를 일관성 있게 수행하기 위한 패키지들의 패키지</p>
+<ul>
+<li><code><a href="https://tidyverse.tidyverse.org">library(tidyverse)</a></code></li>
+</ul>
+</li>
+</ul>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="images/clipboard-2981827317.png" class="img-fluid figure-img" style="width:65.0%"></p>
+<figcaption><a href="https://tidyverse.tidyverse.org/" style="font-size:1.25rem">https://tidyverse.tidyverse.org/</a></figcaption></figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://sangillee.snu.ac.kr/data_science/images/tidyverse_9.PNG" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption><a href="https://www.tidyverse.org/" style="font-size:1.25rem">https://www.tidyverse.org/</a></figcaption></figure>
+</div>
+</div>
+</div>
+</div>
+</section><section id="타이디버스와-데이터사이언스-프로세스" class="level2"><h2 class="anchored" data-anchor-id="타이디버스와-데이터사이언스-프로세스">타이디버스와 데이터사이언스 프로세스</h2>
+<p><img src="images/tidyverse_process.png" class="img-fluid"></p>
+</section><section id="타이디버스-철학-4대-원리" class="level2"><h2 class="anchored" data-anchor-id="타이디버스-철학-4대-원리">타이디버스 철학: 4대 원리</h2>
+<p><a href="https://design.tidyverse.org/">타이디 디자인 원리(Tidy Design Principles)</a></p>
+<ul>
+<li>
+<p>인간중심성 Human-centeredness</p>
+<ul>
+<li>For an end-user programmer</li>
+</ul>
+</li>
+<li>
+<p>일관성 Consistency</p>
+<ul>
+<li>The smallest possible set of key ideas, used as comprehensively as possible</li>
+</ul>
+</li>
+<li>
+<p>조합성 Composability</p>
+<ul>
+<li>Many simple pieces, composed for a larger task using operators such as |&gt; and +</li>
+</ul>
+</li>
+<li>
+<p>포용성 Inclusiveness</p>
+<ul>
+<li>Towards a diverse, open, and friendly community</li>
+</ul>
+</li>
+</ul></section><section id="타이디버스-철학" class="level2"><h2 class="anchored" data-anchor-id="타이디버스-철학">타이디버스 철학</h2>
+<p><a href="https://style.tidyverse.org/">타이디버스 스타일 가이드</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="images/clipboard-4104447783.png" class="img-fluid figure-img"></p>
+<figcaption><a href="https://allisonhorst.com/r-packages-functions" style="font-size:1.25rem">https://allisonhorst.com/r-packages-functions</a></figcaption></figure>
+</div>
+</section></section><section id="파이프-연산자-pipe-operator" class="level1"><h1><span style="color:coral">파이프 연산자 Pipe Operator</span></h1>
+<section id="magrittr-패키지" class="level2"><h2 class="anchored" data-anchor-id="magrittr-패키지">magrittr 패키지</h2>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="images/clipboard-30645075.png" class="img-fluid figure-img"></p>
+<figcaption><a href="https://magrittr.tidyverse.org/" style="font-size:1.25rem">https://magrittr.tidyverse.org/</a></figcaption></figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/clipboard-4078158871.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+</section><section id="기본-원리" class="level2"><h2 class="anchored" data-anchor-id="기본-원리">기본 원리</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="images/clipboard-3095511909.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</section><section id="기본-원리-1" class="level2"><h2 class="anchored" data-anchor-id="기본-원리-1">기본 원리</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="images/piping in R is like baking.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</section><section id="기본-원리-2" class="level2"><h2 class="anchored" data-anchor-id="기본-원리-2">기본 원리</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist">
+<li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Base R 1</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Base R 2</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">파이프 연산자</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">ingredients</span> <span class="op">&lt;-</span> <span class="fu">tibble</span><span class="op">(</span><span class="va">우유</span>, <span class="va">계란</span>, <span class="va">밀가루</span><span class="op">)</span></span>
+<span><span class="va">mix_result</span> <span class="op">&lt;-</span> <span class="fu">mix</span><span class="op">(</span><span class="va">ingredients</span>, <span class="va">강도</span>, <span class="va">혼합시간</span>, <span class="va">...</span><span class="op">)</span></span>
+<span><span class="va">bake_result</span> <span class="op">&lt;-</span> <span class="fu">bake</span><span class="op">(</span><span class="va">mix_result</span>, <span class="va">온도</span>, <span class="va">굽기시간</span>, <span class="va">...</span><span class="op">)</span></span>
+<span><span class="va">decorate_result</span> <span class="op">&lt;-</span> <span class="fu">decorate</span><span class="op">(</span><span class="va">bake_result</span>, <span class="va">장식1</span>, <span class="va">장식2</span>, <span class="va">...</span><span class="op">)</span></span>
+<span><span class="va">slice_result</span> <span class="op">&lt;-</span> <span class="fu">slice</span><span class="op">(</span><span class="va">decorate_result</span>, <span class="va">절단도구</span>, <span class="va">등분수</span>, <span class="va">...</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">slice_result</span> <span class="op">&lt;-</span> <span class="fu">slice</span><span class="op">(</span></span>
+<span>  <span class="fu">decorate</span><span class="op">(</span></span>
+<span>    <span class="fu">bake</span><span class="op">(</span></span>
+<span>      <span class="fu">mix</span><span class="op">(</span></span>
+<span>        <span class="fu">tibble</span><span class="op">(</span></span>
+<span>          <span class="va">우유</span>, <span class="va">계란</span>, <span class="va">밀가루</span></span>
+<span>        <span class="op">)</span>, <span class="va">강도</span>, <span class="va">혼합시간</span>, <span class="va">...</span></span>
+<span>      <span class="op">)</span>, <span class="va">온도</span>, <span class="va">굽기시간</span>, <span class="va">...</span></span>
+<span>    <span class="op">)</span>, <span class="va">장식1</span>, <span class="va">장식2</span>, <span class="va">...</span> </span>
+<span>  <span class="op">)</span>, <span class="va">절단도구</span>, <span class="va">등분수</span>, <span class="va">...</span></span>
+<span><span class="op">)</span> </span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">tibble</span><span class="op">(</span><span class="va">우유</span>, <span class="va">계란</span>, <span class="va">밀가루</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu">mix</span><span class="op">(</span><span class="va">강도</span>, <span class="va">혼합시간</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu">bake</span><span class="op">(</span><span class="va">온도</span>, <span class="va">굽기시간</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu">decorate</span><span class="op">(</span><span class="va">장식1</span>, <span class="va">장식2</span>, <span class="va">...</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu">slice</span><span class="op">(</span><span class="va">절단도구</span>, <span class="va">등분수</span><span class="op">)</span> <span class="op">-&gt;</span> <span class="va">slice_result</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="네이티브-파이프-연산자" class="level2"><h2 class="anchored" data-anchor-id="네이티브-파이프-연산자">네이티브 파이프 연산자</h2>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/clipboard-2382832838.png" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/clipboard-39249103.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+</section><section id="데이터사이언스-프로세스와-파이프-연산자" class="level2"><h2 class="anchored" data-anchor-id="데이터사이언스-프로세스와-파이프-연산자">데이터사이언스 프로세스와 파이프 연산자</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="images/clipboard-174079750.png" class="img-fluid figure-img"></p>
+<figcaption><a href="https://www.rforecology.com/post/how-to-use-pipes/" style="font-size:1.25rem">https://www.rforecology.com/post/how-to-use-pipes/</a></figcaption></figure>
+</div>
+</section><section id="no-error-no-gain" class="level2"><h2 class="anchored" data-anchor-id="no-error-no-gain">No error, no gain!</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="images/clipboard-229605073.png" class="img-fluid figure-img"></p>
+<figcaption><a href="https://allisonhorst.com/everything-else" style="font-size:1.25rem">https://allisonhorst.com/everything-else</a></figcaption></figure>
+</div>
+
+
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "복사완료!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "복사완료!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+</body></html>
