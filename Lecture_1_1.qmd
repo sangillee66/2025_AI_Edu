@@ -49,6 +49,8 @@ editor_options:
   chunk_output_type: console
 ---
 
+# [도입]{style="color:coral"}
+
 ## 
 
 ![](images/clipboard-4074721109.png)
@@ -184,6 +186,8 @@ editor_options:
 ## 
 
 ![](images/clipboard-419758347.png)
+
+# [TPACK과 AIㆍ디지털 역량]{style="color:coral"}
 
 ## TPACK: 개념
 
@@ -449,7 +453,7 @@ seq(from = 2, to = 100, by = 2)
 ## Base R: 그 외 많이 쓰이는 함수 {.scrollable .smaller}
 
 | 분류           | 함수                                                     |
-|--------------------|----------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | 논리형 판별    | `is.na()`, `is.numeric()`, `is.character()`, `is.null()` |
 | 수열/반복      | `seq()`, `rep()`                                         |
 | 난수/표본 생성 | `sample()`, `rnorm()`                                    |
