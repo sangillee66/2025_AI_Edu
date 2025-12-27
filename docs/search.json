@@ -1124,14 +1124,14 @@
     "href": "Lecture_1_1.html#section-7",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT"
+    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT"
   },
   {
     "objectID": "Lecture_1_1.html#section-8",
     "href": "Lecture_1_1.html#section-8",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "튜링 테스트  by  앨런 튜링  Alan Turing  (1949)\n\n\n\nhttps://en.wikipedia.org/wiki/Turing_test"
+    "text": "튜링 테스트  by  앨런 튜링  Alan Turing  (1949)\n\n\nhttps://en.wikipedia.org/wiki/Turing_test"
   },
   {
     "objectID": "Lecture_1_1.html#section-9",
@@ -1159,14 +1159,14 @@
     "href": "Lecture_1_1.html#section-12",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT\n\n\n“생성 능력을 가진, 사전학습된,  트랜스포머 구조 기반 언어모델” Generative Pre-tranind Transformer"
+    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT\n“생성 능력을 가진, 사전학습된,  트랜스포머 구조 기반 언어모델” Generative Pre-tranind Transformer"
   },
   {
     "objectID": "Lecture_1_1.html#gpt",
     "href": "Lecture_1_1.html#gpt",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
-    "section": "",
-    "text": "Generative 생성적\n\n입력을 분류 및 분석하는 것이 아니라 새로운 텍스트를 생성할 수 있음\n텍스트 뿐만 아니라, 이미지, 음성/오디오, 비디오, 코드, 멀티모달 생성\n\n\n\nPre-trained 사전학습된\n\n방대한 범용 텍스트 데이터로 일반 언어 패턴을 미리 학습\n문법, 의미, 맥락, 지식 패턴을 학습\n\n\n\nTransformer 트랜스포머\n\n학습 메커니즘: 딥러닝 신경망 구조\n\n‘셀프 어텐션(self attention)’\n\n문장 내 각 요소를 문장 전체 맥락 속에서 재정의\n문맥에 맞는 해석 및 거리 단어 간 관계 포착에 유리"
+    "section": "GPT",
+    "text": "GPT\n\n\nGenerative 생성적\n\n입력을 분류 및 분석하는 것이 아니라 새로운 텍스트를 생성할 수 있음\n텍스트 뿐만 아니라, 이미지, 음성/오디오, 비디오, 코드, 멀티모달 생성\n\n\n\nPre-trained 사전학습된\n\n방대한 범용 텍스트 데이터로 일반 언어 패턴을 미리 학습\n문법, 의미, 맥락, 지식 패턴을 학습\n\n\n\nTransformer 트랜스포머\n\n학습 메커니즘: 딥러닝 신경망 구조\n\n‘셀프 어텐션(self attention)’\n\n문장 내 각 요소를 문장 전체 맥락 속에서 재정의\n문맥에 맞는 해석 및 거리 단어 간 관계 포착에 유리"
   },
   {
     "objectID": "Lecture_1_1.html#section-13",
@@ -1236,7 +1236,7 @@
     "href": "Lecture_1_1.html#tpack-dbl-프레임워크",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "TPACK-DBL 프레임워크",
-    "text": "TPACK-DBL 프레임워크\n\n\n\n\n(Baran and Uygun, 2016, 49)"
+    "text": "TPACK-DBL 프레임워크\n\n(Baran and Uygun, 2016, 49)"
   },
   {
     "objectID": "Lecture_1_1.html#tpack-dbl-프레임워크-1",
@@ -1306,7 +1306,7 @@
     "href": "Lecture_1_1.html#r의-탄생-1.0.0버전2000년",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "R의 탄생: 1.0.0버전(2000년)",
-    "text": "R의 탄생: 1.0.0버전(2000년)\n\n\nhttps://www.r-consortium.org/blog/2023/02/28/happy-23rd-birthday-r"
+    "text": "R의 탄생: 1.0.0버전(2000년)\n\nhttps://www.r-consortium.org/blog/2023/02/28/happy-23rd-birthday-r"
   },
   {
     "objectID": "Lecture_1_1.html#base-r-기초-개념",
@@ -1320,7 +1320,7 @@
     "href": "Lecture_1_1.html#base-r-연산자-operators",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "Base R: 연산자 Operators",
-    "text": "Base R: 연산자 Operators\n\n\nhttps://learnetutorials.com/r-programming/operators-and-types"
+    "text": "Base R: 연산자 Operators\n\nhttps://learnetutorials.com/r-programming/operators-and-types"
   },
   {
     "objectID": "Lecture_1_1.html#base-r-할당-연산자",
@@ -1348,7 +1348,7 @@
     "href": "Lecture_1_1.html#base-r-함수-functions",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "Base R: 함수 functions",
-    "text": "Base R: 함수 functions\n\nseq(from = 2, to = 100, by = 2)\n\n\n\nhttps://www.r4epi.com/speaking-rs-language"
+    "text": "Base R: 함수 functions\n\nseq(from = 2, to = 100, by = 2)\n\n\nhttps://www.r4epi.com/speaking-rs-language"
   },
   {
     "objectID": "Lecture_1_1.html#base-r-주요-산술-함수",
@@ -1397,7 +1397,7 @@
     "href": "Lecture_1_1.html#ide-rstudio2011년-2",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "IDE: RStudio(2011년)",
-    "text": "IDE: RStudio(2011년)\n\n\nhttps://djangostars.com/blog/python-ide/"
+    "text": "IDE: RStudio(2011년)\n\nhttps://djangostars.com/blog/python-ide/"
   },
   {
     "objectID": "Lecture_1_1.html#ide-rstudio",
@@ -1439,14 +1439,14 @@
     "href": "Lecture_1_1.html#데이터사이언스와-r-데이터사이언스-프로세스",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "데이터사이언스와 R: 데이터사이언스 프로세스",
-    "text": "데이터사이언스와 R: 데이터사이언스 프로세스\n\n\nhttps://r4ds.hadley.nz/intro"
+    "text": "데이터사이언스와 R: 데이터사이언스 프로세스\n\nhttps://r4ds.hadley.nz/intro"
   },
   {
     "objectID": "Lecture_1_1.html#데이터사이언스와-r-타이디버스",
     "href": "Lecture_1_1.html#데이터사이언스와-r-타이디버스",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "데이터사이언스와 R: 타이디버스",
-    "text": "데이터사이언스와 R: 타이디버스\n\n\nhttps://r4ds.hadley.nz/intro.html"
+    "text": "데이터사이언스와 R: 타이디버스\n\nhttps://r4ds.hadley.nz/intro.html"
   },
   {
     "objectID": "Lecture_1_1.html#데이터사이언스와-r-타이디버스-1",
@@ -1502,7 +1502,7 @@
     "href": "Lecture_1_1.html#no-error-no-gain",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "No error, no gain!",
-    "text": "No error, no gain!\n\n\nhttps://allisonhorst.com/everything-else"
+    "text": "No error, no gain!\n\n\n\nhttps://allisonhorst.com/everything-else"
   },
   {
     "objectID": "Lecture_1_3.html",
