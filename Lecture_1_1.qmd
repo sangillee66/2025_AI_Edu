@@ -1,6 +1,6 @@
 ---
 title: |
-  | [Lecture 1-1]{style="color:coral;font-size:0.6em"}   
+  | [교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1]{style="color:coral;font-size:0.6em"}   
   | [교사의 AIㆍ디지털 역량]{style="font-size:1em"} 
 author: <br> 이상일(서울대학교 지리교육과 교수)
 date: 2025-12-29

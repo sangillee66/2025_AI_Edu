@@ -1,6 +1,6 @@
 ---
 title: |
-  | [세 가지 사이언스의 융합과 오픈소스 프로그래밍 5]{style="color:coral;font-size:0.6em"}   
+  | [오픈소스 프로그래밍 4]{style="color:coral;font-size:0.6em"}   
   | [데이터로 소통하기: Quarto]{style="font-size:1em"} 
 author: <br> 이상일(서울대학교 지리교육과 교수)
 date: 2026-01-05
@@ -144,7 +144,7 @@ editor_options:
 ## YAML 헤더 {.smaller}
 
 | 키(key) | 설명 |
-|----|----|
+|------------------------------------|------------------------------------|
 | title | 다큐먼트의 제목 |
 | date | 다큐먼트 작성 날짜 |
 | author | 다큐먼트 저자 이름 |
