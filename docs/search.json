@@ -72,105 +72,105 @@
   {
     "objectID": "Lecture_1_1.html#section-5",
     "href": "Lecture_1_1.html#section-5",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT"
+    "text": "https://doi.org/10.17279/jkagee.2025.33.4.53"
   },
   {
     "objectID": "Lecture_1_1.html#section-6",
     "href": "Lecture_1_1.html#section-6",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "",
-    "text": "튜링 테스트  by  앤런 튜링  (1949)\n\n\nhttps://en.wikipedia.org/wiki/Turing_test"
+    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT"
   },
   {
     "objectID": "Lecture_1_1.html#section-7",
     "href": "Lecture_1_1.html#section-7",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "https://www.technologystories.org/ai-evolution/"
+    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT"
   },
   {
     "objectID": "Lecture_1_1.html#section-8",
     "href": "Lecture_1_1.html#section-8",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "Google DeepMind  vs.Lee Sedol  2016.3.13."
+    "text": "튜링 테스트  by  앨런 튜링  Alan Turing  (1949)\n\n\nhttps://en.wikipedia.org/wiki/Turing_test"
   },
   {
     "objectID": "Lecture_1_1.html#section-9",
     "href": "Lecture_1_1.html#section-9",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "https://wikidocs.net/161975\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)\n\n\n\n트랜스포머(Transformer)  “Attention is All You Need” (2017)\n\n\n2013"
+    "text": "https://www.technologystories.org/ai-evolution/"
   },
   {
     "objectID": "Lecture_1_1.html#section-10",
     "href": "Lecture_1_1.html#section-10",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT\n“생성 능력을 가진, 사전학습된,  트랜스포머 구조 기반 언어모델”  Generative  Pre-tranind  Transformer"
+    "text": "Google DeepMind  vs.Lee Sedol  2016.3.13."
   },
   {
     "objectID": "Lecture_1_1.html#gpt",
     "href": "Lecture_1_1.html#gpt",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "GPT",
-    "text": "GPT\n\nGenerative 생성적\n\n입력을 분류 및 분석하는 것이 아니라 새로운 텍스트를 생성할 수 있음\n텍스트 뿐만 아니라, 이미지, 음성/오디오, 비디오, 코드, 멀티모달 생성\n\nPre-trained 사전학습된\n\n방대한 범용 텍스트 데이터로 일반 언어 패턴을 미리 학습\n문법, 의미, 맥락, 지식 패턴을 학습\n\nTransformer 트랜스포머\n\n학습 메커니즘: 딥러닝 신경망 구조\n‘셀프 어텐션(self attention)’\n\n문장 내 각 요소를 문장 전체 맥락 속에서 재정의\n문맥에 맞는 해석 및 거리 단어 간 관계 포착에 유리"
+    "text": "GPT\n\n\nGenerative 생성적\n\n입력을 분류 및 분석하는 것이 아니라 새로운 텍스트를 생성할 수 있음\n텍스트 뿐만 아니라, 이미지, 음성/오디오, 비디오, 코드, 멀티모달 생성\n\n\n\nPre-trained 사전학습된\n\n방대한 범용 텍스트 데이터로 일반 언어 패턴을 미리 학습\n문법, 의미, 맥락, 지식 패턴을 학습\n\n\n\nTransformer 트랜스포머\n\n학습 메커니즘: 딥러닝 신경망 구조\n\n‘셀프 어텐션(self attention)’\n\n문장 내 각 요소를 문장 전체 맥락 속에서 재정의\n문맥에 맞는 해석 및 거리 단어 간 관계 포착에 유리"
   },
   {
     "objectID": "Lecture_1_1.html#section-11",
     "href": "Lecture_1_1.html#section-11",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "https://dataaspirant.com/llm/\n\n\n\n\n\n\n\nhttps://x.com/samuraipreneur/status/1888530105280168421"
+    "text": "https://wikidocs.net/161975\n\n\n\nhttps://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)\n\n\n트랜스포머(Transformer)  “Attention is All You Need” (2017)\n\n\n2013"
   },
   {
     "objectID": "Lecture_1_1.html#section-12",
     "href": "Lecture_1_1.html#section-12",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "https://microsoft.github.io/Workshop-Interact-with-OpenAI-models/ko/llms/"
+    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT\n“생성 능력을 가진, 사전학습된,  트랜스포머 구조 기반 언어모델” Generative Pre-tranind Transformer"
   },
   {
     "objectID": "Lecture_1_1.html#section-13",
     "href": "Lecture_1_1.html#section-13",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "https://dunoit.com/blogs/30-ai-64f7e9d81cb43\n\n\n\n\n\n\n\nhttps://if-blog.tistory.com/12919"
+    "text": "https://dataaspirant.com/llm/\n\n\n\n\n\nhttps://x.com/samuraipreneur/status/1888530105280168421"
   },
   {
     "objectID": "Lecture_1_1.html#tpack-개념",
     "href": "Lecture_1_1.html#tpack-개념",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "TPACK: 개념",
-    "text": "TPACK: 개념\n\nTechnological Pedagogical Content Knowledge, 기술 교수 내용 지식\n\nLee Shulman의 PCK(1986)\nMishra & Koehler(2006): 교사가 “무엇을, 어떻게, 그리고 어떤 기술로” 가르칠지를 통합적으로 이해하고 실천하는 프레임워크\n\n세 가지 기본 지식 영역\n\nCK(Content Knowledge, 내용 지식): 교과 내용에 대한 전문 지식\nPK(Pedagogical Knowledge, 교수 지식): 교수ㆍ학습 방법에 대한 지식\nTK(Techonological Knowledge, 기술 지식): 다양한 기술 도구와 시스템에 대한 지식"
+    "text": "TPACK: 개념\n\n\nTechnological Pedagogical Content Knowledge, 기술 교수 내용 지식\n\nLee Shulman의 PCK(1986)\nMishra & Koehler(2006): 교사가 “무엇을, 어떻게, 그리고 어떤 기술로” 가르칠지를 통합적으로 이해하고 실천하는 프레임워크\n\n\n\n세 가지 기본 지식 영역\n\nCK(Content Knowledge, 내용 지식): 교과 내용에 대한 전문 지식\nPK(Pedagogical Knowledge, 교수 지식): 교수ㆍ학습 방법에 대한 지식\nTK(Techonological Knowledge, 기술 지식): 다양한 기술 도구와 시스템에 대한 지식"
   },
   {
     "objectID": "Lecture_1_1.html#section-15",
     "href": "Lecture_1_1.html#section-15",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "https://tpack.org/tpack-image/"
+    "text": "https://dunoit.com/blogs/30-ai-64f7e9d81cb43\n\n\n\n\n\nhttps://if-blog.tistory.com/12919"
   },
   {
     "objectID": "Lecture_1_1.html#tpack-개념-1",
     "href": "Lecture_1_1.html#tpack-개념-1",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "TPACK: 개념",
-    "text": "TPACK: 개념\n\n결합 영역\n\nPCK(Pedagogical Centent Knowledge, 교수내용지식): 특정 내용을 효과적으로 가르치는 방법에 대한 지식\nTCK(Technological Content Knowledge, 기술내용지식): 특정 기술이 어떤 방식으로 내용 지식으로 표현, 탐구, 적용할 수 있는지에 대한 이해\nTPK(Technological Pedagogical Knowledge, 기술교수지식): 특정 기술이 교수ㆍ학습을 어떻게 강화 및 변형할 수 있는지에 대한 이해\nTPACK(기술교수내용지식): 세 가지 요소가 통합된 상태, 특정 내용을 특정 교수법과 특정 기술을 활용해 효과적으로 가르치는 지식"
+    "text": "TPACK: 개념\n\n\n결합 영역\n\nPCK(Pedagogical Centent Knowledge, 교수내용지식): 특정 내용을 효과적으로 가르치는 방법에 대한 지식\nTCK(Technological Content Knowledge, 기술내용지식): 특정 기술이 어떤 방식으로 내용 지식으로 표현, 탐구, 적용할 수 있는지에 대한 이해\nTPK(Technological Pedagogical Knowledge, 기술교수지식): 특정 기술이 교수ㆍ학습을 어떻게 강화 및 변형할 수 있는지에 대한 이해\nTPACK(기술교수내용지식): 세 가지 요소가 통합된 상태, 특정 내용을 특정 교수법과 특정 기술을 활용해 효과적으로 가르치는 지식"
   },
   {
     "objectID": "Lecture_1_1.html#tpack-적용",
     "href": "Lecture_1_1.html#tpack-적용",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "TPACK: 적용",
-    "text": "TPACK: 적용\n\nPCK (교수내용지식)\n\n여러 나라의 인구 피라미드를 비교하도록 하여, 저출산과 고령화의 다른 원인을 토론하게 하는 수업\n\nTCK(기술내용지식)\n\nGIS 소프트웨어(QGIS)를 활용하여 TFR을 지도 위에 시각화\n\nTPK(기술교수지식)\n\n저출산 고령화 문제에 대한 협동학습에서 학생들이 Padlet이나 Google Docs를 활용해 공동으로 답안을 작성하게 함\nGoogle My Maps를 통해 지도를 제작하게 함\n\nTPACK(기술교수내용지식)\n\n학생들이 전 세계 국가별 TFR을 시각화하고, 토론을 통해 지역적ㆍ세계적 맥락에서 저출산 문제를 분석 및 해결책을 모색하게 하는 프로젝트 수업"
+    "text": "TPACK: 적용\n\n\nPCK (교수내용지식)\n\n여러 나라의 인구 피라미드를 비교하도록 하여, 저출산과 고령화의 다른 원인을 토론하게 하는 수업\n\n\n\nTCK(기술내용지식)\n\nGIS 소프트웨어(QGIS)를 활용하여 TFR을 지도 위에 시각화\n\n\n\nTPK(기술교수지식)\n\n저출산 고령화 문제에 대한 협동학습에서 학생들이 Padlet이나 Google Docs를 활용해 공동으로 답안을 작성하게 함\nGoogle My Maps를 통해 지도를 제작하게 함\n\n\n\nTPACK(기술교수내용지식)\n\n학생들이 전 세계 국가별 TFR을 시각화하고, 토론을 통해 지역적ㆍ세계적 맥락에서 저출산 문제를 분석 및 해결책을 모색하게 하는 프로젝트 수업"
   },
   {
     "objectID": "Lecture_1_1.html#tpack-확장",
     "href": "Lecture_1_1.html#tpack-확장",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "TPACK: 확장",
     "text": "TPACK: 확장\n\nAI-TPACK: Nign et al. (2024)\nTPACK-Uotl: Sifyan et al. (2023)\nTDL-TPACK: Cui and Zhang (2022)\nDPACK: Thyssen et al. (2023)\nAI Literacy TPACK: Ng et al. (2021)"
   },
@@ -179,47 +179,47 @@
     "href": "Lecture_1_1.html#section-16",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "",
-    "text": "https://www.mdpi.com/2071-1050/16/3/978"
+    "text": "https://tpack.org/tpack-image/"
   },
   {
     "objectID": "Lecture_1_1.html#tpack-dbl-프레임워크",
     "href": "Lecture_1_1.html#tpack-dbl-프레임워크",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "TPACK-DBL 프레임워크",
     "text": "TPACK-DBL 프레임워크\n\n(Baran and Uygun, 2016, 49)"
   },
   {
     "objectID": "Lecture_1_1.html#교사의-교사의-aiㆍ디지털-역량",
     "href": "Lecture_1_1.html#교사의-교사의-aiㆍ디지털-역량",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "교사의 교사의 AIㆍ디지털 역량",
-    "text": "교사의 교사의 AIㆍ디지털 역량\n\n교사는 디지털 교육 콘텐츠의 주체적 생산자\n교사는 단순히 수업에서 활용할 AIㆍ디지털 도구를 배우는데 그치지 않고, 직접 기술이 통합된 교육 산출물(artifacts)를 설계 및 구현할 수 있는 능력 필요\n\n교수ㆍ학습 상황 설계: 특정 교과 내용을 가를칠 때 어떤 AIㆍ디지털 도구를 통합할지 계획\n디지털 산출물 제작: 교사가 직접 기술을 활용해 교육 자료를 제작\n동료 협업 및 피드백: 만든 산출물을 다른 교사와 공유하고, 수업 적용 가능성을 논의"
+    "text": "교사의 교사의 AIㆍ디지털 역량\n\n교사는 디지털 교육 콘텐츠의 주체적 생산자\n\n교사는 단순히 수업에서 활용할 AIㆍ디지털 도구를 배우는데 그치지 않고, 직접 기술이 통합된 교육 산출물(artifacts)를 설계 및 구현할 수 있는 능력 필요\n\n교수ㆍ학습 상황 설계: 특정 교과 내용을 가를칠 때 어떤 AIㆍ디지털 도구를 통합할지 계획\n디지털 산출물 제작: 교사가 직접 기술을 활용해 교육 자료를 제작\n동료 협업 및 피드백: 만든 산출물을 다른 교사와 공유하고, 수업 적용 가능성을 논의"
   },
   {
     "objectID": "Lecture_1_1.html#인터랙티브-교수ㆍ학습-웹-앱-기본-개념",
     "href": "Lecture_1_1.html#인터랙티브-교수ㆍ학습-웹-앱-기본-개념",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "인터랙티브 교수ㆍ학습 웹 앱: 기본 개념",
-    "text": "인터랙티브 교수ㆍ학습 웹 앱: 기본 개념\n\n학습자와 콘텐츠 간의 상호작용을 중심으로 설계되어, 능동적 참여, 즉각적 피드백, 탐구 활동 등을 개인의 학습 경험을 향상 시키는 교육용 웹 애플리케이션\n성격\n\n디지털 학습지: 교과의 학습 내용을 효과적으로 교수ㆍ학습하도록 도와주는 도구\n탐수 학습 도구: 데이터 탐색을 통해 학습자 스스로 이해, 지식, 통찰을 얻도록 도와주는 도구"
+    "text": "인터랙티브 교수ㆍ학습 웹 앱: 기본 개념\n\n학습자와 콘텐츠 간의 상호작용을 중심으로 설계되어, 능동적 참여, 즉각적 피드백, 탐구 활동 등을 개인의 학습 경험을 향상 시키는 교육용 웹 애플리케이션\n\n성격\n\n디지털 학습지: 교과의 학습 내용을 효과적으로 교수ㆍ학습하도록 도와주는 도구\n탐수 학습 도구: 데이터 탐색을 통해 학습자 스스로 이해, 지식, 통찰을 얻도록 도와주는 도구"
   },
   {
     "objectID": "Lecture_1_1.html#인터랙티브-교수ㆍ학습-웹-앱-기본-개념-1",
     "href": "Lecture_1_1.html#인터랙티브-교수ㆍ학습-웹-앱-기본-개념-1",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "인터랙티브 교수ㆍ학습 웹 앱: 기본 개념",
-    "text": "인터랙티브 교수ㆍ학습 웹 앱: 기본 개념\n\n웹 브라우저를 통해 접근하고 사용하는 교수ㆍ학습 목적의 애플리케이션\n데이터 대시보드: 단일한 주제에 대한 상호연관된 다양한 데이터 정보를 그래픽 형태로 일관성 있게 제시한 것\n\n레이아웃 요소: 대시보드의 기본 구조\n\n카드\n페이지, 네비게이션바, 사이드바, 툴바, 탭셋 등\n\n내용 요소: 카드를 채우는 콘텐츠\n\n텍스트, 표, 그래프, 동영상, 밸류 박스, 지도, 챗봇(LLM 활용) 등\n\n작동 요소: 상호작용성의 형식과 정도"
+    "text": "인터랙티브 교수ㆍ학습 웹 앱: 기본 개념\n\n웹 브라우저를 통해 접근하고 사용하는 교수ㆍ학습 목적의 애플리케이션\n\n데이터 대시보드: 단일한 주제에 대한 상호연관된 다양한 데이터 정보를 그래픽 형태로 일관성 있게 제시한 것\n\n\n레이아웃 요소: 대시보드의 기본 구조\n\n카드\n페이지, 네비게이션바, 사이드바, 툴바, 탭셋 등\n\n\n\n내용 요소: 카드를 채우는 콘텐츠\n\n텍스트, 표, 그래프, 동영상, 밸류 박스, 지도, 챗봇(LLM 활용) 등\n\n\n작동 요소: 상호작용성의 형식과 정도"
   },
   {
     "objectID": "Lecture_1_1.html#section-17",
     "href": "Lecture_1_1.html#section-17",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "https://ivelasq.github.io/mortgage-dashboard/"
+    "text": "https://tpack.org/tpack-image/"
   },
   {
     "objectID": "Lecture_1_1.html#인터랙티브-교수ㆍ학습-웹-앱-예시",
     "href": "Lecture_1_1.html#인터랙티브-교수ㆍ학습-웹-앱-예시",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "인터랙티브 교수ㆍ학습 웹 앱: 예시",
     "text": "인터랙티브 교수ㆍ학습 웹 앱: 예시\n\nhttps://sangillee.snu.ac.kr/dashboard_examples/\nhttps://sangillee.snu.ac.kr/dashboard_popgeo/"
   },
@@ -366,23 +366,23 @@
   {
     "objectID": "Lecture_1_1.html#section-3",
     "href": "Lecture_1_1.html#section-3",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "",
-    "text": "https://doi.org/10.17279/jkagee.2025.33.4.53"
+    "text": "http://dx.doi.org/10.17232/KSET.41.1.79"
   },
   {
     "objectID": "Lecture_1_1.html#tpack-dbl-프레임워크-1",
     "href": "Lecture_1_1.html#tpack-dbl-프레임워크-1",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "TPACK-DBL 프레임워크",
     "text": "TPACK-DBL 프레임워크\n\n디지털 제작 도구에 대한 이해와 활용 능력(디지털 역량)\n복잡한 개념을 시각적이고 구조적으로 전달하는 능력(커뮤니케이션 역량)\n분석적 사고 및 데이터 기반 수업 구현 능력(데이터 리터러시 + 기술력)\n오픈 지식 생태계에의 기여(공유 및 협업 역량)"
   },
   {
     "objectID": "Lecture_1_1.html#제작-도구",
     "href": "Lecture_1_1.html#제작-도구",
-    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
     "section": "제작 도구",
-    "text": "제작 도구\n\nQuarto(쿼토): 대시보드 제작 및 프론트앤드 웹 앱 생성\n\n“과학적, 기술적 출판을 위한 위한 오픈소스 시스템”\n다양한 형식의 저작물(노트, 연구 논문, 프레젠테이션, 대시보드, 웹사이트, 블로그, 서적 등)을 다양한 디지털 포맷(HTML, PDF, MS Word, ePub 등)으로 출판할 수 있게 해주는 도구\n\nR(혹은 Python): 인터랙티브 콘텐츠 제작\n\n데이터사이언스 과정의 실행\n인터랙티브 지리공간 시각화 및 탐색 기능의 구현\n\nShiny: 서버-기반 웹 앱 개발\n\nUI-Server 이원 구조\n반응형 프로그래밍(reactivity)"
+    "text": "제작 도구\n\n\nR(혹은 Python): 인터랙티브 콘텐츠 제작\n\n데이터사이언스 과정의 실행: tidyverse\n인터랙티브 시각화 및 탐색 기능의 구현: 다양한 패키지\n\n\n\nQuarto(쿼토): 대시보드 제작 및 프론트앤드 웹 앱 생성\n\n“과학적, 기술적 출판을 위한 위한 오픈소스 시스템”\n다양한 형식의 저작물(노트, 연구 논문, 프레젠테이션, 대시보드, 웹사이트, 블로그, 서적 등)을 다양한 디지털 포맷(HTML, PDF, MS Word, ePub 등)으로 출판할 수 있게 해주는 도구\n\n\n\nShiny: 서버-기반 웹 앱 개발\n\nUI-Server 이원 구조\n반응형 프로그래밍(reactivity)"
   },
   {
     "objectID": "Lecture_1_2.html#소개-운영진",
@@ -1367,37 +1367,37 @@
   {
     "objectID": "Lecture_1_3.html#데이터사이언스-프로세스",
     "href": "Lecture_1_3.html#데이터사이언스-프로세스",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "데이터사이언스 프로세스",
-    "text": "데이터사이언스 프로세스\n\nhttps://r4ds.hadley.nz/import.html\n데이터 불러오기(importing): 데이터를 ‘가져와’ R 객체로 만들기"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "",
+    "text": "https://r4ds.hadley.nz/import.html\n\n\n\n데이터 불러오기(importing): 데이터를 ‘가져와’ R 객체로 만들기"
   },
   {
     "objectID": "Lecture_1_3.html#데이터사이언스-프로세스-타이디버스",
     "href": "Lecture_1_3.html#데이터사이언스-프로세스-타이디버스",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "데이터사이언스 프로세스: 타이디버스",
-    "text": "데이터사이언스 프로세스: 타이디버스\n\nhttps://r4ds.hadley.nz/intro.html"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "",
+    "text": "https://r4ds.hadley.nz/intro.html"
   },
   {
     "objectID": "Lecture_1_3.html#tibble-패키지",
     "href": "Lecture_1_3.html#tibble-패키지",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "\ntibble 패키지",
-    "text": "tibble 패키지\n\nhttps://tibble.tidyverse.org/"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "",
+    "text": "https://tibble.tidyverse.org/"
   },
   {
     "objectID": "Lecture_1_3.html#tibble-vs.-data.frame",
     "href": "Lecture_1_3.html#tibble-vs.-data.frame",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "tibble vs. data.frame",
-    "text": "tibble vs. data.frame\n\n\n데이터 프레임\ndata.frame\ntibble 1\ntibble 2\n\n\n\n\nlibrary(tidyverse)\na &lt;- c(TRUE, FALSE, TRUE, FALSE)\nb &lt;- c(58L, 26L, 28L, 22L)\nc &lt;- c(3.19, 2.09, 2.11, 2.03)\nd &lt;- c(\"이상일\", \"김우형\", \"이하은\", \"박서우\")\ne &lt;- c(\"남자\", \"남자\", \"여자\", \"여자\")\ndf_1 &lt;- data.frame(a, b, c, d, e)\ndf_2 &lt;- tibble(a, b, c, d, e)\n\n\n\n\ndf_1\n\n      a  b    c      d    e\n1  TRUE 58 3.19 이상일 남자\n2 FALSE 26 2.09 김우형 남자\n3  TRUE 28 2.11 이하은 여자\n4 FALSE 22 2.03 박서우 여자\n\n\n\n\n\ndf_2\n\n# A tibble: 4 × 5\n  a         b     c d      e    \n  &lt;lgl&gt; &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;\n1 TRUE     58  3.19 이상일 남자 \n2 FALSE    26  2.09 김우형 남자 \n3 TRUE     28  2.11 이하은 여자 \n4 FALSE    22  2.03 박서우 여자 \n\n\n\n\n\ndf_2 |&gt; mutate(\n  e = fct(e, levels = c(\"남자\", \"여자\"))\n)\n\n# A tibble: 4 × 5\n  a         b     c d      e    \n  &lt;lgl&gt; &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;fct&gt;\n1 TRUE     58  3.19 이상일 남자 \n2 FALSE    26  2.09 김우형 남자 \n3 TRUE     28  2.11 이하은 여자 \n4 FALSE    22  2.03 박서우 여자"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "",
+    "text": "데이터 프레임data.frametibble 1tibble 2\n\n\n\nlibrary(tidyverse)\na &lt;- c(TRUE, FALSE, TRUE, FALSE)\nb &lt;- c(58L, 26L, 28L, 22L)\nc &lt;- c(3.19, 2.09, 2.11, 2.03)\nd &lt;- c(\"이상일\", \"김우형\", \"이하은\", \"박서우\")\ne &lt;- c(\"남자\", \"남자\", \"여자\", \"여자\")\ndf_1 &lt;- data.frame(a, b, c, d, e)\ndf_2 &lt;- tibble(a, b, c, d, e)\n\n\n\n\ndf_1\n\n      a  b    c      d    e\n1  TRUE 58 3.19 이상일 남자\n2 FALSE 26 2.09 김우형 남자\n3  TRUE 28 2.11 이하은 여자\n4 FALSE 22 2.03 박서우 여자\n\n\n\n\n\ndf_2\n\n# A tibble: 4 × 5\n  a         b     c d      e    \n  &lt;lgl&gt; &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;\n1 TRUE     58  3.19 이상일 남자 \n2 FALSE    26  2.09 김우형 남자 \n3 TRUE     28  2.11 이하은 여자 \n4 FALSE    22  2.03 박서우 여자 \n\n\n\n\n\ndf_2 |&gt; mutate(\n  e = fct(e, levels = c(\"남자\", \"여자\"))\n)\n\n# A tibble: 4 × 5\n  a         b     c d      e    \n  &lt;lgl&gt; &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;fct&gt;\n1 TRUE     58  3.19 이상일 남자 \n2 FALSE    26  2.09 김우형 남자 \n3 TRUE     28  2.11 이하은 여자 \n4 FALSE    22  2.03 박서우 여자"
   },
   {
     "objectID": "Lecture_1_3.html#데이터-뷰어-data-viewer",
     "href": "Lecture_1_3.html#데이터-뷰어-data-viewer",
     "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
-    "section": "데이터 뷰어 Data viewer",
-    "text": "데이터 뷰어 Data viewer\n\n데이터 프레임(티블) 객체를 엑셀과 유사한 형태로 디스플레이\n작동 방법\n\nView(티블명) 함수\n환경창의 아이콘 클릭\n\n기능\n\n소팅(sorting): 분류하기\n스크롤링(scrolling): 상하이동\n필터링(filtering): 골라내기\n서칭(searching): 검색하기"
+    "section": "",
+    "text": "데이터 프레임(티블) 객체를 엑셀과 유사한 형태로 디스플레이\n작동 방법\n\nView(티블명) 함수\n환경창의 아이콘 클릭\n\n기능\n\n소팅(sorting): 분류하기\n스크롤링(scrolling): 상하이동\n필터링(filtering): 골라내기\n서칭(searching): 검색하기"
   },
   {
     "objectID": "Lecture_1_3.html#데이터-뷰어-data-viewer-1",
@@ -1416,44 +1416,44 @@
   {
     "objectID": "Lecture_1_3.html#readr-패키지",
     "href": "Lecture_1_3.html#readr-패키지",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "\nreadr 패키지",
-    "text": "readr 패키지\n\nhttps://readr.tidyverse.org/"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "",
+    "text": "https://readr.tidyverse.org/"
   },
   {
     "objectID": "Lecture_1_3.html#readr-패키지-주요-불러오기-함수",
     "href": "Lecture_1_3.html#readr-패키지-주요-불러오기-함수",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "\nreadr 패키지: 주요 불러오기 함수",
-    "text": "readr 패키지: 주요 불러오기 함수\n\n\n함수명\n포맷\n\n\n\nread_csv()\n콤마분리(comma-separated values, CSV) 형식\n\n\nread_csv2()\n세미콜론분리(semicolon-separated) 형식\n\n\nread_tsv()\n탭구분(tab-limited) 형식\n\n\nread_delim()\n여타의 구분 형식\n\n\nread_fwf()\n고정폭(fixed-width) 형식\n\n\nread_table()\n공백구분 형식\n\n\nread_log()\n아파치 형식(Apache-style)의 로그 파일"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "",
+    "text": "함수명\n포맷\n\n\n\n\nread_csv()\n콤마분리(comma-separated values, CSV) 형식\n\n\nread_csv2()\n세미콜론분리(semicolon-separated) 형식\n\n\nread_tsv()\n탭구분(tab-limited) 형식\n\n\nread_delim()\n여타의 구분 형식\n\n\nread_fwf()\n고정폭(fixed-width) 형식\n\n\nread_table()\n공백구분 형식\n\n\nread_log()\n아파치 형식(Apache-style)의 로그 파일"
   },
   {
     "objectID": "Lecture_1_3.html#readr-패키지-주요-파싱parsing-함수",
     "href": "Lecture_1_3.html#readr-패키지-주요-파싱parsing-함수",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "\nreadr 패키지: 주요 파싱(parsing) 함수",
-    "text": "readr 패키지: 주요 파싱(parsing) 함수\n\n\n컬럼 유형\n새로운 벡터\n기존 벡터\n\n\n\n논리형 lgl\n\ncol_logical()\nparse_logical()\n\n\n정수형 int\n\ncol_integer()\nparse_integer()\n\n\n실수형 dbl\n\ncol_double()\nparse_double()\n\n\n문자형 chr\n\ncol_character()\nparse_character()\n\n\n범주형 fct\n\ncol_factor()\nparse_factor()"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "",
+    "text": "컬럼 유형\n새로운 벡터\n기존 벡터\n\n\n\n\n논리형 lgl\ncol_logical()\nparse_logical()\n\n\n정수형 int\ncol_integer()\nparse_integer()\n\n\n실수형 dbl\ncol_double()\nparse_double()\n\n\n문자형 chr\ncol_character()\nparse_character()\n\n\n범주형 fct\ncol_factor()\nparse_factor()"
   },
   {
     "objectID": "Lecture_1_3.html#read_csv-함수의-활용",
     "href": "Lecture_1_3.html#read_csv-함수의-활용",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "\nread_csv() 함수의 활용",
-    "text": "read_csv() 함수의 활용\n\n\n불러오기 1\n결과 1\n불러오기 2\n결과 2\n\n\n\n\nlibrary(tidyverse)\nread_csv(\"https://pos.it/r4ds-students-csv\")\n\n\n\n\nlibrary(tidyverse)\nread_csv(\"https://pos.it/r4ds-students-csv\")\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6    \n\n\n\n\n\nlibrary(tidyverse)\nread_csv(\n  file = \"https://pos.it/r4ds-students-csv\", \n  skip = 1, \n  col_names = c(\"student_id\", \"full_name\", \"favorite_food\", \"meal_plan\", \"age\"),\n  col_types = cols(\n    meal_plan = col_factor(),\n    age = col_number()\n  ),\n  na = c(\"N/A\")\n  )\n\n\n\n\nlibrary(tidyverse)\nread_csv(\n  file = \"https://pos.it/r4ds-students-csv\", \n  skip = 1, \n  col_names = c(\"student_id\", \"full_name\", \"favorite_food\", \"meal_plan\", \"age\"),\n  col_types = cols(\n    meal_plan = col_factor(),\n    age = col_number()\n  ),\n  na = c(\"N/A\")\n  )\n\n# A tibble: 6 × 5\n  student_id full_name        favorite_food      meal_plan             age\n       &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;fct&gt;               &lt;dbl&gt;\n1          1 Sunil Huffmann   Strawberry yoghurt Lunch only              4\n2          2 Barclay Lynn     French fries       Lunch only              5\n3          3 Jayendra Lyne    &lt;NA&gt;               Breakfast and lunch     7\n4          4 Leon Rossini     Anchovies          Lunch only             NA\n5          5 Chidiegwu Dunkel Pizza              Breakfast and lunch    NA\n6          6 Güvenç Attila    Ice cream          Lunch only              6"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "",
+    "text": "불러오기 1결과 1불러오기 2결과 2\n\n\n\nlibrary(tidyverse)\nread_csv(\"https://pos.it/r4ds-students-csv\")\n\n\n\n\nlibrary(tidyverse)\nread_csv(\"https://pos.it/r4ds-students-csv\")\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6    \n\n\n\n\n\nlibrary(tidyverse)\nread_csv(\n  file = \"https://pos.it/r4ds-students-csv\", \n  skip = 1, \n  col_names = c(\"student_id\", \"full_name\", \"favorite_food\", \"meal_plan\", \"age\"),\n  col_types = cols(\n    meal_plan = col_factor(),\n    age = col_number()\n  ),\n  na = c(\"N/A\")\n  )\n\n\n\n\nlibrary(tidyverse)\nread_csv(\n  file = \"https://pos.it/r4ds-students-csv\", \n  skip = 1, \n  col_names = c(\"student_id\", \"full_name\", \"favorite_food\", \"meal_plan\", \"age\"),\n  col_types = cols(\n    meal_plan = col_factor(),\n    age = col_number()\n  ),\n  na = c(\"N/A\")\n  )\n\n# A tibble: 6 × 5\n  student_id full_name        favorite_food      meal_plan             age\n       &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;fct&gt;               &lt;dbl&gt;\n1          1 Sunil Huffmann   Strawberry yoghurt Lunch only              4\n2          2 Barclay Lynn     French fries       Lunch only              5\n3          3 Jayendra Lyne    &lt;NA&gt;               Breakfast and lunch     7\n4          4 Leon Rossini     Anchovies          Lunch only             NA\n5          5 Chidiegwu Dunkel Pizza              Breakfast and lunch    NA\n6          6 Güvenç Attila    Ice cream          Lunch only              6"
   },
   {
     "objectID": "Lecture_1_3.html#관련-패키지",
     "href": "Lecture_1_3.html#관련-패키지",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "관련 패키지",
-    "text": "관련 패키지\n\n\n\n\n\nhttps://readxl.tidyverse.org/\n\n\n\n\n\nhttps://ycphs.github.io/openxlsx/\n\n\n\n\n\nhttps://googlesheets4.tidyverse.org/"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "",
+    "text": "https://readxl.tidyverse.org/\n\n\n\n\n\n\n\nhttps://ycphs.github.io/openxlsx/\n\n\n\n\n\n\n\nhttps://googlesheets4.tidyverse.org/"
   },
   {
     "objectID": "Lecture_1_3.html#readxl-패키지",
     "href": "Lecture_1_3.html#readxl-패키지",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "\nreadxl 패키지",
-    "text": "readxl 패키지\n\n\nread_xls(), read_xlsx(), read_excel()\n\npath: 파일 경로와 파일명\nsheet: 특정 시트의 선택\nrange: 특정 범위의 셀 선택\nskip: 불러들이지 않을 최소 행 번호\ncol_names: 컬럼 이름 지정\ncol_types: 컬럼 데이터 유형 지정(“skip”, “guess”, “text”, “logical”, “numeric”, etc.)\nna: 결측치 규정"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "",
+    "text": "read_xls(), read_xlsx(), read_excel()\n\npath: 파일 경로와 파일명\nsheet: 특정 시트의 선택\nrange: 특정 범위의 셀 선택\nskip: 불러들이지 않을 최소 행 번호\ncol_names: 컬럼 이름 지정\ncol_types: 컬럼 데이터 유형 지정(“skip”, “guess”, “text”, “logical”, “numeric”, etc.)\nna: 결측치 규정"
   },
   {
     "objectID": "Lecture_1_3.html#데이터-불러오는-다른-방법",
@@ -1465,114 +1465,114 @@
   {
     "objectID": "Lecture_1_3.html#tidyr-패키지",
     "href": "Lecture_1_3.html#tidyr-패키지",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "\ntidyr 패키지",
-    "text": "tidyr 패키지\n\nhttps://tidyr.tidyverse.org/"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "tidyr 패키지",
+    "text": "tidyr 패키지\n\n\n\nhttps://tidyr.tidyverse.org/"
   },
   {
     "objectID": "Lecture_1_3.html#정돈된-데이터의-정의",
     "href": "Lecture_1_3.html#정돈된-데이터의-정의",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "’정돈된 데이터’의 정의",
-    "text": "’정돈된 데이터’의 정의\n\nhttps://allisonhorst.com/other-r-fun"
+    "text": "’정돈된 데이터’의 정의\n\n\n\nhttps://allisonhorst.com/other-r-fun"
   },
   {
     "objectID": "Lecture_1_3.html#정돈된-데이터의-정의-1",
     "href": "Lecture_1_3.html#정돈된-데이터의-정의-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "’정돈된 데이터’의 정의",
-    "text": "’정돈된 데이터’의 정의\n\nhttps://allisonhorst.com/other-r-fun"
+    "text": "’정돈된 데이터’의 정의\n\n\n\nhttps://allisonhorst.com/other-r-fun"
   },
   {
     "objectID": "Lecture_1_3.html#정돈된-데이터의-정의-2",
     "href": "Lecture_1_3.html#정돈된-데이터의-정의-2",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "’정돈된 데이터’의 정의",
     "text": "’정돈된 데이터’의 정의\n\n개별 변수(variable)는 열(column) 하나를 차지한다. 즉, 개별 열에는 하나의 변수가 위치한다.\n개별 관측개체(observation)는 하나의 행(row)을 차지한다. 즉, 개별 행에는 하나의 관측개체가 위치한다.\n개별 값(value)은 하나의 셀(cell)을 차지한다. 즉, 개별 셀에는 하나의 값이 위치한다."
   },
   {
     "objectID": "Lecture_1_3.html#정돈된-데이터의-예시",
     "href": "Lecture_1_3.html#정돈된-데이터의-예시",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "’정돈된 데이터’의 예시",
-    "text": "’정돈된 데이터’의 예시\n\n\ntable1\ntable4a\ntable2\ntable3\n\n\n\n\nlibrary(tidyverse)\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\ntable4a\n\n# A tibble: 3 × 3\n  country     `1999` `2000`\n  &lt;chr&gt;        &lt;dbl&gt;  &lt;dbl&gt;\n1 Afghanistan    745   2666\n2 Brazil       37737  80488\n3 China       212258 213766\n\n\n\n\n\ntable2\n\n# A tibble: 12 × 4\n   country      year type            count\n   &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;           &lt;dbl&gt;\n 1 Afghanistan  1999 cases             745\n 2 Afghanistan  1999 population   19987071\n 3 Afghanistan  2000 cases            2666\n 4 Afghanistan  2000 population   20595360\n 5 Brazil       1999 cases           37737\n 6 Brazil       1999 population  172006362\n 7 Brazil       2000 cases           80488\n 8 Brazil       2000 population  174504898\n 9 China        1999 cases          212258\n10 China        1999 population 1272915272\n11 China        2000 cases          213766\n12 China        2000 population 1280428583\n\n\n\n\n\ntable3\n\n# A tibble: 6 × 3\n  country      year rate             \n  &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;            \n1 Afghanistan  1999 745/19987071     \n2 Afghanistan  2000 2666/20595360    \n3 Brazil       1999 37737/172006362  \n4 Brazil       2000 80488/174504898  \n5 China        1999 212258/1272915272\n6 China        2000 213766/1280428583"
+    "text": "’정돈된 데이터’의 예시\n\ntable1table4atable2table3\n\n\n\nlibrary(tidyverse)\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\ntable4a\n\n# A tibble: 3 × 3\n  country     `1999` `2000`\n  &lt;chr&gt;        &lt;dbl&gt;  &lt;dbl&gt;\n1 Afghanistan    745   2666\n2 Brazil       37737  80488\n3 China       212258 213766\n\n\n\n\n\ntable2\n\n# A tibble: 12 × 4\n   country      year type            count\n   &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;           &lt;dbl&gt;\n 1 Afghanistan  1999 cases             745\n 2 Afghanistan  1999 population   19987071\n 3 Afghanistan  2000 cases            2666\n 4 Afghanistan  2000 population   20595360\n 5 Brazil       1999 cases           37737\n 6 Brazil       1999 population  172006362\n 7 Brazil       2000 cases           80488\n 8 Brazil       2000 population  174504898\n 9 China        1999 cases          212258\n10 China        1999 population 1272915272\n11 China        2000 cases          213766\n12 China        2000 population 1280428583\n\n\n\n\n\ntable3\n\n# A tibble: 6 × 3\n  country      year rate             \n  &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;            \n1 Afghanistan  1999 745/19987071     \n2 Afghanistan  2000 2666/20595360    \n3 Brazil       1999 37737/172006362  \n4 Brazil       2000 80488/174504898  \n5 China        1999 212258/1272915272\n6 China        2000 213766/1280428583"
   },
   {
     "objectID": "Lecture_1_3.html#정돈된-데이터의-이점",
     "href": "Lecture_1_3.html#정돈된-데이터의-이점",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "’정돈된 데이터’의 이점",
-    "text": "’정돈된 데이터’의 이점\n\nhttps://allisonhorst.com/other-r-fun"
+    "text": "’정돈된 데이터’의 이점\n\n\n\nhttps://allisonhorst.com/other-r-fun"
   },
   {
     "objectID": "Lecture_1_3.html#정돈된-데이터의-이점-1",
     "href": "Lecture_1_3.html#정돈된-데이터의-이점-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "’정돈된 데이터’의 이점",
-    "text": "’정돈된 데이터’의 이점\n\nhttps://allisonhorst.com/other-r-fun"
+    "text": "’정돈된 데이터’의 이점\n\n\n\nhttps://allisonhorst.com/other-r-fun"
   },
   {
     "objectID": "Lecture_1_3.html#정돈된-데이터의-이점-2",
     "href": "Lecture_1_3.html#정돈된-데이터의-이점-2",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "’정돈된 데이터’의 이점",
-    "text": "’정돈된 데이터’의 이점\n\nhttps://allisonhorst.com/other-r-fun"
+    "text": "’정돈된 데이터’의 이점\n\n\n\nhttps://allisonhorst.com/other-r-fun"
   },
   {
     "objectID": "Lecture_1_3.html#데이터-정돈하기의-핵심-기능",
     "href": "Lecture_1_3.html#데이터-정돈하기의-핵심-기능",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "데이터 정돈하기의 핵심 기능",
-    "text": "데이터 정돈하기의 핵심 기능\n\n\n데이터 구조 변형\n\n핵심 기능으로 데이터 늘이기와 데이터 넓히기가 포함\n\n\n\n컬럼의 결합 및 분할\n\n두 개 이상의 컬럼을 하나의 컬럼으로 결합하거나 한 컬럼을 두 개 이상의 컬럼으로 분할\n\n\n\n결측치 처리\n\n결측치가 포함된 행을 다양한 방식으로 처리"
+    "text": "데이터 정돈하기의 핵심 기능\n\n데이터 구조 변형\n\n핵심 기능으로 데이터 늘이기와 데이터 넓히기가 포함\n\n컬럼의 결합 및 분할\n\n두 개 이상의 컬럼을 하나의 컬럼으로 결합하거나 한 컬럼을 두 개 이상의 컬럼으로 분할\n\n결측치 처리\n\n결측치가 포함된 행을 다양한 방식으로 처리"
   },
   {
     "objectID": "Lecture_1_3.html#데이터-구조-변형",
     "href": "Lecture_1_3.html#데이터-구조-변형",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "데이터 구조 변형",
-    "text": "데이터 구조 변형\n\nhttps://www.r-bloggers.com/2024/09/mastering-data-transformation-in-r-with-pivot_longer-and-pivot_wider/"
+    "text": "데이터 구조 변형\n\n\n\nhttps://www.r-bloggers.com/2024/09/mastering-data-transformation-in-r-with-pivot_longer-and-pivot_wider/"
   },
   {
     "objectID": "Lecture_1_3.html#와이드-폼wide-form-vs.-롱-폼long-form",
     "href": "Lecture_1_3.html#와이드-폼wide-form-vs.-롱-폼long-form",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "와이드 폼(wide form) vs. 롱 폼(long form)",
     "text": "와이드 폼(wide form) vs. 롱 폼(long form)"
   },
   {
     "objectID": "Lecture_1_3.html#데이터-늘이기-pivot_longer",
     "href": "Lecture_1_3.html#데이터-늘이기-pivot_longer",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "데이터 늘이기: pivot_longer()\n",
-    "text": "데이터 늘이기: pivot_longer()\n\n\n\ntable4a\n정돈 결과\n\n\n\n\ntable4a\n\n# A tibble: 3 × 3\n  country     `1999` `2000`\n  &lt;chr&gt;        &lt;dbl&gt;  &lt;dbl&gt;\n1 Afghanistan    745   2666\n2 Brazil       37737  80488\n3 China       212258 213766\n\n\n\n\n\ntable4a |&gt; \n  pivot_longer(\n    cols = c(`1999`, `2000`),\n    names_to = \"year\", \n    values_to = \"cases\"\n  )\n\n# A tibble: 6 × 3\n  country     year   cases\n  &lt;chr&gt;       &lt;chr&gt;  &lt;dbl&gt;\n1 Afghanistan 1999     745\n2 Afghanistan 2000    2666\n3 Brazil      1999   37737\n4 Brazil      2000   80488\n5 China       1999  212258\n6 China       2000  213766"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "데이터 늘이기: pivot_longer()",
+    "text": "데이터 늘이기: pivot_longer()\n\ntable4a정돈 결과\n\n\n\ntable4a\n\n# A tibble: 3 × 3\n  country     `1999` `2000`\n  &lt;chr&gt;        &lt;dbl&gt;  &lt;dbl&gt;\n1 Afghanistan    745   2666\n2 Brazil       37737  80488\n3 China       212258 213766\n\n\n\n\n\ntable4a |&gt; \n  pivot_longer(\n    cols = c(`1999`, `2000`),\n    names_to = \"year\", \n    values_to = \"cases\"\n  )\n\n# A tibble: 6 × 3\n  country     year   cases\n  &lt;chr&gt;       &lt;chr&gt;  &lt;dbl&gt;\n1 Afghanistan 1999     745\n2 Afghanistan 2000    2666\n3 Brazil      1999   37737\n4 Brazil      2000   80488\n5 China       1999  212258\n6 China       2000  213766"
   },
   {
     "objectID": "Lecture_1_3.html#데이터-늘이기-pivot_longer-1",
     "href": "Lecture_1_3.html#데이터-늘이기-pivot_longer-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "데이터 늘이기: pivot_longer()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "데이터 늘이기: pivot_longer()",
     "text": "데이터 늘이기: pivot_longer()"
   },
   {
     "objectID": "Lecture_1_3.html#데이터-넓히기-pivot_wider",
     "href": "Lecture_1_3.html#데이터-넓히기-pivot_wider",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "데이터 넓히기: pivot_wider()\n",
-    "text": "데이터 넓히기: pivot_wider()\n\n\n\ntable2\n정돈 결과\n\n\n\n\ntable2\n\n# A tibble: 12 × 4\n   country      year type            count\n   &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;           &lt;dbl&gt;\n 1 Afghanistan  1999 cases             745\n 2 Afghanistan  1999 population   19987071\n 3 Afghanistan  2000 cases            2666\n 4 Afghanistan  2000 population   20595360\n 5 Brazil       1999 cases           37737\n 6 Brazil       1999 population  172006362\n 7 Brazil       2000 cases           80488\n 8 Brazil       2000 population  174504898\n 9 China        1999 cases          212258\n10 China        1999 population 1272915272\n11 China        2000 cases          213766\n12 China        2000 population 1280428583\n\n\n\n\n\ntable2 |&gt; \n  pivot_wider(\n    id_cols = c(country, year),\n    names_from = type, \n    values_from = count\n  )\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "데이터 넓히기: pivot_wider()",
+    "text": "데이터 넓히기: pivot_wider()\n\ntable2정돈 결과\n\n\n\ntable2\n\n# A tibble: 12 × 4\n   country      year type            count\n   &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;           &lt;dbl&gt;\n 1 Afghanistan  1999 cases             745\n 2 Afghanistan  1999 population   19987071\n 3 Afghanistan  2000 cases            2666\n 4 Afghanistan  2000 population   20595360\n 5 Brazil       1999 cases           37737\n 6 Brazil       1999 population  172006362\n 7 Brazil       2000 cases           80488\n 8 Brazil       2000 population  174504898\n 9 China        1999 cases          212258\n10 China        1999 population 1272915272\n11 China        2000 cases          213766\n12 China        2000 population 1280428583\n\n\n\n\n\ntable2 |&gt; \n  pivot_wider(\n    id_cols = c(country, year),\n    names_from = type, \n    values_from = count\n  )\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583"
   },
   {
     "objectID": "Lecture_1_3.html#데이터-넓히기-pivot_wider-1",
     "href": "Lecture_1_3.html#데이터-넓히기-pivot_wider-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "데이터 넓히기: pivot_wider()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "데이터 넓히기: pivot_wider()",
     "text": "데이터 넓히기: pivot_wider()"
   },
   {
     "objectID": "Lecture_1_3.html#컬럼의-결합-및-분할",
     "href": "Lecture_1_3.html#컬럼의-결합-및-분할",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "컬럼의 결합 및 분할",
-    "text": "컬럼의 결합 및 분할\n\n\ntable3\n정돈 결과\n\n\n\n\ntable3\n\n# A tibble: 6 × 3\n  country      year rate             \n  &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;            \n1 Afghanistan  1999 745/19987071     \n2 Afghanistan  2000 2666/20595360    \n3 Brazil       1999 37737/172006362  \n4 Brazil       2000 80488/174504898  \n5 China        1999 212258/1272915272\n6 China        2000 213766/1280428583\n\n\n\n\n\ntable3 |&gt; separate_wider_delim(\n  rate, delim = \"/\", names = c(\"cases\", \"population\") \n) \n\n# A tibble: 6 × 4\n  country      year cases  population\n  &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n1 Afghanistan  1999 745    19987071  \n2 Afghanistan  2000 2666   20595360  \n3 Brazil       1999 37737  172006362 \n4 Brazil       2000 80488  174504898 \n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583"
+    "text": "컬럼의 결합 및 분할\n\ntable3정돈 결과\n\n\n\ntable3\n\n# A tibble: 6 × 3\n  country      year rate             \n  &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;            \n1 Afghanistan  1999 745/19987071     \n2 Afghanistan  2000 2666/20595360    \n3 Brazil       1999 37737/172006362  \n4 Brazil       2000 80488/174504898  \n5 China        1999 212258/1272915272\n6 China        2000 213766/1280428583\n\n\n\n\n\ntable3 |&gt; separate_wider_delim(\n  rate, delim = \"/\", names = c(\"cases\", \"population\") \n) \n\n# A tibble: 6 × 4\n  country      year cases  population\n  &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n1 Afghanistan  1999 745    19987071  \n2 Afghanistan  2000 2666   20595360  \n3 Brazil       1999 37737  172006362 \n4 Brazil       2000 80488  174504898 \n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583"
   },
   {
     "objectID": "R_lec_05_2025.html",
@@ -2550,36 +2550,36 @@
   {
     "objectID": "Lecture_1_3.html#데이터사이언스-프로세스-1",
     "href": "Lecture_1_3.html#데이터사이언스-프로세스-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "데이터사이언스 프로세스",
-    "text": "데이터사이언스 프로세스\n\nhttps://r4ds.hadley.nz/import.html\n데이터 정돈하기(tidying): 불러온 데이터를 ‘정돈된(tidy)’ 데이터로 만들기"
+    "text": "데이터사이언스 프로세스\n\n\n\nhttps://r4ds.hadley.nz/import.html\n\n\n\n데이터 정돈하기(tidying): 불러온 데이터를 ‘정돈된(tidy)’ 데이터로 만들기"
   },
   {
     "objectID": "Lecture_1_3.html#데이터사이언스-프로세스-타이디버스-1",
     "href": "Lecture_1_3.html#데이터사이언스-프로세스-타이디버스-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "데이터사이언스 프로세스: 타이디버스",
-    "text": "데이터사이언스 프로세스: 타이디버스\n\nhttps://r4ds.hadley.nz/intro.html"
+    "text": "데이터사이언스 프로세스: 타이디버스\n\n\n\nhttps://r4ds.hadley.nz/intro.html"
   },
   {
     "objectID": "Lecture_1_3.html#dplyr-패키지",
     "href": "Lecture_1_3.html#dplyr-패키지",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "\ndplyr 패키지",
-    "text": "dplyr 패키지\n\nhttps://dplyr.tidyverse.org/"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "dplyr 패키지",
+    "text": "dplyr 패키지\n\n\n\nhttps://dplyr.tidyverse.org/"
   },
   {
     "objectID": "Lecture_1_3.html#dplyr-패키지-기본-원리",
     "href": "Lecture_1_3.html#dplyr-패키지-기본-원리",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "\ndplyr 패키지: 기본 원리",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "dplyr 패키지: 기본 원리",
     "text": "dplyr 패키지: 기본 원리\n\n함수의 이름은 기본적으로 동사이다.\n첫 번째 아규먼트는 항상 데이터 프레임이다.\n그 다음 아규먼트(들)는 데이터 변형에 결부되는 변수(들)를 지정한다 .\n산출물은 항상 데이터 프레임이다."
   },
   {
     "objectID": "Lecture_1_3.html#dplyr-패키지-기능-분류",
     "href": "Lecture_1_3.html#dplyr-패키지-기능-분류",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "\ndplyr 패키지: 기능 분류",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "dplyr 패키지: 기능 분류",
     "text": "dplyr 패키지: 기능 분류\n\n단일 테이블 조작: 데이터 변형하기의 핵심 부분으로, 한 데이터 프레임의 데이터 구조를 조작\n다중 테이블 결합: 두 개 이상의 데이터 프레임으로 결합"
   },
   {
@@ -2592,296 +2592,296 @@
   {
     "objectID": "Lecture_1_3.html#section",
     "href": "Lecture_1_3.html#section",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "",
     "text": "https://kilhwan.github.io/rprogramming/ch-dataTransformation.html"
   },
   {
     "objectID": "Lecture_1_3.html#행-함수-네-개의-주요-함수",
     "href": "Lecture_1_3.html#행-함수-네-개의-주요-함수",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "행 함수: 네 개의 주요 함수",
-    "text": "행 함수: 네 개의 주요 함수\n\nfilter(): 특정 변수(들)에 의거한 조건을 만족하는 행(들)을 추출\narrange(): 특정 변수(들)에 의거해 행(들)의 순서를 변경\ndistinct(): 특정 변수(들)에 의거해 (중복을 제거한) 고유한 행(들)을 추출\n\nslice(): filter() 함수처럼 특정 행(들)을 추출\n\n특정 변수와 관계 없이, 행의 위치에 의거해 특정 행(들)을 추출\n특정 변수에 따른, 행의 위치에 의거해 행(들)을 추출"
+    "text": "행 함수: 네 개의 주요 함수\n\nfilter(): 특정 변수(들)에 의거한 조건을 만족하는 행(들)을 추출\narrange(): 특정 변수(들)에 의거해 행(들)의 순서를 변경\ndistinct(): 특정 변수(들)에 의거해 (중복을 제거한) 고유한 행(들)을 추출\nslice(): filter() 함수처럼 특정 행(들)을 추출\n\n특정 변수와 관계 없이, 행의 위치에 의거해 특정 행(들)을 추출\n특정 변수에 따른, 행의 위치에 의거해 행(들)을 추출"
   },
   {
     "objectID": "Lecture_1_3.html#행-함수-1-filter",
     "href": "Lecture_1_3.html#행-함수-1-filter",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "행 함수 1: filter()\n",
-    "text": "행 함수 1: filter()\n\n\nhttps://allisonhorst.com/r-packages-functions"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "행 함수 1: filter()",
+    "text": "행 함수 1: filter()\n\n\n\nhttps://allisonhorst.com/r-packages-functions"
   },
   {
     "objectID": "Lecture_1_3.html#행-함수-1-filter-1",
     "href": "Lecture_1_3.html#행-함수-1-filter-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "행 함수 1: filter()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "행 함수 1: filter()",
     "text": "행 함수 1: filter()"
   },
   {
     "objectID": "Lecture_1_3.html#행-함수-1-filter-2",
     "href": "Lecture_1_3.html#행-함수-1-filter-2",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "행 함수 1: filter()\n",
-    "text": "행 함수 1: filter()\n\n\n\nData\nfilter() 1\nfilter() 2\n\n\n\n\nlibrary(tidyverse)\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\nfilter(table1, year == 2000)\n\n# A tibble: 3 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  2000   2666   20595360\n2 Brazil       2000  80488  174504898\n3 China        2000 213766 1280428583\n\n\n\n\n\ntable1 |&gt; \n  filter(\n    year == 2000 & population &gt; 50000000\n  )\n\n# A tibble: 2 × 4\n  country  year  cases population\n  &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Brazil   2000  80488  174504898\n2 China    2000 213766 1280428583"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "행 함수 1: filter()",
+    "text": "행 함수 1: filter()\n\nDatafilter() 1filter() 2\n\n\n\nlibrary(tidyverse)\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\nfilter(table1, year == 2000)\n\n# A tibble: 3 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  2000   2666   20595360\n2 Brazil       2000  80488  174504898\n3 China        2000 213766 1280428583\n\n\n\n\n\ntable1 |&gt; \n  filter(\n    year == 2000 & population &gt; 50000000\n  )\n\n# A tibble: 2 × 4\n  country  year  cases population\n  &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Brazil   2000  80488  174504898\n2 China    2000 213766 1280428583"
   },
   {
     "objectID": "Lecture_1_3.html#행-함수-2-arrange",
     "href": "Lecture_1_3.html#행-함수-2-arrange",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "행 함수 2: arrange()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "행 함수 2: arrange()",
     "text": "행 함수 2: arrange()"
   },
   {
     "objectID": "Lecture_1_3.html#행-함수-2-arrange-1",
     "href": "Lecture_1_3.html#행-함수-2-arrange-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "행 함수 2: arrange()\n",
-    "text": "행 함수 2: arrange()\n\n\n\nData\narrange() 1\narrange() 2\n\n\n\n\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\narrange(table1, cases)\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\ntable1 |&gt; \n  arrange(desc(cases))\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 China        2000 213766 1280428583\n2 China        1999 212258 1272915272\n3 Brazil       2000  80488  174504898\n4 Brazil       1999  37737  172006362\n5 Afghanistan  2000   2666   20595360\n6 Afghanistan  1999    745   19987071"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "행 함수 2: arrange()",
+    "text": "행 함수 2: arrange()\n\nDataarrange() 1arrange() 2\n\n\n\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\narrange(table1, cases)\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\ntable1 |&gt; \n  arrange(desc(cases))\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 China        2000 213766 1280428583\n2 China        1999 212258 1272915272\n3 Brazil       2000  80488  174504898\n4 Brazil       1999  37737  172006362\n5 Afghanistan  2000   2666   20595360\n6 Afghanistan  1999    745   19987071"
   },
   {
     "objectID": "Lecture_1_3.html#행-함수-3-distinct",
     "href": "Lecture_1_3.html#행-함수-3-distinct",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "행 함수 3: distinct()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "행 함수 3: distinct()",
     "text": "행 함수 3: distinct()"
   },
   {
     "objectID": "Lecture_1_3.html#행-함수-3-distinct-1",
     "href": "Lecture_1_3.html#행-함수-3-distinct-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "행 함수 3: distinct()\n",
-    "text": "행 함수 3: distinct()\n\n\n\nData\ndistinct() 1\ndistinct() 2\n\n\n\n\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\ndistinct(table1, country)\n\n# A tibble: 3 × 1\n  country    \n  &lt;chr&gt;      \n1 Afghanistan\n2 Brazil     \n3 China      \n\n\n\n\n\ntable1 |&gt; \n  distinct(\n    country, .keep_all = TRUE\n  )\n\n# A tibble: 3 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Brazil       1999  37737  172006362\n3 China        1999 212258 1272915272"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "행 함수 3: distinct()",
+    "text": "행 함수 3: distinct()\n\nDatadistinct() 1distinct() 2\n\n\n\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\ndistinct(table1, country)\n\n# A tibble: 3 × 1\n  country    \n  &lt;chr&gt;      \n1 Afghanistan\n2 Brazil     \n3 China      \n\n\n\n\n\ntable1 |&gt; \n  distinct(\n    country, .keep_all = TRUE\n  )\n\n# A tibble: 3 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Brazil       1999  37737  172006362\n3 China        1999 212258 1272915272"
   },
   {
     "objectID": "Lecture_1_3.html#행-함수-4-slice",
     "href": "Lecture_1_3.html#행-함수-4-slice",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "행 함수 4: slice()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "행 함수 4: slice()",
     "text": "행 함수 4: slice()"
   },
   {
     "objectID": "Lecture_1_3.html#행-함수-4-slice-1",
     "href": "Lecture_1_3.html#행-함수-4-slice-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "행 함수 4: slice()\n",
-    "text": "행 함수 4: slice()\n\n\n\nData\nslice()\nslice_head()\nslice_tail()\nslice_max()\nslice_min()\nslice_sample()\n\n\n\n\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\nslice(table1, 2:3)\n\n# A tibble: 2 × 4\n  country      year cases population\n  &lt;chr&gt;       &lt;dbl&gt; &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  2000  2666   20595360\n2 Brazil       1999 37737  172006362\n\n\n\n\n\ntable1 |&gt; \n  slice_head(n = 2)\n\n# A tibble: 2 × 4\n  country      year cases population\n  &lt;chr&gt;       &lt;dbl&gt; &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999   745   19987071\n2 Afghanistan  2000  2666   20595360\n\n\n\n\n\ntable1 |&gt; \n  slice_tail(prop = 1/3)\n\n# A tibble: 2 × 4\n  country  year  cases population\n  &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 China    1999 212258 1272915272\n2 China    2000 213766 1280428583\n\n\n\n\n\ntable1 |&gt; \n  slice_max(cases, n = 2)\n\n# A tibble: 2 × 4\n  country  year  cases population\n  &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 China    2000 213766 1280428583\n2 China    1999 212258 1272915272\n\n\n\n\n\ntable1 |&gt; \n  slice_min(cases, prop = 1/3)\n\n# A tibble: 2 × 4\n  country      year cases population\n  &lt;chr&gt;       &lt;dbl&gt; &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999   745   19987071\n2 Afghanistan  2000  2666   20595360\n\n\n\n\n\ntable1 |&gt; \n  slice_sample(n = 2, replace = TRUE)\n\n# A tibble: 2 × 4\n  country  year  cases population\n  &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Brazil   1999  37737  172006362\n2 China    2000 213766 1280428583"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "행 함수 4: slice()",
+    "text": "행 함수 4: slice()\n\nDataslice()slice_head()slice_tail()slice_max()slice_min()slice_sample()\n\n\n\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\nslice(table1, 2:3)\n\n# A tibble: 2 × 4\n  country      year cases population\n  &lt;chr&gt;       &lt;dbl&gt; &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  2000  2666   20595360\n2 Brazil       1999 37737  172006362\n\n\n\n\n\ntable1 |&gt; \n  slice_head(n = 2)\n\n# A tibble: 2 × 4\n  country      year cases population\n  &lt;chr&gt;       &lt;dbl&gt; &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999   745   19987071\n2 Afghanistan  2000  2666   20595360\n\n\n\n\n\ntable1 |&gt; \n  slice_tail(prop = 1/3)\n\n# A tibble: 2 × 4\n  country  year  cases population\n  &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 China    1999 212258 1272915272\n2 China    2000 213766 1280428583\n\n\n\n\n\ntable1 |&gt; \n  slice_max(cases, n = 2)\n\n# A tibble: 2 × 4\n  country  year  cases population\n  &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 China    2000 213766 1280428583\n2 China    1999 212258 1272915272\n\n\n\n\n\ntable1 |&gt; \n  slice_min(cases, prop = 1/3)\n\n# A tibble: 2 × 4\n  country      year cases population\n  &lt;chr&gt;       &lt;dbl&gt; &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999   745   19987071\n2 Afghanistan  2000  2666   20595360\n\n\n\n\n\ntable1 |&gt; \n  slice_sample(n = 2, replace = TRUE)\n\n# A tibble: 2 × 4\n  country  year  cases population\n  &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 China    1999 212258 1272915272\n2 Brazil   2000  80488  174504898"
   },
   {
     "objectID": "Lecture_1_3.html#열-함수-네-개의-주요-함수",
     "href": "Lecture_1_3.html#열-함수-네-개의-주요-함수",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "열 함수: 네 개의 주요 함수",
     "text": "열 함수: 네 개의 주요 함수\n\nselect(): 변수(들) 중 일부를 추출\nmutate(): 변수(들)를 변형해 새로운 변수를 생성\nrename(): 변수(들)의 이름을 변경\nrelocate(): 변수(들)의 위치(순서)를 변경"
   },
   {
     "objectID": "Lecture_1_3.html#열-함수-1-select",
     "href": "Lecture_1_3.html#열-함수-1-select",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "열 함수 1: select()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "열 함수 1: select()",
     "text": "열 함수 1: select()"
   },
   {
     "objectID": "Lecture_1_3.html#열-함수-1-select-1",
     "href": "Lecture_1_3.html#열-함수-1-select-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "열 함수 1: select()\n",
-    "text": "열 함수 1: select()\n\n\n\nData\nselect() 1\nselect() 2\n\n\n\n\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\nselect(table1, country, year)\n\n# A tibble: 6 × 2\n  country      year\n  &lt;chr&gt;       &lt;dbl&gt;\n1 Afghanistan  1999\n2 Afghanistan  2000\n3 Brazil       1999\n4 Brazil       2000\n5 China        1999\n6 China        2000\n\n\n\n\n\ntable1 |&gt; \n  select(-cases, -population)\n\n# A tibble: 6 × 2\n  country      year\n  &lt;chr&gt;       &lt;dbl&gt;\n1 Afghanistan  1999\n2 Afghanistan  2000\n3 Brazil       1999\n4 Brazil       2000\n5 China        1999\n6 China        2000"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "열 함수 1: select()",
+    "text": "열 함수 1: select()\n\nDataselect() 1select() 2\n\n\n\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\nselect(table1, country, year)\n\n# A tibble: 6 × 2\n  country      year\n  &lt;chr&gt;       &lt;dbl&gt;\n1 Afghanistan  1999\n2 Afghanistan  2000\n3 Brazil       1999\n4 Brazil       2000\n5 China        1999\n6 China        2000\n\n\n\n\n\ntable1 |&gt; \n  select(-cases, -population)\n\n# A tibble: 6 × 2\n  country      year\n  &lt;chr&gt;       &lt;dbl&gt;\n1 Afghanistan  1999\n2 Afghanistan  2000\n3 Brazil       1999\n4 Brazil       2000\n5 China        1999\n6 China        2000"
   },
   {
     "objectID": "Lecture_1_3.html#열-함수-2-mutate",
     "href": "Lecture_1_3.html#열-함수-2-mutate",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "열 함수 2: mutate()\n",
-    "text": "열 함수 2: mutate()\n\n\nhttps://allisonhorst.com/r-packages-functions"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "열 함수 2: mutate()",
+    "text": "열 함수 2: mutate()\n\n\n\nhttps://allisonhorst.com/r-packages-functions"
   },
   {
     "objectID": "Lecture_1_3.html#열-함수-2-mutate-1",
     "href": "Lecture_1_3.html#열-함수-2-mutate-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "열 함수 2: mutate()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "열 함수 2: mutate()",
     "text": "열 함수 2: mutate()"
   },
   {
     "objectID": "Lecture_1_3.html#열-함수-2-mutate-2",
     "href": "Lecture_1_3.html#열-함수-2-mutate-2",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "열 함수 2: mutate()\n",
-    "text": "열 함수 2: mutate()\n\n\n\nData\nmutate() 1\nmutate() 2\n\n\n\n\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\nmutate(table1, rate = cases / population)\n\n# A tibble: 6 × 5\n  country      year  cases population      rate\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071 0.0000373\n2 Afghanistan  2000   2666   20595360 0.000129 \n3 Brazil       1999  37737  172006362 0.000219 \n4 Brazil       2000  80488  174504898 0.000461 \n5 China        1999 212258 1272915272 0.000167 \n6 China        2000 213766 1280428583 0.000167 \n\n\n\n\n\ntable1_new &lt;- table1 |&gt; \n  mutate(\n    rate = cases / population,\n    continent = if_else(country == \"Brazil\", \"Americas\", \"Asia\")\n  )\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "열 함수 2: mutate()",
+    "text": "열 함수 2: mutate()\n\nDatamutate() 1mutate() 2\n\n\n\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\n\n\n\nmutate(table1, rate = cases / population)\n\n# A tibble: 6 × 5\n  country      year  cases population      rate\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071 0.0000373\n2 Afghanistan  2000   2666   20595360 0.000129 \n3 Brazil       1999  37737  172006362 0.000219 \n4 Brazil       2000  80488  174504898 0.000461 \n5 China        1999 212258 1272915272 0.000167 \n6 China        2000 213766 1280428583 0.000167 \n\n\n\n\n\ntable1_new &lt;- table1 |&gt; \n  mutate(\n    rate = cases / population,\n    continent = if_else(country == \"Brazil\", \"Americas\", \"Asia\")\n  )\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia"
   },
   {
     "objectID": "Lecture_1_3.html#열-함수-3-rename",
     "href": "Lecture_1_3.html#열-함수-3-rename",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "열 함수 3: rename()\n",
-    "text": "열 함수 3: rename()\n\n\nhttps://allisonhorst.com/r-packages-functions"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "열 함수 3: rename()",
+    "text": "열 함수 3: rename()\n\n\n\nhttps://allisonhorst.com/r-packages-functions"
   },
   {
     "objectID": "Lecture_1_3.html#열-함수-3-rename-1",
     "href": "Lecture_1_3.html#열-함수-3-rename-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "열 함수 3: rename()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "열 함수 3: rename()",
     "text": "열 함수 3: rename()"
   },
   {
     "objectID": "Lecture_1_3.html#열-함수-3-rename-2",
     "href": "Lecture_1_3.html#열-함수-3-rename-2",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "열 함수 3: rename()\n",
-    "text": "열 함수 3: rename()\n\n\n\nData\nrename() 1\nrename() 2\n\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\nrename(table1_new, cont = continent)\n\n# A tibble: 6 × 6\n  country      year  cases population      rate cont    \n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;   \n1 Afghanistan  1999    745   19987071 0.0000373 Asia    \n2 Afghanistan  2000   2666   20595360 0.000129  Asia    \n3 Brazil       1999  37737  172006362 0.000219  Americas\n4 Brazil       2000  80488  174504898 0.000461  Americas\n5 China        1999 212258 1272915272 0.000167  Asia    \n6 China        2000 213766 1280428583 0.000167  Asia    \n\n\n\n\n\ntable1_new |&gt; \n  rename(\n    cont = continent,\n    pop = population\n  )\n\n# A tibble: 6 × 6\n  country      year  cases        pop      rate cont    \n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;   \n1 Afghanistan  1999    745   19987071 0.0000373 Asia    \n2 Afghanistan  2000   2666   20595360 0.000129  Asia    \n3 Brazil       1999  37737  172006362 0.000219  Americas\n4 Brazil       2000  80488  174504898 0.000461  Americas\n5 China        1999 212258 1272915272 0.000167  Asia    \n6 China        2000 213766 1280428583 0.000167  Asia"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "열 함수 3: rename()",
+    "text": "열 함수 3: rename()\n\nDatarename() 1rename() 2\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\nrename(table1_new, cont = continent)\n\n# A tibble: 6 × 6\n  country      year  cases population      rate cont    \n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;   \n1 Afghanistan  1999    745   19987071 0.0000373 Asia    \n2 Afghanistan  2000   2666   20595360 0.000129  Asia    \n3 Brazil       1999  37737  172006362 0.000219  Americas\n4 Brazil       2000  80488  174504898 0.000461  Americas\n5 China        1999 212258 1272915272 0.000167  Asia    \n6 China        2000 213766 1280428583 0.000167  Asia    \n\n\n\n\n\ntable1_new |&gt; \n  rename(\n    cont = continent,\n    pop = population\n  )\n\n# A tibble: 6 × 6\n  country      year  cases        pop      rate cont    \n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;   \n1 Afghanistan  1999    745   19987071 0.0000373 Asia    \n2 Afghanistan  2000   2666   20595360 0.000129  Asia    \n3 Brazil       1999  37737  172006362 0.000219  Americas\n4 Brazil       2000  80488  174504898 0.000461  Americas\n5 China        1999 212258 1272915272 0.000167  Asia    \n6 China        2000 213766 1280428583 0.000167  Asia"
   },
   {
     "objectID": "Lecture_1_3.html#열-함수-4-relocate",
     "href": "Lecture_1_3.html#열-함수-4-relocate",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "열 함수 4: relocate()\n",
-    "text": "열 함수 4: relocate()\n\n\nhttps://allisonhorst.com/r-packages-functions"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "열 함수 4: relocate()",
+    "text": "열 함수 4: relocate()\n\n\n\nhttps://allisonhorst.com/r-packages-functions"
   },
   {
     "objectID": "Lecture_1_3.html#열-함수-4-relocate-1",
     "href": "Lecture_1_3.html#열-함수-4-relocate-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "열 함수 4: relocate()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "열 함수 4: relocate()",
     "text": "열 함수 4: relocate()"
   },
   {
     "objectID": "Lecture_1_3.html#열-함수-4-relocate-2",
     "href": "Lecture_1_3.html#열-함수-4-relocate-2",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "열 함수 4: relocate()\n",
-    "text": "열 함수 4: relocate()\n\n\n\nData\nrelocate() 1\nrelocate() 2\n\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\nrelocate(table1_new, year, continent)\n\n# A tibble: 6 × 6\n   year continent country      cases population      rate\n  &lt;dbl&gt; &lt;chr&gt;     &lt;chr&gt;        &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;\n1  1999 Asia      Afghanistan    745   19987071 0.0000373\n2  2000 Asia      Afghanistan   2666   20595360 0.000129 \n3  1999 Americas  Brazil       37737  172006362 0.000219 \n4  2000 Americas  Brazil       80488  174504898 0.000461 \n5  1999 Asia      China       212258 1272915272 0.000167 \n6  2000 Asia      China       213766 1280428583 0.000167 \n\n\n\n\n\ntable1_new |&gt; \n  relocate(\n    rate,\n    .before = year\n  )\n\n# A tibble: 6 × 6\n  country          rate  year  cases population continent\n  &lt;chr&gt;           &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan 0.0000373  1999    745   19987071 Asia     \n2 Afghanistan 0.000129   2000   2666   20595360 Asia     \n3 Brazil      0.000219   1999  37737  172006362 Americas \n4 Brazil      0.000461   2000  80488  174504898 Americas \n5 China       0.000167   1999 212258 1272915272 Asia     \n6 China       0.000167   2000 213766 1280428583 Asia"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "열 함수 4: relocate()",
+    "text": "열 함수 4: relocate()\n\nDatarelocate() 1relocate() 2\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\nrelocate(table1_new, year, continent)\n\n# A tibble: 6 × 6\n   year continent country      cases population      rate\n  &lt;dbl&gt; &lt;chr&gt;     &lt;chr&gt;        &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;\n1  1999 Asia      Afghanistan    745   19987071 0.0000373\n2  2000 Asia      Afghanistan   2666   20595360 0.000129 \n3  1999 Americas  Brazil       37737  172006362 0.000219 \n4  2000 Americas  Brazil       80488  174504898 0.000461 \n5  1999 Asia      China       212258 1272915272 0.000167 \n6  2000 Asia      China       213766 1280428583 0.000167 \n\n\n\n\n\ntable1_new |&gt; \n  relocate(\n    rate,\n    .before = year\n  )\n\n# A tibble: 6 × 6\n  country          rate  year  cases population continent\n  &lt;chr&gt;           &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan 0.0000373  1999    745   19987071 Asia     \n2 Afghanistan 0.000129   2000   2666   20595360 Asia     \n3 Brazil      0.000219   1999  37737  172006362 Americas \n4 Brazil      0.000461   2000  80488  174504898 Americas \n5 China       0.000167   1999 212258 1272915272 Asia     \n6 China       0.000167   2000 213766 1280428583 Asia"
   },
   {
     "objectID": "Lecture_1_3.html#그룹-함수-네-개의-주요-함수",
     "href": "Lecture_1_3.html#그룹-함수-네-개의-주요-함수",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "그룹 함수: 네 개의 주요 함수",
     "text": "그룹 함수: 네 개의 주요 함수\n\ngroup_by(): 변수(들)에 의거해 전체 행(들)을 그룹으로 분할\nsummarize(): 그룹별로 변수(들)의 통계량을 산출하여 새로운 변수(들)로 저장\ncount(): 그룹별로 해당 관측개체의 빈도수를 계산\nacross(): 그룹별로 여러 변수에 걸쳐 동일한 통계량을 산출하고 새로운 변수들로 저장"
   },
   {
     "objectID": "Lecture_1_3.html#그룹-함수-1-group_by",
     "href": "Lecture_1_3.html#그룹-함수-1-group_by",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "그룹 함수 1: group_by()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "그룹 함수 1: group_by()",
     "text": "그룹 함수 1: group_by()"
   },
   {
     "objectID": "Lecture_1_3.html#그룹-함수-1-group_by-1",
     "href": "Lecture_1_3.html#그룹-함수-1-group_by-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "그룹 함수 1: group_by()\n",
-    "text": "그룹 함수 1: group_by()\n\n\n\nData\ngroup_by() 1\ngroup_by() 2\n\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\ngroup_by(table1_new, continent)\n\n# A tibble: 6 × 6\n# Groups:   continent [2]\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\ntable1_new |&gt; \n  group_by(continent, year)\n\n# A tibble: 6 × 6\n# Groups:   continent, year [4]\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "그룹 함수 1: group_by()",
+    "text": "그룹 함수 1: group_by()\n\nDatagroup_by() 1group_by() 2\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\ngroup_by(table1_new, continent)\n\n# A tibble: 6 × 6\n# Groups:   continent [2]\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\ntable1_new |&gt; \n  group_by(continent, year)\n\n# A tibble: 6 × 6\n# Groups:   continent, year [4]\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia"
   },
   {
     "objectID": "Lecture_1_3.html#그룹-함수-2-summarize",
     "href": "Lecture_1_3.html#그룹-함수-2-summarize",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "그룹 함수 2: summarize()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "그룹 함수 2: summarize()",
     "text": "그룹 함수 2: summarize()"
   },
   {
     "objectID": "Lecture_1_3.html#그룹-함수-2-summarize-1",
     "href": "Lecture_1_3.html#그룹-함수-2-summarize-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "그룹 함수 2: summarize()\n",
-    "text": "그룹 함수 2: summarize()\n\n\n\nData\nsummarize() 1\nsummarize() 2\n\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\nsummarize(table1_new, \n  sum_cases = sum(cases)\n  )\n\n# A tibble: 1 × 1\n  sum_cases\n      &lt;dbl&gt;\n1    547660\n\n\n\n\n\ntable1_new |&gt; \n  summarize(\n    sum_cases = sum(cases), \n    mean_rate = mean(rate)\n  )\n\n# A tibble: 1 × 2\n  sum_cases mean_rate\n      &lt;dbl&gt;     &lt;dbl&gt;\n1    547660  0.000197"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "그룹 함수 2: summarize()",
+    "text": "그룹 함수 2: summarize()\n\nDatasummarize() 1summarize() 2\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\nsummarize(table1_new, \n  sum_cases = sum(cases)\n  )\n\n# A tibble: 1 × 1\n  sum_cases\n      &lt;dbl&gt;\n1    547660\n\n\n\n\n\ntable1_new |&gt; \n  summarize(\n    sum_cases = sum(cases), \n    mean_rate = mean(rate)\n  )\n\n# A tibble: 1 × 2\n  sum_cases mean_rate\n      &lt;dbl&gt;     &lt;dbl&gt;\n1    547660  0.000197"
   },
   {
     "objectID": "Lecture_1_3.html#그룹-함수-1-2-group_by-summarize",
     "href": "Lecture_1_3.html#그룹-함수-1-2-group_by-summarize",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "그룹 함수 1 + 2: group_by() + summarize()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "그룹 함수 1 + 2: group_by() + summarize()",
     "text": "그룹 함수 1 + 2: group_by() + summarize()"
   },
   {
     "objectID": "Lecture_1_3.html#그룹-함수-1-2-group_by-summarize-1",
     "href": "Lecture_1_3.html#그룹-함수-1-2-group_by-summarize-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "그룹 함수 1 + 2: group_by() + summarize()\n",
-    "text": "그룹 함수 1 + 2: group_by() + summarize()\n\n\n\nData\nCombination 1\nCombination 2\n\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\ntable1_new_group &lt;- group_by(table1_new, continent, year)\nsummarize(table1_new_group, \n  sum_cases = sum(cases),\n  mean_rate = mean(rate)\n)\n\n# A tibble: 4 × 4\n# Groups:   continent [2]\n  continent  year sum_cases mean_rate\n  &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;\n1 Americas   1999     37737  0.000219\n2 Americas   2000     80488  0.000461\n3 Asia       1999    213003  0.000102\n4 Asia       2000    216432  0.000148\n\n\n\n\n\ntable1_new |&gt; \n  group_by(continent, year) |&gt; \n  summarize(\n    sum_cases = sum(cases), \n    sum_pop = sum(population)\n  ) |&gt; \n  mutate(\n    rate = sum_cases / sum_pop\n  ) |&gt; \n  ungroup()\n\n# A tibble: 4 × 5\n  continent  year sum_cases    sum_pop     rate\n  &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;      &lt;dbl&gt;    &lt;dbl&gt;\n1 Americas   1999     37737  172006362 0.000219\n2 Americas   2000     80488  174504898 0.000461\n3 Asia       1999    213003 1292902343 0.000165\n4 Asia       2000    216432 1301023943 0.000166"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "그룹 함수 1 + 2: group_by() + summarize()",
+    "text": "그룹 함수 1 + 2: group_by() + summarize()\n\nDataCombination 1Combination 2\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\ntable1_new_group &lt;- group_by(table1_new, continent, year)\nsummarize(table1_new_group, \n  sum_cases = sum(cases),\n  mean_rate = mean(rate)\n)\n\n# A tibble: 4 × 4\n# Groups:   continent [2]\n  continent  year sum_cases mean_rate\n  &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;\n1 Americas   1999     37737  0.000219\n2 Americas   2000     80488  0.000461\n3 Asia       1999    213003  0.000102\n4 Asia       2000    216432  0.000148\n\n\n\n\n\ntable1_new |&gt; \n  group_by(continent, year) |&gt; \n  summarize(\n    sum_cases = sum(cases), \n    sum_pop = sum(population)\n  ) |&gt; \n  mutate(\n    rate = sum_cases / sum_pop\n  ) |&gt; \n  ungroup()\n\n# A tibble: 4 × 5\n  continent  year sum_cases    sum_pop     rate\n  &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;      &lt;dbl&gt;    &lt;dbl&gt;\n1 Americas   1999     37737  172006362 0.000219\n2 Americas   2000     80488  174504898 0.000461\n3 Asia       1999    213003 1292902343 0.000165\n4 Asia       2000    216432 1301023943 0.000166"
   },
   {
     "objectID": "Lecture_1_3.html#그룹-함수-3-count",
     "href": "Lecture_1_3.html#그룹-함수-3-count",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "그룹 함수 3: count()\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "그룹 함수 3: count()",
     "text": "그룹 함수 3: count()"
   },
   {
     "objectID": "Lecture_1_3.html#그룹-함수-3-count-1",
     "href": "Lecture_1_3.html#그룹-함수-3-count-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "그룹 함수 3: count()\n",
-    "text": "그룹 함수 3: count()\n\n\n\nData\ncount() 1\ncount() 2\ncount() 3\n\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\ncount(table1_new, year, continent)\n\n# A tibble: 4 × 3\n   year continent     n\n  &lt;dbl&gt; &lt;chr&gt;     &lt;int&gt;\n1  1999 Americas      1\n2  1999 Asia          2\n3  2000 Americas      1\n4  2000 Asia          2\n\n\n\n\n\ntable1_new |&gt; \n  count(year, continent, wt = cases)\n\n# A tibble: 4 × 3\n   year continent      n\n  &lt;dbl&gt; &lt;chr&gt;      &lt;dbl&gt;\n1  1999 Americas   37737\n2  1999 Asia      213003\n3  2000 Americas   80488\n4  2000 Asia      216432\n\n\n\n\n\ntable1_new |&gt; \n  group_by(year, continent) |&gt; \n  summarize(\n    cases_n = n(),\n    cases_sum = sum(cases)\n  )\n\n# A tibble: 4 × 4\n# Groups:   year [2]\n   year continent cases_n cases_sum\n  &lt;dbl&gt; &lt;chr&gt;       &lt;int&gt;     &lt;dbl&gt;\n1  1999 Americas        1     37737\n2  1999 Asia            2    213003\n3  2000 Americas        1     80488\n4  2000 Asia            2    216432"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "그룹 함수 3: count()",
+    "text": "그룹 함수 3: count()\n\nDatacount() 1count() 2count() 3\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\ncount(table1_new, year, continent)\n\n# A tibble: 4 × 3\n   year continent     n\n  &lt;dbl&gt; &lt;chr&gt;     &lt;int&gt;\n1  1999 Americas      1\n2  1999 Asia          2\n3  2000 Americas      1\n4  2000 Asia          2\n\n\n\n\n\ntable1_new |&gt; \n  count(year, continent, wt = cases)\n\n# A tibble: 4 × 3\n   year continent      n\n  &lt;dbl&gt; &lt;chr&gt;      &lt;dbl&gt;\n1  1999 Americas   37737\n2  1999 Asia      213003\n3  2000 Americas   80488\n4  2000 Asia      216432\n\n\n\n\n\ntable1_new |&gt; \n  group_by(year, continent) |&gt; \n  summarize(\n    cases_n = n(),\n    cases_sum = sum(cases)\n  )\n\n# A tibble: 4 × 4\n# Groups:   year [2]\n   year continent cases_n cases_sum\n  &lt;dbl&gt; &lt;chr&gt;       &lt;int&gt;     &lt;dbl&gt;\n1  1999 Americas        1     37737\n2  1999 Asia            2    213003\n3  2000 Americas        1     80488\n4  2000 Asia            2    216432"
   },
   {
     "objectID": "Lecture_1_3.html#그룹-함수-4-across",
     "href": "Lecture_1_3.html#그룹-함수-4-across",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "그룹 함수 4: across()\n",
-    "text": "그룹 함수 4: across()\n\n\nhttps://allisonhorst.com/r-packages-functions"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "그룹 함수 4: across()",
+    "text": "그룹 함수 4: across()\n\n\n\nhttps://allisonhorst.com/r-packages-functions"
   },
   {
     "objectID": "Lecture_1_3.html#그룹-함수-4-across-1",
     "href": "Lecture_1_3.html#그룹-함수-4-across-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
-    "section": "그룹 함수 4: across()\n",
-    "text": "그룹 함수 4: across()\n\n\n\nData\nacross() 1\nacross() 2\n\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\nsummarize(table1_new, across(c(cases, population), mean))\n\n# A tibble: 1 × 2\n   cases population\n   &lt;dbl&gt;      &lt;dbl&gt;\n1 91277. 490072924.\n\n\n\n\n\ntable1_new |&gt; \n  group_by(year) |&gt; \n  summarize(\n    across(\n      c(cases, population, rate),\n      mean,\n      .names = \"mean_{.col}\"\n    )\n  )\n\n# A tibble: 2 × 4\n   year mean_cases mean_population mean_rate\n  &lt;dbl&gt;      &lt;dbl&gt;           &lt;dbl&gt;     &lt;dbl&gt;\n1  1999     83580       488302902.  0.000141\n2  2000     98973.      491842947   0.000253"
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
+    "section": "그룹 함수 4: across()",
+    "text": "그룹 함수 4: across()\n\nDataacross() 1across() 2\n\n\n\ntable1_new\n\n# A tibble: 6 × 6\n  country      year  cases population      rate continent\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    \n1 Afghanistan  1999    745   19987071 0.0000373 Asia     \n2 Afghanistan  2000   2666   20595360 0.000129  Asia     \n3 Brazil       1999  37737  172006362 0.000219  Americas \n4 Brazil       2000  80488  174504898 0.000461  Americas \n5 China        1999 212258 1272915272 0.000167  Asia     \n6 China        2000 213766 1280428583 0.000167  Asia     \n\n\n\n\n\nsummarize(table1_new, across(c(cases, population), mean))\n\n# A tibble: 1 × 2\n   cases population\n   &lt;dbl&gt;      &lt;dbl&gt;\n1 91277. 490072924.\n\n\n\n\n\ntable1_new |&gt; \n  group_by(year) |&gt; \n  summarize(\n    across(\n      c(cases, population, rate),\n      mean,\n      .names = \"mean_{.col}\"\n    )\n  )\n\n# A tibble: 2 × 4\n   year mean_cases mean_population mean_rate\n  &lt;dbl&gt;      &lt;dbl&gt;           &lt;dbl&gt;     &lt;dbl&gt;\n1  1999     83580       488302902.  0.000141\n2  2000     98973.      491842947   0.000253"
   },
   {
     "objectID": "Lecture_1_3.html#다중-테이블-결합-종류",
     "href": "Lecture_1_3.html#다중-테이블-결합-종류",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "다중 테이블 결합: 종류",
     "text": "다중 테이블 결합: 종류\n\n테이블 조인(join): 두 개 데이터 프레임을 공통키(common key)를 이용해 결합함으로써 하나의 데이터 프레임을 생성\n테이블 병합(merge): 두 데이터 프레임을 결합해 새로운 단일한 프레임을 생성한다는 의미에서는 테이블 조인과 동일하지만, 공통키가 없으며, 행과 열 중 하나는 반드시 동일해야 함."
   },
   {
     "objectID": "Lecture_1_3.html#테이블-조인-키key",
     "href": "Lecture_1_3.html#테이블-조인-키key",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "테이블 조인: 키(key)",
     "text": "테이블 조인: 키(key)"
   },
   {
     "objectID": "Lecture_1_3.html#테이블-조인-유형",
     "href": "Lecture_1_3.html#테이블-조인-유형",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "테이블 조인: 유형",
     "text": "테이블 조인: 유형\n\nleft_join(): 첫 번째 테이블은 그대로 둔 상태에서 두 번째 테이블을 결합함으로써 두 번째 테이블의 열을 가져옴\nright_join(): 두 번째 테이블은 그대로 둔 상태에서 첫 번째 테이블을 결합함으로써 첫 번째 테이블의 열을 가져옴\ninner_join(): 두 테이블 모두에 존재하는 열을 취함\nfull_join(): 최소한 한 테이블에 존재하는 열을 모두 취함\nsemi_join(): 첫 번째 테이블의 행 중 두 번째 테이블에 대응하는 행이 있는 것만 취함\nanti_join(): 첫 번째 테이블의 행 중 두 번째 테이블에 대응하는 행이 없는 것만 취함"
   },
   {
     "objectID": "Lecture_1_3.html#테이블-조인-유형-1",
     "href": "Lecture_1_3.html#테이블-조인-유형-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "테이블 조인: 유형",
     "text": "테이블 조인: 유형"
   },
   {
     "objectID": "Lecture_1_3.html#테이블-조인-유형-2",
     "href": "Lecture_1_3.html#테이블-조인-유형-2",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "테이블 조인: 유형",
     "text": "테이블 조인: 유형"
   },
   {
     "objectID": "Lecture_1_3.html#테이블-조인-유형-3",
     "href": "Lecture_1_3.html#테이블-조인-유형-3",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "테이블 조인: 유형",
     "text": "테이블 조인: 유형"
   },
   {
     "objectID": "Lecture_1_3.html#테이블-병합-주요-함수",
     "href": "Lecture_1_3.html#테이블-병합-주요-함수",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "테이블 병합: 주요 함수",
-    "text": "테이블 병합: 주요 함수\n\n\nbind_row(): 컬럼이 동일한 두 테이블을 상하로 연결\n\nbind_col(): 행이 동일한 두 테이블을 좌우로 연결"
+    "text": "테이블 병합: 주요 함수\n\nbind_row(): 컬럼이 동일한 두 테이블을 상하로 연결\nbind_col(): 행이 동일한 두 테이블을 좌우로 연결"
   },
   {
     "objectID": "Lecture_1_3.html#테이블-병합-주요-함수-1",
     "href": "Lecture_1_3.html#테이블-병합-주요-함수-1",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "테이블 병합: 주요 함수",
-    "text": "테이블 병합: 주요 함수\n\n\nbind_row 1\nbind_row 2\nbind_col 1\nbind_col 2\n\n\n\n\nlibrary(tidyverse)\nlibrary(gapminder)\ngap_1957 &lt;- gapminder |&gt; filter(year == 1957)\ngap_1982 &lt;- gapminder |&gt; filter(year == 1982)\ngap_2007 &lt;- gapminder |&gt; filter(year == 2007)\n\n\n\n\ngapminder_merge_row &lt;- bind_rows(\n  gap_1957, gap_1982, gap_2007\n)\ngapminder_merge_row\n\n# A tibble: 426 × 6\n   country     continent  year lifeExp      pop gdpPercap\n   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;\n 1 Afghanistan Asia       1957    30.3  9240934      821.\n 2 Albania     Europe     1957    59.3  1476505     1942.\n 3 Algeria     Africa     1957    45.7 10270856     3014.\n 4 Angola      Africa     1957    32.0  4561361     3828.\n 5 Argentina   Americas   1957    64.4 19610538     6857.\n 6 Australia   Oceania    1957    70.3  9712569    10950.\n 7 Austria     Europe     1957    67.5  6965860     8843.\n 8 Bahrain     Asia       1957    53.8   138655    11636.\n 9 Bangladesh  Asia       1957    39.3 51365468      662.\n10 Belgium     Europe     1957    69.2  8989111     9715.\n# ℹ 416 more rows\n\n\n\n\n\ngap_var1 &lt;- gapminder |&gt; select(country, continent, year)\ngap_var2 &lt;- gapminder |&gt; select(lifeExp, pop, gdpPercap)\n\n\n\n\ngapminder_merge_col &lt;- bind_cols(gap_var1, gap_var2)\ngapminder_merge_col\n\n# A tibble: 1,704 × 6\n   country     continent  year lifeExp      pop gdpPercap\n   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;\n 1 Afghanistan Asia       1952    28.8  8425333      779.\n 2 Afghanistan Asia       1957    30.3  9240934      821.\n 3 Afghanistan Asia       1962    32.0 10267083      853.\n 4 Afghanistan Asia       1967    34.0 11537966      836.\n 5 Afghanistan Asia       1972    36.1 13079460      740.\n 6 Afghanistan Asia       1977    38.4 14880372      786.\n 7 Afghanistan Asia       1982    39.9 12881816      978.\n 8 Afghanistan Asia       1987    40.8 13867957      852.\n 9 Afghanistan Asia       1992    41.7 16317921      649.\n10 Afghanistan Asia       1997    41.8 22227415      635.\n# ℹ 1,694 more rows"
+    "text": "테이블 병합: 주요 함수\n\nbind_row 1bind_row 2bind_col 1bind_col 2\n\n\n\nlibrary(tidyverse)\nlibrary(gapminder)\ngap_1957 &lt;- gapminder |&gt; filter(year == 1957)\ngap_1982 &lt;- gapminder |&gt; filter(year == 1982)\ngap_2007 &lt;- gapminder |&gt; filter(year == 2007)\n\n\n\n\ngapminder_merge_row &lt;- bind_rows(\n  gap_1957, gap_1982, gap_2007\n)\ngapminder_merge_row\n\n# A tibble: 426 × 6\n   country     continent  year lifeExp      pop gdpPercap\n   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;\n 1 Afghanistan Asia       1957    30.3  9240934      821.\n 2 Albania     Europe     1957    59.3  1476505     1942.\n 3 Algeria     Africa     1957    45.7 10270856     3014.\n 4 Angola      Africa     1957    32.0  4561361     3828.\n 5 Argentina   Americas   1957    64.4 19610538     6857.\n 6 Australia   Oceania    1957    70.3  9712569    10950.\n 7 Austria     Europe     1957    67.5  6965860     8843.\n 8 Bahrain     Asia       1957    53.8   138655    11636.\n 9 Bangladesh  Asia       1957    39.3 51365468      662.\n10 Belgium     Europe     1957    69.2  8989111     9715.\n# ℹ 416 more rows\n\n\n\n\n\ngap_var1 &lt;- gapminder |&gt; select(country, continent, year)\ngap_var2 &lt;- gapminder |&gt; select(lifeExp, pop, gdpPercap)\n\n\n\n\ngapminder_merge_col &lt;- bind_cols(gap_var1, gap_var2)\ngapminder_merge_col\n\n# A tibble: 1,704 × 6\n   country     continent  year lifeExp      pop gdpPercap\n   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;\n 1 Afghanistan Asia       1952    28.8  8425333      779.\n 2 Afghanistan Asia       1957    30.3  9240934      821.\n 3 Afghanistan Asia       1962    32.0 10267083      853.\n 4 Afghanistan Asia       1967    34.0 11537966      836.\n 5 Afghanistan Asia       1972    36.1 13079460      740.\n 6 Afghanistan Asia       1977    38.4 14880372      786.\n 7 Afghanistan Asia       1982    39.9 12881816      978.\n 8 Afghanistan Asia       1987    40.8 13867957      852.\n 9 Afghanistan Asia       1992    41.7 16317921      649.\n10 Afghanistan Asia       1997    41.8 22227415      635.\n# ℹ 1,694 more rows"
   },
   {
     "objectID": "Lecture_1_3.html#바이블",
@@ -3418,16 +3418,16 @@
   {
     "objectID": "Lecture_1_3.html#데이터사이언스-프로세스-타이디버스-2",
     "href": "Lecture_1_3.html#데이터사이언스-프로세스-타이디버스-2",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "데이터사이언스 프로세스: 타이디버스",
-    "text": "데이터사이언스 프로세스: 타이디버스\n\nhttps://r4ds.hadley.nz/intro.html"
+    "text": "데이터사이언스 프로세스: 타이디버스\n\n\n\nhttps://r4ds.hadley.nz/intro.html"
   },
   {
     "objectID": "Lecture_1_3.html#데이터사이언스-프로세스-2",
     "href": "Lecture_1_3.html#데이터사이언스-프로세스-2",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "데이터사이언스 프로세스",
-    "text": "데이터사이언스 프로세스\n\nhttps://r4ds.hadley.nz/transform.html\n데이터 변형하기(transform): 정돈된 데이터에 구조적ㆍ의미적 변동을 가해 다음 단계(시각화 및 모델링)에 적합한 상태로 만드는 과정"
+    "text": "데이터사이언스 프로세스\n\n\n\nhttps://r4ds.hadley.nz/transform.html\n\n\n\n데이터 변형하기(transform): 정돈된 데이터에 구조적ㆍ의미적 변동을 가해 다음 단계(시각화 및 모델링)에 적합한 상태로 만드는 과정"
   },
   {
     "objectID": "Lecture_1_3.html#데이터사이언스-프로세스-타이디버스-3",
@@ -3439,7 +3439,7 @@
   {
     "objectID": "Lecture_1_3.html#단일-테이블-조작-함수의-유형",
     "href": "Lecture_1_3.html#단일-테이블-조작-함수의-유형",
-    "title": "\n오픈소스 프로그래밍 1데이터 불러오기ㆍ정돈하기ㆍ변형하기\n",
+    "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "단일 테이블 조작 함수의 유형",
     "text": "단일 테이블 조작 함수의 유형\n\n행(rows) 함수: 행에 적용되는 함수, 즉 행의 변화를 야기하는 함수\n열(columns) 함수: 열에 적용되는 함수, 즉 열의 변화를 야기하는 함수\n그룹(groups) 함수: 그룹에 적용되는 함수"
   },
@@ -3679,6 +3679,419 @@
     "href": "Lecture_1_3.html",
     "title": "오픈소스 프로그래밍 1\n데이터 불러오기ㆍ정돈하기ㆍ변형하기",
     "section": "",
-    "text": "https://r4ds.hadley.nz/\n\n\n\n\n\n\n\n\nhttps://r4ds.hadley.nz/intro\n\n\n\n\n\n\n\n\nhttps://r4ds.hadley.nz/intro.html\n\n\n\n\n\n\n\n\nhttps://allisonhorst.com/r-packages-functions\n\n\n\n\n\n\n“정돈된 데이터(tidy data) 처리와 분석을 위한 하나의 우주적 생태계”\n데이터사이언스를 일관성 있게 수행하기 위한 패키지들의 패키지\n\nlibrary(tidyverse)\n\n\n\n\n\n\n\n\nhttps://tidyverse.tidyverse.org/\n\n\n\n\n\n\n\nhttps://www.tidyverse.org/\n\n\n\n\n\n\n\n\n타이디 디자인 원리(Tidy Design Principles)\n\n인간중심성 Human-centeredness\n\nFor an end-user programmer\n\n일관성 Consistency\n\nThe smallest possible set of key ideas, used as comprehensively as possible\n\n조합성 Composability\n\nMany simple pieces, composed for a larger task using operators such as |&gt; and +\n\n포용성 Inclusiveness\n\nTowards a diverse, open, and friendly community\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBase R 1Base R 2파이프 연산자(pipe operator)\n\n\n\ningredients &lt;- tibble(우유, 계란, 밀가루)\nmix_result &lt;- mix(ingredients, 강도, 혼합시간, ...)\nbake_result &lt;- bake(mix_result, 온도, 굽기시간, ...)\ndecorate_result &lt;- decorate(bake_result, 장식1, 장식2, ...)\nslice_result &lt;- slice(decorate_result, 절단도구, 등분수, ...)\n\n\n\n\nslice_result &lt;- slice(\n  decorate(\n    bake(\n      mix(\n        tibble(\n          우유, 계란, 밀가루\n        ), 강도, 혼합시간, ...\n      ), 온도, 굽기시간, ...\n    ), 장식1, 장식2, ... \n  ), 절단도구, 등분수, ...\n) \n\n\n\n\ntibble(우유, 계란, 밀가루) |&gt; \n  mix(강도, 혼합시간) |&gt; \n  bake(온도, 굽기시간) |&gt; \n  decorate(장식1, 장식2, ...) |&gt; \n  slice(절단도구, 등분수) -&gt; slice_result\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhttps://www.rforecology.com/post/how-to-use-pipes/\n\n\n\n\n\n\n\n\nhttps://allisonhorst.com/everything-else"
+    "text": "https://r4ds.hadley.nz/import.html\n\n\n\n데이터 불러오기(importing): 데이터를 ‘가져와’ R 객체로 만들기\n\n\n\n\n\n\n\nhttps://r4ds.hadley.nz/intro.html\n\n\n\n\n\n\n\n\nhttps://tibble.tidyverse.org/\n\n\n\n\n\n\n데이터 프레임data.frametibble 1tibble 2\n\n\n\nlibrary(tidyverse)\na &lt;- c(TRUE, FALSE, TRUE, FALSE)\nb &lt;- c(58L, 26L, 28L, 22L)\nc &lt;- c(3.19, 2.09, 2.11, 2.03)\nd &lt;- c(\"이상일\", \"김우형\", \"이하은\", \"박서우\")\ne &lt;- c(\"남자\", \"남자\", \"여자\", \"여자\")\ndf_1 &lt;- data.frame(a, b, c, d, e)\ndf_2 &lt;- tibble(a, b, c, d, e)\n\n\n\n\ndf_1\n\n      a  b    c      d    e\n1  TRUE 58 3.19 이상일 남자\n2 FALSE 26 2.09 김우형 남자\n3  TRUE 28 2.11 이하은 여자\n4 FALSE 22 2.03 박서우 여자\n\n\n\n\n\ndf_2\n\n# A tibble: 4 × 5\n  a         b     c d      e    \n  &lt;lgl&gt; &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;\n1 TRUE     58  3.19 이상일 남자 \n2 FALSE    26  2.09 김우형 남자 \n3 TRUE     28  2.11 이하은 여자 \n4 FALSE    22  2.03 박서우 여자 \n\n\n\n\n\ndf_2 |&gt; mutate(\n  e = fct(e, levels = c(\"남자\", \"여자\"))\n)\n\n# A tibble: 4 × 5\n  a         b     c d      e    \n  &lt;lgl&gt; &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;fct&gt;\n1 TRUE     58  3.19 이상일 남자 \n2 FALSE    26  2.09 김우형 남자 \n3 TRUE     28  2.11 이하은 여자 \n4 FALSE    22  2.03 박서우 여자 \n\n\n\n\n\n\n\n\n\n데이터 프레임(티블) 객체를 엑셀과 유사한 형태로 디스플레이\n작동 방법\n\nView(티블명) 함수\n환경창의 아이콘 클릭\n\n기능\n\n소팅(sorting): 분류하기\n스크롤링(scrolling): 상하이동\n필터링(filtering): 골라내기\n서칭(searching): 검색하기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhttps://readr.tidyverse.org/\n\n\n\n\n\n\n\n\n함수명\n포맷\n\n\n\n\nread_csv()\n콤마분리(comma-separated values, CSV) 형식\n\n\nread_csv2()\n세미콜론분리(semicolon-separated) 형식\n\n\nread_tsv()\n탭구분(tab-limited) 형식\n\n\nread_delim()\n여타의 구분 형식\n\n\nread_fwf()\n고정폭(fixed-width) 형식\n\n\nread_table()\n공백구분 형식\n\n\nread_log()\n아파치 형식(Apache-style)의 로그 파일\n\n\n\n\n\n\n\n\n\n컬럼 유형\n새로운 벡터\n기존 벡터\n\n\n\n\n논리형 lgl\ncol_logical()\nparse_logical()\n\n\n정수형 int\ncol_integer()\nparse_integer()\n\n\n실수형 dbl\ncol_double()\nparse_double()\n\n\n문자형 chr\ncol_character()\nparse_character()\n\n\n범주형 fct\ncol_factor()\nparse_factor()\n\n\n\n\n\n\n\n불러오기 1결과 1불러오기 2결과 2\n\n\n\nlibrary(tidyverse)\nread_csv(\"https://pos.it/r4ds-students-csv\")\n\n\n\n\nlibrary(tidyverse)\nread_csv(\"https://pos.it/r4ds-students-csv\")\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6    \n\n\n\n\n\nlibrary(tidyverse)\nread_csv(\n  file = \"https://pos.it/r4ds-students-csv\", \n  skip = 1, \n  col_names = c(\"student_id\", \"full_name\", \"favorite_food\", \"meal_plan\", \"age\"),\n  col_types = cols(\n    meal_plan = col_factor(),\n    age = col_number()\n  ),\n  na = c(\"N/A\")\n  )\n\n\n\n\nlibrary(tidyverse)\nread_csv(\n  file = \"https://pos.it/r4ds-students-csv\", \n  skip = 1, \n  col_names = c(\"student_id\", \"full_name\", \"favorite_food\", \"meal_plan\", \"age\"),\n  col_types = cols(\n    meal_plan = col_factor(),\n    age = col_number()\n  ),\n  na = c(\"N/A\")\n  )\n\n# A tibble: 6 × 5\n  student_id full_name        favorite_food      meal_plan             age\n       &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;fct&gt;               &lt;dbl&gt;\n1          1 Sunil Huffmann   Strawberry yoghurt Lunch only              4\n2          2 Barclay Lynn     French fries       Lunch only              5\n3          3 Jayendra Lyne    &lt;NA&gt;               Breakfast and lunch     7\n4          4 Leon Rossini     Anchovies          Lunch only             NA\n5          5 Chidiegwu Dunkel Pizza              Breakfast and lunch    NA\n6          6 Güvenç Attila    Ice cream          Lunch only              6\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhttps://readxl.tidyverse.org/\n\n\n\n\n\n\n\nhttps://ycphs.github.io/openxlsx/\n\n\n\n\n\n\n\nhttps://googlesheets4.tidyverse.org/\n\n\n\n\n\n\n\n\n\nread_xls(), read_xlsx(), read_excel()\n\npath: 파일 경로와 파일명\nsheet: 특정 시트의 선택\nrange: 특정 범위의 셀 선택\nskip: 불러들이지 않을 최소 행 번호\ncol_names: 컬럼 이름 지정\ncol_types: 컬럼 데이터 유형 지정(“skip”, “guess”, “text”, “logical”, “numeric”, etc.)\nna: 결측치 규정"
+  },
+  {
+    "objectID": "Lecture_1_1.html#section-4",
+    "href": "Lecture_1_1.html#section-4",
+    "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
+    "section": "",
+    "text": "https://doi.org/10.17279/jkagee.2025.33.4.53"
+  },
+  {
+    "objectID": "Lecture_1_1.html#section-14",
+    "href": "Lecture_1_1.html#section-14",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "",
+    "text": "https://microsoft.github.io/Workshop-Interact-with-OpenAI-models/ko/llms/"
+  },
+  {
+    "objectID": "Lecture_1_1.html#section-18",
+    "href": "Lecture_1_1.html#section-18",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "",
+    "text": "https://www.mdpi.com/2071-1050/16/3/978"
+  },
+  {
+    "objectID": "Lecture_1_1.html#section-19",
+    "href": "Lecture_1_1.html#section-19",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "",
+    "text": "https://ivelasq.github.io/mortgage-dashboard/"
+  },
+  {
+    "objectID": "Lecture_1_1.html#제작-도구-1",
+    "href": "Lecture_1_1.html#제작-도구-1",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "제작 도구",
+    "text": "제작 도구"
+  },
+  {
+    "objectID": "Lecture_1_1.html#바이블",
+    "href": "Lecture_1_1.html#바이블",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "바이블",
+    "text": "바이블\n\nhttps://r4ds.hadley.nz/"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스-프로세스와-r",
+    "href": "Lecture_1_1.html#데이터사이언스-프로세스와-r",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스 프로세스와 R",
+    "text": "데이터사이언스 프로세스와 R\n\nhttps://r4ds.hadley.nz/intro"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스-프로세스-타이디버스",
+    "href": "Lecture_1_1.html#데이터사이언스-프로세스-타이디버스",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스 프로세스: 타이디버스",
+    "text": "데이터사이언스 프로세스: 타이디버스\n\nhttps://r4ds.hadley.nz/intro.html"
+  },
+  {
+    "objectID": "Lecture_1_1.html#타이디버스",
+    "href": "Lecture_1_1.html#타이디버스",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "타이디버스",
+    "text": "타이디버스\n\nhttps://allisonhorst.com/r-packages-functions"
+  },
+  {
+    "objectID": "Lecture_1_1.html#tidy-universe",
+    "href": "Lecture_1_1.html#tidy-universe",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "Tidy + Universe",
+    "text": "Tidy + Universe\n\n“정돈된 데이터(tidy data) 처리와 분석을 위한 하나의 우주적 생태계”\n\n데이터사이언스를 일관성 있게 수행하기 위한 패키지들의 패키지\n\nlibrary(tidyverse)\n\n\n\n\n\n\n\n\nhttps://tidyverse.tidyverse.org/\n\n\n\n\n\nhttps://www.tidyverse.org/"
+  },
+  {
+    "objectID": "Lecture_1_1.html#타이디버스-철학-4대-원리",
+    "href": "Lecture_1_1.html#타이디버스-철학-4대-원리",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "타이디버스 철학: 4대 원리",
+    "text": "타이디버스 철학: 4대 원리\n타이디 디자인 원리(Tidy Design Principles)\n\n\n인간중심성 Human-centeredness\n\nFor an end-user programmer\n\n\n\n일관성 Consistency\n\nThe smallest possible set of key ideas, used as comprehensively as possible\n\n\n\n조합성 Composability\n\nMany simple pieces, composed for a larger task using operators such as |&gt; and +\n\n\n\n포용성 Inclusiveness\n\nTowards a diverse, open, and friendly community"
+  },
+  {
+    "objectID": "Lecture_1_1.html#파이프-연산자pipe-operator",
+    "href": "Lecture_1_1.html#파이프-연산자pipe-operator",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "파이프 연산자(pipe operator)",
+    "text": "파이프 연산자(pipe operator)"
+  },
+  {
+    "objectID": "Lecture_1_1.html#파이프-연산자pipe-operator-1",
+    "href": "Lecture_1_1.html#파이프-연산자pipe-operator-1",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "파이프 연산자(pipe operator)",
+    "text": "파이프 연산자(pipe operator)\n\n\nBase R 1\nBase R 2\n파이프 연산자(pipe operator)\n\n\n\n\ningredients &lt;- tibble(우유, 계란, 밀가루)\nmix_result &lt;- mix(ingredients, 강도, 혼합시간, ...)\nbake_result &lt;- bake(mix_result, 온도, 굽기시간, ...)\ndecorate_result &lt;- decorate(bake_result, 장식1, 장식2, ...)\nslice_result &lt;- slice(decorate_result, 절단도구, 등분수, ...)\n\n\n\n\nslice_result &lt;- slice(\n  decorate(\n    bake(\n      mix(\n        tibble(\n          우유, 계란, 밀가루\n        ), 강도, 혼합시간, ...\n      ), 온도, 굽기시간, ...\n    ), 장식1, 장식2, ... \n  ), 절단도구, 등분수, ...\n) \n\n\n\n\ntibble(우유, 계란, 밀가루) |&gt; \n  mix(강도, 혼합시간) |&gt; \n  bake(온도, 굽기시간) |&gt; \n  decorate(장식1, 장식2, ...) |&gt; \n  slice(절단도구, 등분수) -&gt; slice_result"
+  },
+  {
+    "objectID": "Lecture_1_1.html#파이프-연산자pipe-operator-네이티브native",
+    "href": "Lecture_1_1.html#파이프-연산자pipe-operator-네이티브native",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "파이프 연산자(pipe operator): 네이티브(native)",
+    "text": "파이프 연산자(pipe operator): 네이티브(native)"
+  },
+  {
+    "objectID": "Lecture_1_1.html#no-error-no-gain",
+    "href": "Lecture_1_1.html#no-error-no-gain",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "No error, no gain!",
+    "text": "No error, no gain!\n\n\n\nhttps://allisonhorst.com/everything-else"
+  },
+  {
+    "objectID": "Lecture_1_1.html#r의-탄생-r의-아버지들1993년",
+    "href": "Lecture_1_1.html#r의-탄생-r의-아버지들1993년",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "R의 탄생: R의 아버지들(1993년)",
+    "text": "R의 탄생: R의 아버지들(1993년)\n\n\n\n\n\n조지 로스 이하카  George Ross Ihaka\n\n\n\n\n\n오클랜드 대학  University of Auckland\n\n\n\n\n\n로버트 젠틀맨  Robert C. Gentleman"
+  },
+  {
+    "objectID": "Lecture_1_1.html#r의-탄생-1.0버전2000년",
+    "href": "Lecture_1_1.html#r의-탄생-1.0버전2000년",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "R의 탄생: 1.0버전(2000년)",
+    "text": "R의 탄생: 1.0버전(2000년)\n\nhttps://www.r-consortium.org/blog/2023/02/28/happy-23rd-birthday-r"
+  },
+  {
+    "objectID": "Lecture_1_1.html#base-r",
+    "href": "Lecture_1_1.html#base-r",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "Base R",
+    "text": "Base R\n\n\n객체(object): R 환경 안에 존재하는, 식별가능하고 조작 가능한 모든 엔터티\n\n데이터 객체: 숫자/문자/논리값, 벡터, 데이터 프레임\n비데이터 객체: 함수, 플롯, 모형 등\n\n\n\n할당(assignment): 데이터와 이름을 연결해 R 환경에 객체를 저장하는 프로그래밍 언어적 동작\n\n특정한 할당 연산자 사용: &lt;- 또는 =\n\n\n\n연산자(operator): 하나 이상의 객체(피연산자)에 적용되어, 객체의 상태를 바꾸거나 새로운 값을 만드는 프로그래밍 언어의 기본 요소\n함수(function): 특정 동작을 수행하는 코드 블록. 인풋을 함수에 적용하면 함수의 고유한 동작을 통해 아웃풋이 산출"
+  },
+  {
+    "objectID": "Lecture_1_1.html#base-r-연산자-operators",
+    "href": "Lecture_1_1.html#base-r-연산자-operators",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "Base R: 연산자 Operators",
+    "text": "Base R: 연산자 Operators\n\nhttps://learnetutorials.com/r-programming/operators-and-types"
+  },
+  {
+    "objectID": "Lecture_1_1.html#base-r-할당-연산자",
+    "href": "Lecture_1_1.html#base-r-할당-연산자",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "Base R: 할당 연산자",
+    "text": "Base R: 할당 연산자"
+  },
+  {
+    "objectID": "Lecture_1_1.html#base-r-산술-연산자",
+    "href": "Lecture_1_1.html#base-r-산술-연산자",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "Base R: 산술 연산자",
+    "text": "Base R: 산술 연산자\n\n\nOperator\nDescription\nExample\n\n\n\n+\naddition\n5+5=10\n\n\n-\nsubtraction\n5-5=0\n\n\n*\nmultiplication\n2*8=16\n\n\n/\ndivision\n100/10=10\n\n\n\n^ (or **)\nexponent/power\n5^2=25\n\n\n%%\nmodulo\n100%%15=10\n\n\n%/%\ninteger division\n100%/%15=6"
+  },
+  {
+    "objectID": "Lecture_1_1.html#base-r-관계-논리-기타-연산자",
+    "href": "Lecture_1_1.html#base-r-관계-논리-기타-연산자",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "Base R: 관계, 논리, 기타 연산자",
+    "text": "Base R: 관계, 논리, 기타 연산자\n\n\nType\nOperator\nCondition\n\n\n\n관계 Relational\nx &lt; y\nWhere x less than y\n\n\n\n\nx &gt; y\nWhere x greater than y\n\n\n\n\nx &lt;= y\nWhere x less than or equal to y\n\n\n\n\nx &gt;= y\nWhere x greater than or equal to y\n\n\n\n\nx == y\nWhere x (exactly) equals y\n\n\n\n\nx != y\nWhere x is not equal to y\n\n\n\n논리 Logical\n!\nNegation\n\n\n\n&\nLogical “and” (x &gt;= 20 & x &lt; 35)\n\n\n\n|\nLogical “or (x == 20 | x &gt; 45)\n\n\n\nxor\nLogical “exclusive or” (xor(x == 20, x == 50)\n\n\n기타 Miscellaneous\nx %in% y\nWhere x is in y\n\n\n\n\n!x %in% y\nWhere x is not in y"
+  },
+  {
+    "objectID": "Lecture_1_1.html#base-r-연습",
+    "href": "Lecture_1_1.html#base-r-연습",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "Base R: 연습",
+    "text": "Base R: 연습\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "Lecture_1_1.html#base-r-기초-개념",
+    "href": "Lecture_1_1.html#base-r-기초-개념",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "Base R: 기초 개념",
+    "text": "Base R: 기초 개념\n\n\n객체(object): R 환경 안에 존재하는, 식별가능하고 조작 가능한 모든 엔터티\n\n데이터 객체: 숫자/문자/논리값, 벡터, 데이터 프레임\n비데이터 객체: 함수, 플롯, 모형 등\n\n\n\n할당(assignment): 데이터와 이름을 연결해 R 환경에 객체를 저장하는 프로그래밍 언어적 동작\n\n특정한 할당 연산자 사용: &lt;- 또는 =\n\n\n\n연산자(operator): 하나 이상의 객체(피연산자)에 적용되어, 객체의 상태를 바꾸거나 새로운 값을 만드는 프로그래밍 언어의 기본 요소\n함수(function): 특정 동작을 수행하는 코드 블록. 인풋을 함수에 적용하면 함수의 고유한 동작을 통해 아웃풋이 산출"
+  },
+  {
+    "objectID": "Lecture_1_1.html#base-r-함수-functions",
+    "href": "Lecture_1_1.html#base-r-함수-functions",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "Base R: 함수 functions",
+    "text": "Base R: 함수 functions\n\nseq(from = 2, to = 100, by = 2)\n\n\nhttps://www.r4epi.com/speaking-rs-language"
+  },
+  {
+    "objectID": "Lecture_1_1.html#base-r-주요-산술-함수",
+    "href": "Lecture_1_1.html#base-r-주요-산술-함수",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "Base R: 주요 산술 함수",
+    "text": "Base R: 주요 산술 함수\n\n\n분류\n함수\n\n\n\n절대값/부호\n\nabs(), sign()\n\n\n\n제곱근/지수\n\nsqrt(), exp()\n\n\n\n로그\n\nlog(), log10(), log2()\n\n\n\n삼각함수\n\nsin(), cos(), tan(), asin()\n\n\n\n반올림\n\nround(), floor(), ceiling(), trunc()\n\n\n\n요약\n\nsum(), mean(), median(), var(), sd(), min(), max(), range(), summary()"
+  },
+  {
+    "objectID": "Lecture_1_1.html#base-r-그-외-많이-쓰이는-함수",
+    "href": "Lecture_1_1.html#base-r-그-외-많이-쓰이는-함수",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "Base R: 그 외 많이 쓰이는 함수",
+    "text": "Base R: 그 외 많이 쓰이는 함수\n\n\n\n\n\n\n분류\n함수\n\n\n\n논리형 판별\n\nis.na(), is.numeric(), is.character(), is.null()\n\n\n\n수열/반복\n\nseq(), rep()\n\n\n\n난수/표본 생성\n\nsample(), rnorm()\n\n\n\n유형 변환\n\nas.numeric(), as.character()\n\n\n\n표준화\nscale()\n\n\n길이\nlength()\n\n\n정렬\n\nsort(), order()\n\n\n\n중복 처리\n\nunique(), duplicated()"
+  },
+  {
+    "objectID": "Lecture_1_1.html#base-r-데이터-객체",
+    "href": "Lecture_1_1.html#base-r-데이터-객체",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "Base R: 데이터 객체",
+    "text": "Base R: 데이터 객체"
+  },
+  {
+    "objectID": "Lecture_1_1.html#base-r-벡터와-데이터-프레임",
+    "href": "Lecture_1_1.html#base-r-벡터와-데이터-프레임",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "Base R: 벡터와 데이터 프레임",
+    "text": "Base R: 벡터와 데이터 프레임\n\n\nR 코드\nwebr 연습\n\n\n\n\na &lt;- c(58, 26, 24, 19)\nb &lt;- c(58L, 26L, 24L, 32L)\nc &lt;- c(TRUE, TRUE, FALSE, FALSE)\nd &lt;- c(\"이상일\", \"김우형\", \"박서우\", \"이하은\")\ndf &lt;- data.frame(a, b, c, d)\ndf\n\n   a  b     c      d\n1 58 58  TRUE 이상일\n2 26 26  TRUE 김우형\n3 24 24 FALSE 박서우\n4 19 32 FALSE 이하은\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "Lecture_1_1.html#ide",
+    "href": "Lecture_1_1.html#ide",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "IDE",
+    "text": "IDE\nIDE(integrated development environment, 통합개발환경)"
+  },
+  {
+    "objectID": "Lecture_1_1.html#ide-2",
+    "href": "Lecture_1_1.html#ide-2",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "IDE",
+    "text": "IDE\n\nhttps://djangostars.com/blog/python-ide/"
+  },
+  {
+    "objectID": "Lecture_1_1.html#ide-3",
+    "href": "Lecture_1_1.html#ide-3",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "IDE",
+    "text": "IDE\n\nhttps://posit.co/blog/positron-product-announcement-aug-2025/"
+  },
+  {
+    "objectID": "Lecture_1_1.html#개의-창",
+    "href": "Lecture_1_1.html#개의-창",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "4개의 창",
+    "text": "4개의 창"
+  },
+  {
+    "objectID": "Lecture_1_1.html#r-project",
+    "href": "Lecture_1_1.html#r-project",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "R Project",
+    "text": "R Project"
+  },
+  {
+    "objectID": "Lecture_1_1.html#r-project-1",
+    "href": "Lecture_1_1.html#r-project-1",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "R Project",
+    "text": "R Project\n\nhttps://allisonhorst.com/allison-horst"
+  },
+  {
+    "objectID": "Lecture_1_1.html#rstudio-가이드",
+    "href": "Lecture_1_1.html#rstudio-가이드",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "RStudio 가이드",
+    "text": "RStudio 가이드\n\nRStudio IDE User Guide\nPosit Cheatsheets"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r",
+    "href": "Lecture_1_1.html#데이터사이언스와-r",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R",
+    "text": "데이터사이언스와 R"
+  },
+  {
+    "objectID": "Lecture_1_1.html#posit-2022",
+    "href": "Lecture_1_1.html#posit-2022",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "posit, 2022",
+    "text": "posit, 2022\n\nhttps://posit.co/"
+  },
+  {
+    "objectID": "Lecture_1_1.html#r의-탄생-1.0.0버전2000년",
+    "href": "Lecture_1_1.html#r의-탄생-1.0.0버전2000년",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "R의 탄생: 1.0.0버전(2000년)",
+    "text": "R의 탄생: 1.0.0버전(2000년)\n\nhttps://www.r-consortium.org/blog/2023/02/28/happy-23rd-birthday-r"
+  },
+  {
+    "objectID": "Lecture_1_1.html#ide-rstudio2011년",
+    "href": "Lecture_1_1.html#ide-rstudio2011년",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "IDE: RStudio(2011년)",
+    "text": "IDE: RStudio(2011년)\nIDE(integrated development environment, 통합개발환경)"
+  },
+  {
+    "objectID": "Lecture_1_1.html#ide-rstudio2011년-2",
+    "href": "Lecture_1_1.html#ide-rstudio2011년-2",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "IDE: RStudio(2011년)",
+    "text": "IDE: RStudio(2011년)\n\nhttps://djangostars.com/blog/python-ide/"
+  },
+  {
+    "objectID": "Lecture_1_1.html#ide-rstudio.visibilityhidden",
+    "href": "Lecture_1_1.html#ide-rstudio.visibilityhidden",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "IDE: RStudio{.visibility=“hidden”}",
+    "text": "IDE: RStudio{.visibility=“hidden”}\n\nhttps://posit.co/blog/positron-product-announcement-aug-2025/"
+  },
+  {
+    "objectID": "Lecture_1_1.html#ide-rstudio",
+    "href": "Lecture_1_1.html#ide-rstudio",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "IDE: RStudio",
+    "text": "IDE: RStudio\n\nhttps://posit.co/blog/positron-product-announcement-aug-2025/"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r-2",
+    "href": "Lecture_1_1.html#데이터사이언스와-r-2",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R",
+    "text": "데이터사이언스와 R\n\n\n\n\n\nhttps://r4ds.hadley.nz/\n\n\n\n\n\n해들리 위컴  Hadley Wickham"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r-혁신가",
+    "href": "Lecture_1_1.html#데이터사이언스와-r-혁신가",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R: 혁신가",
+    "text": "데이터사이언스와 R: 혁신가\n\n\n\n\n\nhttps://r4ds.hadley.nz/\n\n\n\n\n\n해들리 위컴  Hadley Wickham"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r-데이터사이언스-과정",
+    "href": "Lecture_1_1.html#데이터사이언스와-r-데이터사이언스-과정",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R: 데이터사이언스 과정",
+    "text": "데이터사이언스와 R: 데이터사이언스 과정\n\nhttps://r4ds.hadley.nz/intro"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r-타이디버스",
+    "href": "Lecture_1_1.html#데이터사이언스와-r-타이디버스",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R: 타이디버스",
+    "text": "데이터사이언스와 R: 타이디버스\n\nhttps://r4ds.hadley.nz/intro.html"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r-데이터사이언스-프로세스",
+    "href": "Lecture_1_1.html#데이터사이언스와-r-데이터사이언스-프로세스",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R: 데이터사이언스 프로세스",
+    "text": "데이터사이언스와 R: 데이터사이언스 프로세스\n\nhttps://r4ds.hadley.nz/intro"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r-타이디버스-1",
+    "href": "Lecture_1_1.html#데이터사이언스와-r-타이디버스-1",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R: 타이디버스",
+    "text": "데이터사이언스와 R: 타이디버스\n\nhttps://allisonhorst.com/r-packages-functions"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r-타이디버스-2",
+    "href": "Lecture_1_1.html#데이터사이언스와-r-타이디버스-2",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R: 타이디버스",
+    "text": "데이터사이언스와 R: 타이디버스\n\n“정돈된 데이터(tidy data) 처리와 분석을 위한 하나의 우주적 생태계”\n\n데이터사이언스를 일관성 있게 수행하기 위한 패키지들의 패키지\n\nlibrary(tidyverse)\n\n\n\n\n\n\n\n\nhttps://tidyverse.tidyverse.org/\n\n\n\n\n\nhttps://www.tidyverse.org/"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r-타이디버스-3",
+    "href": "Lecture_1_1.html#데이터사이언스와-r-타이디버스-3",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R: 타이디버스",
+    "text": "데이터사이언스와 R: 타이디버스\n타이디 디자인 원리(Tidy Design Principles)\n\n\n인간중심성 Human-centeredness\n\nFor an end-user programmer\n\n\n\n일관성 Consistency\n\nThe smallest possible set of key ideas, used as comprehensively as possible\n\n\n\n조합성 Composability\n\nMany simple pieces, composed for a larger task using operators such as |&gt; and +\n\n\n\n포용성 Inclusiveness\n\nTowards a diverse, open, and friendly community"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r-파이프-연산자",
+    "href": "Lecture_1_1.html#데이터사이언스와-r-파이프-연산자",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R: 파이프 연산자",
+    "text": "데이터사이언스와 R: 파이프 연산자"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r-파이프-연산자-1",
+    "href": "Lecture_1_1.html#데이터사이언스와-r-파이프-연산자-1",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R: 파이프 연산자",
+    "text": "데이터사이언스와 R: 파이프 연산자\n\n\nBase R 1\nBase R 2\n파이프 연산자(pipe operator)\n\n\n\n\ningredients &lt;- tibble(우유, 계란, 밀가루)\nmix_result &lt;- mix(ingredients, 강도, 혼합시간, ...)\nbake_result &lt;- bake(mix_result, 온도, 굽기시간, ...)\ndecorate_result &lt;- decorate(bake_result, 장식1, 장식2, ...)\nslice_result &lt;- slice(decorate_result, 절단도구, 등분수, ...)\n\n\n\n\nslice_result &lt;- slice(\n  decorate(\n    bake(\n      mix(\n        tibble(\n          우유, 계란, 밀가루\n        ), 강도, 혼합시간, ...\n      ), 온도, 굽기시간, ...\n    ), 장식1, 장식2, ... \n  ), 절단도구, 등분수, ...\n) \n\n\n\n\ntibble(우유, 계란, 밀가루) |&gt; \n  mix(강도, 혼합시간) |&gt; \n  bake(온도, 굽기시간) |&gt; \n  decorate(장식1, 장식2, ...) |&gt; \n  slice(절단도구, 등분수) -&gt; slice_result"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r-파이프-연산자-2",
+    "href": "Lecture_1_1.html#데이터사이언스와-r-파이프-연산자-2",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R: 파이프 연산자",
+    "text": "데이터사이언스와 R: 파이프 연산자"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r-파이프-연산자-3",
+    "href": "Lecture_1_1.html#데이터사이언스와-r-파이프-연산자-3",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R: 파이프 연산자",
+    "text": "데이터사이언스와 R: 파이프 연산자\n\nhttps://www.rforecology.com/post/how-to-use-pipes/"
+  },
+  {
+    "objectID": "Lecture_1_1.html#g",
+    "href": "Lecture_1_1.html#g",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "g",
+    "text": "g"
+  },
+  {
+    "objectID": "Lecture_1_1.html#v",
+    "href": "Lecture_1_1.html#v",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "v",
+    "text": "v\n&lt;iframe src=“https://ivelasq.github.io/mortgage-dashboard/”loading=“lazy” style=“width: 100%; height: 1000px; border: 0px none;” allow=“web-share; clipboard-write”&gt;"
+  },
+  {
+    "objectID": "Lecture_1_1.html#ide-rstudio-1",
+    "href": "Lecture_1_1.html#ide-rstudio-1",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "IDE: RStudio",
+    "text": "IDE: RStudio"
+  },
+  {
+    "objectID": "Lecture_1_1.html#데이터사이언스와-r-패키지와-타이디버스",
+    "href": "Lecture_1_1.html#데이터사이언스와-r-패키지와-타이디버스",
+    "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1교사의 AIㆍ디지털 역량\n",
+    "section": "데이터사이언스와 R: 패키지와 타이디버스",
+    "text": "데이터사이언스와 R: 패키지와 타이디버스\n\nhttps://r4ds.hadley.nz/intro.html"
   }
 ]

@@ -40,13 +40,18 @@ execute:
 dpi: 600
 editor: visual
 # suppress-bibliography: true
+webr: 
+  show-startup-message: false     
+  packages: []
+filters:
+  - webr
 editor_options: 
   chunk_output_type: console
 ---
 
-##  {.center}
+## 
 
-![](images/clipboard-627613244.png)
+![](images/clipboard-4074721109.png)
 
 ## 
 
@@ -54,7 +59,19 @@ editor_options:
 
 ## 
 
-![[http://dx.doi.org/10.17232/KSET.41.1.79](http://dx.doi.org/10.17232/KSET.41.1.79){style="font-size:1rem"}](images/clipboard-4164862292.png){.center}
+::: {layout="[40,60]"}
+![](images/clipboard-1248908344.jpeg)
+
+![](images/clipboard-557985304.jpeg)
+:::
+
+## 
+
+![[http://dx.doi.org/10.17232/KSET.41.1.79](http://dx.doi.org/10.17232/KSET.41.1.79){style="font-size:1rem"}](images/clipboard-4164862292.png)
+
+## 
+
+![](images/IMG_7560%20(1).JPG)
 
 ## 
 
@@ -75,7 +92,7 @@ editor_options:
 ## 
 
 ::: {style="position: absolute; top: 0%; left: 0%; padding: 10px; border: 1px solid #ccc; border-radius: 8px; background-color: rgba(255, 255, 255, 0.8); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1.2; font-size: 2rem"}
-**튜링 테스트** <br> by <br> 앤런 튜링 <br> (1949)
+**튜링 테스트** <br> by <br> 앨런 튜링 <br> Alan Turing <br> (1949)
 :::
 
 ![[https://en.wikipedia.org/wiki/Turing_test](https://en.wikipedia.org/wiki/Turing_test){style="font-size:1rem"}](images/clipboard-1016257508.png){fig-align="center"}
@@ -90,7 +107,7 @@ editor_options:
 **Google DeepMind** <br> vs.Lee Sedol <br> 2016.3.13.
 :::
 
-![](images/clipboard-117337635.png){style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"}
+![](images/clipboard-117337635.png){.center style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"}
 
 ## 
 
@@ -164,7 +181,7 @@ editor_options:
 ![[https://if-blog.tistory.com/12919](https://if-blog.tistory.com/12919){style="font-size:1rem"}](images/clipboard-4073771849.png)
 :::
 
-##  {.center}
+## 
 
 ![](images/clipboard-419758347.png)
 
@@ -295,9 +312,7 @@ editor_options:
 ## 
 
 ```{=html}
-<iframe src="https://ivelasq.github.io/mortgage-dashboard/
-" loading="lazy" style="width: 100%; height: 1000px; border: 
-0px none;" allow="web-share; clipboard-write"></iframe>
+<iframe src="https://ivelasq.github.io/mortgage-dashboard/" loading="lazy" style="width: 100%; height: 900px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
 ```
 
 [https://ivelasq.github.io/mortgage-dashboard/](https://ivelasq.github.io/mortgage-dashboard/){style="font-size:1rem"}
@@ -309,20 +324,317 @@ editor_options:
 
 ## 제작 도구
 
+-   [**R**](https://www.r-project.org/)(혹은 Python): 인터랙티브 콘텐츠 제작
+
+    -   데이터사이언스 과정의 실행: [**tidyverse**](https://tidyverse.org/)
+
+    -   인터랙티브 시각화 및 탐색 기능의 구현: 다양한 패키지
+
 -   [**Quarto**](https://quarto.org/)(쿼토): 대시보드 제작 및 프론트앤드 웹 앱 생성
 
     -   “과학적, 기술적 출판을 위한 위한 오픈소스 시스템”
 
     -   다양한 형식의 저작물(노트, 연구 논문, 프레젠테이션, 대시보드, 웹사이트, 블로그, 서적 등)을 다양한 디지털 포맷(HTML, PDF, MS Word, ePub 등)으로 출판할 수 있게 해주는 도구
 
--   [**R**](https://www.r-project.org/)(혹은 Python): 인터랙티브 콘텐츠 제작
-
-    -   데이터사이언스 과정의 실행
-
-    -   인터랙티브 지리공간 시각화 및 탐색 기능의 구현
-
 -   [**Shiny**](https://shiny.posit.co/): 서버-기반 웹 앱 개발
 
     -   UI-Server 이원 구조
 
     -   반응형 프로그래밍(reactivity)
+
+## 제작 도구
+
+::: {layout-ncol="3" layout-valign="center"}
+![](images/hex_quarto-01.png)
+
+![](images/R_logo.svg.png)
+
+![](images/hex_shiny-01.png)
+:::
+
+# [R 개관]{style="color:coral"}
+
+## R의 탄생: R의 아버지들(1993년)
+
+::: {layout="[25,50,25]" layout-valign="center" style="text-align:center; line-height:1; font-size:3rem"}
+![[조지 로스 이하카 <br> George Ross Ihaka](https://en.wikipedia.org/wiki/Ross_Ihaka)](images/clipboard-4103752460.png)
+
+![[오클랜드 대학 <br> University of Auckland](https://en.wikipedia.org/wiki/University_of_Auckland)](images/clipboard-3647657155.png)
+
+![[로버트 젠틀맨 <br> Robert C. Gentleman](https://en.wikipedia.org/wiki/Robert_Gentleman_(statistician))](images/clipboard-3701321516.png)
+:::
+
+## R의 탄생: 1.0.0버전(2000년)
+
+![[https://www.r-consortium.org/blog/2023/02/28/happy-23rd-birthday-r](https://www.r-consortium.org/blog/2023/02/28/happy-23rd-birthday-r){style="font-size:1rem"}](images/clipboard-692617930.png){width="1501"}
+
+## Base R: 기초 개념
+
+-   객체(object): R 환경 안에 존재하는, 식별가능하고 조작 가능한 모든 엔터티
+
+    -   데이터 객체: 숫자/문자/논리값, 벡터, 데이터 프레임
+
+    -   비데이터 객체: 함수, 플롯, 모형 등
+
+-   할당(assignment): 데이터와 이름을 연결해 R 환경에 객체를 저장하는 프로그래밍 언어적 동작
+
+    -   특정한 할당 연산자 사용: `<-` 또는 `=`
+
+-   연산자(operator): 하나 이상의 객체(피연산자)에 적용되어, 객체의 상태를 바꾸거나 새로운 값을 만드는 프로그래밍 언어의 기본 요소
+
+-   함수(function): 특정 동작을 수행하는 코드 블록. 인풋을 함수에 적용하면 함수의 고유한 동작을 통해 아웃풋이 산출
+
+## Base R: 연산자 Operators
+
+![[https://learnetutorials.com/r-programming/operators-and-types](https://learnetutorials.com/r-programming/operators-and-types){style="font-size:1rem"}](images/clipboard-1399978816.png)
+
+## Base R: 할당 연산자
+
+::: {layout-ncol="2"}
+![](images/clipboard-911363916.png)
+
+![](images/clipboard-1290193573.png)
+:::
+
+## Base R: 산술 연산자
+
+|   Operator    |   Description    |   Example    |
+|:-------------:|:----------------:|:------------:|
+|      `+`      |     addition     |   `5+5=10`   |
+|      `-`      |   subtraction    |   `5-5=0`    |
+|      `*`      |  multiplication  |   `2*8=16`   |
+|      `/`      |     division     | `100/10=10`  |
+| `^` (or `**`) |  exponent/power  |   `5^2=25`   |
+|     `%%`      |      modulo      | `100%%15=10` |
+|     `%/%`     | integer division | `100%/%15=6` |
+
+## Base R: 관계, 논리, 기타 연산자 {.scrollable .smaller}
+
+| Type | Operator | Condition |
+|----|----|----|
+| 관계 Relational | `x < y` | Where `x` less than `y` |
+|  | `x > y` | Where `x` greater than `y` |
+|  | `x <= y` | Where `x` less than or equal to `y` |
+|  | `x >= y` | Where `x` greater than or equal to `y` |
+|  | `x == y` | Where `x` (exactly) equals `y` |
+|  | `x != y` | Where `x` is not equal to `y` |
+| 논리 Logical | `!` | Negation |
+|  | `&` | Logical "and" (`x >= 20 & x < 35`) |
+|  | `|` | Logical "or (`x == 20 | x > 45`) |
+|  | `xor` | Logical "exclusive or" (`xor(x == 20, x == 50`) |
+| 기타 Miscellaneous | `x %in% y` | Where `x` is in `y` |
+|  | `!x %in% y` | Where `x` is not in `y` |
+
+## Base R: 함수 functions
+
+```{r}
+#| echo: true
+#| eval: false
+seq(from = 2, to = 100, by = 2)
+```
+
+![[https://www.r4epi.com/speaking-rs-language](https://www.r4epi.com/speaking-rs-language){style="font-size:1.25rem"}](images/clipboard-1402738689.png)
+
+## Base R: 주요 산술 함수 {.scrollable .smaller}
+
+| 분류 | 함수 |
+|------------------------------------|------------------------------------|
+| 절대값/부호 | [`abs()`](https://rdrr.io/r/base/MathFun.html), [`sign()`](https://rdrr.io/r/base/sign.html) |
+| 제곱근/지수 | [`sqrt()`](https://rdrr.io/r/base/MathFun.html), [`exp()`](https://rdrr.io/r/base/Log.html) |
+| 로그 | [`log()`](https://rdrr.io/r/base/Log.html), [`log10()`](https://rdrr.io/r/base/Log.html), [`log2()`](https://rdrr.io/r/base/Log.html) |
+| 삼각함수 | [`sin()`](https://rdrr.io/r/base/Trig.html), [`cos()`](https://rdrr.io/r/base/Trig.html), [`tan()`](https://rdrr.io/r/base/Trig.html), [`asin()`](https://rdrr.io/r/base/Trig.html) |
+| 반올림 | [`round()`](https://rdrr.io/r/base/Round.html), [`floor()`](https://rdrr.io/r/base/Round.html), [`ceiling()`](https://rdrr.io/r/base/Round.html), [`trunc()`](https://rdrr.io/r/base/Round.html) |
+| 요약 | [`sum()`](https://rdrr.io/r/base/sum.html), [`mean()`](https://rdrr.io/r/base/mean.html), [`median()`](https://rdrr.io/r/stats/median.html), [`var()`](https://rdrr.io/r/stats/cor.html), [`sd()`](https://rdrr.io/r/stats/sd.html), [`min()`](https://rdrr.io/r/base/Extremes.html), [`max()`](https://rdrr.io/r/base/Extremes.html), [`range()`](https://rdrr.io/r/base/range.html), [`summary()`](https://rdrr.io/r/base/summary.html) |
+
+## Base R: 그 외 많이 쓰이는 함수 {.scrollable .smaller}
+
+| 분류           | 함수                                                     |
+|--------------------|----------------------------------------------------|
+| 논리형 판별    | `is.na()`, `is.numeric()`, `is.character()`, `is.null()` |
+| 수열/반복      | `seq()`, `rep()`                                         |
+| 난수/표본 생성 | `sample()`, `rnorm()`                                    |
+| 유형 변환      | `as.numeric()`, `as.character()`                         |
+| 표준화         | `scale()`                                                |
+| 길이           | `length()`                                               |
+| 정렬           | `sort()`, `order()`                                      |
+| 중복 처리      | `unique()`, `duplicated()`                               |
+
+## Base R: 데이터 객체
+
+![](images/clipboard-2205001184.png){fig-align="center" width="826"}
+
+## Base R: 벡터와 데이터 프레임
+
+::: panel-tabset
+## R 코드
+
+```{r}
+#| echo: true
+a <- c(58, 26, 24, 19)
+b <- c(58L, 26L, 24L, 32L)
+c <- c(TRUE, TRUE, FALSE, FALSE)
+d <- c("이상일", "김우형", "박서우", "이하은")
+df <- data.frame(a, b, c, d)
+df
+```
+
+## webr 연습
+
+```{webr-r}
+
+```
+:::
+
+## IDE: RStudio(2011년)
+
+IDE(integrated development environment, 통합개발환경)
+
+::: {layout="[45,-5,55]" layout-valign="center"}
+![](images/clipboard-2963976366.png)
+
+![](images/clipboard-676249587.png)
+:::
+
+## IDE: RStudio(2011년) {visibility="hidden"}
+
+![[https://moderndive.com/1-getting-started.html#r-rstudio](https://moderndive.com/1-getting-started.html#r-rstudio){style="font-size:1.25rem"}](images/clipboard-1340309066.png)
+
+## IDE: RStudio(2011년)
+
+![[https://djangostars.com/blog/python-ide/](https://djangostars.com/blog/python-ide/){style="font-size:1.25rem"}](https://djangostars.com/blog/wp-content/uploads/2022/08/Best-Python-IDE-for-Development_1.2.png){fig-align="center"}
+
+## IDE: RStudio {visibility="hidden"}
+
+![[https://posit.co/blog/positron-product-announcement-aug-2025/](https://posit.co/blog/positron-product-announcement-aug-2025/){style="font-size:1.25rem"}](https://posit.co/wp-content/uploads/2025/08/FEATURED-BLOG-IMAGE-POSITRON-GTM-BLOG-POST-ANNOUNCEMENT-1.jpg){fig-align="center"}
+
+## IDE: RStudio
+
+![](images/clipboard-2401742054.png){height="900px" fig-align="center"}
+
+## 데이터사이언스와 R: posit(2022년) {visibility="hidden"}
+
+![[https://posit.co/](https://posit.co/){style="font-size:1rem"}](images/clipboard-4259342209.png)
+
+## 데이터사이언스와 R {visibility="hidden"}
+
+![[https://r4ds.hadley.nz/](https://r4ds.hadley.nz/){style="font-size:1rem"}](images/clipboard-4118011220.png){fig-align="center"}
+
+## 데이터사이언스와 R: 혁신가
+
+::: {layout="[55, 45]" style="text-align:center; line-height:1; font-size:3rem"}
+![[https://r4ds.hadley.nz/](https://r4ds.hadley.nz/){style="font-size:1rem"}](images/clipboard-4118011220.png){height="850px" fig-align="center" height="900"}
+
+![해들리 위컴 <br> Hadley Wickham](https://hadley.nz/hadley.jpg)
+:::
+
+## 데이터사이언스와 R: 데이터사이언스 프로세스
+
+![[https://r4ds.hadley.nz/intro](https://r4ds.hadley.nz/intro){style="font-size:1rem"}](images/clipboard-411135231.png)
+
+## 데이터사이언스와 R: 타이디버스
+
+![[https://r4ds.hadley.nz/intro.html](https://r4ds.hadley.nz/intro.html){style="font-size:1rem"}](images/data_science_process_packages-03.png)
+
+## 데이터사이언스와 R: 타이디버스 {visibility="hidden"}
+
+![[https://allisonhorst.com/r-packages-functions](https://allisonhorst.com/r-packages-functions){style="font-size:1rem"}](images/clipboard-3736095484.png){fig-align="center"}
+
+## 데이터사이언스와 R: 타이디버스
+
+-   "정돈된 데이터(tidy data) 처리와 분석을 위한 하나의 우주적 생태계"
+
+-   데이터사이언스를 일관성 있게 수행하기 위한 패키지들의 패키지
+
+    -   `library(tidyverse)`
+
+::: {layout-ncol="2"}
+![[https://tidyverse.tidyverse.org/](https://tidyverse.tidyverse.org/){style="font-size:1rem"}](images/clipboard-2981827317.png){width="65%"}
+
+![[https://www.tidyverse.org/](https://www.tidyverse.org/){style="font-size:1rem"}](https://sangillee.snu.ac.kr/data_science/images/tidyverse_9.PNG){width="70%"}
+:::
+
+## 데이터사이언스와 R: 타이디버스
+
+[타이디 디자인 원리(Tidy Design Principles)](https://design.tidyverse.org/)
+
+-   인간중심성 Human-centeredness
+
+    -   For an end-user programmer
+
+-   일관성 Consistency
+
+    -   The smallest possible set of key ideas, used as comprehensively as possible
+
+-   조합성 Composability
+
+    -   Many simple pieces, composed for a larger task using operators such as \|\> and +
+
+-   포용성 Inclusiveness
+
+    -   Towards a diverse, open, and friendly community
+
+## 데이터사이언스와 R: 파이프 연산자
+
+![](images/piping%20in%20R%20is%20like%20baking.gif){fig-align="center"}
+
+## 데이터사이언스와 R: 파이프 연산자
+
+::: panel-tabset
+## Base R 1
+
+```{r}
+#| eval: false
+#| echo: true
+ingredients <- tibble(우유, 계란, 밀가루)
+mix_result <- mix(ingredients, 강도, 혼합시간, ...)
+bake_result <- bake(mix_result, 온도, 굽기시간, ...)
+decorate_result <- decorate(bake_result, 장식1, 장식2, ...)
+slice_result <- slice(decorate_result, 절단도구, 등분수, ...)
+```
+
+## Base R 2
+
+```{r}
+#| eval: false
+#| echo: true
+slice_result <- slice(
+  decorate(
+    bake(
+      mix(
+        tibble(
+          우유, 계란, 밀가루
+        ), 강도, 혼합시간, ...
+      ), 온도, 굽기시간, ...
+    ), 장식1, 장식2, ... 
+  ), 절단도구, 등분수, ...
+) 
+```
+
+## 파이프 연산자(pipe operator)
+
+```{r}
+#| eval: false
+#| echo: true
+tibble(우유, 계란, 밀가루) |> 
+  mix(강도, 혼합시간) |> 
+  bake(온도, 굽기시간) |> 
+  decorate(장식1, 장식2, ...) |> 
+  slice(절단도구, 등분수) -> slice_result
+```
+:::
+
+## 데이터사이언스와 R: 파이프 연산자
+
+::: {layout-ncol="2" layout-valign="center"}
+![](images/clipboard-2382832838.png)
+
+![](images/clipboard-39249103.png)
+:::
+
+## 데이터사이언스와 R: 파이프 연산자 {visibility="hidden"}
+
+![[https://www.rforecology.com/post/how-to-use-pipes/](https://www.rforecology.com/post/how-to-use-pipes/){style="font-size:1rem"}](images/clipboard-174079750.png){fig-align="center"}
+
+## No error, no gain!
+
+![[https://allisonhorst.com/everything-else](https://allisonhorst.com/everything-else){style="font-size:1rem"}](images/clipboard-229605073.png){fig-align="center"}
