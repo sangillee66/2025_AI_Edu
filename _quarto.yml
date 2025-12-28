@@ -24,10 +24,6 @@ website:
         href: mailto:si_lee@snu.ac.kr
       - icon: github
         href: https://github.com/sangillee66
-  # comments: 
-  #   hypothesis:
-  #     theme: clean
-  #     openSidebar: false        
 format:
   html:
     theme: [simplex, custom_basic_pretendard.scss]

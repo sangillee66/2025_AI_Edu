@@ -81,7 +81,7 @@ editor_options:
 
 ## 
 
-![](images/clipboard-2175297264.png)
+![](images/clipboard-379519602.png)
 
 ## 
 
@@ -106,16 +106,16 @@ editor_options:
 ## 
 
 ::: {style="position: absolute; top: 0%; left: 0%; padding: 10px; border: 1px solid #ccc; border-radius: 8px; background-color: rgba(255, 255, 255, 0.8); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1.2; font-size: 2rem"}
-**Google DeepMind** <br> vs.Lee Sedol <br> 2016.3.13.
+**Google DeepMind** <br> vs.Lee Sedol <br> 2016.03.13.
 :::
 
 ![](images/clipboard-117337635.png){.center style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"}
 
 ## 
 
-![](images/clipboard-700543263.png){style="position: absolute; top: 0%; left: 0%; width: 650px;"}
+![NLP(자연어처리): 일상성, 모호성, 비정형성, 맥락 의존성](images/clipboard-700543263_1.png){style="position: absolute; top: 0%; left: 0%; font-size: 2rem"}
 
-![[https://wikidocs.net/161975](https://wikidocs.net/161975){style="font-size:1rem"}](images/clipboard-2688393840.png){style="position: absolute; top: 50%; left: 0%;" width="700"}
+![[https://wikidocs.net/161975](https://wikidocs.net/161975){style="font-size:1rem"}](images/clipboard-2688393840.png){style="position: absolute; top: 55%; left: 0%;" width="700"}
 
 ![[https://en.wikipedia.org/wiki/Transformer\_(deep_learning_architecture)](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)){style="font-size:1rem"}](images/clipboard-1598365557.png){style="position: absolute; top: 0%; left: 60%;"}
 
@@ -123,7 +123,7 @@ editor_options:
 **트랜스포머(Transformer)** <br> "Attention is All You Need" (2017)
 :::
 
-::: {style="position: absolute; top: 75%; left: 40%; padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1.2; font-size: 1.5rem;"}
+::: {style="position: absolute; top: 80%; left: 40%; padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1.2; font-size: 1.5rem;"}
 2013
 :::
 
@@ -161,12 +161,14 @@ editor_options:
 
         -   문장 내 각 요소를 문장 전체 맥락 속에서 재정의
 
-        -   문맥에 맞는 해석 및 거리 단어 간 관계 포착에 유리
+        -   문맥에 맞는 해석 및 문장 내에서 멀리 떨어진 단어 간 관계 포착에 유리
 
-##  {.center}
+## 
+
+LLM(대규모 언어 모델)
 
 ::: {layout-ncol="2"}
-![[https://dataaspirant.com/llm/](https://dataaspirant.com/llm/){style="font-size:1rem"}](images/clipboard-1021409242.png)
+![[https://dataaspirant.com/llm/](https://dataaspirant.com/llm/){style="font-size:1rem"}](images/clipboard-1021409242.png){style="font-size:3rem"}
 
 ![[https://x.com/samuraipreneur/status/1888530105280168421](https://x.com/samuraipreneur/status/1888530105280168421){style="font-size:1rem"}](images/clipboard-3341631511.png)
 :::
@@ -189,25 +191,25 @@ editor_options:
 
 # [TPACK과 AIㆍ디지털 역량]{style="color:coral"}
 
-## TPACK: 개념
-
--   Technological Pedagogical Content Knowledge, 기술 교수 내용 지식
-
-    -   Lee Shulman의 PCK(1986)
-
-    -   Mishra & Koehler(2006): 교사가 "무엇을, 어떻게, 그리고 어떤 기술로" 가르칠지를 통합적으로 이해하고 실천하는 프레임워크
-
--   세 가지 기본 지식 영역
-
-    -   CK(Content Knowledge, 내용 지식): 교과 내용에 대한 전문 지식
-
-    -   PK(Pedagogical Knowledge, 교수 지식): 교수ㆍ학습 방법에 대한 지식
-
-    -   TK(Techonological Knowledge, 기술 지식): 다양한 기술 도구와 시스템에 대한 지식
-
 ## 
 
 ![[https://tpack.org/tpack-image/](https://tpack.org/tpack-image/){style="font-size:1rem"}](images/clipboard-198118978.png){fig-align="center"}
+
+## TPACK: 개념
+
+-   Technological Pedagogical Content Knowledge, 테크놀로지 교수내용지식
+
+    -   Lee Shulman의 교수내용지식(PCK)(1986)
+
+    -   Mishra & Koehler(2006): 교사가 "무엇을, 어떻게, 그리고 어떤 테크놀로지로" 가르칠지를 통합적으로 이해하고 실천하는 프레임워크
+
+-   세 가지 기본 지식 영역
+
+    -   CK(Content Knowledge, 내용지식): 교과 내용에 대한 전문 지식
+
+    -   PK(Pedagogical Knowledge, 교수지식): 교수ㆍ학습 방법에 대한 지식
+
+    -   TK(Techonological Knowledge, 테크놀로지 지식): 다양한 테크놀로지 도구와 시스템에 대한 지식
 
 ## TPACK: 개념
 
@@ -215,29 +217,33 @@ editor_options:
 
     -   PCK(Pedagogical Centent Knowledge, 교수내용지식): 특정 내용을 효과적으로 가르치는 방법에 대한 지식
 
-    -   TCK(Technological Content Knowledge, 기술내용지식): 특정 기술이 어떤 방식으로 내용 지식으로 표현, 탐구, 적용할 수 있는지에 대한 이해
+    -   TCK(Technological Content Knowledge, 테크놀로지 내용지식): 특정 기술이 어떤 방식으로 내용 지식으로 표현, 탐구, 적용할 수 있는지에 대한 이해
 
-    -   TPK(Technological Pedagogical Knowledge, 기술교수지식): 특정 기술이 교수ㆍ학습을 어떻게 강화 및 변형할 수 있는지에 대한 이해
+    -   TPK(Technological Pedagogical Knowledge, 테크놀로지 교수지식): 특정 기술이 교수ㆍ학습을 어떻게 강화 및 변형할 수 있는지에 대한 이해
 
-    -   TPACK(기술교수내용지식): 세 가지 요소가 통합된 상태, 특정 내용을 특정 교수법과 특정 기술을 활용해 효과적으로 가르치는 지식
+    -   [TPACK(테크놀로지 교수내용지식)]{style="color:coral"}: 세 가지 요소가 통합된 상태, 특정 내용을 특정 교수법과 특정 기술을 활용해 효과적으로 가르치는 지식
+
+## 
+
+![[https://tpack.org/tpack-image/](https://tpack.org/tpack-image/){style="font-size:1rem"}](images/clipboard-198118978.png){fig-align="center"}
 
 ## TPACK: 적용
 
--   PCK (교수내용지식)
+-   PCK(교수내용지식)
 
     -   여러 나라의 인구 피라미드를 비교하도록 하여, 저출산과 고령화의 다른 원인을 토론하게 하는 수업
 
--   TCK(기술내용지식)
+-   TCK(테크놀로지 내용지식)
 
     -   GIS 소프트웨어(QGIS)를 활용하여 TFR을 지도 위에 시각화
 
--   TPK(기술교수지식)
+-   TPK(테크놀로지 교수지식)
 
     -   저출산 고령화 문제에 대한 협동학습에서 학생들이 Padlet이나 Google Docs를 활용해 공동으로 답안을 작성하게 함
 
     -   Google My Maps를 통해 지도를 제작하게 함
 
--   TPACK(기술교수내용지식)
+-   TPACK(테크놀로지 교수내용지식)
 
     -   학생들이 전 세계 국가별 TFR을 시각화하고, 토론을 통해 지역적ㆍ세계적 맥락에서 저출산 문제를 분석 및 해결책을 모색하게 하는 프로젝트 수업
 
@@ -257,43 +263,82 @@ editor_options:
 
 ![[https://www.mdpi.com/2071-1050/16/3/978](https://www.mdpi.com/2071-1050/16/3/978){style="font-size:1rem"}](images/clipboard-1669834467.png){fig-align="center"}
 
-## TPACK-DBL 프레임워크 {.cent}
+## TPACK-DBL 프레임워크
 
-![](images/clipboard-3692320336.png){fig-align="center"}
+-   "TPACK은 내용, 교수, 테크놀로지라는 세 핵심 영역을 초월하여, 이들의 상호작용 속에서 형성되는 새로운 형태의 지식"
 
-[(Baran and Uygun, 2016, 49)]{style="font-size:1rem"}
+    -   통합된 총체적 역량
 
-## TPACK-DBL 프레임워크 {.cent}
+-   TPACK이 '어떻게' 교사의 AIㆍ디지털 역량을 실질적으로 향상시킬 수 있을 것인가?: '디자인을 통한 테크놀로지 학습'
 
--   디지털 제작 도구에 대한 이해와 활용 능력(디지털 역량)
+    -   ‘실제적(authentic) 디자인 활동’이 실천적 TPACK 발달을 촉진
 
--   복잡한 개념을 시각적이고 구조적으로 전달하는 능력(커뮤니케이션 역량)
+        -   단순한 이론적 디자인 연습이 아니라 현실의 수업 맥락이나 교육적 요구를 반영하여 무언가를 실제적으로 디자인 및 구현하는 활동
 
--   분석적 사고 및 데이터 기반 수업 구현 능력(데이터 리터러시 + 기술력)
+    -   테크놀로지의 어포던스(affordance)와 제약을 주어진 교과 내용과 교수법, 그리고 현장 맥락과의 끊임없는 상호작용을 통해 이해하게 된다는 것을 의미
 
--   오픈 지식 생태계에의 기여(공유 및 협업 역량)
+## TPACK-DBL 프레임워크
 
-## 교사의 교사의 AIㆍ디지털 역량
+-   DBL(design-based learning, 디자인-기반 학습)
+
+    -   “탐구와 추론의 과정을 바탕으로 혁신적인 산출물, 시스템, 해결책을 생성하는 교육적 접근”
+
+    -   PBL(problem-based learning, 문제-기반 학습)과 유사하지만 구체적인 디자인 과제를 수행한다는 점에서 차이
+
+    -   DBL은 교육 대상이 실제 디자인 문제를 해결하는 과정에 참여하여 범위 설정, 생성, 평가, 창출이라는 공학적 인지 과정을 경험하는 동시에 자신의 학습 과정을 성찰하도록 하는 교수법
+
+    -   디자인 씽킹(design thinking) 개념과도 직접적인 연관성
+
+-   TPACK-DBL 프레임워크
+
+    -   TPACK과 DBL을 결합함으로써 '디자인을 통한 테크놀로지 학습'이 이루어지기 위한 원리 혹은 절차를 제시
+
+    -   DBL의 내용 중 TPACK의 발달을 촉진하는 8대 원리 제시
+
+## TPACK-DBL 프레임워크
+
+![[(Baran and Uygun, 2016,49)]{style="font-size:1rem"} [https://doi.org/10.14742/ajet.2551](https://doi.org/10.14742/ajet.2551){style="font-size:1rem"}](images/clipboard-3692320336.png){fig-align="center"}
+
+## TPACK-DBL 프레임워크
+
+::: {style="font-size:2rem"}
+| 원리 | 내용 |
+|--------------------------------|----------------------------------------|
+| 브레인스토밍 | 테크놀로지 통합과 관련된 문제의 잠재적 해결 방안을 탐색하고 논의하는 과정 |
+| 테크놀로지 통합 산출물 디자인 | 수업안, 학습 자료, 디지털 콘텐츠 등과 같이 TPACK 기반의 구체적 교육 산출물을 설계하는 과정 |
+| 디자인 사례 검토 | 학습자가 테크놀로지 통합 학습 시나리오, 교수ㆍ학습 활동, 수업안 등의 사례를 탐색, 분석, 비평하는 과정 |
+| 이론적 지식과의 접목 | 자기주도 학습, 협력 학습과 같은 학습 이론 뿐만 아니라 학습 주제와 관련된 원리나 핵심 개념을 고려하는 과정 |
+| ICT 도구 탐색 | 학습자가 디자인에 앞서 테크놀로지의 기능, 교수적 어포던스, 활용 조건 등을 심층적으로 탐색하는 과정 |
+| 디자인 경험에 대한 성찰 | 학습자가 디자인 과정에서의 어려움, 선택의 이유, 교수적 적합성을 반추하며 자신의 이해를 구조화하고 TPACK 발달 수준을 점검하는 과정 |
+| 실제 맥락 속 디자인 적용 | 설계된 자료를 실제 교수 현장에 적용함으로써 실행 가능한 TPACK의 양상을 탐구하고, 맥락적 변인을 분석하는 과정 |
+| 디자인 팀 내 협력 | 구성원들이 공동의 테크놀로지 통합 과제를 수행하면서 해결 방안을 함께 모색함으로써 TPACK을 더욱 실천적으로 발전시키는 과정 |
+
+: {tbl-colwidths="\[35, 65\]"}
+:::
+
+## 교사의 AIㆍ디지털 역량
 
 -   교사는 디지털 교육 콘텐츠의 주체적 생산자
 
--   교사는 단순히 수업에서 활용할 AIㆍ디지털 도구를 배우는데 그치지 않고, 직접 기술이 통합된 교육 산출물(artifacts)를 설계 및 구현할 수 있는 능력 필요
+-   교사는 단순히 수업에서 활용할 AIㆍ디지털 도구를 배우는데 그치지 않고, 직접 테크놀로지가 통합된 교육 산출물를 설계 및 구현할 수 있는 능력 필요
 
     -   교수ㆍ학습 상황 설계: 특정 교과 내용을 가를칠 때 어떤 AIㆍ디지털 도구를 통합할지 계획
 
-    -   디지털 산출물 제작: 교사가 직접 기술을 활용해 교육 자료를 제작
+    -   디지털 산출물 제작: 교사가 직접 테크놀로지를 활용해 교육 자료를 제작
 
     -   동료 협업 및 피드백: 만든 산출물을 다른 교사와 공유하고, 수업 적용 가능성을 논의
 
+-   [인터랙티브 교수ㆍ학습 웹 앱의 제작 역량]{style="color:coral"}
+
 ## 인터랙티브 교수ㆍ학습 웹 앱: 기본 개념
 
--   학습자와 콘텐츠 간의 상호작용을 중심으로 설계되어, 능동적 참여, 즉각적 피드백, 탐구 활동 등을 개인의 학습 경험을 향상 시키는 교육용 웹 애플리케이션
+-   학습자와 콘텐츠 간의 상호작용을 중심으로 설계되어, 능동적 참여, 즉각적 피드백, 탐구 활동 등을 개인의 학습 경험을 향상시키는 교육용 웹 애플리케이션
 
 -   성격
 
     -   디지털 학습지: 교과의 학습 내용을 효과적으로 교수ㆍ학습하도록 도와주는 도구
 
-    -   탐수 학습 도구: 데이터 탐색을 통해 학습자 스스로 이해, 지식, 통찰을 얻도록 도와주는 도구
+    -   탐구 학습 도구: 데이터 탐색을 통해 학습자 스스로 이해, 지식, 통찰을 얻도록 도와주는 도구
 
 ## 인터랙티브 교수ㆍ학습 웹 앱: 기본 개념
 
@@ -330,7 +375,7 @@ editor_options:
 
 -   [**R**](https://www.r-project.org/)(혹은 Python): 인터랙티브 콘텐츠 제작
 
-    -   데이터사이언스 과정의 실행: [**tidyverse**](https://tidyverse.org/)
+    -   데이터사이언스 프로세스의 실행: [**tidyverse**](https://tidyverse.org/)
 
     -   인터랙티브 시각화 및 탐색 기능의 구현: 다양한 패키지
 
@@ -340,7 +385,7 @@ editor_options:
 
     -   다양한 형식의 저작물(노트, 연구 논문, 프레젠테이션, 대시보드, 웹사이트, 블로그, 서적 등)을 다양한 디지털 포맷(HTML, PDF, MS Word, ePub 등)으로 출판할 수 있게 해주는 도구
 
--   [**Shiny**](https://shiny.posit.co/): 서버-기반 웹 앱 개발
+-   [**Shiny**](https://shiny.posit.co/)(샤이니): 서버-기반 웹 앱 개발
 
     -   UI-Server 이원 구조
 
@@ -442,7 +487,7 @@ seq(from = 2, to = 100, by = 2)
 ## Base R: 주요 산술 함수 {.scrollable .smaller}
 
 | 분류 | 함수 |
-|----|----|
+|------------------------------------|------------------------------------|
 | 절대값/부호 | [`abs()`](https://rdrr.io/r/base/MathFun.html), [`sign()`](https://rdrr.io/r/base/sign.html) |
 | 제곱근/지수 | [`sqrt()`](https://rdrr.io/r/base/MathFun.html), [`exp()`](https://rdrr.io/r/base/Log.html) |
 | 로그 | [`log()`](https://rdrr.io/r/base/Log.html), [`log10()`](https://rdrr.io/r/base/Log.html), [`log2()`](https://rdrr.io/r/base/Log.html) |
@@ -453,7 +498,7 @@ seq(from = 2, to = 100, by = 2)
 ## Base R: 그 외 많이 쓰이는 함수 {.scrollable .smaller}
 
 | 분류           | 함수                                                     |
-|----------------|----------------------------------------------------------|
+|--------------------------|----------------------------------------------|
 | 논리형 판별    | `is.na()`, `is.numeric()`, `is.character()`, `is.null()` |
 | 수열/반복      | `seq()`, `rep()`                                         |
 | 난수/표본 생성 | `sample()`, `rnorm()`                                    |

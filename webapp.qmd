@@ -12,3 +12,17 @@ date-modified: last-modified
 ### 샤이니-중심(shiny-centered) 방식
 
 -   <https://sangillee.shinyapps.io/Dashboard_Example/>
+
+## 2025년 2학기 서울대학교 AI융합교육학과 수업 
+
+-   [지구촌 평화단! NGO 프로젝트](https://ngoproject.shinyapps.io/ngoproject/)
+
+-   [학령인구감소와 지역편차 문제](https://bahkseeun.quarto.pub/jp603project/)
+
+-   [기술 발전과 우리 사회의 변화](https://claudein.shinyapps.io/dash5/)
+
+-   [데이터로 설계하는 나만의 도시](https://mintaek.quarto.pub/my-city-design-01/)
+
+-   [지방이 소멸되다](https://minseop-jeong.quarto.pub/minseop-jeong/)
+
+-   [청소년으로 인구와 행복의 사이를 잇다](https://hjs9959.shinyapps.io/shinyapp/)

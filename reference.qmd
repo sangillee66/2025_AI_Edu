@@ -1,7 +1,6 @@
 ---
 title: ""
 date-modified: last-modified
-# bibliography: references.bib
 ---
 
 > 웹 접근이 가능한 참고문헌을 중심으로 정리하였습니다. 문건 아래에 짧막한 코멘트를 달아 두었으니 참고바랍니다.
