@@ -135,6 +135,6 @@ editor_options:
 
     -   구현의 완성도
 
-## 홈페이지
+## 연수 홈페이지
 
 -   <https://sangillee.snu.ac.kr/2025_AI_Edu/>
