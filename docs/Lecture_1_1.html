@@ -11,7 +11,7 @@
 <meta name="generator" content="quarto-1.8.26">
 <meta name="author" content="  이상일(서울대학교 지리교육과 교수)">
 <meta name="dcterms.date" content="2025-12-29">
-<title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-inputcb29639e0bfe7dd7</title>
+<title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-inputcfc5dec1e1fcd7a6</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -2448,7 +2448,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 </section></section><section><section id="r-개관" class="title-slide slide level1 center"><h1><span style="color:coral">R 개관</span></h1>
 
 </section><section id="r의-탄생-r의-아버지들1993년" class="slide level2"><h2>R의 탄생: R의 아버지들(1993년)</h2>
-<div class="quarto-layout-panel" style="text-align:center; line-height:1; font-size:3rem" data-layout="[25,50,25]">
+<div class="quarto-layout-panel" data-layout="[25,50,25]" style="text-align:center; line-height:1; font-size:3rem">
 <div class="quarto-layout-row quarto-layout-valign-center">
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
@@ -2677,8 +2677,8 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 </table></section><section id="base-r-그-외-많이-쓰이는-함수" class="slide level2 scrollable smaller"><h2>Base R: 그 외 많이 쓰이는 함수</h2>
 <table class="caption-top">
 <colgroup>
-<col style="width: 36%">
-<col style="width: 63%">
+<col style="width: 21%">
+<col style="width: 78%">
 </colgroup>
 <thead><tr class="header">
 <th>분류</th>
@@ -2785,7 +2785,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 </figure>
 </div>
 </section><section id="데이터사이언스와-r-혁신가" class="slide level2"><h2>데이터사이언스와 R: 혁신가</h2>
-<div class="quarto-layout-panel" style="text-align:center; line-height:1; font-size:3rem" data-layout="[55, 45]">
+<div class="quarto-layout-panel" data-layout="[55, 45]" style="text-align:center; line-height:1; font-size:3rem">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 55.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
@@ -3119,41 +3119,6 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
           RevealZoom
         ]
       });
-    </script><script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-    
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-    
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-    
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-    
-      })();
     </script><script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
