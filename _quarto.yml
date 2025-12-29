@@ -14,7 +14,7 @@ website:
       - href: lecture.qmd
         text: 학습 자료
       - href: webapp.qmd
-        text: 교수ㆍ학습 웹 앱
+        text: 웹 앱 예시
       - href: reference.qmd
         text: 참고문헌
     right: 
