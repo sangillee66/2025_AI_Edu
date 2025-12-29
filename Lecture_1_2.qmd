@@ -154,7 +154,7 @@ editor: visual
 
     -   통계학(+ 수학) 위주
 
-    -   변형(transformation), 요약(summarization), 시각화(visalization)
+    -   변형(transformation), 요약(summarization), 시각화(visualization)
 
 -   머신러닝(machine learning, **ML**)
 
@@ -164,7 +164,7 @@ editor: visual
 
     -   인공신경망 기반 다양한 딥러닝 기법
 
-    -   LLM(large language model, 거대 언어 모델): 생성형 AI
+    -   LLM(large language model, 대규모 언어 모델): 생성형 AI
 
 -   결합: "LLM-기반 EDA"
 
