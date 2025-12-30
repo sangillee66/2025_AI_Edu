@@ -452,7 +452,7 @@
     "href": "Lecture_1_2.html#데이터사이언스-과정",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 2세 가지 사이언스의 융합\n",
     "section": "데이터사이언스 과정",
-    "text": "데이터사이언스 과정\n해들리 위컴(Hadley Wickham)\n\nhttps://posit.co/blog/artist-in-residence/"
+    "text": "데이터사이언스 과정\n해들리 위컴(Hadley Wickham)\n\n\nhttps://posit.co/blog/artist-in-residence/"
   },
   {
     "objectID": "Lecture_1_2.html#데이터사이언스-과정-1",
@@ -1026,7 +1026,7 @@
     "href": "index.html#일정",
     "title": "AI 융합교육을 위한 인문사회 콘텐츠 설계",
     "section": "일정",
-    "text": "일정\n\n사전 학습\n\nR과 RStudio\nR과 데이터사이언스 과정\n\n\n\n주차별 학습\n\n\n\n\n\n\n\n\n\n주차\n날짜\n주제\n수업 방식\n\n\n\n\n1\n12/29\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n강의\n\n\n\n12/30\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 2\n강의\n\n\n\n12/31\n오픈소스 프로그래밍 1\n강의 | 실습\n\n\n\n1/1\n오픈소스 프로그래밍 2\n비대면\n\n\n\n1/2\n오픈소스 프로그래밍 3\n강의 | 실습\n\n\n2\n1/5\n오픈소스 프로그래밍 4\n강의 | 실습\n\n\n\n1/6\n인구 현상과 인문사회 콘텐츠 1\n강의\n\n\n\n1/7\n인구 현상과 인문사회 콘텐츠 2\n강의\n\n\n\n1/8\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n강의 | 실습\n\n\n\n1/9\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2\n강의 | 실습\n\n\n3\n1/12\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 3\n시험 | 워크숍\n\n\n\n1/13\n인터랙티브 교수ㆍ학습 웹 앱의 구현 1\n비대면\n\n\n\n1/14\n인터랙티브 교수ㆍ학습 웹 앱의 구현 2\n워크숍\n\n\n\n1/15\n인터랙티브 교수ㆍ학습 웹 앱의 구현 3\n워크숍\n\n\n\n1/16\n인터랙티브 교수ㆍ학습 웹 앱의 구현 4\n워크숍: 최종 발표"
+    "text": "일정\n\n사전 학습\n\nR과 RStudio\nR과 데이터사이언스 과정\n\n\n\n주차별 학습\n\n\n\n\n\n\n\n\n\n주차\n날짜\n주제\n수업 방식\n\n\n\n\n1\n12/29\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n강의\n\n\n\n12/30\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 2\n강의\n\n\n\n12/31\n오픈소스 프로그래밍 1\n강의 | 실습\n\n\n\n1/1\n오픈소스 프로그래밍 2\n비대면\n\n\n\n1/2\n오픈소스 프로그래밍 3\n강의 | 실습\n\n\n2\n1/5\n오픈소스 프로그래밍 4\n강의 | 실습\n\n\n\n1/6\n인구 현상과 인문사회 콘텐츠 1\n강의\n\n\n\n1/7\n인구 현상과 인문사회 콘텐츠 2\n비대면(줌강의)\n\n\n\n1/8\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n강의 | 실습\n\n\n\n1/9\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2\n강의 | 실습\n\n\n3\n1/12\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 3\n시험 | 워크숍\n\n\n\n1/13\n인터랙티브 교수ㆍ학습 웹 앱의 구현 1\n비대면\n\n\n\n1/14\n인터랙티브 교수ㆍ학습 웹 앱의 구현 2\n워크숍\n\n\n\n1/15\n인터랙티브 교수ㆍ학습 웹 앱의 구현 3\n워크숍\n\n\n\n1/16\n인터랙티브 교수ㆍ학습 웹 앱의 구현 4\n워크숍: 최종 발표"
   },
   {
     "objectID": "lecture.html",
@@ -2916,7 +2916,7 @@
     "href": "Lecture_1_2.html#section-9",
     "title": "\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 2세 가지 사이언스의 융합\n",
     "section": "",
-    "text": "샤를 조제프 미나르(Charles Joseph Minard)(1781-1870)"
+    "text": "library(\"ggplot2\")\nlibrary(\"datasauRus\")\nggplot(datasaurus_dozen, aes(x = x, y = y, colour = dataset))+\n  geom_point() +\n  theme(legend.position = \"none\") +\n  facet_wrap(~dataset, ncol = 4)"
   },
   {
     "objectID": "Lecture_1_2.html#section-15",
