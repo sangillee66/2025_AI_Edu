@@ -72,7 +72,7 @@ editor_options:
 ## Base R: 주요 산술 함수 {.scrollable .smaller}
 
 | 분류 | 함수 |
-|------------------------------------|------------------------------------|
+|----|----|
 | 절대값/부호 | [`abs()`](https://rdrr.io/r/base/MathFun.html), [`sign()`](https://rdrr.io/r/base/sign.html) |
 | 제곱근/지수 | [`sqrt()`](https://rdrr.io/r/base/MathFun.html), [`exp()`](https://rdrr.io/r/base/Log.html) |
 | 로그 | [`log()`](https://rdrr.io/r/base/Log.html), [`log10()`](https://rdrr.io/r/base/Log.html), [`log2()`](https://rdrr.io/r/base/Log.html) |
@@ -96,13 +96,7 @@ IDE(integrated development environment, 통합개발환경)
 
 ## 데이터사이언스와 R: posit(2022년)
 
-::: {.v-fill}
-:::
-
 ![[https://posit.co/](https://posit.co/){style="font-size:1rem"}](images/clipboard-4259342209.png)
-
-::: {.v-fill}
-:::
 
 ## 데이터사이언스와 R: 혁신가
 
@@ -203,6 +197,8 @@ slice_result <- tibble(우유, 계란, 밀가루) |>
 
 ![](images/clipboard-39249103.png)
 :::
+
+<kbd style="font-size:2rem">Ctrl</kbd> + <kbd style="font-size:2rem">Shift</kbd> + <kbd style="font-size:2rem">M</kbd>
 
 ## No error, no gain!
 
