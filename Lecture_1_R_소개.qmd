@@ -146,7 +146,7 @@ seq(from = 2, to = 100, by = 2)
 ## Base R: 그 외 많이 쓰이는 함수 {.scrollable .smaller}
 
 | 분류           | 함수                                                     |
-|-----------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | 논리형 판별    | `is.na()`, `is.numeric()`, `is.character()`, `is.null()` |
 | 수열/반복      | `seq()`, `rep()`                                         |
 | 난수/표본 생성 | `sample()`, `rnorm()`                                    |
@@ -200,11 +200,11 @@ IDE(integrated development environment, 통합개발환경)
 
 ![[https://djangostars.com/blog/python-ide/](https://djangostars.com/blog/python-ide/){style="font-size:1.25rem"}](https://djangostars.com/blog/wp-content/uploads/2022/08/Best-Python-IDE-for-Development_1.2.png){fig-align="center"}
 
-## IDE: RStudio {visibility="hidden"}
+## IDE: RStudio(2011년) {visibility="hidden"}
 
 ![[https://posit.co/blog/positron-product-announcement-aug-2025/](https://posit.co/blog/positron-product-announcement-aug-2025/){style="font-size:1.25rem"}](https://posit.co/wp-content/uploads/2025/08/FEATURED-BLOG-IMAGE-POSITRON-GTM-BLOG-POST-ANNOUNCEMENT-1.jpg){fig-align="center"}
 
-## IDE: RStudio
+## IDE: RStudio(2011년)
 
 ![](images/clipboard-2401742054.png){height="900px" fig-align="center"}
 

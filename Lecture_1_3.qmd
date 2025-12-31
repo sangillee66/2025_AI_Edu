@@ -49,6 +49,159 @@ editor_options:
   chunk_output_type: console
 ---
 
+# [R 개관]{style="color:coral"}
+
+## R의 탄생: R의 아버지들(1993년)
+
+::: {layout="[25,50,25]" layout-valign="center" style="text-align:center; line-height:1; font-size:3rem"}
+![[조지 로스 이하카 <br> George Ross Ihaka](https://en.wikipedia.org/wiki/Ross_Ihaka)](images/clipboard-4103752460.png)
+
+![[오클랜드 대학 <br> University of Auckland](https://en.wikipedia.org/wiki/University_of_Auckland)](images/clipboard-3647657155.png)
+
+![[로버트 젠틀맨 <br> Robert C. Gentleman](https://en.wikipedia.org/wiki/Robert_Gentleman_(statistician))](images/clipboard-3701321516.png)
+:::
+
+## Base R: 할당 연산자
+
+::: {layout-ncol="2"}
+![](images/clipboard-911363916.png)
+
+![](images/clipboard-1290193573.png)
+:::
+
+## Base R: 주요 산술 함수 {.scrollable .smaller}
+
+| 분류 | 함수 |
+|------------------------------------|------------------------------------|
+| 절대값/부호 | [`abs()`](https://rdrr.io/r/base/MathFun.html), [`sign()`](https://rdrr.io/r/base/sign.html) |
+| 제곱근/지수 | [`sqrt()`](https://rdrr.io/r/base/MathFun.html), [`exp()`](https://rdrr.io/r/base/Log.html) |
+| 로그 | [`log()`](https://rdrr.io/r/base/Log.html), [`log10()`](https://rdrr.io/r/base/Log.html), [`log2()`](https://rdrr.io/r/base/Log.html) |
+| 삼각함수 | [`sin()`](https://rdrr.io/r/base/Trig.html), [`cos()`](https://rdrr.io/r/base/Trig.html), [`tan()`](https://rdrr.io/r/base/Trig.html), [`asin()`](https://rdrr.io/r/base/Trig.html) |
+| 반올림 | [`round()`](https://rdrr.io/r/base/Round.html), [`floor()`](https://rdrr.io/r/base/Round.html), [`ceiling()`](https://rdrr.io/r/base/Round.html), [`trunc()`](https://rdrr.io/r/base/Round.html) |
+| 요약 | [`sum()`](https://rdrr.io/r/base/sum.html), [`mean()`](https://rdrr.io/r/base/mean.html), [`median()`](https://rdrr.io/r/stats/median.html), [`var()`](https://rdrr.io/r/stats/cor.html), [`sd()`](https://rdrr.io/r/stats/sd.html), [`min()`](https://rdrr.io/r/base/Extremes.html), [`max()`](https://rdrr.io/r/base/Extremes.html), [`range()`](https://rdrr.io/r/base/range.html), [`summary()`](https://rdrr.io/r/base/summary.html) |
+
+## IDE: RStudio(2011년)
+
+IDE(integrated development environment, 통합개발환경)
+
+::: {layout="[45,-5,55]" layout-valign="center"}
+![](images/clipboard-2963976366.png)
+
+![](images/clipboard-676249587.png)
+:::
+
+## IDE: RStudio(2011년)
+
+![](images/clipboard-2401742054.png){height="900px" fig-align="center"}
+
+## 데이터사이언스와 R: posit(2022년) {visibility="hidden"}
+
+![[https://posit.co/](https://posit.co/){style="font-size:1rem"}](images/clipboard-4259342209.png)
+
+## 데이터사이언스와 R: 혁신가
+
+::: {layout="[55, 45]" style="text-align:center; line-height:1; font-size:3rem"}
+![[https://r4ds.hadley.nz/](https://r4ds.hadley.nz/){style="font-size:1rem"}](images/clipboard-4118011220.png){height="850px" fig-align="center" height="900"}
+
+![해들리 위컴 <br> Hadley Wickham](https://hadley.nz/hadley.jpg)
+:::
+
+## 데이터사이언스와 R: 타이디버스
+
+-   "정돈된 데이터(tidy data) 처리와 분석을 위한 하나의 우주적 생태계"
+
+-   데이터사이언스를 일관성 있게 수행하기 위한 패키지들의 패키지
+
+    -   `library(tidyverse)`
+
+::: {layout-ncol="2"}
+![[https://tidyverse.tidyverse.org/](https://tidyverse.tidyverse.org/){style="font-size:1rem"}](images/clipboard-2981827317.png){width="65%"}
+
+![[https://www.tidyverse.org/](https://www.tidyverse.org/){style="font-size:1rem"}](https://sangillee.snu.ac.kr/data_science/images/tidyverse_9.PNG){width="70%"}
+:::
+
+## 데이터사이언스와 R: 타이디버스
+
+[타이디 디자인 원리(Tidy Design Principles)](https://design.tidyverse.org/)
+
+-   인간중심성 Human-centeredness
+
+    -   For an end-user programmer
+
+-   일관성 Consistency
+
+    -   The smallest possible set of key ideas, used as comprehensively as possible
+
+-   조합성 Composability
+
+    -   Many simple pieces, composed for a larger task using operators such as \|\> and +
+
+-   포용성 Inclusiveness
+
+    -   Towards a diverse, open, and friendly community
+
+## 데이터사이언스와 R: 파이프 연산자
+
+![](images/piping%20in%20R%20is%20like%20baking.gif){fig-align="center"}
+
+## 데이터사이언스와 R: 파이프 연산자
+
+::: panel-tabset
+## Base R 1
+
+```{r}
+#| eval: false
+#| echo: true
+ingredients <- tibble(우유, 계란, 밀가루)
+mix_result <- mix(ingredients, 강도, 혼합시간, ...)
+bake_result <- bake(mix_result, 온도, 굽기시간, ...)
+decorate_result <- decorate(bake_result, 장식1, 장식2, ...)
+slice_result <- slice(decorate_result, 절단도구, 등분수, ...)
+```
+
+## Base R 2
+
+```{r}
+#| eval: false
+#| echo: true
+slice_result <- slice(
+  decorate(
+    bake(
+      mix(
+        tibble(
+          우유, 계란, 밀가루
+        ), 강도, 혼합시간, ...
+      ), 온도, 굽기시간, ...
+    ), 장식1, 장식2, ... 
+  ), 절단도구, 등분수, ...
+) 
+```
+
+## 파이프 연산자(pipe operator)
+
+```{r}
+#| eval: false
+#| echo: true
+slice_result <- tibble(우유, 계란, 밀가루) |> 
+  mix(강도, 혼합시간, ...) |> 
+  bake(온도, 굽기시간, ...) |> 
+  decorate(장식1, 장식2, ...) |> 
+  slice(절단도구, 등분수, ...)
+```
+:::
+
+## 데이터사이언스와 R: 파이프 연산자
+
+::: {layout-ncol="2" layout-valign="center"}
+![](images/clipboard-2382832838.png)
+
+![](images/clipboard-39249103.png)
+:::
+
+## No error, no gain!
+
+![[https://allisonhorst.com/everything-else](https://allisonhorst.com/everything-else){style="font-size:1rem"}](images/clipboard-229605073.png){fig-align="center"}
+
 # [데이터 불러오기]{style="color:coral"}
 
 ## 데이터사이언스 프로세스
@@ -59,7 +212,7 @@ editor_options:
 
 ## 데이터사이언스 프로세스: 타이디버스
 
-![https://r4ds.hadley.nz/intro.html](images/data_science_process_packages-03.png)
+![[https://r4ds.hadley.nz/intro.html](https://r4ds.hadley.nz/intro.html){style="font-size:1rem"}](images/data_science_process_packages-03.png)
 
 ## **tibble** 패키지
 
@@ -73,11 +226,11 @@ editor_options:
 ```{r}
 #| echo: true
 library(tidyverse)
-a <- c(TRUE, FALSE, TRUE, FALSE)
-b <- c(58L, 26L, 28L, 22L)
-c <- c(3.19, 2.09, 2.11, 2.03)
-d <- c("이상일", "김우형", "이하은", "박서우")
-e <- c("남자", "남자", "여자", "여자")
+a <- c(TRUE, FALSE, FALSE)
+b <- c(58L, 26L, 22L)
+c <- c(3.19, 2.09, 2.03)
+d <- c("이상일", "김우형", "박서우")
+e <- c("남자", "남자", "여자")
 df_1 <- data.frame(a, b, c, d, e)
 df_2 <- tibble(a, b, c, d, e)
 ```
@@ -246,13 +399,13 @@ read_csv(
 
 ## 데이터사이언스 프로세스
 
-![https://r4ds.hadley.nz/import.html](images/data_science_process_import-02.png)
+![[https://r4ds.hadley.nz/import.html](https://r4ds.hadley.nz/import.html){style="font-size:1rem"}](images/data_science_process_import-02.png)
 
 -   데이터 정돈하기(tidying): 불러온 데이터를 '정돈된(tidy)' 데이터로 만들기
 
 ## 데이터사이언스 프로세스: 타이디버스
 
-![https://r4ds.hadley.nz/intro.html](images/data_science_process_packages-03.png)
+![[https://r4ds.hadley.nz/intro.html](https://r4ds.hadley.nz/intro.html){style="font-size:1rem"}](images/data_science_process_packages-03.png)
 
 ## **tidyr** 패키지
 
@@ -327,7 +480,7 @@ table3
 
 -   컬럼의 결합 및 분할
 
-    -   두 개 이상의 컬럼을 하나의 컬럼으로 결합하거나 한 컬럼을 두 개 이상의 컬럼으로 분할
+    -   두 개 이상의 컬럼을 하나의 컬럼으로 결합하거나 하나의 컬럼을 두 개 이상의 컬럼으로 분할
 
 -   결측치 처리
 
@@ -446,7 +599,7 @@ table3 |> separate_wider_delim(
 
 -   단일 테이블 조작: 데이터 변형하기의 핵심 부분으로, 한 데이터 프레임의 데이터 구조를 조작
 
--   다중 테이블 결합: 두 개 이상의 데이터 프레임으로 결합
+-   다중 테이블 결합: 두 개 이상의 데이터 프레임을 결합
 
 ## 단일 테이블 조작 함수의 유형
 
@@ -788,7 +941,7 @@ table1_new |>
 
 -   `group_by()`: 변수(들)에 의거해 전체 행(들)을 그룹으로 분할
 
--   `summarize()`: 그룹별로 변수(들)의 통계량을 산출하여 새로운 변수(들)로 저장
+-   `summarize()`: 그룹별로 변수(들)의 요약 통계량을 산출하여 새로운 변수(들)로 저장
 
 -   `count()`: 그룹별로 해당 관측개체의 빈도수를 계산
 
@@ -840,9 +993,7 @@ table1_new
 
 ```{r}
 #| echo: true
-summarize(table1_new, 
-  sum_cases = sum(cases)
-  )
+summarize(table1_new, sum_cases = sum(cases))
 ```
 
 ## `summarize()` 2
