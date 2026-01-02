@@ -11,7 +11,7 @@
 <meta name="generator" content="quarto-1.8.26">
 <meta name="author" content="  이상일(서울대학교 지리교육과 교수)">
 <meta name="dcterms.date" content="2026-01-02">
-<title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-input8234dcf9d28cf54a</title>
+<title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-input93e37347748c386f</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -319,7 +319,7 @@
 <div class="cell">
 <div class="cell-output-display">
 <div>
-<figure><p><img data-src="Lecture_1_5_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
+<figure><p><img data-src="Lecture_1_5_files/figure-html/unnamed-chunk-4-1.png" width="672"></p>
 </figure>
 </div>
 </div>
@@ -540,7 +540,7 @@
 <span>  <span class="fu">geom_smooth</span><span class="op">(</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
-<figure><p><img data-src="Lecture_1_5_files/figure-revealjs/unnamed-chunk-5-1.png" width="960"></p>
+<figure><p><img data-src="Lecture_1_5_files/figure-html/unnamed-chunk-5-1.png" width="672"></p>
 </figure>
 </div>
 </div>
@@ -556,7 +556,7 @@
 <span>  <span class="fu">facet_wrap</span><span class="op">(</span><span class="op">~</span><span class="va">continent</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
-<figure><p><img data-src="Lecture_1_5_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
+<figure><p><img data-src="Lecture_1_5_files/figure-html/unnamed-chunk-6-1.png" width="672"></p>
 </figure>
 </div>
 </div>
@@ -826,6 +826,13 @@
 </div>
 <div id="tabset-3-2">
 <div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://rvest.tidyverse.org/">rvest</a></span><span class="op">)</span></span>
+<span><span class="va">url</span> <span class="op">&lt;-</span> <span class="st">"https://rvest.tidyverse.org/articles/starwars.html"</span></span>
+<span><span class="fu"><a href="http://xml2.r-lib.org/reference/read_xml.html">read_html</a></span><span class="op">(</span><span class="va">url</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://rvest.tidyverse.org/reference/html_element.html">html_elements</a></span><span class="op">(</span><span class="st">"section"</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://rvest.tidyverse.org/reference/html_element.html">html_element</a></span><span class="op">(</span><span class="st">"h2"</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://rvest.tidyverse.org/reference/html_text.html">html_text2</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "The Phantom Menace"      "Attack of the Clones"   
 [3] "Revenge of the Sith"     "A New Hope"             
@@ -836,7 +843,7 @@
 </div>
 <div id="tabset-3-3">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">section</span> <span class="op">&lt;-</span> <span class="fu"><a href="http://xml2.r-lib.org/reference/read_xml.html">read_html</a></span><span class="op">(</span><span class="va">url</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">section</span> <span class="op">&lt;-</span> <span class="fu"><a href="http://xml2.r-lib.org/reference/read_xml.html">read_html</a></span><span class="op">(</span><span class="va">url</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://rvest.tidyverse.org/reference/html_element.html">html_elements</a></span><span class="op">(</span><span class="st">"section"</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://tibble.tidyverse.org/reference/tibble.html">tibble</a></span><span class="op">(</span></span>
 <span>  title <span class="op">=</span> <span class="va">section</span> <span class="op">|&gt;</span> </span>
@@ -886,7 +893,7 @@
 <div class="tab-content">
 <div id="tabset-4-1">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://rvest.tidyverse.org/">rvest</a></span><span class="op">)</span></span>
 <span><span class="va">url</span> <span class="op">&lt;-</span> <span class="st">"https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population"</span></span>
 <span><span class="va">my_table</span> <span class="op">&lt;-</span> <span class="va">url</span> <span class="op">|&gt;</span> </span>
@@ -897,6 +904,7 @@
 </div>
 <div id="tabset-4-2">
 <div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">my_table</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 240 × 6
    Location      Population    `% ofworld` Date     Source (official or …¹ Notes
@@ -918,7 +926,7 @@
 </div>
 <div id="tabset-4-3">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">my_table_new</span> <span class="op">&lt;-</span> <span class="va">my_table</span> <span class="op">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">my_table_new</span> <span class="op">&lt;-</span> <span class="va">my_table</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="op">-</span><span class="va">Notes</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/rename.html">rename</a></span><span class="op">(</span></span>
 <span>    location <span class="op">=</span> <span class="st">"Location"</span>,</span>
@@ -936,6 +944,7 @@
 </div>
 <div id="tabset-4-4">
 <div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">my_table_new</span> </span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 240 × 5
    location      population pop_pct date       source                       
@@ -1041,7 +1050,7 @@
 <div class="tab-content">
 <div id="tabset-5-1">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://httr2.r-lib.org">httr2</a></span><span class="op">)</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://httr2.r-lib.org">httr2</a></span><span class="op">)</span></span>
 <span><span class="va">base_url</span> <span class="op">&lt;-</span> <span class="st">"https://api.odcloud.kr/api/15099519/v1/uddi:e83bc47a-f235-4b44-96d8-a9d0686435a5"</span> </span>
 <span><span class="fu"><a href="https://httr2.r-lib.org/reference/request.html">request</a></span><span class="op">(</span><span class="va">base_url</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="https://httr2.r-lib.org/reference/req_url.html">req_url_query</a></span><span class="op">(</span></span>
@@ -1074,7 +1083,7 @@
 </div>
 <div id="tabset-5-3">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">final_data</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://purrr.tidyverse.org/reference/map_dfr.html">map_dfr</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">12</span>, <span class="kw">function</span><span class="op">(</span><span class="va">p</span><span class="op">)</span> <span class="op">{</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">final_data</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://purrr.tidyverse.org/reference/map_dfr.html">map_dfr</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">12</span>, <span class="kw">function</span><span class="op">(</span><span class="va">p</span><span class="op">)</span> <span class="op">{</span></span>
 <span>  <span class="fu"><a href="https://httr2.r-lib.org/reference/request.html">request</a></span><span class="op">(</span><span class="va">base_url</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>    <span class="fu"><a href="https://httr2.r-lib.org/reference/req_url.html">req_url_query</a></span><span class="op">(</span></span>
 <span>      serviceKey <span class="op">=</span> <span class="va">your_api_key</span>, </span>
@@ -1088,6 +1097,7 @@
 </div>
 <div id="tabset-5-4">
 <div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">final_data</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 12,000 × 18
    경도         교육지원청명 교육지원청코드 데이터기준일자 변경일자 본교분교구분
@@ -1164,7 +1174,7 @@
 <div class="tab-content">
 <div id="tabset-6-1">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://httr2.r-lib.org">httr2</a></span><span class="op">)</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://httr2.r-lib.org">httr2</a></span><span class="op">)</span></span>
 <span><span class="va">search</span> <span class="op">&lt;-</span> <span class="st">"지역소멸"</span></span>
 <span><span class="va">base_url</span> <span class="op">&lt;-</span> <span class="st">"https://openapi.naver.com/v1/search/news.json"</span></span>
 <span><span class="va">result_naver</span> <span class="op">&lt;-</span> <span class="va">base_url</span> <span class="op">|&gt;</span> </span>
@@ -1186,22 +1196,22 @@
 </div>
 <div id="tabset-6-2">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">result_naver</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_head</a></span><span class="op">(</span>n <span class="op">=</span> <span class="fl">5</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">result_naver</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_head</a></span><span class="op">(</span>n <span class="op">=</span> <span class="fl">5</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 5 × 5
   title                                   originallink link  description pubDate
   &lt;chr&gt;                                   &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;  
-1 2026년 항공업계, 3高 파고 속 ‘적자생존’ 사투 예고…… https://www… http… "한편 법인 &lt;b&gt;… Thu, 0…
-2 이강덕 포항시장, 2026 병오년 신년사     https://www… http… "대한민국의 수도권… Thu, 0…
-3 [신년사] 이강덕 포항시장 &amp;quot;위기 속 기회 만든 포항 모델,… https://www… http… "수도권 집중과 지… Thu, 0…
-4 하승철 하동군수, 2026년을 '활력도시 원년'으로…신년사 통해 비전… https://www… http… "지방&lt;b&gt;소멸&lt;/… Thu, 0…
-5 [2026 신년사] 구인모 거창군수           http://www.… http… "지난 한 해 우리… Thu, 0…</code></pre>
+1 오뚜기, &lt;b&gt;지역&lt;/b&gt; 활성화 공로 ‘&lt;b&gt;지역&lt;/b&gt;투자 활력 … http://www.… http… "아울러 오뚜기는 … Fri, 0…
+2 서울 벗어났더니 ‘이웃사촌·일자리’ 있네  https://www… http… "청년 인구 유출은… Fri, 0…
+3 교육장관 &amp;quot;잘못된 입시 경쟁체제 극복 온 힘 쏟아야&amp;quot… http://www.… http… "최 장관은 오늘(… Fri, 0…
+4 [신년사] 유정복 인천시장                http://news… http… "모두가 인구 &lt;b… Fri, 0…
+5 [2026 신년사] 손병복 울진군수           http://www.… http… "자랑스러운 군민 … Fri, 0…</code></pre>
 </div>
 </div>
 </div>
 <div id="tabset-6-3">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb23"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">naver_extractor</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">base_url</span>, <span class="va">search_item</span>, <span class="va">n_start</span> <span class="op">=</span> <span class="fl">1</span>, <span class="va">n_display</span> <span class="op">=</span> <span class="fl">100</span><span class="op">)</span><span class="op">{</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">naver_extractor</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">base_url</span>, <span class="va">search_item</span>, <span class="va">n_start</span> <span class="op">=</span> <span class="fl">1</span>, <span class="va">n_display</span> <span class="op">=</span> <span class="fl">100</span><span class="op">)</span><span class="op">{</span></span>
 <span>  <span class="va">news</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://httr2.r-lib.org/reference/request.html">request</a></span><span class="op">(</span><span class="va">base_url</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://httr2.r-lib.org/reference/req_headers.html">req_headers</a></span><span class="op">(</span></span>
 <span>    <span class="st">"X-Naver-Client-ID"</span> <span class="op">=</span> <span class="va">your_ClientID</span>,</span>
@@ -1232,16 +1242,16 @@
 </div>
 <div id="tabset-6-4">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">result_naver</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_head</a></span><span class="op">(</span>n <span class="op">=</span> <span class="fl">5</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">result_naver</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_head</a></span><span class="op">(</span>n <span class="op">=</span> <span class="fl">5</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 5 × 5
   title                                   originallink link  description pubDate
   &lt;chr&gt;                                   &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;  
-1 2026년 항공업계, 3高 파고 속 ‘적자생존’ 사투 예고…… https://www… http… "한편 법인 &lt;b&gt;… Thu, 0…
-2 이강덕 포항시장, 2026 병오년 신년사     https://www… http… "대한민국의 수도권… Thu, 0…
-3 [신년사] 이강덕 포항시장 &amp;quot;위기 속 기회 만든 포항 모델,… https://www… http… "수도권 집중과 지… Thu, 0…
-4 하승철 하동군수, 2026년을 '활력도시 원년'으로…신년사 통해 비전… https://www… http… "지방&lt;b&gt;소멸&lt;/… Thu, 0…
-5 [2026 신년사] 구인모 거창군수           http://www.… http… "지난 한 해 우리… Thu, 0…</code></pre>
+1 오뚜기, &lt;b&gt;지역&lt;/b&gt; 활성화 공로 ‘&lt;b&gt;지역&lt;/b&gt;투자 활력 … http://www.… http… "아울러 오뚜기는 … Fri, 0…
+2 서울 벗어났더니 ‘이웃사촌·일자리’ 있네  https://www… http… "청년 인구 유출은… Fri, 0…
+3 교육장관 &amp;quot;잘못된 입시 경쟁체제 극복 온 힘 쏟아야&amp;quot… http://www.… http… "최 장관은 오늘(… Fri, 0…
+4 [신년사] 유정복 인천시장                http://news… http… "모두가 인구 &lt;b… Fri, 0…
+5 [2026 신년사] 손병복 울진군수           http://www.… http… "자랑스러운 군민 … Fri, 0…</code></pre>
 </div>
 </div>
 </div>
@@ -1470,41 +1480,6 @@
           RevealZoom
         ]
       });
-    </script><script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-    
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-    
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-    
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-    
-      })();
     </script><script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
