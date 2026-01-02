@@ -11,7 +11,7 @@
 <meta name="generator" content="quarto-1.8.26">
 <meta name="author" content="  이상일(서울대학교 지리교육과 교수)">
 <meta name="dcterms.date" content="2026-01-02">
-<title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-input93e37347748c386f</title>
+<title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-input10778c1a9d08c8f1</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -213,7 +213,7 @@
 </section><section id="데이터사이언스-프로세스" class="slide level2"><h2>데이터사이언스 프로세스</h2>
 
 <img data-src="images/clipboard-1040421420.png" class="r-stretch"><ul>
-<li>데이터 시각화하기(visualize): 데이터에 내재된 패턴, 관계, 분포, 변화, 이상값 등을 시각적 표현으로 변환하여 인간의 인지와 해석을 돕는 과정으로, EDA의 핵심 부분</li>
+<li>데이터 시각화하기(visualize): 데이터에 내재된 패턴, 관계, 분포, 변화, 이상값 등을 시각적으로 표현하여 인간의 인지와 해석을 돕는 과정으로, <strong>EDA</strong>(exploratory data analysis)의 핵심 부분</li>
 </ul></section><section id="데이터사이언스-프로세스-타이디버스" class="slide level2"><h2>데이터사이언스 프로세스: 타이디버스</h2>
 
 <img data-src="images/data_science_process_packages-04.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://r4ds.hadley.nz/intro.html" style="font-size:1rem">https://r4ds.hadley.nz/intro.html</a></p></section><section id="ggplot2-패키지" class="slide level2"><h2>
@@ -225,7 +225,7 @@
 <img data-src="https://sangillee.snu.ac.kr/2024_AIEDAP/images/clipboard-1476685333.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/r-packages-functions" style="font-size:1rem">https://allisonhorst.com/r-packages-functions</a></p></section><section id="ggplot2-패키지-2" class="slide level2"><h2>
 <strong>ggplot2</strong> 패키지</h2>
 
-<img data-src="https://sangillee.snu.ac.kr/2024_AIEDAP/images/clipboard-4023683763.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/r-packages-functions" style="font-size:1rem">https://allisonhorst.com/r-packages-functions</a></p></section><section id="gg-grammar-of-graphics" class="slide level2"><h2>GG: Grammar of Graphics</h2>
+<img data-src="https://sangillee.snu.ac.kr/2024_AIEDAP/images/clipboard-4023683763.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://allisonhorst.com/r-packages-functions" style="font-size:1rem">https://allisonhorst.com/r-packages-functions</a></p></section><section id="gg-the-grammar-of-graphics-1999" class="slide level2"><h2>GG: The Grammar of Graphics (1999)</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure><p><img data-src="images/clipboard-3968277018.png" class="quarto-figure quarto-figure-center" height="880"></p>
 </figure>
@@ -236,43 +236,81 @@
 <img data-src="images/clipboard-2830686800.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://en.wikipedia.org/wiki/Charles_Joseph_Minard" style="font-size:1rem">https://en.wikipedia.org/wiki/Charles_Joseph_Minard</a></p></section><section id="ggplot2의-8대-구성요소" class="slide level2"><h2>
 <strong>ggplot2</strong>의 8대 구성요소</h2>
 
-<img data-src="https://sangillee.snu.ac.kr/data_science/images/clipboard-3014854163.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://initiation.doana-r.com/06-ggplot2#1" style="font-size:1rem">https://initiation.doana-r.com/06-ggplot2#1</a></p></section><section id="핵심-구성요소-시각속성과-기하객체" class="slide level2"><h2>핵심 구성요소: 시각속성과 기하객체</h2>
+<img data-src="https://sangillee.snu.ac.kr/data_science/images/clipboard-3014854163.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://initiation.doana-r.com/06-ggplot2#1" style="font-size:1rem">https://initiation.doana-r.com/06-ggplot2#1</a></p></section><section id="핵심-구성요소-데이터data" class="slide level2"><h2>핵심 구성요소: 데이터(data)</h2>
 <ul>
 <li>
-<p>시각속성(aesthetics)</p>
+<p>시각화의 가장 기본적인 요소</p>
+<ul>
+<li>데이터프레임</li>
+</ul>
+</li>
+<li>
+<p><strong>최상위 함수</strong>에서 <strong>글로벌</strong> 지정</p>
+<ul>
+<li>
+<code>ggplot(data = 데이터프레임명)</code> 혹은 <code>ggplot(데이터프레임명)</code>
+</li>
+</ul>
+</li>
+<li>
+<p>특정한 기하객체에 로컬 지정 가능</p>
+<ul>
+<li><code>geom_*(data = 데이터프레임명)</code></li>
+</ul>
+</li>
+<li>
+<p>다중 지정 가능</p>
+<ul>
+<li>다양한 기하객체에 개별적으로 로컬 지정</li>
+</ul>
+</li>
+</ul></section><section id="핵심-구성요소-기하객체geometries" class="slide level2"><h2>핵심 구성요소: 기하객체(geometries)</h2>
+<ul>
+<li><p>플롯의 전체 구조 혹은 형식을 규정</p></li>
+<li>
+<p><strong>플롯의 유형</strong></p>
+<ul>
+<li>막대플롯(bar plot), 라인플롯(line plot), 산점도(scatter plot) 등</li>
+</ul>
+</li>
+<li>
+<p>독립 함수</p>
+<ul>
+<li><code>geom_*()</code></li>
+</ul>
+</li>
+<li><p><code><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot()</a></code> 함수 뒤에 <code>+</code>로 연결하여 지정</p></li>
+</ul></section><section id="핵심-구성요소-시각속성aesthetics" class="slide level2"><h2>핵심 구성요소: 시각속성(aesthetics)</h2>
 <ul>
 <li><p>플롯의 외견을 규정</p></li>
 <li>
-<p>시각속성: 데이터 값의 다양성을 시각적으로 나타내주는 그래픽 요소</p>
+<p><strong>데이터 값의 다양성</strong>을 시각적으로 나타내주는 <strong>그래픽 요소(자원)</strong></p>
 <ul>
 <li>컬러(color), 크기(size), 형태(shape), 위치(position)(x-축, y-축), 투명도(alpha) 등</li>
 </ul>
 </li>
 <li>
-<p>시각속성 매핑(mapping): 특정한 <strong>시각속성</strong>을 특정한 <strong>컬럼</strong>에 부여하는 과정</p>
+<p>시각속성 <strong>매핑</strong>(mapping)</p>
 <ul>
-<li>
-<code>mapping = aes(시각속성 = 컬럼명)</code> 혹은 <code>aes(시각속성 = 컬럼명)</code>
-</li>
-</ul>
-</li>
+<li>특정한 <strong>시각속성</strong>을 특정한 <strong>컬럼</strong>에 부여하는 과정</li>
 </ul>
 </li>
 <li>
-<p>기하객체(geometries 또는 geometric objects)</p>
+<p>독립 함수가 아님: <code>mapping</code> 인수의 <code><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes()</a></code> 보조 함수로 지정</p>
 <ul>
-<li><p>플롯의 전체 구조 혹은 형식을 규정</p></li>
-<li><p>플롯의 유형: 막대플롯(bar plot), 라인플롯(line plot) 등</p></li>
-<li><p><code>geom_*()</code></p></li>
+<li><p><code><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot()</a></code> 그리고/혹은 <code>geom_*()</code> 함수의 내부</p></li>
+<li><p><code>mapping = aes(시각속성 = 컬럼명)</code> 혹은 <code>aes(시각속성 = 컬럼명)</code></p></li>
 </ul>
 </li>
-</ul></section><section id="핵심-구성요소-시각속성과-기하객체-1" class="slide level2"><h2>핵심 구성요소: 시각속성과 기하객체</h2>
+</ul></section><section id="핵심-구성요소-데이터-시각속성-기하객체" class="slide level2"><h2>핵심 구성요소: 데이터, 시각속성, 기하객체</h2>
 <div class="panel-tabset">
 <ul id="tabset-1" class="panel-tabset-tabby">
 <li><a data-tabby-default="" href="#tabset-1-1">Data</a></li>
 <li><a href="#tabset-1-2">Code 1</a></li>
 <li><a href="#tabset-1-3">Code 2</a></li>
 <li><a href="#tabset-1-4">Result</a></li>
+<li><a href="#tabset-1-5">Code 3</a></li>
+<li><a href="#tabset-1-6">Result</a></li>
 </ul>
 <div class="tab-content">
 <div id="tabset-1-1">
@@ -302,8 +340,7 @@
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">gapminder_2007</span> <span class="op">&lt;-</span> <span class="va">gapminder</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">year</span> <span class="op">==</span> <span class="fl">2007</span><span class="op">)</span> </span>
 <span><span class="fu">ggplot</span><span class="op">(</span>data <span class="op">=</span> <span class="va">gapminder_2007</span>, mapping <span class="op">=</span> <span class="fu">aes</span><span class="op">(</span>x <span class="op">=</span> <span class="va">gdpPercap</span>, y <span class="op">=</span> <span class="va">lifeExp</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu">geom_point</span><span class="op">(</span>mapping <span class="op">=</span> <span class="fu">aes</span><span class="op">(</span>color <span class="op">=</span> <span class="va">continent</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu">geom_smooth</span><span class="op">(</span>color <span class="op">=</span> <span class="st">"black"</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<span>  <span class="fu">geom_point</span><span class="op">(</span>mapping <span class="op">=</span> <span class="fu">aes</span><span class="op">(</span>color <span class="op">=</span> <span class="va">continent</span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 <div id="tabset-1-3">
@@ -311,15 +348,33 @@
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">gapminder</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">year</span> <span class="op">==</span> <span class="fl">2007</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">ggplot</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>x <span class="op">=</span> <span class="va">gdpPercap</span>, y <span class="op">=</span> <span class="va">lifeExp</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu">geom_point</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>color <span class="op">=</span> <span class="va">continent</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu">geom_smooth</span><span class="op">(</span>color <span class="op">=</span> <span class="st">"black"</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<span>  <span class="fu">geom_point</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>color <span class="op">=</span> <span class="va">continent</span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 <div id="tabset-1-4">
 <div class="cell">
 <div class="cell-output-display">
 <div>
-<figure><p><img data-src="Lecture_1_5_files/figure-html/unnamed-chunk-4-1.png" width="672"></p>
+<figure><p><img data-src="Lecture_1_5_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-5">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">gapminder</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">year</span> <span class="op">==</span> <span class="fl">2007</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu">ggplot</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>x <span class="op">=</span> <span class="va">gdpPercap</span>, y <span class="op">=</span> <span class="va">lifeExp</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu">geom_point</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>color <span class="op">=</span> <span class="va">continent</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu">geom_smooth</span><span class="op">(</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+<div id="tabset-1-6">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure><p><img data-src="Lecture_1_5_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
 </figure>
 </div>
 </div>
@@ -327,83 +382,7 @@
 </div>
 </div>
 </div>
-</section><section id="시각속성의-종류" class="slide level2 smaller"><h2>시각속성의 종류</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 25%">
-<col style="width: 40%">
-<col style="width: 15%">
-</colgroup>
-<thead><tr class="header">
-<th>분류</th>
-<th>시각속성</th>
-<th>설명</th>
-<th>성격</th>
-</tr></thead>
-<tbody>
-<tr class="odd">
-<td>컬러 관련</td>
-<td><code>aes(color = )</code></td>
-<td>점/선의 컬러 지정</td>
-<td>정성 &gt; 정량</td>
-</tr>
-<tr class="even">
-<td></td>
-<td><code>aes(fill = )</code></td>
-<td>면의 필(컬러) 지정</td>
-<td>정성 &gt; 정량</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><code>aes(alpha = )</code></td>
-<td>점/선/면의 투명도 지정</td>
-<td>정성 &lt; 정량</td>
-</tr>
-<tr class="even">
-<td>차이 표현 관련</td>
-<td><code>aes(shape = )</code></td>
-<td>점의 모양 지정</td>
-<td>정량</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><code>aes(size = )</code></td>
-<td>점의 크기 지정</td>
-<td>정성</td>
-</tr>
-<tr class="even">
-<td></td>
-<td><code>aes(linetype = )</code></td>
-<td>선의 유형 지정</td>
-<td>정성</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><code>aes(linewidth = )</code></td>
-<td>선의 크기 지정</td>
-<td>정량</td>
-</tr>
-<tr class="even">
-<td>위치 관련</td>
-<td><code>aes(x = )</code></td>
-<td>x축 지정</td>
-<td>정성/정량</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><code>aes(y = )</code></td>
-<td>y축 지정</td>
-<td>정성/정량</td>
-</tr>
-<tr class="even">
-<td>그룹화 관련</td>
-<td><code>aes(group = )</code></td>
-<td>그룹화 기준 지정</td>
-<td>정성</td>
-</tr>
-</tbody>
-</table></section><section id="기하객체의-종류" class="slide level2 smaller"><h2>기하객체의 종류</h2>
+</section><section id="핵심-구성요소-기하객체의-종류" class="slide level2 smaller"><h2>핵심 구성요소: 기하객체의 종류</h2>
 <table class="caption-top">
 <colgroup>
 <col style="width: 20%">
@@ -479,9 +458,91 @@
 <td>sf플롯</td>
 </tr>
 </tbody>
+</table></section><section id="핵심-구성요소-시각속성의-종류" class="slide level2 smaller"><h2>핵심 구성요소: 시각속성의 종류</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 25%">
+<col style="width: 40%">
+<col style="width: 15%">
+</colgroup>
+<thead><tr class="header">
+<th>분류</th>
+<th>시각속성</th>
+<th>설명</th>
+<th>성격</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>컬러 관련</td>
+<td><code>aes(color = )</code></td>
+<td>점/선의 컬러 지정</td>
+<td>정성 &gt; 정량</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><code>aes(fill = )</code></td>
+<td>면의 필(컬러) 지정</td>
+<td>정성 &gt; 정량</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><code>aes(alpha = )</code></td>
+<td>점/선/면의 투명도 지정</td>
+<td>정성 &lt; 정량</td>
+</tr>
+<tr class="even">
+<td>차이 표현 관련</td>
+<td><code>aes(shape = )</code></td>
+<td>점의 모양 지정</td>
+<td>정량</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><code>aes(size = )</code></td>
+<td>점의 크기 지정</td>
+<td>정성</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><code>aes(linetype = )</code></td>
+<td>선의 유형 지정</td>
+<td>정성</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><code>aes(linewidth = )</code></td>
+<td>선의 크기 지정</td>
+<td>정량</td>
+</tr>
+<tr class="even">
+<td>위치 관련</td>
+<td><code>aes(x = )</code></td>
+<td>x축 지정</td>
+<td>정성/정량</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><code>aes(y = )</code></td>
+<td>y축 지정</td>
+<td>정성/정량</td>
+</tr>
+<tr class="even">
+<td>그룹화 관련</td>
+<td><code>aes(group = )</code></td>
+<td>그룹화 기준 지정</td>
+<td>정성</td>
+</tr>
+</tbody>
 </table></section><section id="기타-구성요소-스케일scale" class="slide level2"><h2>기타 구성요소: 스케일(scale)</h2>
 <ul>
-<li><p>시각속성의 구현: <code>scale_시각속성_*()</code></p></li>
+<li>
+<p>시각속성의 구현: 독립 함수</p>
+<ul>
+<li><p><code>scale_시각속성_*()</code></p></li>
+<li><p><code>geom_*()</code> 함수 뒤에 <code>+</code>로 연결</p></li>
+</ul>
+</li>
 <li>
 <p>축 관련: x, y</p>
 <ul>
@@ -508,12 +569,6 @@
 <li><p><code><a href="https://ggplot2.tidyverse.org/reference/scale_linetype.html">scale_linetype()</a></code>, <code><a href="https://ggplot2.tidyverse.org/reference/scale_linewidth.html">scale_linewidth()</a></code></p></li>
 </ul>
 </li>
-</ul></section><section id="기타-구성요소-데이터data" class="slide level2"><h2>기타 구성요소: 데이터(data)</h2>
-<ul>
-<li><p>시각화의 가장 기본적인 요소</p></li>
-<li><p>최상위 함수에서 글로벌 지정: <code>ggplot(data = 데이터프레임명)</code></p></li>
-<li><p>특정한 기하객체 함수에서 로컬 지정: <code>geom_*(data = 데이터프레임명)</code></p></li>
-<li><p>다중 지정 가능: 다양한 기하객체에 개별적으로 로컬 지정</p></li>
 </ul></section><section id="기타-구성요소-패싯facet" class="slide level2"><h2>기타 구성요소: 패싯(facet)</h2>
 <ul>
 <li><p>다면생성(faceting)을 통해, 하나의 플롯을 여러 개의 하위 플롯으로 분할</p></li>
@@ -533,14 +588,14 @@
 <div class="tab-content">
 <div id="tabset-2-1">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">gapminder</span> <span class="op">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">gapminder</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">year</span> <span class="op">==</span> <span class="fl">2007</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">ggplot</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Log.html">log</a></span><span class="op">(</span><span class="va">gdpPercap</span><span class="op">)</span>, y <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Log.html">log</a></span><span class="op">(</span><span class="va">lifeExp</span><span class="op">)</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu">geom_point</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>size <span class="op">=</span> <span class="va">pop</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu">geom_smooth</span><span class="op">(</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
-<figure><p><img data-src="Lecture_1_5_files/figure-html/unnamed-chunk-5-1.png" width="672"></p>
+<figure><p><img data-src="Lecture_1_5_files/figure-revealjs/unnamed-chunk-7-1.png" width="960"></p>
 </figure>
 </div>
 </div>
@@ -548,7 +603,7 @@
 </div>
 <div id="tabset-2-2">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">gapminder</span> <span class="op">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">gapminder</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">year</span> <span class="op">==</span> <span class="fl">2007</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">ggplot</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Log.html">log</a></span><span class="op">(</span><span class="va">gdpPercap</span><span class="op">)</span>, y <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Log.html">log</a></span><span class="op">(</span><span class="va">lifeExp</span><span class="op">)</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu">geom_point</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>size <span class="op">=</span> <span class="va">pop</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
@@ -556,7 +611,7 @@
 <span>  <span class="fu">facet_wrap</span><span class="op">(</span><span class="op">~</span><span class="va">continent</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
-<figure><p><img data-src="Lecture_1_5_files/figure-html/unnamed-chunk-6-1.png" width="672"></p>
+<figure><p><img data-src="Lecture_1_5_files/figure-revealjs/unnamed-chunk-8-1.png" width="960"></p>
 </figure>
 </div>
 </div>
@@ -564,7 +619,7 @@
 </div>
 </div>
 </div>
-</section><section id="기타-구성요소-통계적-변환statistical-transformation" class="slide level2"><h2>기타 구성요소: 통계적 변환(statistical transformation)</h2>
+</section><section id="기타-구성요소-통계적-변환" class="slide level2"><h2>기타 구성요소: 통계적 변환</h2>
 <ul>
 <li>시각화 과정에 통계적 변환을 수반</li>
 </ul>
@@ -623,14 +678,21 @@
 
 </section><section id="데이터사이언스-프로세스-1" class="slide level2"><h2>데이터사이언스 프로세스</h2>
 
-<img data-src="images/data_science_process_import-03.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://r4ds.hadley.nz/import.html" style="font-size:1rem">https://r4ds.hadley.nz/import.html</a></p></section><section id="데이터-수집-방법" class="slide level2"><h2>데이터 수집 방법</h2>
+<img data-src="images/data_science_process_import-03.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://r4ds.hadley.nz/import.html" style="font-size:1rem">https://r4ds.hadley.nz/import.html</a></p><ul>
+<li>데이터 ‘가져오기’: 대상이 되는 정보를 다양한 <strong>프로그래밍적</strong> 방법(웹 스크레이핑, 오픈 API 호출 등)을 통해 외부 시스템으로부터 획득하는 과정</li>
+</ul></section><section id="두-가지-방식" class="slide level2"><h2>두 가지 방식</h2>
 <ul>
-<li><p>웹스크레이핑(webscraping)</p></li>
-<li><p>오픈 API의 활용</p></li>
-</ul></section><section id="웹스크레이핑-정의" class="slide level2"><h2>웹스크레이핑: 정의</h2>
+<li><p>웹 스크레이핑(web scraping)</p></li>
+<li><p>오픈 API 활용 수집</p></li>
+</ul></section><section id="웹-스크레이핑" class="slide level2"><h2>웹 스크레이핑</h2>
 <ul>
-<li><p>웹페이지로부터 데이터를 추출하는 것, 데이터 긁어 오기</p></li>
-<li><p>데이터 크롤링(crawling)과 유사, 박박 기면서 수집하기</p></li>
+<li>
+<p>웹페이지의 HTML 구조를 자동으로 분석하여 공개된 정보를 추출 및 수집하는 데이터 획득 기법</p>
+<ul>
+<li><p>데이터 긁어 오기</p></li>
+<li><p>데이터 크롤링(crawling)과 유사: 박박 기면서 수집하기</p></li>
+</ul>
+</li>
 <li>
 <p>해킹(hacking)과의 경계가 모호</p>
 <ul>
@@ -661,7 +723,7 @@
 </ul></section><section id="html의-기초" class="slide level2"><h2>HTML의 기초</h2>
 <ul>
 <li>
-<p>웹페이지는 다양한 태그(tag)로 구성</p>
+<p>웹페이지는 다양한 <strong>태그</strong>(tag)로 구성</p>
 <ul>
 <li>각 태그는 시작 태그와 종료 태그로 구성되며, 둘 사이에 해당 콘텐츠가 위치</li>
 </ul>
@@ -686,11 +748,11 @@
 </li>
 </ul></section><section id="html의-기초-1" class="slide level2"><h2>HTML의 기초</h2>
 <ul>
-<li><p>태그들은 복잡한 다단계 구조를 이룸</p></li>
+<li><p>태그들은 복잡한 <strong>다단계 구조</strong>를 이룸</p></li>
 <li>
-<p>태그는 속성(attribute)를 가질 수 있음</p>
+<p>태그는 <strong>속성</strong>(attribute)를 가질 수 있음</p>
 <ul>
-<li><p>특별히 중요한 속성: <span style="color:coral"><strong>클래스(class)</strong></span>, <span style="color:coral"><strong>아이디(id)</strong></span></p></li>
+<li><p>특별히 중요한 속성: <strong>클래스(class)</strong>, <strong>아이디(id)</strong></p></li>
 <li><p>p나 div 태그와 같은 블록 태그: height, width, margin, padding</p></li>
 <li><p>img 태그: src, alt, width, height</p></li>
 <li><p>a 태그: href</p></li>
@@ -701,13 +763,13 @@
 <img data-src="https://sangillee.snu.ac.kr/2024_AIEDAP/images/clipboard-613748476.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://odinuv.cz/articles/html/" style="font-size:1rem">https://odinuv.cz/articles/html/</a></p></section><section id="html-엘리먼트의-선택" class="slide level2"><h2>HTML 엘리먼트의 선택</h2>
 <ul>
 <li>
-<p><span style="color:coral"><strong>HTML 엘리먼트</strong></span></p>
+<p><strong>HTML 엘리먼트</strong></p>
 <ul>
 <li><p>태그와 속성으로 구성된 HTML의 한 단위 혹은 특정 부분</p></li>
-<li><p>웹스크레이핑의 타깃의 주소</p></li>
+<li><p>웹 스크레이핑의 타깃의 주소</p></li>
 </ul>
 </li>
-<li><p>HTML 엘리먼트의 선택: <span style="color:coral"><strong>CSS</strong> <strong>선택자</strong></span>(casading style sheet selector)</p></li>
+<li><p>HTML 엘리먼트의 선택: <strong>CSS</strong> <strong>선택자</strong>(casading style sheet selector)</p></li>
 </ul>
 <div style="font-size:0.6em">
 <table class="caption-top">
@@ -762,13 +824,13 @@
 </ul></section><section id="rvest-패키지" class="slide level2"><h2>
 <strong>rvest</strong> 패키지</h2>
 
-<img data-src="images/hex_rvest.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://rvest.tidyverse.org/" style="font-size:1rem">https://rvest.tidyverse.org/</a></p></section><section id="rvest-패키지를-활용한-웹스크레이핑-절차" class="slide level2"><h2>
-<strong>rvest</strong> 패키지를 활용한 웹스크레이핑 절차</h2>
+<img data-src="images/hex_rvest.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://rvest.tidyverse.org/" style="font-size:1rem">https://rvest.tidyverse.org/</a></p></section><section id="rvest-패키지를-활용한-웹-스크레이핑-절차" class="slide level2"><h2>
+<strong>rvest</strong> 패키지를 활용한 웹 스크레이핑 절차</h2>
 <ul>
 <li>
 <p>1단계: 웹페이지 읽기</p>
 <ul>
-<li>웹스크레이핑의 대상이 되는 웹페이지의 URL 읽기</li>
+<li>웹 스크레이핑의 대상이 되는 웹페이지의 URL 읽기</li>
 </ul>
 </li>
 <li>
@@ -784,7 +846,7 @@
 </ul>
 </li>
 <li>
-<p>4단계: 엘리먼트로부터 데이터 추출</p>
+<p>4단계: 엘리먼트로부터 데이터 파싱</p>
 <ul>
 <li>데이블 데이터, 텍스트 등을 추출</li>
 </ul>
@@ -792,17 +854,17 @@
 </ul></section><section id="사례-1-스타워즈" class="slide level2"><h2>사례 1: 스타워즈</h2>
 <p><a href="https://rvest.tidyverse.org/articles/starwars.html">vignette(“starwars”)</a></p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a aria-hidden="true" tabindex="-1"></a><span class="sc">&lt;</span>section<span class="sc">&gt;</span></span>
-<span id="cb7-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="er">&lt;</span>h2 data<span class="sc">-</span>id<span class="ot">=</span><span class="st">"1"</span><span class="sc">&gt;</span>The Phantom Menace<span class="sc">&lt;</span><span class="er">/</span>h2<span class="sc">&gt;</span></span>
-<span id="cb7-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="er">&lt;</span>p<span class="sc">&gt;</span>Released<span class="sc">:</span> <span class="dv">1999-05-19</span><span class="sc">&lt;</span><span class="er">/</span>p<span class="sc">&gt;</span></span>
-<span id="cb7-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="er">&lt;</span>p<span class="sc">&gt;</span>Director<span class="sc">:</span> <span class="er">&lt;</span>span class<span class="ot">=</span><span class="st">"director"</span><span class="sc">&gt;</span>George Lucas<span class="sc">&lt;</span><span class="er">/</span>span<span class="sc">&gt;</span><span class="er">&lt;/</span>p<span class="sc">&gt;</span></span>
-<span id="cb7-5"><a aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb7-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="er">&lt;</span>div class<span class="ot">=</span><span class="st">"crawl"</span><span class="sc">&gt;</span></span>
-<span id="cb7-7"><a aria-hidden="true" tabindex="-1"></a>    <span class="er">&lt;</span>p<span class="sc">&gt;</span>...<span class="sc">&lt;</span><span class="er">/</span>p<span class="sc">&gt;</span></span>
-<span id="cb7-8"><a aria-hidden="true" tabindex="-1"></a>    <span class="er">&lt;</span>p<span class="sc">&gt;</span>...<span class="sc">&lt;</span><span class="er">/</span>p<span class="sc">&gt;</span></span>
-<span id="cb7-9"><a aria-hidden="true" tabindex="-1"></a>    <span class="er">&lt;</span>p<span class="sc">&gt;</span>...<span class="sc">&lt;</span><span class="er">/</span>p<span class="sc">&gt;</span></span>
-<span id="cb7-10"><a aria-hidden="true" tabindex="-1"></a>  <span class="er">&lt;/</span>div<span class="sc">&gt;</span></span>
-<span id="cb7-11"><a aria-hidden="true" tabindex="-1"></a><span class="er">&lt;/</span>section<span class="sc">&gt;</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a aria-hidden="true" tabindex="-1"></a><span class="sc">&lt;</span>section<span class="sc">&gt;</span></span>
+<span id="cb8-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="er">&lt;</span>h2 data<span class="sc">-</span>id<span class="ot">=</span><span class="st">"1"</span><span class="sc">&gt;</span>The Phantom Menace<span class="sc">&lt;</span><span class="er">/</span>h2<span class="sc">&gt;</span></span>
+<span id="cb8-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="er">&lt;</span>p<span class="sc">&gt;</span>Released<span class="sc">:</span> <span class="dv">1999-05-19</span><span class="sc">&lt;</span><span class="er">/</span>p<span class="sc">&gt;</span></span>
+<span id="cb8-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="er">&lt;</span>p<span class="sc">&gt;</span>Director<span class="sc">:</span> <span class="er">&lt;</span>span class<span class="ot">=</span><span class="st">"director"</span><span class="sc">&gt;</span>George Lucas<span class="sc">&lt;</span><span class="er">/</span>span<span class="sc">&gt;</span><span class="er">&lt;/</span>p<span class="sc">&gt;</span></span>
+<span id="cb8-5"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb8-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="er">&lt;</span>div class<span class="ot">=</span><span class="st">"crawl"</span><span class="sc">&gt;</span></span>
+<span id="cb8-7"><a aria-hidden="true" tabindex="-1"></a>    <span class="er">&lt;</span>p<span class="sc">&gt;</span>...<span class="sc">&lt;</span><span class="er">/</span>p<span class="sc">&gt;</span></span>
+<span id="cb8-8"><a aria-hidden="true" tabindex="-1"></a>    <span class="er">&lt;</span>p<span class="sc">&gt;</span>...<span class="sc">&lt;</span><span class="er">/</span>p<span class="sc">&gt;</span></span>
+<span id="cb8-9"><a aria-hidden="true" tabindex="-1"></a>    <span class="er">&lt;</span>p<span class="sc">&gt;</span>...<span class="sc">&lt;</span><span class="er">/</span>p<span class="sc">&gt;</span></span>
+<span id="cb8-10"><a aria-hidden="true" tabindex="-1"></a>  <span class="er">&lt;/</span>div<span class="sc">&gt;</span></span>
+<span id="cb8-11"><a aria-hidden="true" tabindex="-1"></a><span class="er">&lt;/</span>section<span class="sc">&gt;</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section><section id="사례-1-스타워즈-1" class="slide level2"><h2>사례 1: 스타워즈</h2>
 <div class="panel-tabset">
@@ -815,7 +877,7 @@
 <div class="tab-content">
 <div id="tabset-3-1">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://rvest.tidyverse.org/">rvest</a></span><span class="op">)</span></span>
 <span><span class="va">url</span> <span class="op">&lt;-</span> <span class="st">"https://rvest.tidyverse.org/articles/starwars.html"</span></span>
 <span><span class="fu"><a href="http://xml2.r-lib.org/reference/read_xml.html">read_html</a></span><span class="op">(</span><span class="va">url</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
@@ -826,13 +888,6 @@
 </div>
 <div id="tabset-3-2">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://rvest.tidyverse.org/">rvest</a></span><span class="op">)</span></span>
-<span><span class="va">url</span> <span class="op">&lt;-</span> <span class="st">"https://rvest.tidyverse.org/articles/starwars.html"</span></span>
-<span><span class="fu"><a href="http://xml2.r-lib.org/reference/read_xml.html">read_html</a></span><span class="op">(</span><span class="va">url</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu"><a href="https://rvest.tidyverse.org/reference/html_element.html">html_elements</a></span><span class="op">(</span><span class="st">"section"</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu"><a href="https://rvest.tidyverse.org/reference/html_element.html">html_element</a></span><span class="op">(</span><span class="st">"h2"</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu"><a href="https://rvest.tidyverse.org/reference/html_text.html">html_text2</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "The Phantom Menace"      "Attack of the Clones"   
 [3] "Revenge of the Sith"     "A New Hope"             
@@ -904,7 +959,6 @@
 </div>
 <div id="tabset-4-2">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">my_table</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 240 × 6
    Location      Population    `% ofworld` Date     Source (official or …¹ Notes
@@ -926,7 +980,7 @@
 </div>
 <div id="tabset-4-3">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">my_table_new</span> <span class="op">&lt;-</span> <span class="va">my_table</span> <span class="op">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">my_table_new</span> <span class="op">&lt;-</span> <span class="va">my_table</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="op">-</span><span class="va">Notes</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/rename.html">rename</a></span><span class="op">(</span></span>
 <span>    location <span class="op">=</span> <span class="st">"Location"</span>,</span>
@@ -944,7 +998,6 @@
 </div>
 <div id="tabset-4-4">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">my_table_new</span> </span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 240 × 5
    location      population pop_pct date       source                       
@@ -965,23 +1018,23 @@
 </div>
 </div>
 </div>
-</section><section id="api의-정의" class="slide level2"><h2>API의 정의</h2>
+</section><section id="오픈-api-활용-수집-정의" class="slide level2"><h2>오픈 API 활용 수집: 정의</h2>
 <ul>
 <li>
-<p>API(application programming interface)는 일종의 통신 규약(protocol)</p>
-<ul>
-<li><p>복수의 프로그램들이 서로 상호작용하는 방법을 정의하는 일련의 규칙</p></li>
-<li><p>한 애플리케이션이 다른 애플리케이션의 기능들을 불러 사용할 수 있게 해주는 통로</p></li>
-<li><p>오픈 API: API 키(key)</p></li>
-</ul>
-</li>
-<li>
-<p>데이터 API</p>
+<p>데이터 제공자가 공식적으로 공개한 인터페이스를 통해 구조화된 데이터를 프로그램 방식으로 획득하는 방법</p>
 <ul>
 <li>데이터를 보유하고 있는 공적 기관이 데이터의 사용 권한을 사용자들에게 부여함으로써 데이터에 대한 접근성을 높여주는 일련의 방식</li>
 </ul>
 </li>
-</ul></section><section id="api-활용의-다양성" class="slide level2"><h2>API 활용의 다양성</h2>
+<li>
+<p>오픈 API(application programming interface)</p>
+<ul>
+<li><p>복수의 프로그램들이 서로 상호작용하는 방법을 정의하는 일련의 통신 규약(protocol)</p></li>
+<li><p>한 애플리케이션이 다른 애플리케이션의 기능(데이터, 알고리즘)을 불러 사용할 수 있게 해주는 통로</p></li>
+<li><p>API 키(key)</p></li>
+</ul>
+</li>
+</ul></section><section id="오픈-api-활용-수집-사례" class="slide level2"><h2>오픈 API 활용 수집: 사례</h2>
 <ul>
 <li>
 <p>정형 수치 데이터의 수집</p>
@@ -1005,22 +1058,6 @@
 <li><p><a href="https://console.cloud.google.com/apis/">유튜브 API</a>를 활용한 댓글 데이터 수집</p></li>
 </ul>
 </li>
-</ul></section><section id="api-활용의-다양성-1" class="slide level2"><h2>API 활용의 다양성</h2>
-<ul>
-<li><p>Google Maps Platform (<a href="https://mapsplatform.google.com/" class="uri">https://mapsplatform.google.com/</a>)</p></li>
-<li>
-<p>7 종류의 API</p>
-<ul>
-<li><p>Google Direction API</p></li>
-<li><p>Google Distance API</p></li>
-<li><p>Google Elevation API</p></li>
-<li><p>Google Timezone API</p></li>
-<li><p>Google Geocode API</p></li>
-<li><p>Google Reverse Geocode API</p></li>
-<li><p>Google Places API</p></li>
-</ul>
-</li>
-<li><p>R 래퍼(rapper) 패키지: <a href="https://symbolixau.github.io/googleway/">googleway</a></p></li>
 </ul></section><section id="httr2-패키지" class="slide level2"><h2>
 <strong>httr2</strong> 패키지</h2>
 
@@ -1050,7 +1087,7 @@
 <div class="tab-content">
 <div id="tabset-5-1">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://httr2.r-lib.org">httr2</a></span><span class="op">)</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://httr2.r-lib.org">httr2</a></span><span class="op">)</span></span>
 <span><span class="va">base_url</span> <span class="op">&lt;-</span> <span class="st">"https://api.odcloud.kr/api/15099519/v1/uddi:e83bc47a-f235-4b44-96d8-a9d0686435a5"</span> </span>
 <span><span class="fu"><a href="https://httr2.r-lib.org/reference/request.html">request</a></span><span class="op">(</span><span class="va">base_url</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="https://httr2.r-lib.org/reference/req_url.html">req_url_query</a></span><span class="op">(</span></span>
@@ -1083,7 +1120,7 @@
 </div>
 <div id="tabset-5-3">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">final_data</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://purrr.tidyverse.org/reference/map_dfr.html">map_dfr</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">12</span>, <span class="kw">function</span><span class="op">(</span><span class="va">p</span><span class="op">)</span> <span class="op">{</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">final_data</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://purrr.tidyverse.org/reference/map_dfr.html">map_dfr</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">12</span>, <span class="kw">function</span><span class="op">(</span><span class="va">p</span><span class="op">)</span> <span class="op">{</span></span>
 <span>  <span class="fu"><a href="https://httr2.r-lib.org/reference/request.html">request</a></span><span class="op">(</span><span class="va">base_url</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>    <span class="fu"><a href="https://httr2.r-lib.org/reference/req_url.html">req_url_query</a></span><span class="op">(</span></span>
 <span>      serviceKey <span class="op">=</span> <span class="va">your_api_key</span>, </span>
@@ -1097,7 +1134,6 @@
 </div>
 <div id="tabset-5-4">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">final_data</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 12,000 × 18
    경도         교육지원청명 교육지원청코드 데이터기준일자 변경일자 본교분교구분
@@ -1174,7 +1210,7 @@
 <div class="tab-content">
 <div id="tabset-6-1">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://httr2.r-lib.org">httr2</a></span><span class="op">)</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://httr2.r-lib.org">httr2</a></span><span class="op">)</span></span>
 <span><span class="va">search</span> <span class="op">&lt;-</span> <span class="st">"지역소멸"</span></span>
 <span><span class="va">base_url</span> <span class="op">&lt;-</span> <span class="st">"https://openapi.naver.com/v1/search/news.json"</span></span>
 <span><span class="va">result_naver</span> <span class="op">&lt;-</span> <span class="va">base_url</span> <span class="op">|&gt;</span> </span>
@@ -1196,22 +1232,22 @@
 </div>
 <div id="tabset-6-2">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">result_naver</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_head</a></span><span class="op">(</span>n <span class="op">=</span> <span class="fl">5</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">result_naver</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_head</a></span><span class="op">(</span>n <span class="op">=</span> <span class="fl">5</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 5 × 5
   title                                   originallink link  description pubDate
   &lt;chr&gt;                                   &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;  
-1 오뚜기, &lt;b&gt;지역&lt;/b&gt; 활성화 공로 ‘&lt;b&gt;지역&lt;/b&gt;투자 활력 … http://www.… http… "아울러 오뚜기는 … Fri, 0…
-2 서울 벗어났더니 ‘이웃사촌·일자리’ 있네  https://www… http… "청년 인구 유출은… Fri, 0…
-3 교육장관 &amp;quot;잘못된 입시 경쟁체제 극복 온 힘 쏟아야&amp;quot… http://www.… http… "최 장관은 오늘(… Fri, 0…
-4 [신년사] 유정복 인천시장                http://news… http… "모두가 인구 &lt;b… Fri, 0…
-5 [2026 신년사] 손병복 울진군수           http://www.… http… "자랑스러운 군민 … Fri, 0…</code></pre>
+1 박용철 강화군수, “2026년 강화 잠재력 현실로 만들 것”…… https://spo… http… "박 군수는 시무식… Fri, 0…
+2 박용철 강화군수, 병오년 시무식서 미래 성장동력 확보 선언…… https://www… http… "박 군수는 시무식… Fri, 0…
+3 거대양당, 국회·지방의회 90% 이상 장악   https://www… http… "경북&lt;b&gt;지역&lt;/… Fri, 0…
+4 [신년인터뷰] 최상기 인제군수 &amp;quot;군민 안전과 민생 안정&amp;qu… https://www… http… "이러한 변화의 흐… Fri, 0…
+5 [브리핑] 창고43, '신대륙 레드와인 4종' 새해 프로모션…… http://www.… http… "오뚜기는 2025… Fri, 0…</code></pre>
 </div>
 </div>
 </div>
 <div id="tabset-6-3">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">naver_extractor</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">base_url</span>, <span class="va">search_item</span>, <span class="va">n_start</span> <span class="op">=</span> <span class="fl">1</span>, <span class="va">n_display</span> <span class="op">=</span> <span class="fl">100</span><span class="op">)</span><span class="op">{</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">naver_extractor</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">base_url</span>, <span class="va">search_item</span>, <span class="va">n_start</span> <span class="op">=</span> <span class="fl">1</span>, <span class="va">n_display</span> <span class="op">=</span> <span class="fl">100</span><span class="op">)</span><span class="op">{</span></span>
 <span>  <span class="va">news</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://httr2.r-lib.org/reference/request.html">request</a></span><span class="op">(</span><span class="va">base_url</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://httr2.r-lib.org/reference/req_headers.html">req_headers</a></span><span class="op">(</span></span>
 <span>    <span class="st">"X-Naver-Client-ID"</span> <span class="op">=</span> <span class="va">your_ClientID</span>,</span>
@@ -1242,16 +1278,16 @@
 </div>
 <div id="tabset-6-4">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">result_naver</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_head</a></span><span class="op">(</span>n <span class="op">=</span> <span class="fl">5</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">result_naver</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_head</a></span><span class="op">(</span>n <span class="op">=</span> <span class="fl">5</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 5 × 5
   title                                   originallink link  description pubDate
   &lt;chr&gt;                                   &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;  
-1 오뚜기, &lt;b&gt;지역&lt;/b&gt; 활성화 공로 ‘&lt;b&gt;지역&lt;/b&gt;투자 활력 … http://www.… http… "아울러 오뚜기는 … Fri, 0…
-2 서울 벗어났더니 ‘이웃사촌·일자리’ 있네  https://www… http… "청년 인구 유출은… Fri, 0…
-3 교육장관 &amp;quot;잘못된 입시 경쟁체제 극복 온 힘 쏟아야&amp;quot… http://www.… http… "최 장관은 오늘(… Fri, 0…
-4 [신년사] 유정복 인천시장                http://news… http… "모두가 인구 &lt;b… Fri, 0…
-5 [2026 신년사] 손병복 울진군수           http://www.… http… "자랑스러운 군민 … Fri, 0…</code></pre>
+1 박용철 강화군수, “2026년 강화 잠재력 현실로 만들 것”…… https://spo… http… "박 군수는 시무식… Fri, 0…
+2 박용철 강화군수, 병오년 시무식서 미래 성장동력 확보 선언…… https://www… http… "박 군수는 시무식… Fri, 0…
+3 거대양당, 국회·지방의회 90% 이상 장악   https://www… http… "경북&lt;b&gt;지역&lt;/… Fri, 0…
+4 [신년인터뷰] 최상기 인제군수 &amp;quot;군민 안전과 민생 안정&amp;qu… https://www… http… "이러한 변화의 흐… Fri, 0…
+5 [브리핑] 창고43, '신대륙 레드와인 4종' 새해 프로모션…… http://www.… http… "오뚜기는 2025… Fri, 0…</code></pre>
 </div>
 </div>
 </div>
@@ -1480,6 +1516,41 @@
           RevealZoom
         ]
       });
+    </script><script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+    
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+    
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+    
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+    
+      })();
     </script><script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
