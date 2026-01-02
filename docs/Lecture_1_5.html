@@ -11,7 +11,7 @@
 <meta name="generator" content="quarto-1.8.26">
 <meta name="author" content="  이상일(서울대학교 지리교육과 교수)">
 <meta name="dcterms.date" content="2026-01-02">
-<title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-inputf08fccd453e2dd1</title>
+<title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-inputced1a694799ee27b</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -573,6 +573,13 @@
 <ul>
 <li><p>다면생성(faceting)을 통해, 하나의 플롯을 여러 개의 하위 플롯으로 분할</p></li>
 <li>
+<p>독립 함수</p>
+<ul>
+<li>
+<code>geom_*()</code> 함수나 <code>scale_시각속성_*()</code> 함수 뒤에 <code>+</code>로 연결</li>
+</ul>
+</li>
+<li>
 <p>두 가지 중요 함수</p>
 <ul>
 <li><p><code><a href="https://ggplot2.tidyverse.org/reference/facet_wrap.html">facet_wrap()</a></code></p></li>
@@ -621,7 +628,7 @@
 </div>
 </section><section id="기타-구성요소-통계적-변환" class="slide level2"><h2>기타 구성요소: 통계적 변환</h2>
 <ul>
-<li>시각화 과정에 통계적 변환을 수반</li>
+<li>시각화 과정에 통계적 변환을 수반: <code>stat_*()</code> 함수, 내부 함수</li>
 </ul>
 
 <img data-src="images/clipboard-3826441672.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://r4ds.hadley.nz/layers" class="uri" style="font-size:1rem">https://r4ds.hadley.nz/layers</a></p></section><section id="기타-구성요소-좌표coordinates" class="slide level2"><h2>기타 구성요소: 좌표(coordinates)</h2>
@@ -634,12 +641,19 @@
 <li><p><code><a href="https://ggplot2.tidyverse.org/reference/coord_fixed.html">coord_fixed()</a></code></p></li>
 </ul>
 </li>
+<li>
+<p>독립 함수</p>
+<ul>
+<li>
+<code>geom_*()</code> 함수나 <code>scale_시각속성_*()</code> 함수 뒤에 <code>+</code>로 연결</li>
+</ul>
+</li>
 </ul></section><section id="기타-구성요소-테마theme" class="slide level2"><h2>기타 구성요소: 테마(theme)</h2>
 <ul>
 <li>
 <p>그래프의 전체적인 외양(테마)를 수정</p>
 <ul>
-<li>8개 테마 제공</li>
+<li>8개 테마 제공: <code>theme_*()</code> 함수</li>
 </ul>
 </li>
 <li>
@@ -647,6 +661,13 @@
 <ul>
 <li>
 <code><a href="https://ggplot2.tidyverse.org/reference/theme.html">theme()</a></code> 함수</li>
+</ul>
+</li>
+<li>
+<p>독립 함수</p>
+<ul>
+<li>
+<code>geom_*()</code> 함수나 <code>scale_시각속성_*()</code> 함수 뒤에 <code>+</code>로 연결</li>
 </ul>
 </li>
 </ul></section><section id="기타-구성요소-테마theme-1" class="slide level2"><h2>기타 구성요소: 테마(theme)</h2>
@@ -683,7 +704,7 @@
 </ul></section><section id="두-가지-방식" class="slide level2"><h2>두 가지 방식</h2>
 <ul>
 <li><p>웹 스크레이핑(web scraping)</p></li>
-<li><p>오픈 API 활용 수집</p></li>
+<li><p>오픈 API 활용</p></li>
 </ul></section><section id="웹-스크레이핑" class="slide level2"><h2>웹 스크레이핑</h2>
 <ul>
 <li>
@@ -1018,7 +1039,7 @@
 </div>
 </div>
 </div>
-</section><section id="오픈-api-활용-수집-정의" class="slide level2"><h2>오픈 API 활용 수집: 정의</h2>
+</section><section id="오픈-api-활용-정의" class="slide level2"><h2>오픈 API 활용: 정의</h2>
 <ul>
 <li>
 <p>데이터 제공자가 공식적으로 공개한 인터페이스를 통해 구조화된 데이터를 프로그램 방식으로 획득하는 방법</p>
@@ -1034,7 +1055,7 @@
 <li><p>API 키(key)</p></li>
 </ul>
 </li>
-</ul></section><section id="오픈-api-활용-수집-사례" class="slide level2"><h2>오픈 API 활용 수집: 사례</h2>
+</ul></section><section id="오픈-api-활용-사례" class="slide level2"><h2>오픈 API 활용: 사례</h2>
 <ul>
 <li>
 <p>정형 수치 데이터의 수집</p>
@@ -1177,7 +1198,7 @@
 </ul></section><section id="사례-kosis-1" class="slide level2"><h2>사례: KOSIS</h2>
 <iframe src="https://sangillee.shinyapps.io/ClickOnMap/" loading="lazy" style="width: 100%; height: 700px; border: 
 0px none;" allow="web-share; clipboard-write"></iframe>
-<p><a href="https://sangillee.snu.ac.kr/dashboard_popgeo/" class="uri">https://sangillee.snu.ac.kr/dashboard_popgeo/</a></p>
+<p><a href="https://sangillee.snu.ac.kr/dashboard_popgeo/" class="uri" style="font-size:1rem">https://sangillee.snu.ac.kr/dashboard_popgeo/</a></p>
 </section><section id="사례-네이버-뉴스" class="slide level2 smaller"><h2>사례: 네이버 뉴스</h2>
 <ul>
 <li><p>NAVER Developer (<a href="https://developers.naver.com/main/" class="uri">https://developers.naver.com/main/</a>)</p></li>
@@ -1237,11 +1258,11 @@
 <pre><code># A tibble: 5 × 5
   title                                   originallink link  description pubDate
   &lt;chr&gt;                                   &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;  
-1 전춘성 진안군수 &amp;quot;생태·건강·치유 자원 연계한 발전 기반 구… https://www… http… "또 △방문객 10… Fri, 0…
-2 신우철 완도군수, 새해 화두 '비약창성' 제시…… https://new… http… "페이' &lt;b&gt;지역… Fri, 0…
-3 강원대 '2026년도 시무식' 개최           http://www.… http… "이어 &amp;quot;… Fri, 0…
-4 김인 새마을금고중앙회장 &amp;quot;미래먹거리硏 조직 신설…사업 다변화… https://www… http… "김 회장은 &amp;qu… Fri, 0…
-5 신우철 완도군수, '비약창성' 힘차게 도약하여 왕성하게 번창…… https://www… http… "페이' &lt;b&gt;지역… Fri, 0…</code></pre>
+1 김미애, 인구감소&lt;b&gt;지역&lt;/b&gt; 주택 취득세 완화 추진…청년·신혼부… https://www… http… "인구감소&lt;b&gt;지역… Fri, 0…
+2 (신년사) 김광열 영덕군수                https://www… http… "찾아 &lt;b&gt;지역&lt;… Fri, 0…
+3 [E-로컬뉴스] 해남군, 완도군, 진도군 소식…… https://www… http… "&lt;b&gt;지역소멸&lt;/… Fri, 0…
+4 완도군, 해양치유 등 주력 산업 고도화로 '비약창성'…… http://www.… http… "페이' &lt;b&gt;지역… Fri, 0…
+5 충북도, 중소기업 4020억 규모 융자 지원  http://www.… http… "미국 관세영향기업… Fri, 0…</code></pre>
 </div>
 </div>
 </div>
@@ -1283,11 +1304,11 @@
 <pre><code># A tibble: 5 × 5
   title                                   originallink link  description pubDate
   &lt;chr&gt;                                   &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;  
-1 전춘성 진안군수 &amp;quot;생태·건강·치유 자원 연계한 발전 기반 구… https://www… http… "또 △방문객 10… Fri, 0…
-2 신우철 완도군수, 새해 화두 '비약창성' 제시…… https://new… http… "페이' &lt;b&gt;지역… Fri, 0…
-3 강원대 '2026년도 시무식' 개최           http://www.… http… "이어 &amp;quot;… Fri, 0…
-4 김인 새마을금고중앙회장 &amp;quot;미래먹거리硏 조직 신설…사업 다변화… https://www… http… "김 회장은 &amp;qu… Fri, 0…
-5 신우철 완도군수, '비약창성' 힘차게 도약하여 왕성하게 번창…… https://www… http… "페이' &lt;b&gt;지역… Fri, 0…</code></pre>
+1 김미애, 인구감소&lt;b&gt;지역&lt;/b&gt; 주택 취득세 완화 추진…청년·신혼부… https://www… http… "인구감소&lt;b&gt;지역… Fri, 0…
+2 (신년사) 김광열 영덕군수                https://www… http… "찾아 &lt;b&gt;지역&lt;… Fri, 0…
+3 [E-로컬뉴스] 해남군, 완도군, 진도군 소식…… https://www… http… "&lt;b&gt;지역소멸&lt;/… Fri, 0…
+4 완도군, 해양치유 등 주력 산업 고도화로 '비약창성'…… http://www.… http… "페이' &lt;b&gt;지역… Fri, 0…
+5 충북도, 중소기업 4020억 규모 융자 지원  http://www.… http… "미국 관세영향기업… Fri, 0…</code></pre>
 </div>
 </div>
 </div>

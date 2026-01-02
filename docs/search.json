@@ -2055,7 +2055,7 @@
     "href": "Lecture_1_5.html#기타-구성요소-패싯facet",
     "title": "\n오픈소스(R) 프로그래밍 3데이터 시각화하기ㆍ수집하기\n",
     "section": "기타 구성요소: 패싯(facet)",
-    "text": "기타 구성요소: 패싯(facet)\n\n다면생성(faceting)을 통해, 하나의 플롯을 여러 개의 하위 플롯으로 분할\n\n두 가지 중요 함수\n\nfacet_wrap()\nfacet_grid()"
+    "text": "기타 구성요소: 패싯(facet)\n\n다면생성(faceting)을 통해, 하나의 플롯을 여러 개의 하위 플롯으로 분할\n\n독립 함수\n\n\ngeom_*() 함수나 scale_시각속성_*() 함수 뒤에 +로 연결\n\n\n\n두 가지 중요 함수\n\nfacet_wrap()\nfacet_grid()"
   },
   {
     "objectID": "Lecture_1_5.html#기타-구성요소-패싯facet-1",
@@ -2076,14 +2076,14 @@
     "href": "Lecture_1_5.html#기타-구성요소-좌표coordinates",
     "title": "\n오픈소스(R) 프로그래밍 3데이터 시각화하기ㆍ수집하기\n",
     "section": "기타 구성요소: 좌표(coordinates)",
-    "text": "기타 구성요소: 좌표(coordinates)\n\n그래픽 요소들의 위치 결정에 기준이 되는 준거 체계\n\n두 가지 중요 함수\n\ncoord_flip()\ncoord_fixed()"
+    "text": "기타 구성요소: 좌표(coordinates)\n\n그래픽 요소들의 위치 결정에 기준이 되는 준거 체계\n\n두 가지 중요 함수\n\ncoord_flip()\ncoord_fixed()\n\n\n\n독립 함수\n\n\ngeom_*() 함수나 scale_시각속성_*() 함수 뒤에 +로 연결"
   },
   {
     "objectID": "Lecture_1_5.html#기타-구성요소-테마theme",
     "href": "Lecture_1_5.html#기타-구성요소-테마theme",
     "title": "\n오픈소스(R) 프로그래밍 3데이터 시각화하기ㆍ수집하기\n",
     "section": "기타 구성요소: 테마(theme)",
-    "text": "기타 구성요소: 테마(theme)\n\n\n그래프의 전체적인 외양(테마)를 수정\n\n8개 테마 제공\n\n\n\n그래프의 세부 구성 요소를 수정\n\n\ntheme() 함수"
+    "text": "기타 구성요소: 테마(theme)\n\n\n그래프의 전체적인 외양(테마)를 수정\n\n8개 테마 제공: theme_*() 함수\n\n\n\n그래프의 세부 구성 요소를 수정\n\n\ntheme() 함수\n\n\n\n독립 함수\n\n\ngeom_*() 함수나 scale_시각속성_*() 함수 뒤에 +로 연결"
   },
   {
     "objectID": "Lecture_1_5.html#기타-구성요소-테마theme-1",
@@ -2286,7 +2286,7 @@
     "href": "Lecture_1_5.html#사례-네이버-뉴스-1",
     "title": "\n오픈소스(R) 프로그래밍 3데이터 시각화하기ㆍ수집하기\n",
     "section": "사례: 네이버 뉴스",
-    "text": "사례: 네이버 뉴스\n\n\nCode 1\nResult 1\nCode 2\nResult 2\n\n\n\n\nlibrary(httr2)\nsearch &lt;- \"지역소멸\"\nbase_url &lt;- \"https://openapi.naver.com/v1/search/news.json\"\nresult_naver &lt;- base_url |&gt; \n  request() |&gt; \n  req_headers(\n    \"X-Naver-Client-ID\" = your_ClientID,\n    \"X-Naver-Client-Secret\" = your_Client_Secret\n  ) |&gt; \n  req_url_query(\n    query = search,\n    display = 100,\n    start = 1,\n    sort = \"date\"\n  ) |&gt; \n  req_perform() |&gt; \n  resp_body_json(check_type = FALSE) |&gt; \n  pluck(\"items\") |&gt; bind_rows()\n\n\n\n\nresult_naver |&gt; slice_head(n = 5)\n\n# A tibble: 5 × 5\n  title                                   originallink link  description pubDate\n  &lt;chr&gt;                                   &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;  \n1 전춘성 진안군수 &quot;생태·건강·치유 자원 연계한 발전 기반 구… https://www… http… \"또 △방문객 10… Fri, 0…\n2 신우철 완도군수, 새해 화두 '비약창성' 제시…… https://new… http… \"페이' &lt;b&gt;지역… Fri, 0…\n3 강원대 '2026년도 시무식' 개최           http://www.… http… \"이어 &quot;… Fri, 0…\n4 김인 새마을금고중앙회장 &quot;미래먹거리硏 조직 신설…사업 다변화… https://www… http… \"김 회장은 &qu… Fri, 0…\n5 신우철 완도군수, '비약창성' 힘차게 도약하여 왕성하게 번창…… https://www… http… \"페이' &lt;b&gt;지역… Fri, 0…\n\n\n\n\n\nnaver_extractor &lt;- function(base_url, search_item, n_start = 1, n_display = 100){\n  news &lt;- request(base_url) |&gt; \n  req_headers(\n    \"X-Naver-Client-ID\" = your_ClientID,\n    \"X-Naver-Client-Secret\" = your_Client_Secret\n  ) |&gt; \n  req_url_query(\n    query = search_item,\n    display = n_display,\n    start = n_start,\n    sort = \"date\"\n  ) |&gt; \n  req_perform() |&gt; \n  resp_body_json() |&gt; pluck(\"items\") |&gt; bind_rows()\n}\n\nsearch &lt;- \"지역소멸\"\nrep &lt;- 10\nresult_naver &lt;- map_dfr(\n  start_idx &lt;- (0:(rep-1)) * 100 + 1,\n  \\(x) naver_extractor(\n    a_url       = your_url,\n    search_item = search,\n    n_start     = x,\n    n_display = 100\n  )\n)\n\n\n\n\nresult_naver |&gt; slice_head(n = 5)\n\n# A tibble: 5 × 5\n  title                                   originallink link  description pubDate\n  &lt;chr&gt;                                   &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;  \n1 전춘성 진안군수 &quot;생태·건강·치유 자원 연계한 발전 기반 구… https://www… http… \"또 △방문객 10… Fri, 0…\n2 신우철 완도군수, 새해 화두 '비약창성' 제시…… https://new… http… \"페이' &lt;b&gt;지역… Fri, 0…\n3 강원대 '2026년도 시무식' 개최           http://www.… http… \"이어 &quot;… Fri, 0…\n4 김인 새마을금고중앙회장 &quot;미래먹거리硏 조직 신설…사업 다변화… https://www… http… \"김 회장은 &qu… Fri, 0…\n5 신우철 완도군수, '비약창성' 힘차게 도약하여 왕성하게 번창…… https://www… http… \"페이' &lt;b&gt;지역… Fri, 0…"
+    "text": "사례: 네이버 뉴스\n\n\nCode 1\nResult 1\nCode 2\nResult 2\n\n\n\n\nlibrary(httr2)\nsearch &lt;- \"지역소멸\"\nbase_url &lt;- \"https://openapi.naver.com/v1/search/news.json\"\nresult_naver &lt;- base_url |&gt; \n  request() |&gt; \n  req_headers(\n    \"X-Naver-Client-ID\" = your_ClientID,\n    \"X-Naver-Client-Secret\" = your_Client_Secret\n  ) |&gt; \n  req_url_query(\n    query = search,\n    display = 100,\n    start = 1,\n    sort = \"date\"\n  ) |&gt; \n  req_perform() |&gt; \n  resp_body_json(check_type = FALSE) |&gt; \n  pluck(\"items\") |&gt; bind_rows()\n\n\n\n\nresult_naver |&gt; slice_head(n = 5)\n\n# A tibble: 5 × 5\n  title                                   originallink link  description pubDate\n  &lt;chr&gt;                                   &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;  \n1 김미애, 인구감소&lt;b&gt;지역&lt;/b&gt; 주택 취득세 완화 추진…청년·신혼부… https://www… http… \"인구감소&lt;b&gt;지역… Fri, 0…\n2 (신년사) 김광열 영덕군수                https://www… http… \"찾아 &lt;b&gt;지역&lt;… Fri, 0…\n3 [E-로컬뉴스] 해남군, 완도군, 진도군 소식…… https://www… http… \"&lt;b&gt;지역소멸&lt;/… Fri, 0…\n4 완도군, 해양치유 등 주력 산업 고도화로 '비약창성'…… http://www.… http… \"페이' &lt;b&gt;지역… Fri, 0…\n5 충북도, 중소기업 4020억 규모 융자 지원  http://www.… http… \"미국 관세영향기업… Fri, 0…\n\n\n\n\n\nnaver_extractor &lt;- function(base_url, search_item, n_start = 1, n_display = 100){\n  news &lt;- request(base_url) |&gt; \n  req_headers(\n    \"X-Naver-Client-ID\" = your_ClientID,\n    \"X-Naver-Client-Secret\" = your_Client_Secret\n  ) |&gt; \n  req_url_query(\n    query = search_item,\n    display = n_display,\n    start = n_start,\n    sort = \"date\"\n  ) |&gt; \n  req_perform() |&gt; \n  resp_body_json() |&gt; pluck(\"items\") |&gt; bind_rows()\n}\n\nsearch &lt;- \"지역소멸\"\nrep &lt;- 10\nresult_naver &lt;- map_dfr(\n  start_idx &lt;- (0:(rep-1)) * 100 + 1,\n  \\(x) naver_extractor(\n    a_url       = your_url,\n    search_item = search,\n    n_start     = x,\n    n_display = 100\n  )\n)\n\n\n\n\nresult_naver |&gt; slice_head(n = 5)\n\n# A tibble: 5 × 5\n  title                                   originallink link  description pubDate\n  &lt;chr&gt;                                   &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;  \n1 김미애, 인구감소&lt;b&gt;지역&lt;/b&gt; 주택 취득세 완화 추진…청년·신혼부… https://www… http… \"인구감소&lt;b&gt;지역… Fri, 0…\n2 (신년사) 김광열 영덕군수                https://www… http… \"찾아 &lt;b&gt;지역&lt;… Fri, 0…\n3 [E-로컬뉴스] 해남군, 완도군, 진도군 소식…… https://www… http… \"&lt;b&gt;지역소멸&lt;/… Fri, 0…\n4 완도군, 해양치유 등 주력 산업 고도화로 '비약창성'…… http://www.… http… \"페이' &lt;b&gt;지역… Fri, 0…\n5 충북도, 중소기업 4020억 규모 융자 지원  http://www.… http… \"미국 관세영향기업… Fri, 0…"
   },
   {
     "objectID": "Lecture_1_5.html#텍스트-마이닝과-자연어처리",
@@ -4218,7 +4218,7 @@
     "href": "Lecture_1_5.html#기타-구성요소-통계적-변환",
     "title": "\n오픈소스(R) 프로그래밍 3데이터 시각화하기ㆍ수집하기\n",
     "section": "기타 구성요소: 통계적 변환",
-    "text": "기타 구성요소: 통계적 변환\n\n시각화 과정에 통계적 변환을 수반\n\n\nhttps://r4ds.hadley.nz/layers"
+    "text": "기타 구성요소: 통계적 변환\n\n시각화 과정에 통계적 변환을 수반: stat_*() 함수, 내부 함수\n\n\nhttps://r4ds.hadley.nz/layers"
   },
   {
     "objectID": "Lecture_1_5.html#웹-스크레이핑",
@@ -4253,7 +4253,7 @@
     "href": "Lecture_1_5.html#두-가지-방식",
     "title": "\n오픈소스(R) 프로그래밍 3데이터 시각화하기ㆍ수집하기\n",
     "section": "두 가지 방식",
-    "text": "두 가지 방식\n\n웹 스크레이핑(web scraping)\n오픈 API 활용 수집"
+    "text": "두 가지 방식\n\n웹 스크레이핑(web scraping)\n오픈 API 활용"
   },
   {
     "objectID": "Lecture_1_5.html#rvest-패키지를-활용한-웹-스크레이핑-절차",
@@ -4261,5 +4261,19 @@
     "title": "\n오픈소스(R) 프로그래밍 3데이터 시각화하기ㆍ수집하기\n",
     "section": "\nrvest 패키지를 활용한 웹 스크레이핑 절차",
     "text": "rvest 패키지를 활용한 웹 스크레이핑 절차\n\n\n1단계: 웹페이지 읽기\n\n웹 스크레이핑의 대상이 되는 웹페이지의 URL 읽기\n\n\n\n2단계: HTML 엘리먼트 선택\n\n필요한 정보를 포함하고 있는 엘리먼트의 지정\n\n\n\n3단계: 하위 엘리먼트 선택\n\n필요한 정보를 포함하고 있는 하위 엘리먼트의 지정\n\n\n\n4단계: 엘리먼트로부터 데이터 파싱\n\n데이블 데이터, 텍스트 등을 추출"
+  },
+  {
+    "objectID": "Lecture_1_5.html#오픈-api-활용-정의",
+    "href": "Lecture_1_5.html#오픈-api-활용-정의",
+    "title": "\n오픈소스(R) 프로그래밍 3데이터 시각화하기ㆍ수집하기\n",
+    "section": "오픈 API 활용: 정의",
+    "text": "오픈 API 활용: 정의\n\n\n데이터 제공자가 공식적으로 공개한 인터페이스를 통해 구조화된 데이터를 프로그램 방식으로 획득하는 방법\n\n데이터를 보유하고 있는 공적 기관이 데이터의 사용 권한을 사용자들에게 부여함으로써 데이터에 대한 접근성을 높여주는 일련의 방식\n\n\n\n오픈 API(application programming interface)\n\n복수의 프로그램들이 서로 상호작용하는 방법을 정의하는 일련의 통신 규약(protocol)\n한 애플리케이션이 다른 애플리케이션의 기능(데이터, 알고리즘)을 불러 사용할 수 있게 해주는 통로\nAPI 키(key)"
+  },
+  {
+    "objectID": "Lecture_1_5.html#오픈-api-활용-사례",
+    "href": "Lecture_1_5.html#오픈-api-활용-사례",
+    "title": "\n오픈소스(R) 프로그래밍 3데이터 시각화하기ㆍ수집하기\n",
+    "section": "오픈 API 활용: 사례",
+    "text": "오픈 API 활용: 사례\n\n\n정형 수치 데이터의 수집\n\nKOSIS의 API를 활용한 센서스 데이터 수집\n공공데이터포털 API를 활용한 전국 초중등학교 위치 데이터 수집\nInternational Database(IDB)의 API를 활용한 세계 인구 데이터 수집\n\n\n\n정형 텍스트 데이터 수집\n\n\n공공데이터포털 API를 활용한 학위 논문의 수집\n\n\n\n비정형 텍스트 데이터 수집: 텍스트 마이닝(text mining)으로 연결\n\n네이버 검색 API를 활용한 뉴스 데이터 수집\n유튜브 API를 활용한 댓글 데이터 수집"
   }
 ]
