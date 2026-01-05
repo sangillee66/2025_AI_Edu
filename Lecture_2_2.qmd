@@ -49,14 +49,392 @@ editor_options:
   chunk_output_type: console
 ---
 
+# [개요]{style="color:coral"}
+
+## 
+
+![[https://shiva-jolad-46811.medium.com/demography-in-service-of-other-social-sciences-6cfef9fae568](https://shiva-jolad-46811.medium.com/demography-in-service-of-other-social-sciences-6cfef9fae568){style="font-size:1rem"}](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*HlCF87afQQcZQv1HDjw9NQ.png)
+
+## 인구 현상의 유형 구분과 5대 주제
+
++--------------------+----------------+----------------+
+|                    | 정적           | 동적           |
++:==================:+:==============:+:==============:+
+| **프로세스(원인)** | \-             | 인구 동태      |
+|                    |                |                |
+|                    |                | 인구 이동      |
++--------------------+----------------+----------------+
+| **패턴(결과)**     | 인구 분포      | 인구 성장      |
+|                    |                |                |
+|                    | 인구 구조      |                |
++--------------------+----------------+----------------+
+
+## 인구학적 인과-누적 매커니즘
+
+![](images/clipboard-2607294170.png)
+
 # [인구 데이터]{style="color:coral"}
 
-## 데이터사이언스 프로세스: 소통
+## 인구 데이터와 나
 
-![[https://r4ds.hadley.nz/](https://r4ds.hadley.nz/){style="font-size:1rem"}](images/data_science_process_communicate-03.png)
+![[https://population.io/](https://population.io/){style="font-size:1rem"}](images/population_io_1.PNG)
 
--   소통하기(communicate): 분석 과정과 결과를 대상 청중의 이해 수준과 목적에 맞게 해석ㆍ구성하여, 적절한 형식과 매체를 통해 의미있게 전달하는 과정
+## 인구 데이터와 나
 
-# [인구 성장]{style="color:coral"}
+![[https://population.io/](https://population.io/){style="font-size:1rem"}](images/population_io_2.PNG)
 
-# [인구 분포]{style="color:coral"}
+## 인구 데이터의 원천: 4대 원천
+
+-   인구 센서스(census)
+
+-   동태 통계(vital statistics)
+
+-   행정 통계(administrative statistics)
+
+-   서베이 데이터(survey data)
+
+## 인구 데이터의 원천: 인구 센서스
+
+![[https://en.wikipedia.org/wiki/Census](https://en.wikipedia.org/wiki/Census){style="font-size:1rem"}](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Lastcensus.svg/2560px-Lastcensus.svg.png)
+
+## 인구 데이터의 원천: 인구 센서스
+
+![[http://www.adinews.co.kr/news/articleView.html?idxno=66384#google_vignette](http://www.adinews.co.kr/news/articleView.html?idxno=66384#google_vignette){style="font-size:1rem"}](http://www.adinews.co.kr/news/photo/202510/66384_121965_434.jpg){fig-align="center"}
+
+## 인구 데이터의 원천: 동태 통계
+
+::: {layout-ncol="2"}
+![](images/clipboard-4031140305.jpeg){width="650px"}
+
+![](images/clipboard-1220774971.jpeg){height="550px"}
+:::
+
+## 인구 데이터의 원천: 행정 통계
+
+![[https://blog.naver.com/gildoyeon\_/223253237945](https://blog.naver.com/gildoyeon_/223253237945){style="font-size:1rem"}](images/clipboard-3678462296.jpeg){fig-align="center"}
+
+## 인구 데이터의 원천: 서베이 데이터
+
+![[https://www.gangdong.go.kr/web/dongrenew/bbscheonho1/news_cheonho1/43368](https://www.gangdong.go.kr/web/dongrenew/bbscheonho1/news_cheonho1/43368){style="font-size:1rem"}](https://www.gangdong.go.kr/assets/crosseditor/binary/images/000089/2024%EA%B0%80%EC%A1%B1%EA%B3%BC%EC%B6%9C%EC%82%B0%EC%A1%B0%EC%82%AC.jpg){fig-align="center"}
+
+## 인구 데이터의 원천과 인구의 공간 귀속
+
+![](images/인구의_공간_귀속.png){fig-align="center"}
+
+::: {style="font-size: 1.75rem; line-height:2"}
+\[KOSIS(국가통계포털)(<https://kosis.kr/>)\] <br> \[서울 열린데이터 광장: 서울 생활인구(<https://data.seoul.go.kr/dataVisual/seoul/seoulLivingPopulation.do>)\]
+:::
+
+## 인구감소지역 지원 특별법: 2023.1.1. 시행
+
+![[https://www.hani.co.kr/arti/opinion/column/1108352.html](https://www.hani.co.kr/arti/opinion/column/1108352.html){style="font-size:1rem"}](https://flexible.img.hani.co.kr/flexible/normal/640/635/imgdb/original/2023/0913/20230913502518.webp){fig-align="center"}
+
+## 인구 데이터: 세계
+
+::: {layout="[60,40]" layout-valign="center"}
+![[https://population.un.org/wpp/](https://population.un.org/wpp/){style="font-size:1rem"}](images/wpp2024.PNG)
+
+![](images/clipboard-3932333218.jpeg)
+:::
+
+## 
+
+![[https://unpkfc.org/2022/07/11/world-population-day-2022-the-theme-for-this-year-is-a-world-of-8-billion-towards-a-resilient-future-for-all-harnessing-opportunities-and-ensuring-rights-and-choices-for-all/](https://unpkfc.org/2022/07/11/world-population-day-2022-the-theme-for-this-year-is-a-world-of-8-billion-towards-a-resilient-future-for-all-harnessing-opportunities-and-ensuring-rights-and-choices-for-all/){style="font-size:0.5rem"}](https://unpkfc.org/wp-content/uploads/2022/07/Presentation1.jpg){fig-align="center"}
+
+## 인구 데이터: 우리나라
+
+![[https://kosis.kr/](https://kosis.kr/){style="font-size:1rem"}](images/kosis.PNG)
+
+## 인구 데이터: 우리나라
+
+![[https://sgis.mods.go.kr/](https://sgis.mods.go.kr/){style="font-size:1rem"}](images/통계지리정보서비스.PNG)
+
+## 인구 데이터의 공간 체계
+
+-   세계: UN 지오스킴(geoscheme)
+
+    -   Subregions: 22개
+
+    -   Regions: 6개
+
+    -   SDG (Sustainable Development Goal) Regions: 7
+
+-   우리나라: 2025년 1월 1일 기준
+
+    -   시도 수준: 17
+
+    -   시군구 수준: 226개 혹은 229개
+
+    -   읍면동 수준: 3,560개
+
+## 국가
+
+![](images/Countries.jpg)
+
+## Subregions: 22
+
+![](images/UN%20All%20Sub-Regions.jpg)
+
+## Regions: 6
+
+![](images/UN%20Regions%20(Modified).jpg)
+
+## SDG Regions: 7
+
+![](images/UN%20SDG%20Regions%20(2024%20Modified).jpg)
+
+## 우리나라
+
+::: {layout-ncol="3" style="font-size:3rem; text-align: center;"}
+![시도 수준(17)](images/행정구역%20SIDO.jpg)
+
+![시군구 수준(226+3)](images/행정구역%20SIGUNGU1.jpg)
+
+![읍면동 수준(3,560)](images/행정구역%20EMD.jpg)
+:::
+
+[(2025년 1월 1일 기준)]{style="font-size:1.25rem"}
+
+## 서울: 2024년 6월 30일 기준
+
+::: {layout-ncol="3" style="font-size:3rem; text-align: center;"}
+![구(25)](images/서울%20구.jpg)
+
+![동(426)](images/서울%20동.jpg)
+
+![집계구(19,218)](images/서울%20집계구.jpg)
+:::
+
+[(2024년 6월 30일 기준)]{style="font-size:1.25rem"}
+
+## 인구 웹 앱 예시
+
+<https://sangillee.snu.ac.kr/dashboard_popgeo/>
+
+# [인구 성장]{style="color:coral"} <br> [인구수의 변화 속도]{style="font-size:4rem"}
+
+## 인구 폭발 vs. 인구 절벽
+
+::: {layout-ncol="2"}
+![[https://atqnews.com/africa-abandoned-by-husband-mariam-nabatanzi-defies-odds-thrives-as-a-single-mother-in-uganda-raising-38-children-including-multiples/](https://atqnews.com/africa-abandoned-by-husband-mariam-nabatanzi-defies-odds-thrives-as-a-single-mother-in-uganda-raising-38-children-including-multiples/){style="font-size:0.5rem"}](https://atqnews.com/wp-content/uploads/2023/11/Mariam-NatabanzI.jpg)
+
+![](images/clipboard-1432174957.png)
+:::
+
+## 인구 성장의 분해
+
+-   인구학적 균형 방정식(demographic balancing equation)
+
+    -   $P_t-P_0=B-D+I-O$
+
+        -   $P_t$: $t$시점의 인구
+
+        -   $P_0$: 기준 시점의 인구
+
+        -   $B$: 출생
+
+        -   $D$: 사망
+
+    -   $B-D$: 자연 증가(natural increase) -\> 자연 변화(natural change)
+
+    -   $I-O$: 순이동(net migration) 혹은 사회 증가(social increase)
+
+## 인구 성장의 측정
+
+-   인구성장률(population growth rate, PGR): 국제 표준
+
+    -   연평균 인구성장률 혹은 연평균 인구증감율
+
+    -   기간을 1년으로 환산했을 때의 PGR: 연간 인구 증가의 속도
+
+-   자연대수법: $P_n=P_0e^{rn}$ -\> $r=\frac{1}{n}\ln\frac{P_n}{P_0}$
+
+-   우리나라 2020\~2024년 PGR
+
+    -   $r=\frac{1}{4}\ln\frac{51,805,547}{51,829,136}=-0.000114$ (-0.011%)
+
+## 인구 성장의 모델: 인구변천모델
+
+![](images/clipboard-3348074413.png)
+
+## 
+
+![[https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30977-6/fulltext](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30977-6/fulltext){style="font-size:1rem"}](https://www.thelancet.com/cms/10.1016/S0140-6736(20)30977-6/asset/f149aba2-2b7a-4329-809a-b8f7e1ab7e8b/main.assets/gr10_lrg.jpg)
+
+## 인구배당효과(demographic dividend)
+
+'인구학적 덫(demographic trap)'
+
+![[http://thepaceproject.org/4dividends/](http://thepaceproject.org/4dividends/){style="font-size:1rem"}](images/clipboard-1652928001.png)
+
+## 세계: 전체
+
+![](images/세계%20총인구%20PGR.jpg)
+
+## 세계: Subregions
+
+![](images/PGR%20by%20Subregion,%202025.jpg)
+
+## 세계: Subregions
+
+![](images/PGR%20by%20Subregion,%202100.jpg)
+
+## 세계: 국가
+
+![](images/Population%20Growth%20Rate%20(PGR),%202025.jpg)
+
+## 우리나라: 혼란스러운 데이터
+
+-   우리나라의 현재 인구는?: 세 종류
+
+    -   인구총조사(2024년 11월 1일 기준): 51,805,547명
+
+        -   내국인 49,762,803명, 외국인 2,042,744명
+
+    -   주민등록인구(2025년 11월 30일 기준): 51,128,530명
+
+        -   외국인 등록인구(2025년 9월 30일 기준): 1,598,380명
+
+    -   추계인구(2026년 7월 1일 기준): 51,609,121명
+
+        -   2024년 공표(2022년 인구 기준), 1960\~2072년, 인구센서스 기반
+
+-   2010년 인구총조사 인구는 2개
+
+    -   기존의 직접 조사 방식에 의거한 인구: 48,580,293명
+
+    -   등록센서스 방식에 의거한 인구: 49,710,672명
+
+## 우리나라: 전체
+
+![](images/Population%20Growth%20in%20South%20Korea,%201925%20to%202023.jpg)
+
+## 우리나라: 권역
+
+![](images/Population%20Growth%20by%20Major%20Region%20in%20South%20Korea,%201975%20to%202023.jpg)
+
+## 우리나라: 시도
+
+![](images/Population%20Growth%20by%20Sido%20in%20South%20Korea,%201975%20to%202023.jpg)
+
+## 우리나라: 시군구
+
+::: {layout-ncol="3"}
+![](images/Populatoin%20Growth%20Rates,%201975~1980.jpg)
+
+![](images/Populatoin%20Growth%20Rates,%201995~2000.jpg)
+
+![](images/Populatoin%20Growth%20Rates,%202020~2023.jpg)
+:::
+
+## 우리나라: 미래 전망
+
+![](images/Population%20Projection%20in%20South%20Korea,%201960%20to%202072.jpg)
+
+## 우리나라: 인구변천모델
+
+![](images/Population%20Transition%20in%20South%20Korea.jpg)
+
+## 인구 웹 앱 예시
+
+<https://sangillee.snu.ac.kr/dashboard_popgeo/>
+
+# [인구 분포]{style="color:coral"} <br> [인구수의 지리적 배열]{style="font-size:4rem"}
+
+## 세계: 그리드
+
+![](images/Population%20Distribution,%202020-01.png)
+
+## 세계: 그리드
+
+![[https://www.visualcapitalist.com/cp/3d-mapping-the-worlds-largest-population-densities/#google_vignette](https://www.visualcapitalist.com/cp/3d-mapping-the-worlds-largest-population-densities/#google_vignette){style="font-size:1rem"}](https://www.visualcapitalist.com/wp-content/uploads/2020/08/global-population-density-spikes-3d-mapped-full.png)
+
+## 세계: 위도
+
+![[https://www.visualcapitalist.com/cp/mapped-the-worlds-population-density-by-latitude/](https://www.visualcapitalist.com/cp/mapped-the-worlds-population-density-by-latitude/){style="font-size:1rem"}](https://www.visualcapitalist.com/wp-content/uploads/2023/12/VC-Alasdair-Rae-World-Population-by-Latitude-Chart.png)
+
+## 세계: 위도
+
+![[https://www.weforum.org/stories/2022/05/mapped-the-world-s-population-density-by-latitude/](https://www.weforum.org/stories/2022/05/mapped-the-world-s-population-density-by-latitude/){style="font-size:1rem"}](https://assets.weforum.org/article/image/responsive_big_webp_oVVfNybCugULckl0h9EWw1z007u7v9KpzL6b9ACplZI.webp)
+
+## 세계: Region
+
+![](images/세계%20UN%20지역%20인구규모%20비중.jpg)
+
+## 세계: 국가
+
+![](images/World%20Population%20Distribution,%202025.jpg)
+
+## 세계: 국가
+
+![](images/World%20Population%20Distribution,%202100.jpg)
+
+## 우리나라: 시군
+
+![](images/ani_pop_pro.gif){fig-align="center"}
+
+## 우리나라: 시군
+
+![](images/ani_carto_sigun.gif){fig-align="center"}
+
+## 우리나라: 인구의 편포성
+
+![](images/Lorenz%20Curve%20of%20Population%20Distribution%20in%202023%20(시군구%20수준).jpg)
+
+## 우리나라: 인구의 편포성
+
+![](images/Spatial%20Inequality%20of%20Population%20Distribution%20in%20South%20Korea,%201975~2023.jpg)
+
+## 우리나라: 인구의 지리적 중점
+
+![](images/Geographic%20Centers%20of%20Population,%201975~2023.jpg){fig-align="center"}
+
+## 우리나라: 인구의 수도권 집중
+
+![](images/National%20Shares%20of%20the%20Capital%20Region,%201949%20to%202023.jpg)
+
+## 우리나라: 인구의 도시 집중
+
+![](images/Urbanization%20Rates%20in%20South%20Korea,%201949%20to%202023.jpg)
+
+## 우리나라: 지역 소멸
+
+-   '지방소멸'의 개념
+
+    -   마스다 히로야(김정환 옮김), 2014, 지방소멸
+
+        -   일본 창성회의 의장
+
+    -   주요 내용
+
+        -   향후 30년 이내에 '대도시만 생존하는 극점사회' 도래 예상
+
+        -   고령화 + 인구 재생산 잠재력 저하(젊은 여성의 부재) -\> 지방소멸 가능성 증대
+
+-   지방소멸가능성의 측정 및 분류
+
+    -   지방소멸위험지수 = 20\~39세 여성인구 수 / 65세 이상 고령인구 수
+
+    -   분류
+
+        -   1.5 이상: 소멸위험 매우 낮음
+
+        -   1.0\~1.5: 소멸위험 보통
+
+        -   0.5\~1.0: 주의 단계
+
+        -   0.2\~0.5: 소멸위험진입 단계
+
+        -   0.2 미만: 소멸고위험 지역
+
+## 우리나라: 지역 소멸
+
+::: {layout="[65,55]"}
+![](images/인구소멸%20막대-01.jpg)
+
+![](images/Regional%20Extinction%20Index,%202023-01.jpg){width="568"}
+:::
+
+## 인구 웹 앱 예시
+
+<https://sangillee.snu.ac.kr/dashboard_popgeo/>

@@ -13,6 +13,10 @@ date-modified: last-modified
 
 -   <https://sangillee.shinyapps.io/Dashboard_Example/>
 
+## 인구 관련 웹 앱 예시
+
+-   <https://sangillee.snu.ac.kr/dashboard_popgeo/>
+
 ## 2025년 2학기 서울대학교 AI융합교육학과 수업
 
 -   [지구촌 평화단! NGO 프로젝트](https://ngoproject.shinyapps.io/ngoproject/)
