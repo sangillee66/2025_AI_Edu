@@ -16,72 +16,72 @@
   {
     "objectID": "Lecture_2_1.html#데이터사이언스-프로세스-소통",
     "href": "Lecture_2_1.html#데이터사이언스-프로세스-소통",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "https://r4ds.hadley.nz/\n\n\n\n소통하기(communicate): 분석 과정과 결과를 대상 청중의 이해 수준과 목적에 맞게 해석ㆍ구성하여, 적절한 형식과 매체를 통해 의미있게 전달하는 과정"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "데이터사이언스 프로세스: 소통",
+    "text": "데이터사이언스 프로세스: 소통\n\nhttps://r4ds.hadley.nz/\n소통하기(communicate): 분석 과정과 결과를 대상 청중의 이해 수준과 목적에 맞게 해석ㆍ구성하여, 적절한 형식과 매체를 통해 의미있게 전달하는 과정"
   },
   {
     "objectID": "Lecture_2_1.html#패키지",
     "href": "Lecture_2_1.html#패키지",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "https://r4ds.hadley.nz/"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "패키지",
+    "text": "패키지\n\nhttps://r4ds.hadley.nz/"
   },
   {
     "objectID": "Lecture_2_1.html#section",
     "href": "Lecture_2_1.html#section",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "",
     "text": "https://quarto.org/"
   },
   {
     "objectID": "Lecture_2_1.html#정의",
     "href": "Lecture_2_1.html#정의",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "“과학적, 기술적 출판을 위한 오픈소스 시스템(an open-source scientific and technical publishing system)”\n\n오픈소스 저작 시스템\n\n다양한 형식의 저작물(노트, 연구 논문, 프레젠테이션, 대시보드, 웹사이트, 블로그, 서적 등)을 다양한 디지털 포맷(HTML, PDF, MS Word, ePub 등)으로 출판할 수 있게 해주는 도구\n적용 분야의 스케일\n\n개인 스케일: 노트, 레포트, 연구 논문, 워크플로, 프레젠테이션, 블로그 등의 작성 도구\n그룹 스케일: 프로젝트의 원할한 진행을 위한 협업 프레임워크\n사회 스케일: 과학 커뮤니티의 재현성(reproducibility) 고양"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "정의",
+    "text": "정의\n\n\n“과학적, 기술적 출판을 위한 오픈소스 시스템(an open-source scientific and technical publishing system)”\n\n오픈소스 저작 시스템\n\n\n다양한 형식의 저작물(노트, 연구 논문, 프레젠테이션, 대시보드, 웹사이트, 블로그, 서적 등)을 다양한 디지털 포맷(HTML, PDF, MS Word, ePub 등)으로 출판할 수 있게 해주는 도구\n\n적용 분야의 스케일\n\n개인 스케일: 노트, 레포트, 연구 논문, 워크플로, 프레젠테이션, 블로그 등의 작성 도구\n그룹 스케일: 프로젝트의 원할한 진행을 위한 협업 프레임워크\n사회 스케일: 과학 커뮤니티의 재현성(reproducibility) 고양"
   },
   {
     "objectID": "Lecture_2_1.html#기능",
     "href": "Lecture_2_1.html#기능",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "https://allisonhorst.com/cetinkaya-rundel-lowndes-quarto-keynote"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "기능",
+    "text": "기능\n\nhttps://allisonhorst.com/cetinkaya-rundel-lowndes-quarto-keynote"
   },
   {
     "objectID": "Lecture_2_1.html#기능-1",
     "href": "Lecture_2_1.html#기능-1",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "https://quarto.org/"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "기능",
+    "text": "기능\n\nhttps://quarto.org/"
   },
   {
     "objectID": "Lecture_2_1.html#결과물-예시",
     "href": "Lecture_2_1.html#결과물-예시",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "개인 홈페이지 및 블로그: https://sangillee.snu.ac.kr/\n웹북: https://r4ds.hadley.nz/\n프레젠테이션: https://sangillee.snu.ac.kr/2025_AI_Edu/Lecture_1_4.html\n대시보드: https://sangillee.snu.ac.kr/dashboard_popgeo/\n논문, 포스터, 소식지 등"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "결과물 예시",
+    "text": "결과물 예시\n\n개인 홈페이지 및 블로그: https://sangillee.snu.ac.kr/\n웹북: https://r4ds.hadley.nz/\n프레젠테이션: https://sangillee.snu.ac.kr/2025_AI_Edu/Lecture_1_4.html\n대시보드: https://sangillee.snu.ac.kr/dashboard_popgeo/\n논문, 포스터, 소식지 등"
   },
   {
     "objectID": "Lecture_2_1.html#구문syntax",
     "href": "Lecture_2_1.html#구문syntax",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "마크다운(markdown) 언어: 팬독(pandoc)\n\n마크업(markup) 언어: 다큐먼트의 구조와 포맷을 관장하는 텍스트-엔코딩 시스템\n사용자의 편의성을 크게 향상시킨 마크업 언어\n\nQuarto 다규먼트: .qmd\n\n프로그래밍 언어 + 워드프로세서"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "구문(syntax)",
+    "text": "구문(syntax)\n\n\n마크다운(markdown) 언어: 팬독(pandoc)\n\n마크업(markup) 언어: 다큐먼트의 구조와 포맷을 관장하는 텍스트-엔코딩 시스템\n사용자의 편의성을 크게 향상시킨 마크업 언어\n\n\n\nQuarto 다규먼트: .qmd\n\n프로그래밍 언어 + 워드프로세서"
   },
   {
     "objectID": "Lecture_2_1.html#렌더링rendering",
     "href": "Lecture_2_1.html#렌더링rendering",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "knitr 패키지: .qmd를 .md로 전환\npandoc: .md를 다양한 디지털 포맷으로 전환\n\n\n\n\nhttps://r4ds.hadley.nz/quarto"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "렌더링(rendering)",
+    "text": "렌더링(rendering)\n\nknitr 패키지: .qmd를 .md로 전환\npandoc: .md를 다양한 디지털 포맷으로 전환\n\n\nhttps://r4ds.hadley.nz/quarto"
   },
   {
     "objectID": "Lecture_2_1.html#quarto-다큐먼트의-기본-구조",
     "href": "Lecture_2_1.html#quarto-다큐먼트의-기본-구조",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "YAML(야믈) 헤더(header)\n\nYAML: “YAML Ain’t Markup Language”\n다큐먼트의 전반적인 사항을 관장하는 메타데이터\n시작과 끝에 ---로 구획 표시\n\n’키(key): 필드(field)’의 형태\n\n\n코드 청크(code chunk)\n\n코드가 들어가는 부분: R 스크립트 파일과 유사\n청크 옵션: 청크의 실행ㆍ출력ㆍ표현 방식을 제어하는 메타데이터\n\n#|(prefix, 접두 표기)로 시작\n’키(key): 필드(field)’의 형태\n\n\n마크다운 텍스트(markdown text)\n\n워드프로세서처럼 텍스트를 작성(표, 그림, 동영상 등 포함)"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "Quarto 다큐먼트의 기본 구조",
+    "text": "Quarto 다큐먼트의 기본 구조\n\n\nYAML(야믈) 헤더(header)\n\nYAML: “YAML Ain’t Markup Language”\n다큐먼트의 전반적인 사항을 관장하는 메타데이터\n시작과 끝에 ---로 구획 표시\n\n’키(key): 필드(field)’의 형태\n\n\n\n\n\n코드 청크(code chunk)\n\n코드가 들어가는 부분: R 스크립트 파일과 유사\n청크 옵션: 청크의 실행ㆍ출력ㆍ표현 방식을 제어하는 메타데이터\n\n\n#|(prefix, 접두 표기)로 시작\n’키(key): 필드(field)’의 형태\n\n\n\n\n\n마크다운 텍스트(markdown text)\n\n워드프로세서처럼 텍스트를 작성(표, 그림, 동영상 등 포함)"
   },
   {
     "objectID": "Lecture_2_1.html#section-1",
@@ -107,9 +107,9 @@
   {
     "objectID": "Lecture_2_1.html#마크다운-텍스트",
     "href": "Lecture_2_1.html#마크다운-텍스트",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "소스 에디터(source editor) vs. 비주얼 에디터(visual editor)\n마크다운 언어의 사용자 편이성을 한 번 더 강화한 것"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "마크다운 텍스트",
+    "text": "마크다운 텍스트\n\n소스 에디터(source editor) vs. 비주얼 에디터(visual editor)\n마크다운 언어의 사용자 편이성을 한 번 더 강화한 것"
   },
   {
     "objectID": "Lecture_2_1.html#zotero",
@@ -121,16 +121,16 @@
   {
     "objectID": "Lecture_2_1.html#웹-발행publishing과-호스팅hosting-서비스",
     "href": "Lecture_2_1.html#웹-발행publishing과-호스팅hosting-서비스",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "호스팅 서비스\n\n인터넷에 연결된 서버 인프라를 통해 콘텐츠와 애플리케이션을 저장ㆍ실행ㆍ배포할 수 있도록 하는 인프라 제공 서비스\n사용자가 자신의 콘텐츠를 로컬 컴퓨터가 아닌 외부 서버에 올려, 언제 어디서나 웹을 통해 접근ㆍ공유할 수 있게 해 주는 서비스\n서버 자원 제공, 네트워크 연결, 상시 가동 환경, 운영 및 관리 지원\n\n종류\n\nQuarto Pub(https://quartopub.com/)\nGitHub Pages(https://pages.github.com/)\nNetlify(https://www.netlify.com/)"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "웹 발행(publishing)과 호스팅(hosting) 서비스",
+    "text": "웹 발행(publishing)과 호스팅(hosting) 서비스\n\n\n호스팅 서비스\n\n인터넷에 연결된 서버 인프라를 통해 콘텐츠와 애플리케이션을 저장ㆍ실행ㆍ배포할 수 있도록 하는 인프라 제공 서비스\n사용자가 자신의 콘텐츠를 로컬 컴퓨터가 아닌 외부 서버에 올려, 언제 어디서나 웹을 통해 접근ㆍ공유할 수 있게 해 주는 서비스\n서버 자원 제공, 네트워크 연결, 상시 가동 환경, 운영 및 관리 지원\n\n\n\n종류\n\nQuarto Pub(https://quartopub.com/)\nGitHub Pages(https://pages.github.com/)\nNetlify(https://www.netlify.com/)"
   },
   {
     "objectID": "Lecture_2_1.html#quarto-pub",
     "href": "Lecture_2_1.html#quarto-pub",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "https://quarto.org/docs/publishing/quarto-pub.html"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "Quarto Pub",
+    "text": "Quarto Pub\n\nhttps://quarto.org/docs/publishing/quarto-pub.html"
   },
   {
     "objectID": "Lecture_2_1.html#데이터-대시보드",
@@ -142,86 +142,86 @@
   {
     "objectID": "Lecture_2_1.html#예시",
     "href": "Lecture_2_1.html#예시",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "예시",
     "text": "예시\nhttps://sangillee.quarto.pub/my-first-dashboard/"
   },
   {
     "objectID": "Lecture_2_1.html#레이아웃-요소-1-카드",
     "href": "Lecture_2_1.html#레이아웃-요소-1-카드",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "레이아웃 요소 1: 카드",
-    "text": "레이아웃 요소 1: 카드\n\nCodeResult\n\n\n## Row {height=70%}\n\nCard 1\n\n## Row {height=30%}\n\n### Column {width=40%}\n\nCard 2-1 \n\n### Column {width=60%}\n\nCard 2-2"
+    "text": "레이아웃 요소 1: 카드\n\n\nCode\nResult\n\n\n\n## Row {height=70%}\n\nCard 1\n\n## Row {height=30%}\n\n### Column {width=40%}\n\nCard 2-1 \n\n### Column {width=60%}\n\nCard 2-2"
   },
   {
     "objectID": "Lecture_2_1.html#레이아웃-요소-2-탭셋",
     "href": "Lecture_2_1.html#레이아웃-요소-2-탭셋",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "레이아웃 요소 2: 탭셋",
-    "text": "레이아웃 요소 2: 탭셋\n\nCodeResult\n\n\n## Row {height=70%}\n\nCard 1\n\n## Row {height=30% .tabset}\n\n### Column\n\nCard 2-1 {width=50%}\n\n### Column\n\nCard 2-2 {width=50%}"
+    "text": "레이아웃 요소 2: 탭셋\n\n\nCode\nResult\n\n\n\n## Row {height=70%}\n\nCard 1\n\n## Row {height=30% .tabset}\n\n### Column\n\nCard 2-1 {width=50%}\n\n### Column\n\nCard 2-2 {width=50%}"
   },
   {
     "objectID": "Lecture_2_1.html#레이아웃-요소-3-페이지",
     "href": "Lecture_2_1.html#레이아웃-요소-3-페이지",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "레이아웃 요소 3: 페이지",
-    "text": "레이아웃 요소 3: 페이지\n\nCodeResult\n\n\n# Page A\n\n## Row {height=70%}\n\nCard 1\n\n## Row {height=30%}\n\n### Column {width=40%}\n\nCard 2-1\n\n### Column {width=60%}\n\nCard 2-2\n\n# Page B\n\nCard 3"
+    "text": "레이아웃 요소 3: 페이지\n\n\nCode\nResult\n\n\n\n# Page A\n\n## Row {height=70%}\n\nCard 1\n\n## Row {height=30%}\n\n### Column {width=40%}\n\nCard 2-1\n\n### Column {width=60%}\n\nCard 2-2\n\n# Page B\n\nCard 3"
   },
   {
     "objectID": "Lecture_2_1.html#레이아웃-요소-4-내비게이션-바",
     "href": "Lecture_2_1.html#레이아웃-요소-4-내비게이션-바",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "레이아웃 요소 4: 내비게이션 바",
-    "text": "레이아웃 요소 4: 내비게이션 바\n\n\n\nhttps://quarto.org/docs/dashboards/layout.html\n\n\n\nYAML 헤더에서 지정\n\n\n--- \ntitle: \"Palmer Penguins\"\nauthor: \"Cobblepot Analytics\"\nformat: \n  dashboard:\n    logo: images/penguins.png\n    nav-buttons: [linkedin, twitter, github]\n---\n\n\ntheme: 25 bootswatch themes\n\nhttps://quarto.org/docs/dashboards/theming.html"
+    "text": "레이아웃 요소 4: 내비게이션 바\n\nhttps://quarto.org/docs/dashboards/layout.html\nYAML 헤더에서 지정\n\n\n--- \ntitle: \"Palmer Penguins\"\nauthor: \"Cobblepot Analytics\"\nformat: \n  dashboard:\n    logo: images/penguins.png\n    nav-buttons: [linkedin, twitter, github]\n---\n\n\n\ntheme: 25 bootswatch themes\n\nhttps://quarto.org/docs/dashboards/theming.html"
   },
   {
     "objectID": "Lecture_2_1.html#레이아웃-요소-5-사이드바",
     "href": "Lecture_2_1.html#레이아웃-요소-5-사이드바",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "레이아웃 요소 5: 사이드바",
-    "text": "레이아웃 요소 5: 사이드바\n\n{.sidebar} 클래스 지정"
+    "text": "레이아웃 요소 5: 사이드바\n\n\n{.sidebar} 클래스 지정"
   },
   {
     "objectID": "Lecture_2_1.html#내용-요소-1-그래프",
     "href": "Lecture_2_1.html#내용-요소-1-그래프",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "내용 요소 1: 그래프",
     "text": "내용 요소 1: 그래프\n\n그래프 카드: 그래프 하나를 만들어내는 코드 청크\nggplot2 패키지, plotly 패키지\n\n#| title: \"Histogram of GDP per capita\"\nlibrary(tidyverse)\nlibrary(gapminder)\ngapminder |&gt; \n  filter(year == 2007) |&gt;\n  ggplot(aes(x = gdpPercap)) +\n  geom_histogram()"
   },
   {
     "objectID": "Lecture_2_1.html#내용-요소-2-테이블",
     "href": "Lecture_2_1.html#내용-요소-2-테이블",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "내용 요소 2: 테이블",
     "text": "내용 요소 2: 테이블\n\n테이블 카드: 테이블 하나를 만들어내는 코드 청크\nDT 패키지, knitr 패키지\n\n#| title: Lookup Table\nlibrary(DT)\ndatatable(gapminder, filter = \"top\", \n          options = list(\n            pageLength = 5, autoWidth = TRUE\n          ))"
   },
   {
     "objectID": "Lecture_2_1.html#내용-요소-3-지도",
     "href": "Lecture_2_1.html#내용-요소-3-지도",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "내용 요소 3: 지도",
     "text": "내용 요소 3: 지도\n\n지도 카드: 지도 하나를 만들어내는 코드 청크\nggplot2 패키지, leaflet 패키지\n\n#| title: A Reference Map \nlibrary(leaflet) \nleaflet() |&gt;  \n  addTiles()"
   },
   {
     "objectID": "Lecture_2_1.html#내용-요소-4-텍스트",
     "href": "Lecture_2_1.html#내용-요소-4-텍스트",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "내용 요소 4: 텍스트",
-    "text": "내용 요소 4: 텍스트\n\n텍스트 카드: 텍스트 박스 하나를 만들어내는 div\n{.card} 탭과 title 속성\n\n::: {.card title=\"Text\"}\nThis is my first dashboard.\n:::"
+    "text": "내용 요소 4: 텍스트\n\n텍스트 카드: 텍스트 박스 하나를 만들어내는 div\n\n{.card} 탭과 title 속성\n\n::: {.card title=\"Text\"}\nThis is my first dashboard.\n:::"
   },
   {
     "objectID": "Lecture_2_1.html#내용-요소-5-밸류박스valueboxe",
     "href": "Lecture_2_1.html#내용-요소-5-밸류박스valueboxe",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "내용 요소 5: 밸류박스(valueboxe)",
     "text": "내용 요소 5: 밸류박스(valueboxe)\n\n밸류박스 카드: 밸류박스 하나를 만들어내는 코드 청크\n아이콘: bootstrap icon(https://icons.getbootstrap.com/)\n컬러: 8개(https://quarto.org/docs/dashboards/data-display.html)\n\n#| content: valuebox\n#| title: \"Number of Countries\"\nn_countries &lt;- gapminder |&gt; distinct(country) |&gt; nrow()\nlist(\n  icon = \"asterisk\",\n  color = \"primary\",\n  value = n_countries\n)"
   },
   {
     "objectID": "Lecture_2_1.html#웹-발행",
     "href": "Lecture_2_1.html#웹-발행",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "웹 발행",
-    "text": "웹 발행\n\nQuarto Pub(https://quartopub.com/)\n\n계정 만들기\n\n콘솔(console) 창의 Terminal 탭에서 다음을 실행\n\n\nquarto publish quarto-pub\n\n\n최초 토큰 등록 절차\n\n최초로 Quarto Pub을 이용해 웹 발행을 하는 경우 자동으로 Quarto Pub 인증 페이지로 연결\n로그인이 되어 있는 경우 편리\n토큰 자동 발급 및 저장: ~/.quarto/credentials\n이후에는 자동 인증"
+    "text": "웹 발행\n\nQuarto Pub(https://quartopub.com/)\n\n계정 만들기\n\n\n콘솔(console) 창의 Terminal 탭에서 다음을 실행\n\n\nquarto publish quarto-pub\n\n\n\n최초 토큰 등록 절차\n\n최초로 Quarto Pub을 이용해 웹 발행을 하는 경우 자동으로 Quarto Pub 인증 페이지로 연결\n로그인이 되어 있는 경우 편리\n토큰 자동 발급 및 저장: ~/.quarto/credentials\n이후에는 자동 인증"
   },
   {
     "objectID": "Lecture_1_4.html#데이터사이언스-프로세스",
@@ -1026,7 +1026,7 @@
     "href": "index.html#일정",
     "title": "AI 융합교육을 위한 인문사회 콘텐츠 설계",
     "section": "일정",
-    "text": "일정\n\n사전 학습\n\nR과 RStudio\nR과 데이터사이언스 과정\n\n\n\n주차별 학습\n\n\n\n\n\n\n\n\n\n\n주차\n날짜\n요일\n주제\n수업 방식\n\n\n\n\n1\n12/29\n월\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n강의\n\n\n\n12/30\n화\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 2\n강의\n\n\n\n12/31\n수\n오픈소스 프로그래밍 1\n강의 | 실습\n\n\n\n1/1\n목\n오픈소스 프로그래밍 2\n비대면\n\n\n\n1/2\n금\n오픈소스 프로그래밍 3\n강의 | 실습\n\n\n2\n1/5\n월\n오픈소스 프로그래밍 4\n강의 | 실습\n\n\n\n1/6\n화\n인구 현상과 인문사회 콘텐츠 1\n강의\n\n\n\n1/7\n수\n인구 현상과 인문사회 콘텐츠 2\n비대면\n\n\n\n1/8\n목\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n강의 | 실습\n\n\n\n1/9\n금\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2\n강의 | 실습\n\n\n3\n1/12\n월\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 3\n시험 | 워크숍\n\n\n\n1/13\n화\n인터랙티브 교수ㆍ학습 웹 앱의 구현 1\n비대면\n\n\n\n1/14\n수\n인터랙티브 교수ㆍ학습 웹 앱의 구현 2\n워크숍\n\n\n\n1/15\n목\n인터랙티브 교수ㆍ학습 웹 앱의 구현 3\n워크숍\n\n\n\n1/16\n금\n인터랙티브 교수ㆍ학습 웹 앱의 구현 4\n워크숍: 최종 발표"
+    "text": "일정\n\n사전 학습\n\nR과 RStudio\nR과 데이터사이언스 과정\n\n\n\n주차별 학습\n\n\n\n\n\n\n\n\n\n\n주차\n날짜\n요일\n주제\n수업 방식\n\n\n\n\n1\n12/29\n월\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n강의\n\n\n\n12/30\n화\n교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 2\n강의\n\n\n\n12/31\n수\n오픈소스 프로그래밍 1\n강의 | 실습\n\n\n\n1/1\n목\n오픈소스 프로그래밍 2\n비대면\n\n\n\n1/2\n금\n오픈소스 프로그래밍 3\n강의 | 실습\n\n\n2\n1/5\n월\n오픈소스 프로그래밍 4\n강의 | 실습\n\n\n\n1/6\n화\n인구 현상과 인문사회 콘텐츠 1\n비대면\n\n\n\n1/7\n수\n인구 현상과 인문사회 콘텐츠 2\n비대면\n\n\n\n1/8\n목\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n강의 | 실습\n\n\n\n1/9\n금\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2\n강의 | 실습\n\n\n3\n1/12\n월\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 3\n시험 | 워크숍\n\n\n\n1/13\n화\n인터랙티브 교수ㆍ학습 웹 앱의 구현 1\n비대면\n\n\n\n1/14\n수\n인터랙티브 교수ㆍ학습 웹 앱의 구현 2\n워크숍\n\n\n\n1/15\n목\n인터랙티브 교수ㆍ학습 웹 앱의 구현 3\n워크숍\n\n\n\n1/16\n금\n인터랙티브 교수ㆍ학습 웹 앱의 구현 4\n워크숍: 최종 발표"
   },
   {
     "objectID": "lecture.html",
@@ -1054,7 +1054,7 @@
     "href": "lecture.html#주차-2026년-1월-5일-9일",
     "title": "AI 융합교육을 위한 인문사회 콘텐츠 설계",
     "section": "2주차 (2026년 1월 5일 ~ 9일)",
-    "text": "2주차 (2026년 1월 5일 ~ 9일)\n\n\n\n\n\n\n\n\n\n날짜\n주제\n강의 자료\n실습 자료\n\n\n\n\n1월 5일  (월)\n오픈소스(R) 프로그래밍 4\n\nQuarto를 활용한 대시보드 만들기\n\nLecture_2_1\nLab_08_Quarto\n\n\n1월 6일  (화)\n인구 현상과 인문사회 콘텐츠 1\n\n인구 데이터, 인구 성장, 인구 분포\n\n\n\n\n\n1월 7일  (수)  비대면\n인구 현상과 인문사회 콘텐츠 2\n\n인구 구조, 인구 동태, 인구 이동\n\n\n\n\n\n1월 8일  (목)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n\n인터랙티브 및 지리공간적 시각화\n\n\n\n\n\n1월 9일  (금)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2\n\nShiny를 활용한 웹 앱 제작"
+    "text": "2주차 (2026년 1월 5일 ~ 9일)\n\n\n\n\n\n\n\n\n\n날짜\n주제\n강의 자료\n실습 자료\n\n\n\n\n1월 5일  (월)\n오픈소스(R) 프로그래밍 4\n\nQuarto를 활용한 대시보드 만들기\n\nLecture_2_1\nLab_08_Quarto\n\n\n1월 6일  (화)  비대면\n인구 현상과 인문사회 콘텐츠 1\n\n인구 데이터, 인구 성장, 인구 분포\n\n\n\n\n\n1월 7일  (수)  비대면\n인구 현상과 인문사회 콘텐츠 2\n\n인구 구조, 인구 동태, 인구 이동\n\n\n\n\n\n1월 8일  (목)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n\n인터랙티브 및 지리공간적 시각화\n\n\n\n\n\n1월 9일  (금)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2\n\nShiny를 활용한 웹 앱 제작"
   },
   {
     "objectID": "lecture.html#주차-2026년-1월-12일-16일",
@@ -2349,7 +2349,7 @@
     "href": "Lecture_0.html#연수생",
     "title": "개회식\n연수 프로그램 소개",
     "section": "연수생",
-    "text": "연수생\n\n\n\n성명\n소속청\n구분\n소속고\n입학 예정 학과\n팀\n\n\n\n\n강성\n북부\n사립\n염광중\n사회교육\nA\n\n\n서현지\n본청\n공립\n경기여고\n역사교육\nC\n\n\n박래혁\n강동송파\n공립\n오주중\n윤리교육\nA\n\n\n백지영\n동부\n공립\n숭인중\nAI융합교육\nC\n\n\n신유나\n강서양천\n공립\n삼정중\n역사교육\nA\n\n\n장미경\n남부\n공립\n개웅중\n윤리교육\nB\n\n\n김근홍\n동부\n공립\n숭인중\n사회교육\nB\n\n\n전지원\n본청\n공립\n경기여고\n사회교육\nC"
+    "text": "연수생\n\n\n\n성명\n소속청\n구분\n소속고\n입학 예정 학과\n팀\n\n\n\n\n강성\n북부\n사립\n염광중\n사회교육\nA\n\n\n서현지\n본청\n공립\n경기여고\n역사교육\nC\n\n\n박래혁\n강동송파\n공립\n오주중\n윤리교육\nD\n\n\n백지영\n동부\n공립\n숭인중\nAI융합교육\nA\n\n\n신유나\n강서양천\n공립\n삼정중\n역사교육\nC\n\n\n장미경\n남부\n공립\n개웅중\n윤리교육\nD\n\n\n김근홍\n동부\n공립\n숭인중\n사회교육\nB\n\n\n전지원\n본청\n공립\n경기여고\n사회교육\nB"
   },
   {
     "objectID": "Lecture_0.html#목표",
@@ -4308,8 +4308,8 @@
     "objectID": "Lecture_2_2.html#인구-현상의-유형-구분과-5대-주제",
     "href": "Lecture_2_2.html#인구-현상의-유형-구분과-5대-주제",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
-    "section": "인구 현상의 유형 구분과 5대 주제",
-    "text": "인구 현상의 유형 구분과 5대 주제\n\n\n\n\n\n\n\n\n\n정적\n동적\n\n\n\n\n프로세스(원인)\n-\n인구 동태\n인구 이동\n\n\n패턴(결과)\n인구 분포\n인구 구조\n인구 성장"
+    "section": "",
+    "text": "정적\n동적\n\n\n\n\n프로세스(원인)\n-\n인구 동태\n인구 이동\n\n\n패턴(결과)\n인구 분포\n인구 구조\n인구 성장"
   },
   {
     "objectID": "Lecture_2_2.html#인구학적-인과-매커니즘",
@@ -4323,14 +4323,14 @@
     "href": "Lecture_2_2.html#인구-데이터와-나",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "인구 데이터와 나",
-    "text": "인구 데이터와 나\n\nhttps://population.io/"
+    "text": "인구 데이터와 나\n\n\n\nhttps://population.io/"
   },
   {
     "objectID": "Lecture_2_2.html#인구-데이터와-나-1",
     "href": "Lecture_2_2.html#인구-데이터와-나-1",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "인구 데이터와 나",
-    "text": "인구 데이터와 나\n\nhttps://population.io/"
+    "text": "인구 데이터와 나\n\n\n\nhttps://population.io/"
   },
   {
     "objectID": "Lecture_2_2.html#인구-데이터의-원천-4대-원천",
@@ -4344,14 +4344,14 @@
     "href": "Lecture_2_2.html#인구-데이터의-원천-인구-센서스",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "인구 데이터의 원천: 인구 센서스",
-    "text": "인구 데이터의 원천: 인구 센서스\n\nhttps://en.wikipedia.org/wiki/Census"
+    "text": "인구 데이터의 원천: 인구 센서스\n\n\n\nhttps://en.wikipedia.org/wiki/Census"
   },
   {
     "objectID": "Lecture_2_2.html#인구-데이터의-원천-인구-센서스-1",
     "href": "Lecture_2_2.html#인구-데이터의-원천-인구-센서스-1",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "인구 데이터의 원천: 인구 센서스",
-    "text": "인구 데이터의 원천: 인구 센서스\n\nhttp://www.adinews.co.kr/news/articleView.html?idxno=66384#google_vignette"
+    "text": "인구 데이터의 원천: 인구 센서스\n\n\n\nhttp://www.adinews.co.kr/news/articleView.html?idxno=66384#google_vignette"
   },
   {
     "objectID": "Lecture_2_2.html#인구-데이터의-원천-동태-통계",
@@ -4365,28 +4365,28 @@
     "href": "Lecture_2_2.html#인구-데이터의-원천-행정-통계",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "인구 데이터의 원천: 행정 통계",
-    "text": "인구 데이터의 원천: 행정 통계\n\nhttps://blog.naver.com/gildoyeon_/223253237945"
+    "text": "인구 데이터의 원천: 행정 통계\n\n\n\nhttps://blog.naver.com/gildoyeon_/223253237945"
   },
   {
     "objectID": "Lecture_2_2.html#인구-데이터의-원천-서베이-데이터",
     "href": "Lecture_2_2.html#인구-데이터의-원천-서베이-데이터",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "인구 데이터의 원천: 서베이 데이터",
-    "text": "인구 데이터의 원천: 서베이 데이터\n\nhttps://www.gangdong.go.kr/web/dongrenew/bbscheonho1/news_cheonho1/43368"
+    "text": "인구 데이터의 원천: 서베이 데이터\n\n\n\nhttps://www.gangdong.go.kr/web/dongrenew/bbscheonho1/news_cheonho1/43368"
   },
   {
     "objectID": "Lecture_2_2.html#인구-데이터의-원천과-인구의-공간-귀속",
     "href": "Lecture_2_2.html#인구-데이터의-원천과-인구의-공간-귀속",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "인구 데이터의 원천과 인구의 공간 귀속",
-    "text": "인구 데이터의 원천과 인구의 공간 귀속\n\n\n[KOSIS(국가통계포털)(https://kosis.kr/)]  [서울 열린데이터 광장: 서울 생활인구(https://data.seoul.go.kr/dataVisual/seoul/seoulLivingPopulation.do)]"
+    "text": "인구 데이터의 원천과 인구의 공간 귀속\n\n\n\n\n\n\n[KOSIS(국가통계포털)(https://kosis.kr/)]  [서울 열린데이터 광장: 서울 생활인구(https://data.seoul.go.kr/dataVisual/seoul/seoulLivingPopulation.do)]"
   },
   {
     "objectID": "Lecture_2_2.html#인구감소지역-지원-특별법-2023.1.1.-시행",
     "href": "Lecture_2_2.html#인구감소지역-지원-특별법-2023.1.1.-시행",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "인구감소지역 지원 특별법: 2023.1.1. 시행",
-    "text": "인구감소지역 지원 특별법: 2023.1.1. 시행\n\nhttps://www.hani.co.kr/arti/opinion/column/1108352.html"
+    "text": "인구감소지역 지원 특별법: 2023.1.1. 시행\n\n\n\nhttps://www.hani.co.kr/arti/opinion/column/1108352.html"
   },
   {
     "objectID": "Lecture_2_2.html#인구-데이터-세계",
@@ -4414,7 +4414,7 @@
     "href": "Lecture_2_2.html#인구-데이터-우리나라",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "인구 데이터: 우리나라",
-    "text": "인구 데이터: 우리나라\n\nhttps://kosis.kr/"
+    "text": "인구 데이터: 우리나라\n\n\n\nhttps://kosis.kr/"
   },
   {
     "objectID": "Lecture_2_2.html#d",
@@ -4428,7 +4428,7 @@
     "href": "Lecture_2_2.html#인구-데이터-우리나라-1",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "인구 데이터: 우리나라",
-    "text": "인구 데이터: 우리나라\n\nhttps://sgis.mods.go.kr/"
+    "text": "인구 데이터: 우리나라\n\n\n\nhttps://sgis.mods.go.kr/"
   },
   {
     "objectID": "Lecture_2_2.html#인구-데이터의-공간-체계",
@@ -4547,7 +4547,7 @@
     "href": "Lecture_2_2.html#인구배당효과demographic-dividend",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "인구배당효과(demographic dividend)",
-    "text": "인구배당효과(demographic dividend)\n‘인구학적 덫(demographic trap)’\n\nhttp://thepaceproject.org/4dividends/"
+    "text": "인구배당효과(demographic dividend)\n‘인구학적 덫(demographic trap)’\n\n\n\nhttp://thepaceproject.org/4dividends/"
   },
   {
     "objectID": "Lecture_2_2.html#세계-전체",
@@ -4638,21 +4638,21 @@
     "href": "Lecture_2_2.html#세계-그리드-1",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "세계: 그리드",
-    "text": "세계: 그리드\n\nhttps://www.visualcapitalist.com/cp/3d-mapping-the-worlds-largest-population-densities/#google_vignette"
+    "text": "세계: 그리드\n\n\n\nhttps://www.visualcapitalist.com/cp/3d-mapping-the-worlds-largest-population-densities/#google_vignette"
   },
   {
     "objectID": "Lecture_2_2.html#세계-위도",
     "href": "Lecture_2_2.html#세계-위도",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "세계: 위도",
-    "text": "세계: 위도\n\nhttps://www.visualcapitalist.com/cp/mapped-the-worlds-population-density-by-latitude/"
+    "text": "세계: 위도\n\n\n\nhttps://www.visualcapitalist.com/cp/mapped-the-worlds-population-density-by-latitude/"
   },
   {
     "objectID": "Lecture_2_2.html#세계-위도-1",
     "href": "Lecture_2_2.html#세계-위도-1",
     "title": "인구 현상과 인문사회 콘텐츠 1\n인구 데이터, 인구 성장, 인구 분포",
     "section": "세계: 위도",
-    "text": "세계: 위도\n\nhttps://www.weforum.org/stories/2022/05/mapped-the-world-s-population-density-by-latitude/"
+    "text": "세계: 위도\n\n\n\nhttps://www.weforum.org/stories/2022/05/mapped-the-world-s-population-density-by-latitude/"
   },
   {
     "objectID": "Lecture_2_2.html#세계-region",
@@ -5336,9 +5336,9 @@
   {
     "objectID": "Lecture_2_1.html#quarto-다큐먼트의-기본-구조-1",
     "href": "Lecture_2_1.html#quarto-다큐먼트의-기본-구조-1",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "https://r4ds.hadley.nz/quarto"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "Quarto 다큐먼트의 기본 구조",
+    "text": "Quarto 다큐먼트의 기본 구조\n\nhttps://r4ds.hadley.nz/quarto"
   },
   {
     "objectID": "Lecture_2_1.html#마크다운-텍스트-소스-에디터",
@@ -5357,44 +5357,44 @@
   {
     "objectID": "Lecture_2_1.html#참고문헌-인용-zotero",
     "href": "Lecture_2_1.html#참고문헌-인용-zotero",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "https://quarto.org/docs/visual-editor/technical.html"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "참고문헌 인용: Zotero",
+    "text": "참고문헌 인용: Zotero\n\nhttps://quarto.org/docs/visual-editor/technical.html"
   },
   {
     "objectID": "Lecture_2_1.html#quarto-다큐먼트-작성",
     "href": "Lecture_2_1.html#quarto-다큐먼트-작성",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "File &gt; New File &gt; Quarto Document\n\n\n\n\nhttps://quarto.org/docs/get-started/authoring/rstudio.html"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "Quarto 다큐먼트 작성",
+    "text": "Quarto 다큐먼트 작성\n\nFile &gt; New File &gt; Quarto Document\n\n\nhttps://quarto.org/docs/get-started/authoring/rstudio.html"
   },
   {
     "objectID": "Lecture_2_1.html#yaml-헤더-옵션",
     "href": "Lecture_2_1.html#yaml-헤더-옵션",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "키(key)\n설명\n\n\n\n\ntitle\n다큐먼트의 제목\n\n\ndate\n다큐먼트 작성 날짜\n\n\nauthor\n다큐먼트 저자 이름\n\n\nformat\n다양한 포맷 관련 사항의 지정\n\n\ntoc\n목차 삽입\n\n\nnumber-section\n섹션 제목에 자동 번호 부여 여부\n\n\nexecute: echo\n소스 코드의 포함 여부를 글로벌하게 설정, 보통 true\n\n\nexecute: warning\n경고 메시지를 산출물에 나타나게 할지를 글로벌하게 설정, 보통 false\n\n\neditor\n비주얼 에디터와 소스 에디터 중 선택, 보통 visual"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "YAML 헤더: 옵션",
+    "text": "YAML 헤더: 옵션\n\n\n\n\n\n\n키(key)\n설명\n\n\n\ntitle\n다큐먼트의 제목\n\n\ndate\n다큐먼트 작성 날짜\n\n\nauthor\n다큐먼트 저자 이름\n\n\nformat\n다양한 포맷 관련 사항의 지정\n\n\ntoc\n목차 삽입\n\n\nnumber-section\n섹션 제목에 자동 번호 부여 여부\n\n\nexecute: echo\n소스 코드의 포함 여부를 글로벌하게 설정, 보통 true\n\n\nexecute: warning\n경고 메시지를 산출물에 나타나게 할지를 글로벌하게 설정, 보통 false\n\n\neditor\n비주얼 에디터와 소스 에디터 중 선택, 보통 visual"
   },
   {
     "objectID": "Lecture_2_1.html#코드-청크-옵션",
     "href": "Lecture_2_1.html#코드-청크-옵션",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "Option\nRun code\nShow code\nOutput\nPlots\nMessages\nWarnings\n\n\n\n\neval: false\nX\n\nX\nX\nX\nX\n\n\ninclude: false\n\nX\nX\nX\nX\nX\n\n\necho: false\n\nX\n\n\n\n\n\n\nresults: hide\n\n\nX\n\n\n\n\n\nfig-show: hide\n\n\n\nX\n\n\n\n\nmessage: false\n\n\n\n\nX\n\n\n\nwarning: false\n\n\n\n\n\nX"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "코드 청크: 옵션",
+    "text": "코드 청크: 옵션\n\n\n\n\n\n\n\n\n\n\n\nOption\nRun code\nShow code\nOutput\nPlots\nMessages\nWarnings\n\n\n\neval: false\nX\n\nX\nX\nX\nX\n\n\ninclude: false\n\nX\nX\nX\nX\nX\n\n\necho: false\n\nX\n\n\n\n\n\n\nresults: hide\n\n\nX\n\n\n\n\n\nfig-show: hide\n\n\n\nX\n\n\n\n\nmessage: false\n\n\n\n\nX\n\n\n\nwarning: false\n\n\n\n\n\nX"
   },
   {
     "objectID": "Lecture_2_1.html#코드-청크-실행",
     "href": "Lecture_2_1.html#코드-청크-실행",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "https://quarto.org/docs/get-started/hello/rstudio.html"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "코드 청크: 실행",
+    "text": "코드 청크: 실행\n\nhttps://quarto.org/docs/get-started/hello/rstudio.html"
   },
   {
     "objectID": "Lecture_2_1.html#마크다운-텍스트-1",
     "href": "Lecture_2_1.html#마크다운-텍스트-1",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
-    "section": "",
-    "text": "https://quarto.org/docs/get-started/hello/rstudio.html"
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
+    "section": "마크다운 텍스트",
+    "text": "마크다운 텍스트\n\nhttps://quarto.org/docs/get-started/hello/rstudio.html"
   },
   {
     "objectID": "Lecture_2_1.html#데이터-대시보드-시작",
@@ -5413,16 +5413,16 @@
   {
     "objectID": "Lecture_2_1.html#시작",
     "href": "Lecture_2_1.html#시작",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "시작",
-    "text": "시작\n\nQuarto Dashboard를 위한 프로젝트 만들기\n\nFile &gt; New Project &gt; …\n\n새 Quarto Document 열기\n\nFile &gt; New File &gt; Quarto Ducument\n\nYAML 헤더\n\nformat: dashborad 지정"
+    "text": "시작\n\n\nQuarto Dashboard를 위한 프로젝트 만들기\n\nFile &gt; New Project &gt; …\n\n\n\n새 Quarto Document 열기\n\nFile &gt; New File &gt; Quarto Ducument\n\n\n\nYAML 헤더\n\n\nformat: dashborad 지정"
   },
   {
     "objectID": "Lecture_2_1.html#요소",
     "href": "Lecture_2_1.html#요소",
-    "title": "오픈소스(R) 프로그래밍 4\nQuarto를 활용한 대시보드 만들기",
+    "title": "\n오픈소스(R) 프로그래밍 4Quarto를 활용한 대시보드 만들기\n",
     "section": "요소",
-    "text": "요소\n\n레이아웃 요소: 대시보드의 기본 구조\n\n카드(행과 열)\n페이지, 내비게이션 바, 사이드바, 툴바, 탭셋 등\n\n내용 요소: 카드를 채우는 콘텐츠 유형\n\n텍스트, 표, 그래프, 동영상, 밸류박스, 지도, 챗봇(LLM 활용) 등\n\n작동 요소: 상호작용성의 형식과 정도"
+    "text": "요소\n\n\n레이아웃 요소: 대시보드의 기본 구조\n\n카드(행과 열)\n페이지, 내비게이션 바, 사이드바, 툴바, 탭셋 등\n\n\n\n내용 요소: 카드를 채우는 콘텐츠 유형\n\n텍스트, 표, 그래프, 동영상, 밸류박스, 지도, 챗봇(LLM 활용) 등\n\n\n작동 요소: 상호작용성의 형식과 정도"
   },
   {
     "objectID": "Lab_08.html",
@@ -5451,5 +5451,488 @@
     "title": "Lab_08: Quarto로 대시보드 만들기",
     "section": "2 대시보드 만들기",
     "text": "2 대시보드 만들기\n본격적으로 Quarto를 이용해 데이터 대시보드(dashboard)를 만들어 본다. 대시보드는 단일한 주제에 대한 상호연관된 다양한 정보를 주로 그래픽 형태로 일관성 있게 제시한 것을 말한다. 일반적인 대시보드에서 결국 ’대시보드형 인터랙티브 웹 앱(web app)’을 만드는 것을 지향한다.\n\n2.1 대시보드의 기본 구조\n대시보드는 기본적으로 다섯 가지의 구성요소로 이루어진다. 각각은 메인 바디, 헤더, 내비게이터, 사이드바, 푸터이다.\n\n\n\n\n\n\n그림 7: 대시보드의 기본 구조(https://blog.zarathu.com/posts/2023-12-11-quarto-dashboard/#tabset)\n\n\n\n첫째, 메인 바디(main body)는 대시보드의 핵심 요소이다. 메인 바디는 카드(card)라고 불리는 기본 단위들로 구성된다. 개별 카드는 다양한 내용 요소(텍스트, 그래프, 표, 지도, 밸류박스 등)를 가질 수 있다. 즉, 어떤 카드 속에는 그래프가 들어가며, 어떤 카드 속에는 지도가 들어간다. 이러한 카드들은 특정한 레이아웃 요소(페이지, 행, 열, 탭셋 등)를 통해 메인 바디에 배열된다. 페이지(page)는 대시보드 레이아웃 요소 중 최상위 레벨인데, 개별 페이지는 다수의 행(row) 혹은 열(column)로 구성된다. 행 혹은 열을 또다른 행 혹은 열이 아닌 탭 클릭 방식으로 분할하고 싶을 때 탭셋(tabset)이 사용된다.\n둘째, 헤더(header)는 대시보드의 가장 중요한 메타 정보(로고, 제목, 저자 등)를 포함한다.\n셋째, 내비게이터(navigator)는 최상위 레이아웃인 페이지간 이동을 통제한다.\n넷째, 사이드바(sidebar)는 주로 사용자의 인풋(input)을 받을 때 사용되는 것으로, 동적인 대시보드에서 주로 사용된다. Quarto는 사이드바 외에 툴바(toolbar)와 카드인풋(card input)과 같은 옵션을 제공한다.\n다섯째, 푸터(footer)는 헤더와 유사한 기능을 하는데, 주로 부차적인 매타 정도를 포함한다.\n다섯개의 구성 요소 중 가장 중요한 것은 메인 바디, 해더, 내비게이터이다. Quarto는 헤더와 내비게이터를 통합한 내비게이션바(navigation bar)를 제공한다. 푸터는 가장 지엽적인 요소이다. 대시보드를 만드는 데에 있어 Shiny 패키지를 활용하면 훨씬 동적이고 아름다운 대시보드를 만들 수 있다. 이후 이어지는 인터렉티브 심화 부분에서 Shiny 패키지를 학습한다.\n다음의 대시보드를 살펴보자.\n\n\n\n\n\n\n그림 8: 대시보드의 사례(https://quarto.org/docs/dashboards/)\n\n\n\n이 대시보드는 크게 내비게이션바와 메인 바디로 구성되어 있다. 네비게이션바에는 다음의 내용이 포함되어 있다.\n\n이 대시보드의 제목(title)은 ’고객이탈(Customer Chrun)’이고 회사 이름은 DEMOCO(로고)이다.\n이 대시보드는 모두 두 개의 페이지(page)로 구성되어 있다. 페이지의 이름은 각각 ’Churn (Standard)’과 ’Data’이다.\n\n메인 바디는 다음과 같은 레이아웃 요소들로 구성되어 있다.\n\n첫 번째 페이지(Churn (Standard))는 세 개의 행(row)으로 구성되어 있다.\n첫 번째 페이지의 첫 번째 행은 세 개의 카드(card)로 구성되어 있는데, 내용 요소는 모두 밸류박스(value box)이다.\n첫 번째 페이지의 두 번째 행은 두 개의 열(즉, 카드)로 구성되어 있는데, 내용 요소는 모두 그래프(graph)이다.\n첫 번째 페이지의 세 번째 행은 단일한 열(즉, 카드)로 구성되어 있는데, 내용 요소는 테이블(table)이다.\n두 번째 페이지에도 다양한 사항이 포함되어 있을 것이다.\n\n\n\n2.2 레이아웃 설정\n\n2.2.1 행과 열의 설정\n행(row)과 열(column)은 가장 기본이 되는 레이아웃 요소이다. 기본 원칙은 다음과 같다.\n\n헤더 1(header 1) 레벨이 페이지를 결정한다.\n헤더 2(header 2) 레벨이 행의 구분을 결정한다.\n헤더 3(header 3) 레벨이 헤더 2의 행 안에서, 열의 구분을 결정한다.\n\n## Row 1 {height=70%}\n\nCard 1\n\n## Row 2 {height=30%}\n\n### Column 1 {width=40%}\n\nCard 2-1 \n\n### Column 2 {width=60%}\n\nCard 2-2 \n위와 같이 설정하면 다음과 같은 결과를 얻을 수 있다. Row의 경우는 {height} 태그를 통해서, Column의 경우는 {width}태그를 통해 상대적인 크기를 설정할 수 있다.\n\n\n\n\n\n\n그림 9: 대시보드의 행렬 구조(https://blog.zarathu.com/posts/2023-12-11-quarto-dashboard/)\n\n\n\n\n\n2.2.2 탭셋의 설정\n탭셋(tabset)은 행(row)과 열(column)을 다른 하위 행과 열이 아닌 탭의 설정을 통해 분할하고자 할 때 사용된다.\n## Row 1 {height=70%}\n\nCard 1\n\n## Row 2 {height=30% .tabset}\n\n### Column 1\n\nCard 2-1 {width=50%}\n\n### Column 2\n\nCard 2-2 {width=50%}\n위와 같이 설정하면 다음과 같은 결과를 얻을 수 있다. 탭셋의 설정을 위해 {.tabset} 태그가 사용된다는 점에 주의한다.\n\n\n\n\n\n\n\n\n\n\n\n\n\n그림 10: 대시보드의 탭셋 구조\n\n\n\n\n\n2.2.3 페이지의 설정\n페이지(page)는 최상위 레이아웃 요소이다. 기본 원칙은 다음과 같다.\n\n헤더 1(header 1) 레벨이 페이지의 구분을 결정한다.\nQuarto에서는 페이지가 내비게이션바에 나타난다.\n\n# Page A\n\n## Row 1 {height=70%}\n\nCard 1\n\n## Row 2 {height=30%}\n\n### Column 1 {width=40%}\n\nCard 2-1\n\n### Column 2 {width=60%}\n\nCard 2-2\n\n# Page B\n\nCard 3\n위와 같이 설정하면 다음과 같은 결과를 얻을 수 있다. 페이지가 내비게이션바에서 마치 탭셋처럼 존재하는 것에 주의한다.\n\n\n\n\n\n\n\n\n\n\n\n\n\n그림 11: 대시보드의 페이지 구조\n\n\n\n\n\n\n2.3 내비게이션바와 사이드바의 설정\n\n2.3.1 내비게이션바의 설정\n내비게이션바는 헤더와 내비게이터로 구성된다. 내비게이터는 페이지가 설정된 경우에만 나타나게 된다. 여기서는 헤더에 집중하고자 한다. 대시보드 헤더는 다른 Quarto 다큐먼트와 마찬가지로 YAML 헤더를 통해 통제된다. 다음과 같은 요소들이 중요하다.\n\n제목(title): 대시보드 전체의 이름을 결정한다.\n저자(author): 만든 사람이나 관리 회사의 이름이지만, 부제로 활용되기도 한다.\n포맷(format): 기본 설정인 대시보드(dashboard) 하에 다양한 하위 설정이 가능하다.\n\nlogo: 로고 그림 파일을 지정하면 내비게이션바의 왼쪽 끝에 나타난다.\nnav-buttons: github이나 이메일 연결을 설정할 수 있다.\nscrolling: true 설정: 디폴트는 false인데, 레이아웃 요소들의 높이들의 합이 100%가 되도록 일괄적으로 조절된다. true로 지정하면, 개별 내용 요소의 원 크기를 그대로 살리면서 스크롤되게 디자인이 바뀐다. 둘 다를 실험해 보고 자신의 목적에 맞는 것을 고른다.\n\n테마(theme): 대시보드의 외관을 한꺼번에 바꿀 수 있다. 모두 25개의 부트스와치(bootswatch) 테마가 존재한다. 여러가지를 실험해 보고 자신의 취향에 맞는 것을 선정한다.\n\n\n\n2.3.2 사이드바의 설정\n사이드바(sidebar)는 {.sidebar} 태그를 통해 만들 수 있는데, 헤더 1(header 1) 레벨이므로 특정한 페이지에 종속되지 않는다. 사이드바는 주로 사용자의 투입을 받을 때 사용되기 때문에 동적인 대시보드에 주로 사용된다. 정적인 대시보드의 경우에는 텍스트를 통한 특정 정보의 제공에 사용될 수 있다.\n# {.sidebar}\nSidebar content\n위와 같이 설정하면 다음과 같은 결과를 얻을 수 있다.\n\n\n\n\n\n\n그림 12: 대시보드의 사이드바 구조(https://blog.zarathu.com/posts/2023-12-11-quarto-dashboard/)\n\n\n\n\n\n\n2.4 카드와 내용 요소\n카드(card)란 특정한 내용 요소(텍스트, 벨류박스, 테이블, 그래프, 지도 등)를 포함하고 있는, 대시보드의 가장 기본적인 단위이다. 다음의 두 가지 사항이 중요하다.\n\n카드의 제목이 중요하다. 완성된 대시보드 상에 등장하기 때문에 이해하기 쉬운 제목이 부여되어야 한다.\n내용 요소에 따라 카드를 작성하는 방법이 조금 다르다.\n\n내용 요소 제작의 세세한 사항은 아래의 “예시 대시보드 만들기”에서 확인한다.\n\n2.4.1 그래프\nQuarto는 그래프 하나를 만들어내는 코드 청크를 하나의 카드로 인식한다. 그래프 카드의 제목은 코드 청크 내의 #| title: 옵션을 통해 부여된다. ggplot2와 같은 정적인 플롯 도구 뿐만 아니라 plotly와 같은 반응형 플롯 도구를 사용하여 그래프 카드를 생성한다.\n\n\n2.4.2 테이블\nQuarto는 테이블 하나를 디스플레이하는 코드 청크를 하나의 카드로 인식한다. 테이블 카드의 제목은 코드 청크 내의 #| title: 옵션을 통해 부여된다. knitr 패키지의 kable() 함수, gt 패키지의 gt() 함수, DT 패키지의 datatable() 함수 등을 이용해 테이블 카드를 생성한다.\n\n\n2.4.3 지도\nQuarto는 지도 하나를 디스플레이하는 코드 청크를 하나의 카드로 인식한다. 지도 카드의 제목은 코드 청크 내의 #| title: 옵션을 통해 부여된다. ggplot2와 같은 정적인 지도 제작 도구 뿐만 아니라 leaflet과 같은 반응형 지도 제작 도구를 사용하여 지도 카드를 생성한다.\n\n\n2.4.4 텍스트\n일종의 텍스트 박스도 하나의 카드로 간주된다. 그래프, 테이블, 지도가 하나의 코드 청크가 하나의 카드로 인식되는데 반해 텍스트 카드는 다른 형식을 취한다. ::: {.card} div를 사용해야 하며 #| title: 옵션을 사용해 제목을 지정해야 한다.\n\n\n2.4.5 밸류박스\n요약적 수치를 큰 박스 속에 나타내는 것을 밸류박스(value box)라고 하는데, 코드 청크로 표현하지만 형식은 조금 다르다. #| content: valuebox라는 옵션이 반드시 포함되야 하며, 제목을 지정하기 위해 #| title: 옵션도 필요하다. 또한 리스트를 이용해 아이콘(icon), 컬러(color), 수치(value)를 지정해야 한다.\n아이콘은 부트스트랩 아이콘(bootstrap icon)이 사용된다. 적절한 아이콘을 찾고 그 이름을 icon = 옵션을 통해 설정하는 것이 중요하다.\n모든 컬러가 다 사용가능한 것은 아니다. 아래의 표를 참조하여 컬러를 설정해야 한다.\n\n\n\n표 3: 밸류박스의 컬러 선택\n\n\n\n\n\nColor Alias\nDefault Theme Color(s)\n\n\n\n\nprimary\nBlue\n\n\nsecondary\nGray\n\n\nsuccess\nGreen\n\n\ninfo\nBright Blue\n\n\nwarning\nYellow/Orange\n\n\ndanger\nRed\n\n\nlight\nLight Gray\n\n\ndark\nBlack\n\n\n\n\n\n\n\n\n\n2.5 예시 대시보드 만들기\n예시 대시보드(https://sangillee.quarto.pub/my-first-dashboard/)에 접속하여 구성을 살펴본다. 다음의 사항에 주목한다.\n\n내비게이션바에 서울대학교 로고가 있고, 오른쪽 맨 끝애 github 및 이메일 아이콘이 위치해 있다.\n대시보드가 네 개의 페이지(Intro, Graphs, Tables, Maps)로 나뉘어져 있고, 각 페이지마다 행, 열, 탭셋과 같은 레이아웃 요소들이 배치되어 있다.\n\n어떤 식으로 제작할 수 있을지 생각해 본다. 새로운 프로젝트를 생성하고 Quarto 다큐먼트를 생성한다. 아래는 해당 대시보드를 만들기 위해 사용된 코드이다. 참고하여 자신만의 대시보드를 만들어 본다.\n\n2.5.1 YAML 해더\n특히, nav-buttons: 옵션의 지정 형식에 주의한다. scrolling 옵션과 다양한 theme: 옵션을 시험해 본다.\n---\ntitle: \"My First Dashboard\"\nauthor: Sang-Il Lee\nformat: \n  dashboard:\n    logo: snu_logo_2.png\n    nav-buttons: \n      - icon: github\n        href: https://github.com/sangillee66\n        aria-label: GitHub\n      - icon: envelope\n        href: mailto:si_lee@snu.ac.kr\n        aria-label: Mail\n    # scrolling: true\ntheme: default\neditor: visual\neditor_options: \n  chunk_output_type: console\n---\n\n\n2.5.2 Intro 페이지\nIntro라는 이름의 페이지를 설정한다.\n# Intro\n첫번째 행: Text 카드\n행을 설정하고 행의 상대적인 높이(10%)를 지정한다.\n## Row {height=\"10%\"}\n텍스트 카드를 생성한다. 텍스트 카드를 생성하기 위해 {.card} 태그가 사용되어야 하며, 텍스트 카드의 제목을 지정하기 위해 title= 옵션이 사용되어야 함에 주의한다.\n::: {.card title=\"Text\"}\nThis is my first dashboard.\n:::\n두번째 행의 탭셋: Histogram of GDP per capita & Table of Mean Values\n행을 설정하고 행의 상대적인 높이(70%)를 지정한다. 탭셋을 생성하기 위해 {.tabset} 태그가 사용되어야 함에 주의한다.\n## Row {.tabset height=\"70%\"}\n그래프 카드를 생성하기 위해 ggplot2 패키지를 활용한다. 그래프 카드의 제목을 지정하기 위해 title= 옵션이 사용되어야 함에 주의한다.\n#| title: \"Histogram of GDP per capita\"\nlibrary(tidyverse)\nlibrary(gapminder)\ngapminder |&gt; \n  filter(year == 2007) |&gt;\n  ggplot(aes(x = gdpPercap)) +\n  geom_histogram()\n테이블 카드를 생성하기 위해 knitr 패키지의 kable() 함수를 활용한다. 테이블 카드의 제목을 지정하기 위해 title= 옵션이 사용되어야 함에 주의한다.\n#| title: \"Table of Mean Values\"\nlibrary(knitr)\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  summarize(\n    GDP_percap = mean(gdpPercap),\n    Life_Exp = mean(lifeExp),\n    Population = mean(pop),\n    .by = continent\n  ) |&gt; \n  kable()\n세번째 행의 3개의 밸류박스\n행을 설정하고 행의 상대적인 높이(20%)를 지정한다.\n## Row {height=\"20%\"}\n첫번째 밸류박스를 생성한다. #| content: valuebox 옵션과 #| title: 옵션이 사용됨에 주의한다.\n#| content: valuebox\n#| title: \"Number of Countries\"\nn_countries &lt;- gapminder |&gt; distinct(country) |&gt; nrow()\nlist(\n  icon = \"asterisk\",\n  color = \"primary\",\n  value = n_countries\n)\n두번째 밸류박스를 생성한다.\n#| content: valuebox\n#| title: \"First Year\"\nfirst_year &lt;- gapminder |&gt; distinct(year) |&gt; pull() |&gt; first()\nlist(\n  icon = \"airplane\",\n  color = \"secondary\",\n  value = first_year\n세번째 밸류박스를 생성한다.\n#| content: valuebox\n#| title: \"Last Year\"\nlast_year &lt;- gapminder |&gt; distinct(year) |&gt; pull() |&gt; last()\nlist(\n  icon = \"bank\",\n  color = \"success\",\n  value = last_year\n)\n\n\n2.5.3 Graphs 페이지\nGraphs라는 이름의 페이지를 설정한다.\n# Graphs\n첫번째 행의 그래프 카드: GDP and Life Expectancy\n행을 설정한다.\n## Row\nggplot2 패키지를 활용하여 그래프 카드를 생성한다.\n#| title: GDP and Life Expectancy\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = log10(gdpPercap), y = lifeExp)) +\n  geom_point(aes(color = continent), show.legend = FALSE) +\n  geom_smooth() + \n  facet_wrap(~continent, ncol = 5)\n두번째 행의 그래프 카드: Population & Life Expectancy\n첫번째 그래프(Population)를 위한 열을 설정한다.\n### Column\n그래프 카드를 생성한다.\n#| title: Population\ngapminder |&gt; \n  summarize(\n    sum_pop = sum(pop),\n    .by = c(year, continent)\n  ) |&gt; \n  ggplot(aes(x = year, y = sum_pop)) +\n  geom_area(aes(fill = continent)) +\n  labs(x = \"Year\", y = \"Population\", fill = \"Continents\")\n두번째 그래프(Life Expectancy)를 위한 열을 설정한다.\n### Column\n그래프 카드를 생성한다.\n#| title: Life Expectancy\ngapminder |&gt; \n  ggplot(aes(x = year, y = lifeExp)) +\n  geom_line(aes(color = continent, group = country)) +\n  labs(x = \"Year\", y = \"Life Expectancy\", color = \"Continents\")\n\n\n2.5.4 Tables 페이지\nTables라는 이름의 페이지를 설정한다.\n# Tables\n단일 행을 설정한다.\n## Row\nDT 패키지를 활용하여 테이블 카드를 생성한다.\n#| title: Lookup Table\nlibrary(DT)\ndatatable(gapminder, filter = \"top\", \n          options = list(\n            pageLength = 5, autoWidth = TRUE\n          ))\n\n\n2.5.5 Maps 페이지\nMaps라는 이름의 페이지를 설정한다.\n# Maps\n단일 행을 설정한다.\n## Row\nleaflet 패키지를 활용하여 지도 카드를 생성한다.\n#| title: A Reference Map \nlibrary(leaflet) \nleaflet() |&gt;  \n  addTiles()\n\n\n\n2.6 대시보드를 웹상에 배포하기\n블로그와 마찬가지로 다음의 절차에 따라 완성된 대시보드를 웹 상에 출판한다. 여기서는 Posit에서 제공하는 무료 출판 사이트인 Quarto Pub을 활용한다.\n\nQuarto Pub에 접속하여 계정을 만든다.\nRStudio에서, 왼쪽 하단부의 Terminal 탭을 누른다.\n프롬프트에 다음과 같이 입력하고 실행한다: quarto publish quarto-pub\n나머지 사항에 대해서는 조교의 도움을 받는다."
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#section",
+    "href": "Lecture_2_2_1.html#section",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "",
+    "text": "https://shiva-jolad-46811.medium.com/demography-in-service-of-other-social-sciences-6cfef9fae568"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-현상의-유형-구분과-5대-주제",
+    "href": "Lecture_2_2_1.html#인구-현상의-유형-구분과-5대-주제",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 현상의 유형 구분과 5대 주제",
+    "text": "인구 현상의 유형 구분과 5대 주제\n\n\n\n\n\n\n\n\n\n정적\n동적\n\n\n\n\n프로세스(원인)\n-\n인구 동태\n인구 이동\n\n\n패턴(결과)\n인구 분포\n인구 구조\n인구 성장\n\n\n\n\n\n인구 성장: 인구 수의 변화\n인구 분포: 인구 수의 지리적 배열\n인구 구조: 속성에 의거한 인구 구성\n인구 동태: 출생, 사망\n인구 이동: 통상적 거주지 상의 변동"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구학적-인과-누적-매커니즘",
+    "href": "Lecture_2_2_1.html#인구학적-인과-누적-매커니즘",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구학적 인과-누적 매커니즘",
+    "text": "인구학적 인과-누적 매커니즘"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터와-나",
+    "href": "Lecture_2_2_1.html#인구-데이터와-나",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터와 나",
+    "text": "인구 데이터와 나\n\nhttps://population.io/"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터와-나-1",
+    "href": "Lecture_2_2_1.html#인구-데이터와-나-1",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터와 나",
+    "text": "인구 데이터와 나\n\nhttps://population.io/"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터의-원천-4대-원천",
+    "href": "Lecture_2_2_1.html#인구-데이터의-원천-4대-원천",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터의 원천: 4대 원천",
+    "text": "인구 데이터의 원천: 4대 원천\n\n인구 센서스(census)\n동태 통계(vital statistics)\n행정 통계(administrative statistics)\n서베이 데이터(survey data)"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터의-원천-인구-센서스",
+    "href": "Lecture_2_2_1.html#인구-데이터의-원천-인구-센서스",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터의 원천: 인구 센서스",
+    "text": "인구 데이터의 원천: 인구 센서스\n\nhttps://en.wikipedia.org/wiki/Census"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터의-원천-인구-센서스-1",
+    "href": "Lecture_2_2_1.html#인구-데이터의-원천-인구-센서스-1",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터의 원천: 인구 센서스",
+    "text": "인구 데이터의 원천: 인구 센서스\n\nhttp://www.adinews.co.kr/news/articleView.html?idxno=66384#google_vignette"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터의-원천-동태-통계",
+    "href": "Lecture_2_2_1.html#인구-데이터의-원천-동태-통계",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터의 원천: 동태 통계",
+    "text": "인구 데이터의 원천: 동태 통계"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터의-원천-행정-통계",
+    "href": "Lecture_2_2_1.html#인구-데이터의-원천-행정-통계",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터의 원천: 행정 통계",
+    "text": "인구 데이터의 원천: 행정 통계\n\nhttps://blog.naver.com/gildoyeon_/223253237945"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터의-원천-서베이-데이터",
+    "href": "Lecture_2_2_1.html#인구-데이터의-원천-서베이-데이터",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터의 원천: 서베이 데이터",
+    "text": "인구 데이터의 원천: 서베이 데이터\n\nhttps://www.gangdong.go.kr/web/dongrenew/bbscheonho1/news_cheonho1/43368"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터의-원천과-인구의-공간-귀속",
+    "href": "Lecture_2_2_1.html#인구-데이터의-원천과-인구의-공간-귀속",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터의 원천과 인구의 공간 귀속",
+    "text": "인구 데이터의 원천과 인구의 공간 귀속\n\n\n[KOSIS(국가통계포털)(https://kosis.kr/)]  [서울 열린데이터 광장: 서울 생활인구(https://data.seoul.go.kr/dataVisual/seoul/seoulLivingPopulation.do)]"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구감소지역-지원-특별법-2023.1.1.-시행",
+    "href": "Lecture_2_2_1.html#인구감소지역-지원-특별법-2023.1.1.-시행",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구감소지역 지원 특별법: 2023.1.1. 시행",
+    "text": "인구감소지역 지원 특별법: 2023.1.1. 시행\n\nhttps://www.hani.co.kr/arti/opinion/column/1108352.html"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터-세계",
+    "href": "Lecture_2_2_1.html#인구-데이터-세계",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터: 세계",
+    "text": "인구 데이터: 세계\n\n\n\n\n\n\nhttps://population.un.org/wpp/"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#section-1",
+    "href": "Lecture_2_2_1.html#section-1",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "",
+    "text": "https://unpkfc.org/2022/07/11/world-population-day-2022-the-theme-for-this-year-is-a-world-of-8-billion-towards-a-resilient-future-for-all-harnessing-opportunities-and-ensuring-rights-and-choices-for-all/"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터-우리나라",
+    "href": "Lecture_2_2_1.html#인구-데이터-우리나라",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터: 우리나라",
+    "text": "인구 데이터: 우리나라\n\nhttps://kosis.kr/"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터-우리나라-1",
+    "href": "Lecture_2_2_1.html#인구-데이터-우리나라-1",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터: 우리나라",
+    "text": "인구 데이터: 우리나라\n\nhttps://sgis.mods.go.kr/"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터의-공간-체계",
+    "href": "Lecture_2_2_1.html#인구-데이터의-공간-체계",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터의 공간 체계",
+    "text": "인구 데이터의 공간 체계\n\n세계: UN 지오스킴(geoscheme)\n\nSubregions: 22개\nRegions: 6개\nSDG (Sustainable Development Goal) Regions: 7\n\n우리나라: 2025년 1월 1일 기준\n\n시도 수준: 17\n시군구 수준: 226개 혹은 229개\n읍면동 수준: 3,560개"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#국가",
+    "href": "Lecture_2_2_1.html#국가",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "국가",
+    "text": "국가"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#subregions-22",
+    "href": "Lecture_2_2_1.html#subregions-22",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "Subregions: 22",
+    "text": "Subregions: 22"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#regions-6",
+    "href": "Lecture_2_2_1.html#regions-6",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "Regions: 6",
+    "text": "Regions: 6"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#sdg-regions-7",
+    "href": "Lecture_2_2_1.html#sdg-regions-7",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "SDG Regions: 7",
+    "text": "SDG Regions: 7"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#우리나라",
+    "href": "Lecture_2_2_1.html#우리나라",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "우리나라",
+    "text": "우리나라\n\n\n\n\n\n\n시도 수준(17)\n\n\n\n\n\n\n\n시군구 수준(226+3)\n\n\n\n\n\n\n\n읍면동 수준(3,560)\n\n\n\n\n\n(2025년 1월 1일 기준)"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#서울-2024년-6월-30일-기준",
+    "href": "Lecture_2_2_1.html#서울-2024년-6월-30일-기준",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "서울: 2024년 6월 30일 기준",
+    "text": "서울: 2024년 6월 30일 기준\n\n\n\n\n\n\n구(25)\n\n\n\n\n\n\n\n동(426)\n\n\n\n\n\n\n\n집계구(19,218)\n\n\n\n\n\n(2024년 6월 30일 기준)"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-웹-앱-예시",
+    "href": "Lecture_2_2_1.html#인구-웹-앱-예시",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 웹 앱 예시",
+    "text": "인구 웹 앱 예시\nhttps://sangillee.snu.ac.kr/dashboard_popgeo/"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#인구-폭발-vs.-인구-절벽",
+    "href": "Lecture_2_2_2.html#인구-폭발-vs.-인구-절벽",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "인구 폭발 vs. 인구 절벽",
+    "text": "인구 폭발 vs. 인구 절벽\n\n\n\n\n\n\nhttps://atqnews.com/africa-abandoned-by-husband-mariam-nabatanzi-defies-odds-thrives-as-a-single-mother-in-uganda-raising-38-children-including-multiples/"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#인구-성장의-분해",
+    "href": "Lecture_2_2_2.html#인구-성장의-분해",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "인구 성장의 분해",
+    "text": "인구 성장의 분해\n\n인구학적 균형 방정식(demographic balancing equation)\n\n\\(P_t-P_0=B-D+I-O\\)\n\n\\(P_t\\): \\(t\\) 시점의 인구\n\\(P_0\\): 기준 시점의 인구\n\\(B\\): 출생\n\\(D\\): 사망\n\\(I\\): 전입\n\\(O\\): 전출\n\n\\(B-D\\): 자연 증가(natural increase) -&gt; 자연 변화(natural change)\n\\(I-O\\): 순이동(net migration) 혹은 사회 증가(social increase)"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#인구-성장의-측정",
+    "href": "Lecture_2_2_2.html#인구-성장의-측정",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "인구 성장의 측정",
+    "text": "인구 성장의 측정\n\n자연변화율(rate of natural change, RNC): 자연증감율\n\\(RNC=\\frac{B-D}{P_M}\\times 1,000\\)\n\n\\(P_M\\): 연앙인구(mid-year population)\n\n우리나라 2024년의 RNC\n\n\\(RNC=\\frac{238,317-358,569}{51,037,252.5}\\times 1,000=-2.356\\) (-0.236%)"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#인구-성장의-모델-인구변천모델",
+    "href": "Lecture_2_2_2.html#인구-성장의-모델-인구변천모델",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "인구 성장의 모델: 인구변천모델",
+    "text": "인구 성장의 모델: 인구변천모델"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#section",
+    "href": "Lecture_2_2_2.html#section",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "",
+    "text": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30977-6/fulltext"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#인구배당효과demographic-dividend",
+    "href": "Lecture_2_2_2.html#인구배당효과demographic-dividend",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "인구배당효과(demographic dividend)",
+    "text": "인구배당효과(demographic dividend)\n‘인구학적 덫(demographic trap)’\n\nhttp://thepaceproject.org/4dividends/"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#세계-전체",
+    "href": "Lecture_2_2_2.html#세계-전체",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "세계: 전체",
+    "text": "세계: 전체"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#세계-subregions",
+    "href": "Lecture_2_2_2.html#세계-subregions",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "세계: Subregions",
+    "text": "세계: Subregions"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#세계-subregions-1",
+    "href": "Lecture_2_2_2.html#세계-subregions-1",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "세계: Subregions",
+    "text": "세계: Subregions"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#세계-국가",
+    "href": "Lecture_2_2_2.html#세계-국가",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "세계: 국가",
+    "text": "세계: 국가"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#우리나라-혼란스러운-데이터",
+    "href": "Lecture_2_2_2.html#우리나라-혼란스러운-데이터",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "우리나라: 혼란스러운 데이터",
+    "text": "우리나라: 혼란스러운 데이터\n\n우리나라의 현재 인구는?: 세 종류\n\n인구총조사(2024년 11월 1일 기준): 51,805,547명\n\n내국인 49,762,803명, 외국인 2,042,744명\n\n주민등록인구(2025년 11월 30일 기준): 51,128,530명\n\n외국인 등록인구(2025년 9월 30일 기준): 1,598,380명\n\n추계인구(2026년 7월 1일 기준): 51,609,121명\n\n2024년 공표(2022년 인구 기준), 1960~2072년, 인구센서스 기반\n\n\n2010년 인구총조사 인구는 2개\n\n기존의 직접 조사 방식에 의거한 인구: 48,580,293명\n등록센서스 방식에 의거한 인구: 49,710,672명"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#우리나라-전체",
+    "href": "Lecture_2_2_2.html#우리나라-전체",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "우리나라: 전체",
+    "text": "우리나라: 전체"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#우리나라-권역",
+    "href": "Lecture_2_2_2.html#우리나라-권역",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "우리나라: 권역",
+    "text": "우리나라: 권역"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#우리나라-시도",
+    "href": "Lecture_2_2_2.html#우리나라-시도",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "우리나라: 시도",
+    "text": "우리나라: 시도"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#우리나라-시군구",
+    "href": "Lecture_2_2_2.html#우리나라-시군구",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "우리나라: 시군구",
+    "text": "우리나라: 시군구"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#우리나라-미래-전망",
+    "href": "Lecture_2_2_2.html#우리나라-미래-전망",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "우리나라: 미래 전망",
+    "text": "우리나라: 미래 전망"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#우리나라-인구변천모델",
+    "href": "Lecture_2_2_2.html#우리나라-인구변천모델",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "우리나라: 인구변천모델",
+    "text": "우리나라: 인구변천모델"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#인구-웹-앱-예시",
+    "href": "Lecture_2_2_2.html#인구-웹-앱-예시",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "인구 웹 앱 예시",
+    "text": "인구 웹 앱 예시\nhttps://sangillee.snu.ac.kr/dashboard_popgeo/"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#세계-그리드",
+    "href": "Lecture_2_2_3.html#세계-그리드",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "세계: 그리드",
+    "text": "세계: 그리드"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#세계-그리드-1",
+    "href": "Lecture_2_2_3.html#세계-그리드-1",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "세계: 그리드",
+    "text": "세계: 그리드\n\nhttps://www.visualcapitalist.com/cp/3d-mapping-the-worlds-largest-population-densities/#google_vignette"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#세계-위도",
+    "href": "Lecture_2_2_3.html#세계-위도",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "세계: 위도",
+    "text": "세계: 위도\n\nhttps://www.visualcapitalist.com/cp/mapped-the-worlds-population-density-by-latitude/"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#세계-위도-1",
+    "href": "Lecture_2_2_3.html#세계-위도-1",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "세계: 위도",
+    "text": "세계: 위도\n\nhttps://www.weforum.org/stories/2022/05/mapped-the-world-s-population-density-by-latitude/"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#세계-region",
+    "href": "Lecture_2_2_3.html#세계-region",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "세계: Region",
+    "text": "세계: Region"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#세계-국가",
+    "href": "Lecture_2_2_3.html#세계-국가",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "세계: 국가",
+    "text": "세계: 국가"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#세계-국가-1",
+    "href": "Lecture_2_2_3.html#세계-국가-1",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "세계: 국가",
+    "text": "세계: 국가"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#우리나라-시군",
+    "href": "Lecture_2_2_3.html#우리나라-시군",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "우리나라: 시군",
+    "text": "우리나라: 시군"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#우리나라-시군-1",
+    "href": "Lecture_2_2_3.html#우리나라-시군-1",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "우리나라: 시군",
+    "text": "우리나라: 시군"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#우리나라-인구의-편포성",
+    "href": "Lecture_2_2_3.html#우리나라-인구의-편포성",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "우리나라: 인구의 편포성",
+    "text": "우리나라: 인구의 편포성"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#우리나라-인구의-편포성-1",
+    "href": "Lecture_2_2_3.html#우리나라-인구의-편포성-1",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "우리나라: 인구의 편포성",
+    "text": "우리나라: 인구의 편포성"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#우리나라-인구의-지리적-중점",
+    "href": "Lecture_2_2_3.html#우리나라-인구의-지리적-중점",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "우리나라: 인구의 지리적 중점",
+    "text": "우리나라: 인구의 지리적 중점"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#우리나라-인구의-수도권-집중",
+    "href": "Lecture_2_2_3.html#우리나라-인구의-수도권-집중",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "우리나라: 인구의 수도권 집중",
+    "text": "우리나라: 인구의 수도권 집중"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#우리나라-인구의-도시-집중",
+    "href": "Lecture_2_2_3.html#우리나라-인구의-도시-집중",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "우리나라: 인구의 도시 집중",
+    "text": "우리나라: 인구의 도시 집중"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#우리나라-지역-소멸",
+    "href": "Lecture_2_2_3.html#우리나라-지역-소멸",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "우리나라: 지역 소멸",
+    "text": "우리나라: 지역 소멸\n\n’지방소멸’의 개념\n\n마스다 히로야(김정환 옮김), 2014, 지방소멸\n\n일본 창성회의 의장\n\n주요 내용\n\n향후 30년 이내에 ‘대도시만 생존하는 극점사회’ 도래 예상\n고령화 + 인구 재생산 잠재력 저하(젊은 여성의 부재) -&gt; 지방소멸 가능성 증대\n\n\n지방소멸가능성의 측정 및 분류\n\n지방소멸위험지수 = 20~39세 여성인구 수 / 65세 이상 고령인구 수\n분류\n\n1.5 이상: 소멸위험 매우 낮음\n1.0~1.5: 소멸위험 보통\n0.5~1.0: 주의 단계\n0.2~0.5: 소멸위험진입 단계\n0.2 미만: 소멸고위험 지역"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#우리나라-지역-소멸-1",
+    "href": "Lecture_2_2_3.html#우리나라-지역-소멸-1",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "우리나라: 지역 소멸",
+    "text": "우리나라: 지역 소멸"
+  },
+  {
+    "objectID": "Lecture_2_2_3.html#인구-웹-앱-예시",
+    "href": "Lecture_2_2_3.html#인구-웹-앱-예시",
+    "title": "인구 현상과 인문사회 콘텐츠 1-3\n인구 분포",
+    "section": "인구 웹 앱 예시",
+    "text": "인구 웹 앱 예시\nhttps://sangillee.snu.ac.kr/dashboard_popgeo/"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#인구-데이터의-4대-원천",
+    "href": "Lecture_2_2_1.html#인구-데이터의-4대-원천",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "인구 데이터의 4대 원천",
+    "text": "인구 데이터의 4대 원천\n\n인구 센서스(census)\n동태 통계(vital statistics)\n행정 통계(administrative statistics)\n서베이 데이터(survey data)"
+  },
+  {
+    "objectID": "Lecture_2_2_1.html#서울",
+    "href": "Lecture_2_2_1.html#서울",
+    "title": "인구 현상과 인문사회 콘텐츠 1-1\n인구 데이터",
+    "section": "서울",
+    "text": "서울\n\n\n\n\n\n\n구(25)\n\n\n\n\n\n\n\n동(426)\n\n\n\n\n\n\n\n집계구(19,218)\n\n\n\n\n\n(2024년 6월 30일 기준)"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#인구-성장의-측정-1",
+    "href": "Lecture_2_2_2.html#인구-성장의-측정-1",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "인구 성장의 측정",
+    "text": "인구 성장의 측정\n\n인구성장률(population growth rate, PGR): 인구증감율\n\n연평균 인구성장률 혹은 연평균 인구증감율\n기간을 1년으로 환산했을 때의 PGR: 연간 인구 증가의 속도\n\n자연대수법: \\(P_n=P_0e^{rn}\\) -&gt; \\(r=\\frac{1}{n}\\ln\\frac{P_n}{P_0}\\)\n우리나라 2020~2024년 PGR\n\n\\(r=\\frac{1}{4}\\ln\\frac{51,805,547}{51,829,136}=-0.000114\\) (-0.011%)"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#인구-성장의-측정-2",
+    "href": "Lecture_2_2_2.html#인구-성장의-측정-2",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "인구 성장의 측정",
+    "text": "인구 성장의 측정\n\n배가기간(doubling time)\n\n인구가 두 배로 증가하는데 걸리는 시간(주로 연수)\n인구성장률과 반비례 관계\n\n\\(r=\\frac{1}{n}\\ln\\frac{P_n}{P_0}\\) -&gt; \\(n=\\frac{1}{r}\\ln2=\\frac{0.693}{r}=\\frac{69.3}{r(\\%)}\\cong\\frac{70}{r(\\%)}\\)\n세계의 배가기간\n\n2025년 PGR 기준: \\(\\frac{69.3}{0.841}\\cong82.4\\)\n\n우리나라의 배가기간\n\n2020-2024 PGR 기준: \\(\\frac{69.3}{-0.011}\\cong -6,300?\\)"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#세계-region",
+    "href": "Lecture_2_2_2.html#세계-region",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "세계: Region",
+    "text": "세계: Region"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#세계-subregion",
+    "href": "Lecture_2_2_2.html#세계-subregion",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "세계: Subregion",
+    "text": "세계: Subregion"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#세계-국가-1",
+    "href": "Lecture_2_2_2.html#세계-국가-1",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "세계: 국가",
+    "text": "세계: 국가"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#세계-국가-2",
+    "href": "Lecture_2_2_2.html#세계-국가-2",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "세계: 국가",
+    "text": "세계: 국가"
+  },
+  {
+    "objectID": "Lecture_2_2_2.html#세계-국가-3",
+    "href": "Lecture_2_2_2.html#세계-국가-3",
+    "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
+    "section": "세계: 국가",
+    "text": "세계: 국가"
   }
 ]

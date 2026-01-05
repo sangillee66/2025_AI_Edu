@@ -1,0 +1,150 @@
+---
+title: |
+  | [인구 현상과 인문사회 콘텐츠 1-3]{style="color:coral;font-size:0.6em"}   
+  | [인구 분포]{style="font-size:1em"} 
+author: <br> 이상일(서울대학교 지리교육과 교수)
+date: 2026-01-06
+format: 
+  revealjs:
+    logo: snu_edu_1.png
+    footer: https://sangillee.snu.ac.kr/
+    transition: fade
+    transition-speed: fast
+    margin: 0.05
+    center: false
+    # smaller: false
+    # scrollable: false
+    code-link: true
+    code-line-numbers: false
+    code-copy: true
+    code-overflow: scroll
+    slide-number: true
+    width: 960 * 1.5
+    height: 700 * 1.5
+    lightbox: false
+    # min-scale: 1
+    # max-scale: 1
+    pointer:
+      pointerSize: 20
+      color: red
+    menu: true
+    embed-resources: false
+    theme: [default, custom_hq_pretendard_step.scss] # 슬라이드 본문 폰트 크기 조정
+    revealjs-plugins:
+      - pointer
+    css: styles.css
+execute: 
+  warning: false
+  error: false
+  freeze: auto  
+dpi: 600
+editor: visual
+webr: 
+  show-startup-message: false     
+  packages: []
+filters:
+  - webr
+# suppress-bibliography: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# [인구 분포]{style="color:coral"} <br> [인구수의 지리적 배열]{style="font-size:4rem"}
+
+## 세계: 그리드
+
+![](images/Population%20Distribution,%202020-01.png)
+
+## 세계: 그리드
+
+![[https://www.visualcapitalist.com/cp/3d-mapping-the-worlds-largest-population-densities/#google_vignette](https://www.visualcapitalist.com/cp/3d-mapping-the-worlds-largest-population-densities/#google_vignette){style="font-size:1rem"}](https://www.visualcapitalist.com/wp-content/uploads/2020/08/global-population-density-spikes-3d-mapped-full.png)
+
+## 세계: 위도
+
+![[https://www.visualcapitalist.com/cp/mapped-the-worlds-population-density-by-latitude/](https://www.visualcapitalist.com/cp/mapped-the-worlds-population-density-by-latitude/){style="font-size:1rem"}](https://www.visualcapitalist.com/wp-content/uploads/2023/12/VC-Alasdair-Rae-World-Population-by-Latitude-Chart.png)
+
+## 세계: 위도
+
+![[https://www.weforum.org/stories/2022/05/mapped-the-world-s-population-density-by-latitude/](https://www.weforum.org/stories/2022/05/mapped-the-world-s-population-density-by-latitude/){style="font-size:1rem"}](https://assets.weforum.org/article/image/responsive_big_webp_oVVfNybCugULckl0h9EWw1z007u7v9KpzL6b9ACplZI.webp)
+
+## 세계: Region
+
+![](images/세계%20UN%20지역%20인구규모%20비중.jpg)
+
+## 세계: 국가
+
+![](images/World%20Population%20Distribution,%202025.jpg)
+
+## 세계: 국가
+
+![](images/World%20Population%20Distribution,%202100.jpg)
+
+## 우리나라: 시군
+
+![](images/ani_pop_pro.gif){fig-align="center"}
+
+## 우리나라: 시군
+
+![](images/ani_carto_sigun.gif){fig-align="center"}
+
+## 우리나라: 인구의 편포성
+
+![](images/Lorenz%20Curve%20of%20Population%20Distribution%20in%202023%20(시군구%20수준).jpg)
+
+## 우리나라: 인구의 편포성
+
+![](images/Spatial%20Inequality%20of%20Population%20Distribution%20in%20South%20Korea,%201975~2023.jpg)
+
+## 우리나라: 인구의 지리적 중점
+
+![](images/Geographic%20Centers%20of%20Population,%201975~2023.jpg){fig-align="center"}
+
+## 우리나라: 인구의 수도권 집중
+
+![](images/National%20Shares%20of%20the%20Capital%20Region,%201949%20to%202023.jpg)
+
+## 우리나라: 인구의 도시 집중
+
+![](images/Urbanization%20Rates%20in%20South%20Korea,%201949%20to%202023.jpg)
+
+## 우리나라: 지역 소멸
+
+-   '지방소멸'의 개념
+
+    -   마스다 히로야(김정환 옮김), 2014, 지방소멸
+
+        -   일본 창성회의 의장
+
+    -   주요 내용
+
+        -   향후 30년 이내에 '대도시만 생존하는 극점사회' 도래 예상
+
+        -   고령화 + 인구 재생산 잠재력 저하(젊은 여성의 부재) -\> 지방소멸 가능성 증대
+
+-   지방소멸가능성의 측정 및 분류
+
+    -   지방소멸위험지수 = 20\~39세 여성인구 수 / 65세 이상 고령인구 수
+
+    -   분류
+
+        -   1.5 이상: 소멸위험 매우 낮음
+
+        -   1.0\~1.5: 소멸위험 보통
+
+        -   0.5\~1.0: 주의 단계
+
+        -   0.2\~0.5: 소멸위험진입 단계
+
+        -   0.2 미만: 소멸고위험 지역
+
+## 우리나라: 지역 소멸
+
+::: {layout="[65,55]"}
+![](images/인구소멸%20막대-01.jpg)
+
+![](images/Regional%20Extinction%20Index,%202023-01.jpg){width="568"}
+:::
+
+## 인구 웹 앱 예시
+
+<https://sangillee.snu.ac.kr/dashboard_popgeo/>
