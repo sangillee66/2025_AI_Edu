@@ -6228,5 +6228,684 @@
     "title": "인구 현상과 인문사회 콘텐츠 1-2\n인구 성장",
     "section": "",
     "text": "https://atqnews.com/africa-abandoned-by-husband-mariam-nabatanzi-defies-odds-thrives-as-a-single-mother-in-uganda-raising-38-children-including-multiples/\n\n\n\n\n\n\n\n\n\n\n\n\n인구학적 균형 방정식(demographic balancing equation)\n\n\\(P_t-P_0=B-D+I-O\\)\n\n\\(P_t\\): \\(t\\) 시점의 인구\n\\(P_0\\): 기준 시점의 인구\n\\(B\\): 출생\n\\(D\\): 사망\n\\(I\\): 전입\n\\(O\\): 전출\n\n\\(B-D\\): 자연 증가(natural increase) -&gt; 자연 변화(natural change)\n\\(I-O\\): 순이동(net migration) 혹은 사회 증가(social increase)\n\n\n\n\n\n\n자연변화율(rate of natural change, RNC): 자연증감율\n\\(RNC=\\frac{B-D}{P_M}\\times 1,000\\)\n\n\\(P_M\\): 연앙인구(mid-year population)\n\n우리나라 2024년의 RNC\n\n\\(RNC=\\frac{238,317-358,569}{51,037,252.5}\\times 1,000=-2.356\\) (-0.236%)\n\n\n\n\n\n\n인구성장률(population growth rate, PGR): 인구증감율\n\n연평균 인구성장률 혹은 연평균 인구증감율\n기간을 1년으로 환산했을 때의 PGR: 연간 인구 증가의 속도\n\n자연대수법: \\(P_n=P_0e^{rn}\\) -&gt; \\(r=\\frac{1}{n}\\ln\\frac{P_n}{P_0}\\)\n우리나라 2020~2024년 PGR\n\n\\(r=\\frac{1}{4}\\ln\\frac{51,805,547}{51,829,136}=-0.000114\\) (-0.011%)\n\n\n\n\n\n\n배가기간(doubling time)\n\n인구가 두 배로 증가하는데 걸리는 시간(주로 연수)\n인구성장률과 반비례 관계\n\n\\(r=\\frac{1}{n}\\ln\\frac{P_n}{P_0}\\) -&gt; \\(n=\\frac{1}{r}\\ln2=\\frac{0.693}{r}=\\frac{69.3}{r(\\%)}\\cong\\frac{70}{r(\\%)}\\)\n세계의 배가기간\n\n2025년 PGR 기준: \\(\\frac{69.3}{0.841}\\cong82.4\\)\n\n우리나라의 배가기간\n\n2020-2024 PGR 기준: \\(\\frac{69.3}{-0.011}\\cong -6,300?\\)\n\n\n\n\n\n\n\n\n\n\n\n\nhttps://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30977-6/fulltext\n\n\n\n\n\n‘인구학적 덫(demographic trap)’\n\n\n\nhttp://thepaceproject.org/4dividends/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n우리나라의 현재 인구는?: 세 종류\n\n인구총조사(2024년 11월 1일 기준): 51,805,547명\n\n내국인 49,762,803명, 외국인 2,042,744명\n\n주민등록인구(2025년 11월 30일 기준): 51,128,530명\n\n외국인 등록인구(2025년 9월 30일 기준): 1,598,380명\n\n추계인구(2026년 7월 1일 기준): 51,609,121명\n\n2024년 공표(2022년 인구 기준), 1960~2072년, 인구센서스 기반\n\n\n2010년 인구총조사 인구는 2개\n\n기존의 직접 조사 방식에 의거한 인구: 48,580,293명\n등록센서스 방식에 의거한 인구: 49,710,672명\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhttps://sangillee.snu.ac.kr/dashboard_popgeo/"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-종류",
+    "href": "Lecture_2_3_1.html#인구-구조의-종류",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 종류",
+    "text": "인구 구조의 종류\n\n생물학적 인구 구조\n\n성별ᆞ연령별 인구 구조\n혈액형, MBTI의 인구 구조 등\n\n사회ᆞ경제ᆞ문화적 인구 구조\n\n산업 및 직업, 계층, 교육수준, 종교, 취향 등"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-측정-및-시각화",
+    "href": "Lecture_2_3_1.html#인구-구조의-측정-및-시각화",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 측정 및 시각화",
+    "text": "인구 구조의 측정 및 시각화\n\n성비: 남성과 여성의 구성비\n\n\\(SR=\\frac{M}{F}\\times 100\\)\n여성 100명에 대한 상대적인 남성의 수\n100 이상일 경우 ‘남초(현상)’, 100 미만일 경우 ‘여초(현상)’\n\n종류\n\n일반 성비: 전체 인구의 성비\n출생성비(sex ratio at birth): 대략 103-107 정도\n연령별 성비\n\n남녀 간의 사망력의 차이 반영\n일반적으로 40-50대 이후부터는 여초\n\n\n일반 성비의 결정 요소\n\n출생성비, 성별 사망률의 차이, 이주자의 성비"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-성비-region",
+    "href": "Lecture_2_3_1.html#세계-성비-region",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 성비, Region",
+    "text": "세계: 성비, Region"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-성비-subregion",
+    "href": "Lecture_2_3_1.html#세계-성비-subregion",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 성비, Subregion",
+    "text": "세계: 성비, Subregion"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-성비-국가",
+    "href": "Lecture_2_3_1.html#세계-성비-국가",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 성비, 국가",
+    "text": "세계: 성비, 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-성비-국가-1",
+    "href": "Lecture_2_3_1.html#세계-성비-국가-1",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 성비, 국가",
+    "text": "세계: 성비, 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-성비-주요-국가",
+    "href": "Lecture_2_3_1.html#세계-성비-주요-국가",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 성비, 주요 국가",
+    "text": "세계: 성비, 주요 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-중위연령-region",
+    "href": "Lecture_2_3_1.html#세계-중위연령-region",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 중위연령, Region",
+    "text": "세계: 중위연령, Region"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-중위연령-subregion",
+    "href": "Lecture_2_3_1.html#세계-중위연령-subregion",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 중위연령, Subregion",
+    "text": "세계: 중위연령, Subregion"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-연령-구조-region",
+    "href": "Lecture_2_3_1.html#세계-연령-구조-region",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 연령 구조, Region",
+    "text": "세계: 연령 구조, Region"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-연령-구조-국가",
+    "href": "Lecture_2_3_1.html#세계-연령-구조-국가",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 연령 구조, 국가",
+    "text": "세계: 연령 구조, 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-연령-구조-국가-1",
+    "href": "Lecture_2_3_1.html#세계-연령-구조-국가-1",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 연령 구조, 국가",
+    "text": "세계: 연령 구조, 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-연령-구조-국가-2",
+    "href": "Lecture_2_3_1.html#세계-연령-구조-국가-2",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 연령 구조, 국가",
+    "text": "세계: 연령 구조, 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-성비-시군구",
+    "href": "Lecture_2_3_1.html#우리나라-성비-시군구",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 성비, 시군구",
+    "text": "우리나라: 성비, 시군구"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-중위연령-시군구",
+    "href": "Lecture_2_3_1.html#우리나라-중위연령-시군구",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 중위연령, 시군구",
+    "text": "우리나라: 중위연령, 시군구"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-연령-구조",
+    "href": "Lecture_2_3_1.html#우리나라-연령-구조",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 연령 구조",
+    "text": "우리나라: 연령 구조"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-인구-피라미드",
+    "href": "Lecture_2_3_1.html#우리나라-인구-피라미드",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 인구 피라미드",
+    "text": "우리나라: 인구 피라미드"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-인구-피라미드-1",
+    "href": "Lecture_2_3_1.html#우리나라-인구-피라미드-1",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 인구 피라미드",
+    "text": "우리나라: 인구 피라미드"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-부양인구비",
+    "href": "Lecture_2_3_1.html#우리나라-부양인구비",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 부양인구비",
+    "text": "우리나라: 부양인구비"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-학령인구감소",
+    "href": "Lecture_2_3_1.html#우리나라-학령인구감소",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 학령인구감소",
+    "text": "우리나라: 학령인구감소"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-1인가구-비중-증가",
+    "href": "Lecture_2_3_1.html#우리나라-1인가구-비중-증가",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 1인가구 비중 증가",
+    "text": "우리나라: 1인가구 비중 증가"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-1인가구-비중-증가-1",
+    "href": "Lecture_2_3_1.html#우리나라-1인가구-비중-증가-1",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 1인가구 비중 증가",
+    "text": "우리나라: 1인가구 비중 증가"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-웹-앱-예시",
+    "href": "Lecture_2_3_1.html#인구-웹-앱-예시",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 웹 앱 예시",
+    "text": "인구 웹 앱 예시\nhttps://sangillee.snu.ac.kr/dashboard_popgeo/"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-측정-및-시각화-1",
+    "href": "Lecture_2_3_1.html#인구-구조의-측정-및-시각화-1",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 측정 및 시각화",
+    "text": "인구 구조의 측정 및 시각화\n\n중위연령(median age)\n\n한 인구 집단을 연령 순서로 배열했을 때 정가운데에 위치하는 사람의 연령\n평균연령(mean age)와 다름\n\n연령(층)별 비중\n\n유소년층(0-14세), 청장년층(15-64세), 노년층(65세 이상)\n최근 UN: 0-4, 5-14, 15-24, 25-64, 65세 이상\n생애주기단계: 학령 인구(6-17세), 청년층(25-34세), 중장년층(40-64세) 등\n\n노령화지수(ACR, the aged to child ratio)\n\n유소년층 인구 100명에 대한 노년층 인구 수\n\\(ACR=\\frac{P_{65+}}{P_{0-14}}\\times 100\\)"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-측정-및-시각화-2",
+    "href": "Lecture_2_3_1.html#인구-구조의-측정-및-시각화-2",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 측정 및 시각화",
+    "text": "인구 구조의 측정 및 시각화\n\n인구 피라미드의 개념\n\n성별ᆞ연령별 인구 구조에 대한 가장 효과적인 시각화 수단\n수평축: 연령(층)별 인구 수 혹은 인구 비중/ 남녀 구분\n수직축: 연령(층)\n\n인구 피라미드의 유형과 인구변천모델\n\n확대형: 인구의 급격한 증가, 2기 후반 - 3기 초반, 피라미등형\n안정형: 인구의 완반한 증가 혹은 정체, 3기 중후반 - 4기, 종형, 포탄형\n수축형: 인구 감소, 5기, 방추형, 항아리형"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-측정-및-시각화-3",
+    "href": "Lecture_2_3_1.html#인구-구조의-측정-및-시각화-3",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 측정 및 시각화",
+    "text": "인구 구조의 측정 및 시각화"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-측정-및-시각화-4",
+    "href": "Lecture_2_3_1.html#인구-구조의-측정-및-시각화-4",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 측정 및 시각화",
+    "text": "인구 구조의 측정 및 시각화"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-측정-및-시각화-5",
+    "href": "Lecture_2_3_1.html#인구-구조의-측정-및-시각화-5",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 측정 및 시각화",
+    "text": "인구 구조의 측정 및 시각화\n\n성별 구조\n\n성비: 전체 성비, 출생성비, 연령별 성비\n\n연령별 구조\n\n중위연령\n연령(층) 비중: 유소년층(0-14), 청장년층(15-64), 노년층(65세 이상)\n\n인구 피라미드\n\n성별ᆞ연령별 인구 구조의 종합적 시각화 기법\n\n인구 고령화\n\n노인 인구 비중, 노령화 지수\n\n부양 인구비: 인구 구조에 대한 경제적 해석\n\n총부양인구비/유소년부양인구비/노년부양인구비"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-사회-문제화",
+    "href": "Lecture_2_3_1.html#인구-구조의-사회-문제화",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 사회 문제화",
+    "text": "인구 구조의 사회 문제화\n\n성비 불균형(gender imbalance)\n\n성비가 100으로부터 ‘상당히’ 벗어나 있는 상태\n\n인구 고령화(population aging)\n\n한 인구의 전반적인 연령이 ‘상당한’ 수준으로 높아지는 현상\n중위 연령의 상승, 노령화지수의 상승\n노년층 인구 비중의 증가\n\n고령화 사회(aging society): 7-14%\n고령 사회(aged society): 14-20%\n초고령 사회(super-aged society): 20% 이상\n\n\n학령 인구 감소(school-age population decrease)\n\n학생 연령층의 상대적으로 높은 인구 감소율"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-사회-문제화-1",
+    "href": "Lecture_2_3_1.html#인구-구조의-사회-문제화-1",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 사회 문제화",
+    "text": "인구 구조의 사회 문제화\n\n부양인구비: 개념\n\n인구 구조를 부양이라는 ’경제적 부담’으로 해석\n부양 인구(청장년층) 대비 피부양 인구(유소년층 & 노년층)의 비(ratio)\n\n측도\n\n총부양인구부(TDR, total dependency ratio)\n\n\\(TDR=\\frac{P_{0-14}+P_{65+}}{P_{15-64}}\\times 100\\)\n\\(TDR=YDR+ODR\\)\n\n유소년부양인구비(YDR, youth (child) dependency ratio)\n\n\\(YDR=\\frac{P_{0-14}}{P_{15-64}}\\times 100\\)\n\n노년부양인구비(ORD, old-age dependency ratio)\n\n\\(ODR=\\frac{P_{65+}}{P_{15-64}}\\times 100\\)"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-중위-연령-국가",
+    "href": "Lecture_2_3_1.html#세계-중위-연령-국가",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 중위 연령, 국가",
+    "text": "세계: 중위 연령, 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-인구-피라미드",
+    "href": "Lecture_2_3_1.html#세계-인구-피라미드",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 인구 피라미드",
+    "text": "세계: 인구 피라미드"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#세계-인구부양비",
+    "href": "Lecture_2_3_1.html#세계-인구부양비",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "세계: 인구부양비",
+    "text": "세계: 인구부양비"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-성비-전체",
+    "href": "Lecture_2_3_1.html#우리나라-성비-전체",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 성비, 전체",
+    "text": "우리나라: 성비, 전체"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-중위연령-전체",
+    "href": "Lecture_2_3_1.html#우리나라-중위연령-전체",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 중위연령, 전체",
+    "text": "우리나라: 중위연령, 전체"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-중위연령-서울-동",
+    "href": "Lecture_2_3_1.html#우리나라-중위연령-서울-동",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 중위연령, 서울, 동",
+    "text": "우리나라: 중위연령, 서울, 동"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-인구-고령화",
+    "href": "Lecture_2_3_1.html#우리나라-인구-고령화",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 인구 고령화",
+    "text": "우리나라: 인구 고령화"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-학령-인구-감소",
+    "href": "Lecture_2_3_1.html#우리나라-학령-인구-감소",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 학령 인구 감소",
+    "text": "우리나라: 학령 인구 감소"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-1인가구-비중-증가-전체",
+    "href": "Lecture_2_3_1.html#우리나라-1인가구-비중-증가-전체",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 1인가구 비중 증가, 전체",
+    "text": "우리나라: 1인가구 비중 증가, 전체"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-1인가구-비중-증가-시군구",
+    "href": "Lecture_2_3_1.html#우리나라-1인가구-비중-증가-시군구",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 1인가구 비중 증가, 시군구",
+    "text": "우리나라: 1인가구 비중 증가, 시군구"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#우리나라-1인가구-비중-증가-서울-동",
+    "href": "Lecture_2_3_1.html#우리나라-1인가구-비중-증가-서울-동",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "우리나라: 1인가구 비중 증가, 서울, 동",
+    "text": "우리나라: 1인가구 비중 증가, 서울, 동"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-측정",
+    "href": "Lecture_2_3_1.html#인구-구조의-측정",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 측정",
+    "text": "인구 구조의 측정\n\n성비: 남성과 여성의 구성비\n\n\\(SR=\\frac{M}{F}\\times 100\\)\n여성 100명에 대한 상대적인 남성의 수\n100 이상일 경우 ‘남초(현상)’, 100 미만일 경우 ‘여초(현상)’\n\n종류\n\n일반 성비: 전체 인구의 성비\n출생성비(sex ratio at birth): 대략 103-107 정도\n연령별 성비\n\n남녀 간의 사망력의 차이 반영\n일반적으로 40-50대 이후부터는 여초\n\n\n일반 성비의 결정 요소\n\n출생성비, 성별 사망률의 차이, 이주자의 성비"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-측정-1",
+    "href": "Lecture_2_3_1.html#인구-구조의-측정-1",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 측정",
+    "text": "인구 구조의 측정\n\n중위연령(median age)\n\n한 인구 집단을 연령 순서로 배열했을 때 정가운데에 위치하는 사람의 연령\n평균연령(mean age)와 다름\n\n연령(층)별 비중\n\n유소년층(0-14세), 청장년층(15-64세), 노년층(65세 이상)\n최근 UN: 0-4, 5-14, 15-24, 25-64, 65세 이상\n생애주기단계: 학령 인구(6-17세), 청년층(25-34세), 중장년층(40-64세) 등\n\n노령화지수(ACR, the aged to child ratio)\n\n유소년층 인구 100명에 대한 노년층 인구 수\n\\(ACR=\\frac{P_{65+}}{P_{0-14}}\\times 100\\)"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-시각화",
+    "href": "Lecture_2_3_1.html#인구-구조의-시각화",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 시각화",
+    "text": "인구 구조의 시각화\n\n인구 피라미드의 개념\n\n성별ᆞ연령별 인구 구조에 대한 가장 효과적인 시각화 수단\n수평축: 연령(층)별 인구 수 혹은 인구 비중/ 남녀 구분\n수직축: 연령(층)\n\n인구 피라미드의 유형과 인구변천모델\n\n확대형: 인구의 급격한 증가, 2기 후반 - 3기 초반, 피라미드형\n안정형: 인구의 완반한 증가 혹은 정체, 3기 중후반 - 4기, 종형, 포탄형\n수축형: 인구 감소, 5기, 방추형, 항아리형"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-시각화-1",
+    "href": "Lecture_2_3_1.html#인구-구조의-시각화-1",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 시각화",
+    "text": "인구 구조의 시각화"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-시각화-2",
+    "href": "Lecture_2_3_1.html#인구-구조의-시각화-2",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 시각화",
+    "text": "인구 구조의 시각화"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-사회-이슈화",
+    "href": "Lecture_2_3_1.html#인구-구조의-사회-이슈화",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 사회 이슈화",
+    "text": "인구 구조의 사회 이슈화\n\n‘성비 불균형(gender imbalance)’\n\n성비가 100으로부터 ‘상당히’ 벗어나 있는 상태\n\n‘인구 고령화(population aging)’\n\n한 인구의 전반적인 연령이 ‘상당한’ 수준으로 높아지는 현상\n중위 연령의 상승, 노령화지수의 상승\n노년층 인구 비중의 증가\n\n고령화 사회(aging society): 7-14%\n고령 사회(aged society): 14-20%\n초고령 사회(super-aged society): 20% 이상\n\n\n‘학령 인구 감소(school-age population decrease)’\n\n학생 연령층의 상대적으로 높은 인구 감소율"
+  },
+  {
+    "objectID": "Lecture_2_3_1.html#인구-구조의-사회-이슈화-1",
+    "href": "Lecture_2_3_1.html#인구-구조의-사회-이슈화-1",
+    "title": "인구 현상과 인문사회 콘텐츠 2-1\n인구 구조",
+    "section": "인구 구조의 사회 이슈화",
+    "text": "인구 구조의 사회 이슈화\n\n부양인구비: 개념\n\n인구 구조를 부양이라는 ’경제적 부담’으로 해석\n부양 인구(청장년층) 대비 피부양 인구(유소년층 & 노년층)의 비(ratio)\n\n측도\n\n총부양인구비(TDR, total dependency ratio)\n\n\\(TDR=\\frac{P_{0-14}+P_{65+}}{P_{15-64}}\\times 100\\)\n\\(TDR=YDR+ODR\\)\n\n유소년부양인구비(YDR, youth (child) dependency ratio)\n\n\\(YDR=\\frac{P_{0-14}}{P_{15-64}}\\times 100\\)\n\n노년부양인구비(ODR, old-age dependency ratio)\n\n\\(ODR=\\frac{P_{65+}}{P_{15-64}}\\times 100\\)"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#출산력의-측정-cbr",
+    "href": "Lecture_2_3_2.html#출산력의-측정-cbr",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "출산력의 측정: CBR",
+    "text": "출산력의 측정: CBR\n\n조출생률(crude birth rate)\n인구 1,000명 당 출생아 수\n\\(CBR=\\frac{B}{P_M}\\times1,000\\)\n\n\\(B\\): 출생아 수\n\\(P_M\\): 연앙인구\n\n장점\n\n자료 획득이 용이, 계산이 편리\n출생이 인구 증가에 기여한 정도 파악 용이\n\n단점: 실질적인 출산력 측정에 한계, 인구 간 출산력 비교의 어려움\n\n인구 구조(가임연령층 인구 비중)의 효과 + 혼인율(출산가담률)의 차이"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#출산력의-측정-tfr",
+    "href": "Lecture_2_3_2.html#출산력의-측정-tfr",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "출산력의 측정: TFR",
+    "text": "출산력의 측정: TFR\n\n합계출산율(total fertility rate)\n현 연령(층)별 출산율이 변화하지 않을 경우, 한 여성이 평생 동안 낳는 평균 자녀 수\n\\(TFR=A\\times\\sum_a\\frac{B_a}{F_a}\\)\n\n\\(A\\): 연령(층)의 단위 연수(예: 1 혹은 5)\n한 여성이 가임연령 기간(보통 15-49세)를 거치면서 각게 되는 각세별 출산 확률의 합산값\n\n장점\n\n가장 합리적, 가장 널리 사용됨\n인구대체수준(population replacement level): 인구 규모를 유지하기 위한 최소한의 출산 수준 -&gt; TFR = 2.1\n\n단점: 기간 합계출산율 vs. 코호트 합계출산율"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#출산-세계-tfr-subregion",
+    "href": "Lecture_2_3_2.html#출산-세계-tfr-subregion",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "출산: 세계, TFR, Subregion",
+    "text": "출산: 세계, TFR, Subregion"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#출산-세계-tfr-국가",
+    "href": "Lecture_2_3_2.html#출산-세계-tfr-국가",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "출산: 세계, TFR, 국가",
+    "text": "출산: 세계, TFR, 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#출산-우리나라-cbr-전체",
+    "href": "Lecture_2_3_2.html#출산-우리나라-cbr-전체",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "출산: 우리나라, CBR, 전체",
+    "text": "출산: 우리나라, CBR, 전체"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#출산-우리나라-cbr-vs.-tfr-전체",
+    "href": "Lecture_2_3_2.html#출산-우리나라-cbr-vs.-tfr-전체",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "출산: 우리나라, CBR vs. TFR, 전체",
+    "text": "출산: 우리나라, CBR vs. TFR, 전체"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#출산-우리나라-cbr-vs.-tfr-시군구",
+    "href": "Lecture_2_3_2.html#출산-우리나라-cbr-vs.-tfr-시군구",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "출산: 우리나라, CBR vs. TFR, 시군구",
+    "text": "출산: 우리나라, CBR vs. TFR, 시군구"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#사망력의-측정-cdr",
+    "href": "Lecture_2_3_2.html#사망력의-측정-cdr",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "사망력의 측정: CDR",
+    "text": "사망력의 측정: CDR\n\n조사망률(crude death rate)\n\\(CDR=\\frac{D}{P_M}\\times1,000\\)\n\n\\(D\\): 사망자 수\n\\(P_M\\): 연앙인구\n\n장점\n\n자료 획득이 용이, 계산이 간편\n사망이 인구 감소에 기여한 정도 파악 용이\n\n단점: 실질적인 사망력 측정에 한계, 인구 간 비교의 어려움\n\n인구 구조(노년층 비중)의 효과"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#사망력의-측정-sdr",
+    "href": "Lecture_2_3_2.html#사망력의-측정-sdr",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "사망력의 측정: SDR",
+    "text": "사망력의 측정: SDR\n\n표준화 사망률(standardized death rate)\n해당 인구의 연령층별 사망률 데이터가 존재할 경우\n표준(준거) 인구의 연령 구조(인구 규모 포함)를 상정했을 때의 조사망률을 계산\n\\(SDR=\\frac{\\sum_a(\\frac{D_{a,r}}{P_{a,r}}\\times P_{a,s})}{P_s}\\times 1,000\\)\n\n\\(D_{a,r}\\): 해당 인구 \\(r\\)의 \\(a\\) 연령층 사망자 수\n\\(P_{a,r}\\): 해당 인구 \\(r\\)의 \\(a\\) 연령층 인구 수\n\\(P_{a,s}\\): 표준(준거) 인구 \\(s\\)의 \\(a\\) 연령 인구 수\n\\(P_s\\): 표준(준거) 인구 \\(s\\)의 전체 인구 수"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#사망-세계-cdr-subregion",
+    "href": "Lecture_2_3_2.html#사망-세계-cdr-subregion",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "사망: 세계, CDR, Subregion",
+    "text": "사망: 세계, CDR, Subregion"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#사망-세계-cdr-국가",
+    "href": "Lecture_2_3_2.html#사망-세계-cdr-국가",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "사망: 세계, CDR, 국가",
+    "text": "사망: 세계, CDR, 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#사망-우리나라-cdr-전체",
+    "href": "Lecture_2_3_2.html#사망-우리나라-cdr-전체",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "사망: 우리나라, CDR, 전체",
+    "text": "사망: 우리나라, CDR, 전체"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#사망-우리나라-cdr-vs.-sdr-시군구",
+    "href": "Lecture_2_3_2.html#사망-우리나라-cdr-vs.-sdr-시군구",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "사망: 우리나라, CDR vs. SDR, 시군구",
+    "text": "사망: 우리나라, CDR vs. SDR, 시군구"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#자연변화-우리나라-전체",
+    "href": "Lecture_2_3_2.html#자연변화-우리나라-전체",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "자연변화: 우리나라, 전체",
+    "text": "자연변화: 우리나라, 전체"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#자연변화-우리나라-시군구",
+    "href": "Lecture_2_3_2.html#자연변화-우리나라-시군구",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "자연변화: 우리나라, 시군구",
+    "text": "자연변화: 우리나라, 시군구"
+  },
+  {
+    "objectID": "Lecture_2_3_2.html#인구-웹-앱-예시",
+    "href": "Lecture_2_3_2.html#인구-웹-앱-예시",
+    "title": "인구 현상과 인문사회 콘텐츠 2-2\n인구 동태",
+    "section": "인구 웹 앱 예시",
+    "text": "인구 웹 앱 예시\nhttps://sangillee.snu.ac.kr/dashboard_popgeo/"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#인구-이동-연구의-공간적-프레임워크-개념",
+    "href": "Lecture_2_3_3.html#인구-이동-연구의-공간적-프레임워크-개념",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "인구 이동 연구의 공간적 프레임워크: 개념",
+    "text": "인구 이동 연구의 공간적 프레임워크: 개념\n\n전역 스케일과 지역 스케일의 결정을 포함한 인구 이동 연구의 공간적 세팅\n전역 스케일(global scale)\n\n인구 이동이 고려되는 폐쇄 시스템의 외연, 공간범위(spatial scope)\n\n지역 스케일(regional scale)\n\n전역 스케일을 구성하는 공간개체들, 공간단위(spatial unit)\n인구 이동은 지역 스케일의 공간단위 간 이동을 의미\n정의 스케일: 인구 이동을 정의하는 지역 스케일"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#인구-이동-연구의-공간적-프레임워크-국제",
+    "href": "Lecture_2_3_3.html#인구-이동-연구의-공간적-프레임워크-국제",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "인구 이동 연구의 공간적 프레임워크: 국제",
+    "text": "인구 이동 연구의 공간적 프레임워크: 국제"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#인구-이동-연구의-공간적-프레임워크-국내",
+    "href": "Lecture_2_3_3.html#인구-이동-연구의-공간적-프레임워크-국내",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "인구 이동 연구의 공간적 프레임워크: 국내",
+    "text": "인구 이동 연구의 공간적 프레임워크: 국내"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#측정-전역-스케일",
+    "href": "Lecture_2_3_3.html#측정-전역-스케일",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "측정: 전역 스케일",
+    "text": "측정: 전역 스케일\n\n총이동 및 총이동률\n\n총이동(gross migration, GR): 특정한 전역 스케일 내에서 발생한 총 이동자 수\n\n연간 국제 인구 이동자 수\n연간 국내 인구 이동자 수: 우리나라의 경우 2024년 6,283,319명\n\n총이동률(gross migration rate, GMR): 총이동을 연앙인구로 나누어 백분률로 나타낸 것으로, 이동력(이동 경향성, 이동 확률)의 총체적 지표\n\n\\(GMR=\\frac{GM}{P_M}\\times 100\\)\n연간 국제 총이동률\n연간 국내 총이동률: 우리나라의 경우 2024년 12.3%\n\n\n성별ᆞ연령별 이동 및 이동률\n\n\\(GMR^s_a=\\frac{GM^s_a}{P^s_a}\\times 100\\)\n우리나라: 2024년 20-24세 21.7%, 55-59세 8.5%"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#측정-전역-스케일-1",
+    "href": "Lecture_2_3_3.html#측정-전역-스케일-1",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "측정: 전역 스케일",
+    "text": "측정: 전역 스케일\n\n‘전역 스케일 측도의 지역 스케일 의존성’\n\n특정한 지역 스케일의 공간단위 경계를 가로지르는 인구 이동\n\n총이동(총이동률)(우리나라, 2024년)\n\n읍면동(정의 스케일): 6,283,319명(12.3%)\n시군구 스케일: 4,041,782명(7.9%)\n시도 스케일: 2,174,527명(4.3%)\n시군 스케일: 2,984,000명(5.8%)"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#측정-지역-스케일",
+    "href": "Lecture_2_3_3.html#측정-지역-스케일",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "측정: 지역 스케일",
+    "text": "측정: 지역 스케일\n\n규모\n\n전입(im-migration, \\(IM_i\\)): 다른 지역을 떠나 해당 지역으로 이동한 인구 -&gt; 전입자수\n전출(out-migration, \\(OM_i\\)): 해당 지역을 떠나 다른 지역으로 이동한 인구 -&gt; 전출자수\n총이동(gross migration, \\(GM_i\\)): 전입 + 전출 -&gt; \\(GM_i=IM_i+OM_i\\)\n\n이동의 전체적인 규모\n전역적 스케일의 총이동과 다른 개념\n\n순이동(net migration, \\(NM_i\\)): 전입 - 전출 -&gt; \\(NM_i=IM_i-OM_i\\)\n\n양수: 전입 초과 혹은 ‘순전입(net in-migration)’\n음수: 전출 초과 혹은 ‘순전출(net out-migration)’"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#측정-지역-스케일-1",
+    "href": "Lecture_2_3_3.html#측정-지역-스케일-1",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "측정: 지역 스케일",
+    "text": "측정: 지역 스케일"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#측정-지역-스케일-2",
+    "href": "Lecture_2_3_3.html#측정-지역-스케일-2",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "측정: 지역 스케일",
+    "text": "측정: 지역 스케일\n\n비율: 규모를 연앙인구에 대한 백분율(%)로 나타낸 것\n\n전입률(in-migration rate): \\(IMR_i=\\frac{IM_i}{P_M}\\times 100\\)\n\n전입이 인구 증가에 기여하는 정도\n\n전출률(out-migration rate): \\(OMR_i=\\frac{OM_i}{P_M}\\times 100\\)\n\n전출이 인구 감소에 기여하는 정도\n인구 이동의 확률: 전출 확률\n\n총이동률(gross migration rate): \\(GMR_i=\\frac{IM_i+OM_i}{P_M}\\times 100\\)\n순이동률(net migration, rate): \\(NMR_i=\\frac{IM_i-OM_i}{P_M}\\times 100\\)\n\n사회 증감이 인구 증감에 기여하는 정도"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#측정-지역-스케일-3",
+    "href": "Lecture_2_3_3.html#측정-지역-스케일-3",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "측정: 지역 스케일",
+    "text": "측정: 지역 스케일"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-nm-sdg-region",
+    "href": "Lecture_2_3_3.html#세계-nm-sdg-region",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: NM, SDG Region",
+    "text": "세계: NM, SDG Region"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-nm-국가",
+    "href": "Lecture_2_3_3.html#세계-nm-국가",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: NM, 국가",
+    "text": "세계: NM, 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-nmr-국가",
+    "href": "Lecture_2_3_3.html#세계-nmr-국가",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: NMR, 국가",
+    "text": "세계: NMR, 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-국제-인구-이동-스톡-데이터",
+    "href": "Lecture_2_3_3.html#세계-국제-인구-이동-스톡-데이터",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: 국제 인구 이동 스톡 데이터",
+    "text": "세계: 국제 인구 이동 스톡 데이터\n\nhttps://www.un.org/development/desa/pd/content/international-migrant-stock"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-ims-전체",
+    "href": "Lecture_2_3_3.html#세계-ims-전체",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: IMS, 전체",
+    "text": "세계: IMS, 전체\n\n총이동\n\n153,916,063(1990년) -&gt; 174,566,152(2000년) -&gt; 221,020,392(2010) -&gt; 250,042,020(2015) -&gt; 275,284,031(2020) -&gt; 304,021,813(2024)\n2024년 현재 304,021,813명의 인구가 자신이 태어나지 않은 나라에 살고 있음\n\n총이동률(%)\n\n2.9(1990) -&gt; 2.8(2000) -&gt; 3.1(2010) -&gt; 3.3(2015) -&gt; 3.5(2020) -&gt; 3.7(2024)\n2024년 현재 전 세계 인구의 3.7%가 자신이 태어나지 않은 나라에 살고 있음"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-ims-sdg-region",
+    "href": "Lecture_2_3_3.html#세계-ims-sdg-region",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: IMS, SDG Region",
+    "text": "세계: IMS, SDG Region"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-ims도착지-기준-국가",
+    "href": "Lecture_2_3_3.html#세계-ims도착지-기준-국가",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: IMS(도착지 기준), 국가",
+    "text": "세계: IMS(도착지 기준), 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-ims도착지-기준-우리나라",
+    "href": "Lecture_2_3_3.html#세계-ims도착지-기준-우리나라",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: IMS(도착지 기준), 우리나라",
+    "text": "세계: IMS(도착지 기준), 우리나라"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-ims출발지-기준-국가",
+    "href": "Lecture_2_3_3.html#세계-ims출발지-기준-국가",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: IMS(출발지 기준), 국가",
+    "text": "세계: IMS(출발지 기준), 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-ims출발지-기준-우리나라",
+    "href": "Lecture_2_3_3.html#세계-ims출발지-기준-우리나라",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: IMS(출발지 기준), 우리나라",
+    "text": "세계: IMS(출발지 기준), 우리나라"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-외국-태생자-비중-국가",
+    "href": "Lecture_2_3_3.html#세계-외국-태생자-비중-국가",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: 외국 태생자 비중, 국가",
+    "text": "세계: 외국 태생자 비중, 국가"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#우리나라-gm-gmr-전체",
+    "href": "Lecture_2_3_3.html#우리나라-gm-gmr-전체",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "우리나라: GM, GMR, 전체",
+    "text": "우리나라: GM, GMR, 전체"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#우리나라-nm-권역간-2024년",
+    "href": "Lecture_2_3_3.html#우리나라-nm-권역간-2024년",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "우리나라: NM, 권역간, 2024년",
+    "text": "우리나라: NM, 권역간, 2024년\n\n통계청, 2024년 국내인구이동통계 결과, 보도자료, 2025년 1월 24일"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#우리나라-nm-nmr-시도",
+    "href": "Lecture_2_3_3.html#우리나라-nm-nmr-시도",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "우리나라: NM, NMR, 시도",
+    "text": "우리나라: NM, NMR, 시도"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#우리나라-인구-이동-흐름전체-인구-시도",
+    "href": "Lecture_2_3_3.html#우리나라-인구-이동-흐름전체-인구-시도",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "우리나라: 인구 이동 흐름(전체 인구), 시도",
+    "text": "우리나라: 인구 이동 흐름(전체 인구), 시도"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#우리나라-인구-이동-흐름20-24세-시도",
+    "href": "Lecture_2_3_3.html#우리나라-인구-이동-흐름20-24세-시도",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "우리나라: 인구 이동 흐름(20-24세), 시도",
+    "text": "우리나라: 인구 이동 흐름(20-24세), 시도"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#우리나라-인구-이동-흐름65-69세-시도",
+    "href": "Lecture_2_3_3.html#우리나라-인구-이동-흐름65-69세-시도",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "우리나라: 인구 이동 흐름(65-69세), 시도",
+    "text": "우리나라: 인구 이동 흐름(65-69세), 시도"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#우리나라-nmr-시군구",
+    "href": "Lecture_2_3_3.html#우리나라-nmr-시군구",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "우리나라: NMR, 시군구",
+    "text": "우리나라: NMR, 시군구"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#우리나라-연령별-nm-서울",
+    "href": "Lecture_2_3_3.html#우리나라-연령별-nm-서울",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "우리나라: 연령별 NM, 서울",
+    "text": "우리나라: 연령별 NM, 서울"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#우리나라-연령별-nm-경기",
+    "href": "Lecture_2_3_3.html#우리나라-연령별-nm-경기",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "우리나라: 연령별 NM, 경기",
+    "text": "우리나라: 연령별 NM, 경기"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#인구-웹-앱-예시",
+    "href": "Lecture_2_3_3.html#인구-웹-앱-예시",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "인구 웹 앱 예시",
+    "text": "인구 웹 앱 예시\nhttps://sangillee.snu.ac.kr/dashboard_popgeo/"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-국제-인구-이동-스톡-데이터-1",
+    "href": "Lecture_2_3_3.html#세계-국제-인구-이동-스톡-데이터-1",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: 국제 인구 이동 스톡 데이터",
+    "text": "세계: 국제 인구 이동 스톡 데이터\n\n원천\n\n각 국가의 외국인 관리 데이터에 기반: 출생국 혹은 전거주국\n1990, 1995, 2000, 2005, 2010, 2015, 2020, 2024\n\n“특정 시점에, 자신이 태어난 국가가 아닌 다른 국가에 살고 있는 사람”\n\n2024년 약 3억 4백만 명\n\n특정 시점, 특정 국가의 IMS\n\n국제 이입자의 (생존, 비이출) 누적 값을 의미: 우리나라 2024년 1,811,507명\n\n특정 시점까지 진행된 국제적 인구 이동 흐름의 총합\n\n‘스톡 흐름(stock flow)’"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-ims-데이터",
+    "href": "Lecture_2_3_3.html#세계-ims-데이터",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: IMS 데이터",
+    "text": "세계: IMS 데이터\n\nhttps://www.un.org/development/desa/pd/content/international-migrant-stock"
+  },
+  {
+    "objectID": "Lecture_2_3_3.html#세계-ims-데이터-1",
+    "href": "Lecture_2_3_3.html#세계-ims-데이터-1",
+    "title": "인구 현상과 인문사회 콘텐츠 2-3\n인구 이동",
+    "section": "세계: IMS 데이터",
+    "text": "세계: IMS 데이터\n\n원천\n\n각 국가의 외국인 관리 데이터에 기반: 출생국 혹은 전거주국\n1990, 1995, 2000, 2005, 2010, 2015, 2020, 2024\n\n“특정 시점에, 자신이 태어난 국가가 아닌 다른 국가에 살고 있는 사람”\n\n2024년 약 3억 4백만 명\n\n특정 시점, 특정 국가의 IMS\n\n국제 이입자의 (생존, 비이출) 누적 값을 의미: 우리나라 2024년 1,811,507명\n\n특정 시점까지 진행된 국제적 인구 이동 흐름의 총합\n\n‘스톡 흐름(stock flow)’"
   }
 ]

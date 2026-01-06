@@ -1,0 +1,204 @@
+---
+title: |
+  | [인구 현상과 인문사회 콘텐츠 2-2]{style="color:coral;font-size:0.6em"}   
+  | [인구 동태]{style="font-size:1em"} 
+author: <br> 이상일(서울대학교 지리교육과 교수)
+date: 2026-01-07
+format: 
+  revealjs:
+    logo: snu_edu_1.png
+    footer: https://sangillee.snu.ac.kr/
+    transition: fade
+    transition-speed: fast
+    margin: 0.05
+    center: false
+    # smaller: false
+    # scrollable: false
+    code-link: true
+    code-line-numbers: false
+    code-copy: true
+    code-overflow: scroll
+    slide-number: true
+    width: 960 * 1.5
+    height: 700 * 1.5
+    lightbox: false
+    # min-scale: 1
+    # max-scale: 1
+    pointer:
+      pointerSize: 20
+      color: red
+    menu: true
+    embed-resources: false
+    theme: [default, custom_hq_pretendard_step.scss] # 슬라이드 본문 폰트 크기 조정
+    revealjs-plugins:
+      - pointer
+    css: styles.css
+execute: 
+  warning: false
+  error: false
+  freeze: auto  
+dpi: 600
+editor: visual
+webr: 
+  show-startup-message: false     
+  packages: []
+filters:
+  - webr
+# suppress-bibliography: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# [인구 동태]{style="color:coral"} <br> [출생과 사망]{style="font-size:4rem"}
+
+## 출산력의 측정: CBR
+
+-   조출생률(crude birth rate)
+
+-   인구 1,000명 당 출생아 수
+
+-   $CBR=\frac{B}{P_M}\times1,000$
+
+    -   $B$: 출생아 수
+
+    -   $P_M$: 연앙인구
+
+-   장점
+
+    -   자료 획득이 용이, 계산이 편리
+
+    -   출생이 인구 증가에 기여한 정도 파악 용이
+
+-   단점: 실질적인 출산력 측정에 한계, 인구 간 출산력 비교의 어려움
+
+    -   인구 구조(가임연령층 인구 비중)의 효과 + 혼인율(출산가담률)의 차이
+
+## 
+
+![](images/clipboard-315218159.png)
+
+## 출산력의 측정: TFR
+
+-   합계출산율(total fertility rate)
+
+-   현 연령(층)별 출산율이 변화하지 않을 경우, 한 여성이 평생 동안 낳는 평균 자녀 수
+
+-   $TFR=A\times\sum_a\frac{B_a}{F_a}$
+
+    -   $A$: 연령(층)의 단위 연수(예: 1 혹은 5)
+
+    -   한 여성이 가임연령 기간(보통 15-49세)를 거치면서 각게 되는 각세별 출산 확률의 합산값
+
+-   장점
+
+    -   가장 합리적, 가장 널리 사용됨
+
+    -   인구대체수준(population replacement level): 인구 규모를 유지하기 위한 최소한의 출산 수준 -\> TFR = 2.1
+
+-   단점: 기간 합계출산율 vs. 코호트 합계출산율
+
+## 
+
+![](images/clipboard-1008632353.png)
+
+## 출산: 세계, TFR, Subregion
+
+![](images/Total%20Fertility%20Rate%20(TFR)%20by%20Subregion,%202025.jpg)
+
+## 출산: 세계, TFR, 국가
+
+![](images/Total%20Fertility%20Rate%20(TFR),%202025.jpg)
+
+## 출산: 우리나라, CBR, 전체
+
+![](images/Births%20and%20CBR%20in%20South%20Korea,%201970%20to%202024.jpg)
+
+## 출산: 우리나라, CBR vs. TFR, 전체
+
+![](images/CBR%20and%20TFR%20in%20South%20Korea,%201970%20to%202024.jpg)
+
+## 출산: 우리나라, CBR vs. TFR, 시군구
+
+::: {layout-ncol="2" style="justify-items: center"}
+![](images/Crude%20Birth%20Rate%20(CBR),%202023.jpg){style="height:900px"}
+
+![](images/Total%20Fertility%20Rate%20(TFR),%202023.jpg){style="height:900px"}
+:::
+
+## 사망력의 측정: CDR
+
+-   조사망률(crude death rate)
+
+-   $CDR=\frac{D}{P_M}\times1,000$
+
+    -   $D$: 사망자 수
+
+    -   $P_M$: 연앙인구
+
+-   장점
+
+    -   자료 획득이 용이, 계산이 간편
+
+    -   사망이 인구 감소에 기여한 정도 파악 용이
+
+-   단점: 실질적인 사망력 측정에 한계, 인구 간 비교의 어려움
+
+    -   인구 구조(노년층 비중)의 효과
+
+## 
+
+![](images/clipboard-3005595381.png)
+
+## 사망력의 측정: SDR
+
+-   표준화 사망률(standardized death rate)
+
+-   해당 인구의 연령층별 사망률 데이터가 존재할 경우
+
+-   표준(준거) 인구의 연령 구조(인구 규모 포함)를 상정했을 때의 조사망률을 계산
+
+-   $SDR=\frac{\sum_a(\frac{D_{a,r}}{P_{a,r}}\times P_{a,s})}{P_s}\times 1,000$
+
+    -   $D_{a,r}$: 해당 인구 $r$의 $a$ 연령층 사망자 수
+
+    -   $P_{a,r}$: 해당 인구 $r$의 $a$ 연령층 인구 수
+
+    -   $P_{a,s}$: 표준(준거) 인구 $s$의 $a$ 연령 인구 수
+
+    -   $P_s$: 표준(준거) 인구 $s$의 전체 인구 수
+
+## 
+
+![](images/clipboard-2514092177.png)
+
+## 사망: 세계, CDR, Subregion
+
+![](images/Crude%20Death%20Rate%20(CBR)%20by%20Subregion,%202025.jpg)
+
+## 사망: 세계, CDR, 국가
+
+![](images/Crude%20Death%20Rate%20(CDR),%202025.jpg)
+
+## 사망: 우리나라, CDR, 전체
+
+![](images/Deaths%20and%20CDR%20in%20South%20Korea,%201970%20to%202024.jpg)
+
+## 사망: 우리나라, CDR vs. SDR, 시군구
+
+::: {layout-ncol="2" style="justify-items: center"}
+![](images/Crude%20Death%20Rate%20(CDR),%202023.jpg){style="height:900px"}
+
+![](images/Standardized%20Death%20Rate%20(SDR),%202023.jpg){style="height:900px"}
+:::
+
+## 자연변화: 우리나라, 전체
+
+![](images/Natural%20Changes%20in%20South%20Korea,%201970%20to%202024.jpg)
+
+## 자연변화: 우리나라, 시군구
+
+![](images/Rate%20of%20Natural%20Change%20(RNC),%202023sgg2.jpg){fig-align="center"}
+
+## 인구 웹 앱 예시
+
+<https://sangillee.snu.ac.kr/dashboard_popgeo/>

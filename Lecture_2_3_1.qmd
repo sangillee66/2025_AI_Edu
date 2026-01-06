@@ -1,0 +1,309 @@
+---
+title: |
+  | [인구 현상과 인문사회 콘텐츠 2-1]{style="color:coral;font-size:0.6em"}   
+  | [인구 구조]{style="font-size:1em"} 
+author: <br> 이상일(서울대학교 지리교육과 교수)
+date: 2026-01-07
+format: 
+  revealjs:
+    logo: snu_edu_1.png
+    footer: https://sangillee.snu.ac.kr/
+    transition: fade
+    transition-speed: fast
+    margin: 0.05
+    center: false
+    # smaller: false
+    # scrollable: false
+    code-link: true
+    code-line-numbers: false
+    code-copy: true
+    code-overflow: scroll
+    slide-number: true
+    width: 960 * 1.5
+    height: 700 * 1.5
+    lightbox: false
+    # min-scale: 1
+    # max-scale: 1
+    pointer:
+      pointerSize: 20
+      color: red
+    menu: true
+    embed-resources: false
+    theme: [default, custom_hq_pretendard_step.scss] # 슬라이드 본문 폰트 크기 조정
+    revealjs-plugins:
+      - pointer
+    css: styles.css
+execute: 
+  warning: false
+  error: false
+  freeze: auto  
+dpi: 600
+editor: visual
+webr: 
+  show-startup-message: false     
+  packages: []
+filters:
+  - webr
+# suppress-bibliography: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# [인구 구조]{style="color:coral"} <br> [속성에 의거한 인구 구성]{style="font-size:4rem"}
+
+## 인구 구조의 종류
+
+-   생물학적 인구 구조
+
+    -   성별ᆞ연령별 인구 구조
+    -   혈액형, MBTI의 인구 구조 등
+
+-   사회ᆞ경제ᆞ문화적 인구 구조
+
+    -   산업 및 직업, 계층, 교육수준, 종교, 취향 등
+
+## 인구 구조의 측정
+
+-   성비: 남성과 여성의 구성비
+
+    -   $SR=\frac{M}{F}\times 100$
+
+    -   여성 100명에 대한 상대적인 남성의 수
+
+    -   100 이상일 경우 '남초(현상)', 100 미만일 경우 '여초(현상)'
+
+-   종류
+
+    -   일반 성비: 전체 인구의 성비
+
+    -   출생성비(sex ratio at birth): 대략 103-107 정도
+
+    -   연령별 성비
+
+        -   남녀 간의 사망력의 차이 반영
+
+        -   일반적으로 40-50대 이후부터는 여초
+
+-   일반 성비의 결정 요소
+
+    -   출생성비, 성별 사망률의 차이, 이주자의 성비
+
+## 인구 구조의 측정
+
+-   중위연령(median age)
+
+    -   한 인구 집단을 연령 순서로 배열했을 때 정가운데에 위치하는 사람의 연령
+
+    -   평균연령(mean age)와 다름
+
+-   연령(층)별 비중
+
+    -   유소년층(0-14세), 청장년층(15-64세), 노년층(65세 이상)
+
+    -   최근 UN: 0-4, 5-14, 15-24, 25-64, 65세 이상
+
+    -   생애주기단계: 학령 인구(6-17세), 청년층(25-34세), 중장년층(40-64세) 등
+
+-   노령화지수(ACR, the aged to child ratio)
+
+    -   유소년층 인구 100명에 대한 노년층 인구 수
+
+    -   $ACR=\frac{P_{65+}}{P_{0-14}}\times 100$
+
+## 인구 구조의 시각화
+
+-   인구 피라미드의 개념
+
+    -   **성별ᆞ연령별** 인구 구조에 대한 가장 효과적인 시각화 수단
+
+    -   수평축: 연령(층)별 인구 수 혹은 인구 비중/ 남녀 구분
+
+    -   수직축: 연령(층)
+
+-   인구 피라미드의 유형과 인구변천모델
+
+    -   확대형: 인구의 급격한 증가, 2기 후반 - 3기 초반, 피라미드형
+
+    -   안정형: 인구의 완반한 증가 혹은 정체, 3기 중후반 - 4기, 종형, 포탄형
+
+    -   수축형: 인구 감소, 5기, 방추형, 항아리형
+
+## 인구 구조의 시각화
+
+![](images/clipboard-1069255501.png){fig-align="center" style="height:900px"}
+
+## 인구 구조의 시각화
+
+![](images/clipboard-1119912476.png){fig-align="center" style="height:900px"}
+
+## 인구 구조의 사회 이슈화
+
+-   '성비 불균형(gender imbalance)'
+
+    -   성비가 100으로부터 '상당히' 벗어나 있는 상태
+
+-   '인구 고령화(population aging)'
+
+    -   한 인구의 전반적인 연령이 '상당한' 수준으로 높아지는 현상
+
+    -   중위 연령의 상승, 노령화지수의 상승
+
+    -   노년층 인구 비중의 증가
+
+        -   고령화 사회(aging society): 7-14%
+
+        -   고령 사회(aged society): 14-20%
+
+        -   초고령 사회(super-aged society): 20% 이상
+
+-   '학령 인구 감소(school-age population decrease)'
+
+    -   학생 연령층의 상대적으로 높은 인구 감소율
+
+## 인구 구조의 사회 이슈화
+
+-   부양인구비: 개념
+
+    -   인구 구조를 부양이라는 '경제적 부담'으로 해석
+
+    -   부양 인구(청장년층) 대비 피부양 인구(유소년층 & 노년층)의 비(ratio)
+
+-   측도
+
+    -   총부양인구비(TDR, total dependency ratio)
+
+        -   $TDR=\frac{P_{0-14}+P_{65+}}{P_{15-64}}\times 100$
+
+        -   $TDR=YDR+ODR$
+
+    -   유소년부양인구비(YDR, youth (child) dependency ratio)
+
+        -   $YDR=\frac{P_{0-14}}{P_{15-64}}\times 100$
+
+    -   노년부양인구비(ODR, old-age dependency ratio)
+
+        -   $ODR=\frac{P_{65+}}{P_{15-64}}\times 100$
+
+## 세계: 성비, Region
+
+![](images/Sex%20Ratio%20by%20UN%20Region,%201950%20to%202100.jpg)
+
+## 세계: 성비, Subregion
+
+![](images/Sex%20Ratio%20by%20Subregion,%202025.jpg)
+
+## 세계: 성비, 국가
+
+![](images/Sex%20Ratio,%202025.jpg)
+
+## 세계: 성비, 국가
+
+![](images/Sex%20Ratio%20at%20Birth,%202025.jpg)
+
+## 세계: 성비, 주요 국가
+
+![](images/Sex%20Ratio%20at%20Birth%20by%20Country,%201950%20to%202100-01.jpg)
+
+## 세계: 중위연령, Region
+
+![](images/Median%20Age%20by%20UN%20Region,%201950%20to%202100.jpg)
+
+## 세계: 중위연령, Subregion
+
+![](images/Median%20Age%20by%20Subregion,%202025.jpg)
+
+## 세계: 중위 연령, 국가
+
+![](images/Median%20Age,%202025.jpg)
+
+## 세계: 연령 구조, Region
+
+![](images/Age%20Composition%20by%20UN%20Region,%201950%20to%202100.jpg)
+
+## 세계: 연령 구조, 국가
+
+![](images/Porportion%20of%20Population%20Aged%200~14,%202025.jpg)
+
+## 세계: 연령 구조, 국가
+
+![](images/Porportion%20of%20Population%20Aged%2015~64,%202025.jpg)
+
+## 세계: 연령 구조, 국가
+
+![](images/Porportion%20of%20Population%20Aged%2065%20Plus,%202025.jpg)
+
+## 세계: 인구 피라미드
+
+![](images/Population%20Pyramid%20of%20the%20World,%201950~2100.jpg){fig-align="center" style="height:900px"}
+
+## 세계: 인구부양비
+
+![](images/Age%20Dependency%20Category%20by%20Country,%202025.jpg)
+
+## 우리나라: 성비, 전체
+
+![](images/Sex%20Ratio%20in%20South%20Korea,%201960~2072.jpg)
+
+## 우리나라: 성비, 시군구
+
+![](images/Sex%20Ratio%20in%20South%20Korea,%202023.jpg){fig-align="center"}
+
+## 우리나라: 중위연령, 전체
+
+![](images/Median%20Age,%201960~2072.jpg)
+
+## 우리나라: 중위연령, 시군구
+
+![](images/Median%20Age%20in%20South%20Korea,%202023.jpg){fig-align="center"}
+
+## 우리나라: 중위연령, 서울, 동
+
+![](images/Median%20Age%20in%20Seoul%20at%20the%20EMD%20Level,%202020.jpg){fig-align="center"}
+
+## 우리나라: 연령 구조
+
+![](images/Age%20Composition%20in%20South%20Korea,%201960%20to%202072.jpg)
+
+## 우리나라: 인구 피라미드
+
+::: {layout-ncol="4"}
+![](images/Population%20Pyramid%20of%20South%20Korea,%202000.jpg)
+
+![](images/Population%20Pyramid%20of%20South%20Korea,%202025.jpg)
+
+![](images/Population%20Pyramid%20of%20South%20Korea,%202050.jpg)
+
+![](images/Population%20Pyramid%20of%20South%20Korea,%202072.jpg)
+:::
+
+## 우리나라: 인구 피라미드
+
+![](images/clipboard-2937587811.png){fig-align="center"}
+
+## 우리나라: 인구 고령화
+
+![](images/ACR%20(Aged%20to%20Child%20Ratio),%201960~2072.jpg)
+
+## 우리나라: 부양인구비
+
+![](images/Dependency%20Ratio,%201960~2072.jpg)
+
+## 우리나라: 학령 인구 감소
+
+![](images/School-Age%20Population%20Compared%20to%20Total%20Population,%201960%20to%202072.jpg)
+
+## 우리나라: 1인가구 비중 증가, 전체
+
+![](images/Household%20Size%20Composition%20in%20South%20Korea,%202000%20to%202052.jpg)
+
+## 우리나라: 1인가구 비중 증가, 시군구
+
+![](images/One-Person%20Households,%202023.jpg){fig-align="center"}
+
+## 우리나라: 1인가구 비중 증가, 서울, 동
+
+![](images/One-Person%20Households%20in%20Seoul,%202020.jpg){fig-align="center"}
+
+## 인구 웹 앱 예시
+
+<https://sangillee.snu.ac.kr/dashboard_popgeo/>
