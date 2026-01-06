@@ -145,7 +145,7 @@ editor_options:
 
 ## 세계: Region
 
-![](images/세계 UN 지역 PGR.jpg)
+![](images/세계%20UN%20지역%20PGR.jpg)
 
 ## 세계: Subregion
 
@@ -161,15 +161,15 @@ editor_options:
 
 ## 세계: 국가
 
-![](images/Rate of Natural Change (RNC), 2025.jpg)
+![](images/Rate%20of%20Natural%20Change%20(RNC),%202025.jpg)
 
 ## 세계: 국가
 
-![](images/주요 국가별 인구규모 1.jpg)
+![](images/주요%20국가별%20인구규모%201.jpg)
 
 ## 세계: 국가
 
-![](images/주요 국가별 인구규모 2.jpg)
+![](images/주요%20국가별%20인구규모%202.jpg)
 
 ## 우리나라: 혼란스러운 데이터
 

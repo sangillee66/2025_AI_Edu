@@ -11,7 +11,7 @@
 
   <meta name="author" content="  이상일(서울대학교 지리교육과 교수)">
   <meta name="dcterms.date" content="2026-01-06">
-  <title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-input7c72b79fe9ef6a00</title>
+  <title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-input5b5bb91364939c0d</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -144,68 +144,162 @@
   <p class="date">2026-01-06</p>
 </section>
 <section>
-<section id="인구-분포-인구수의-지리적-배열" class="title-slide slide level1 center">
-<h1><span style="color:coral">인구 분포</span> <br> <span style="font-size:4rem">인구수의 지리적 배열</span></h1>
+<section id="인구-분포-인구-수의-지리적-배열" class="title-slide slide level1 center">
+<h1><span style="color:coral">인구 분포</span> <br> <span style="font-size:4rem">인구 수의 지리적 배열</span></h1>
 
 </section>
-<section id="세계-그리드" class="slide level2">
-<h2>세계: 그리드</h2>
-
-<img data-src="images/Population Distribution, 2020-01.png" class="r-stretch"></section>
-<section id="세계-그리드-1" class="slide level2">
-<h2>세계: 그리드</h2>
-
-<img data-src="https://www.visualcapitalist.com/wp-content/uploads/2020/08/global-population-density-spikes-3d-mapped-full.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://www.visualcapitalist.com/cp/3d-mapping-the-worlds-largest-population-densities/#google_vignette" style="font-size:1rem">https://www.visualcapitalist.com/cp/3d-mapping-the-worlds-largest-population-densities/#google_vignette</a></p></section>
-<section id="세계-위도" class="slide level2">
-<h2>세계: 위도</h2>
+<section id="인구-분포의-측정" class="slide level2">
+<h2>인구 분포의 측정</h2>
+<ul>
+<li><p>인구 비중: 특정 공간에 거주하는 인구가 전체 인구에서 차지하는 비율</p>
+<ul>
+<li><p>국제 스케일: 아시아 인구의 비중</p></li>
+<li><p>국내 스케일</p>
+<ul>
+<li><p>수도권 인구의 비중, “1%의 제주”</p></li>
+<li><p>도시 인구 비중 -&gt; 도시화율(urbanization rate)</p></li>
+</ul></li>
+</ul></li>
+<li><p>인구 밀도(population density)</p>
+<ul>
+<li><p>통계적 인구 밀도: 인구수(명)/면적(주로 <span class="math inline">\(km^2\)</span>)</p></li>
+<li><p>지리적 인구 밀도: 인구수(명)/경지면적(주로 <span class="math inline">\(km^2\)</span>)</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="인구-분포의-측정-1" class="slide level2">
+<h2>인구 분포의 측정</h2>
+<ul>
+<li><p>편포성 지수</p>
+<ul>
+<li><p>지니 지수(Gini index)</p>
+<ul>
+<li><p><span class="math inline">\(G=1-\sum^n_{i=1}(y_i+y_{i-1})(x_i-x_{i-1})\)</span></p>
+<ul>
+<li><p><span class="math inline">\(x_i\)</span>: 준거 변수(면적)의 누적상대빈도(누적비중)</p></li>
+<li><p><span class="math inline">\(y_i\)</span>: 관심 변수(인구 수)의 누적상대빈도(누적비중)</p></li>
+</ul></li>
+<li><p><span class="math inline">\(0 \le G \le 1\)</span>: 클수록 편포</p></li>
+</ul></li>
+<li><p>상이 지수(Index of Dissimilarity): 후버 지수(Hoover index)</p>
+<ul>
+<li><p><span class="math inline">\(ID=\frac{1}{2}\sum^n_{i=1}|x_i-y_i|\)</span></p>
+<ul>
+<li><p><span class="math inline">\(x_i\)</span>: 준거 변수(면적)의 상대빈도(비중)</p></li>
+<li><p><span class="math inline">\(y_i\)</span>: 관심 변수(인구 수)의 상대빈도(비중)</p></li>
+</ul></li>
+<li><p><span class="math inline">\(0 \le ID \le 1\)</span>: 클수록 편포</p></li>
+</ul></li>
+</ul></li>
+<li><p>로렌츠 곡선: 시각화</p>
+<ul>
+<li><p>지니 지수: 대각선과 로렌츠 곡선이 이루는 영역의 면적(그것의 두 배)</p></li>
+<li><p>상이 지수: 대각선과 로렌츠 곡선 간의 수직 최장 거리</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="인구-분포의-측정-2" class="slide level2">
+<h2>인구 분포의 측정</h2>
+<ul>
+<li><p>지리적 인구 중심점(geographic center of population)</p>
+<ul>
+<li><p>인구 분포의 지리적 균형점</p></li>
+<li><p>인구를 동일한 무게를 가진 지점으로 간주할 때, 그 집합의 무게중심</p></li>
+</ul></li>
+<li><p>가중평균지점(weighted mean center) 개념</p>
+<ul>
+<li><span class="math inline">\((\bar{X}_{wc},\bar{Y}_{wc})=(\frac{\sum w_iX_i}{\sum w_i},\frac{\sum w_iY_i}{\sum w_i})\)</span>
+<ul>
+<li><span class="math inline">\(X_i\)</span>: 센트로이드의 X 좌표</li>
+<li><span class="math inline">\(Y_i\)</span>: 센트로이드의 Y 좌표</li>
+<li><span class="math inline">\(w_i\)</span>: 인구 수</li>
+</ul></li>
+</ul></li>
+<li><p>지리적 인구 중심점의 시계열적 변화</p>
+<ul>
+<li>인구 분포의 변화를 요약</li>
+</ul></li>
+</ul>
+</section>
+<section id="세계-위도-인구-수" class="slide level2">
+<h2>세계: 위도, 인구 수</h2>
 
 <img data-src="https://www.visualcapitalist.com/wp-content/uploads/2023/12/VC-Alasdair-Rae-World-Population-by-Latitude-Chart.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://www.visualcapitalist.com/cp/mapped-the-worlds-population-density-by-latitude/" style="font-size:1rem">https://www.visualcapitalist.com/cp/mapped-the-worlds-population-density-by-latitude/</a></p></section>
-<section id="세계-위도-1" class="slide level2">
-<h2>세계: 위도</h2>
+<section id="세계-위도-인구-밀도" class="slide level2">
+<h2>세계: 위도, 인구 밀도</h2>
 
 <img data-src="https://assets.weforum.org/article/image/responsive_big_webp_oVVfNybCugULckl0h9EWw1z007u7v9KpzL6b9ACplZI.webp" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://www.weforum.org/stories/2022/05/mapped-the-world-s-population-density-by-latitude/" style="font-size:1rem">https://www.weforum.org/stories/2022/05/mapped-the-world-s-population-density-by-latitude/</a></p></section>
-<section id="세계-region" class="slide level2">
-<h2>세계: Region</h2>
+<section id="세계-region-인구-수" class="slide level2">
+<h2>세계: Region, 인구 수</h2>
 
 <img data-src="images/세계 UN 지역 인구규모 비중.jpg" class="r-stretch"></section>
-<section id="세계-국가" class="slide level2">
-<h2>세계: 국가</h2>
+<section id="세계-국가-인구-수" class="slide level2">
+<h2>세계: 국가, 인구 수</h2>
 
 <img data-src="images/World Population Distribution, 2025.jpg" class="r-stretch"></section>
-<section id="세계-국가-1" class="slide level2">
-<h2>세계: 국가</h2>
+<section id="세계-국가-인구-수-1" class="slide level2">
+<h2>세계: 국가, 인구 수</h2>
 
 <img data-src="images/World Population Distribution, 2100.jpg" class="r-stretch"></section>
-<section id="우리나라-시군" class="slide level2">
-<h2>우리나라: 시군</h2>
+<section id="세계-그리드-인구-밀도" class="slide level2">
+<h2>세계: 그리드, 인구 밀도</h2>
+
+<img data-src="images/Population Distribution, 2020-01.png" class="r-stretch"></section>
+<section id="세계-그리드-인구-밀도-1" class="slide level2">
+<h2>세계: 그리드, 인구 밀도</h2>
+
+<img data-src="https://www.visualcapitalist.com/wp-content/uploads/2020/08/global-population-density-spikes-3d-mapped-full.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://www.visualcapitalist.com/cp/3d-mapping-the-worlds-largest-population-densities/#google_vignette" style="font-size:1rem">https://www.visualcapitalist.com/cp/3d-mapping-the-worlds-largest-population-densities/#google_vignette</a></p></section>
+<section id="세계-subregion-인구-밀도" class="slide level2">
+<h2>세계: Subregion, 인구 밀도</h2>
+
+<img data-src="images/Population Density by Subregion, 2025.jpg" class="r-stretch"></section>
+<section id="세계-국가-인구-밀도" class="slide level2">
+<h2>세계: 국가, 인구 밀도</h2>
+
+<img data-src="images/Population Density, 2025.jpg" class="r-stretch"></section>
+<section id="우리나라-시군-인구-수" class="slide level2">
+<h2>우리나라: 시군, 인구 수</h2>
 
 <img data-src="images/ani_pop_pro.gif" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="우리나라-시군-1" class="slide level2">
-<h2>우리나라: 시군</h2>
+<section id="우리나라-시군-인구-수-1" class="slide level2">
+<h2>우리나라: 시군, 인구 수</h2>
 
 <img data-src="images/ani_carto_sigun.gif" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="우리나라-인구의-편포성" class="slide level2">
-<h2>우리나라: 인구의 편포성</h2>
+<section id="우리나라-편포성" class="slide level2">
+<h2>우리나라: 편포성</h2>
 
-<img data-src="images/Lorenz Curve of Population Distribution in 2023 (시군구 수준).jpg" class="r-stretch"></section>
-<section id="우리나라-인구의-편포성-1" class="slide level2">
-<h2>우리나라: 인구의 편포성</h2>
+<img data-src="images/Lorenz Curve of Population Distribution in 2023 (시군구 수준).jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="우리나라-편포성-1" class="slide level2">
+<h2>우리나라: 편포성</h2>
 
 <img data-src="images/Spatial Inequality of Population Distribution in South Korea, 1975~2023.jpg" class="r-stretch"></section>
 <section id="우리나라-인구의-지리적-중점" class="slide level2">
 <h2>우리나라: 인구의 지리적 중점</h2>
 
 <img data-src="images/Geographic Centers of Population, 1975~2023.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="우리나라-인구의-수도권-집중" class="slide level2">
-<h2>우리나라: 인구의 수도권 집중</h2>
+<section id="우리나라-인구-밀도" class="slide level2">
+<h2>우리나라: 인구 밀도</h2>
+<div class="quarto-layout-panel" data-layout-ncol="2" style="justify-items: center">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="images/Population Density, 2023 (시군구 수준)-03.jpg" style="height:900px"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="images/Choropleth Map of Population Distribution in 2020.jpg" style="height:900px"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="우리나라-수도권-집중" class="slide level2">
+<h2>우리나라: 수도권 집중</h2>
 
 <img data-src="images/National Shares of the Capital Region, 1949 to 2023.jpg" class="r-stretch"></section>
-<section id="우리나라-인구의-도시-집중" class="slide level2">
-<h2>우리나라: 인구의 도시 집중</h2>
+<section id="우리나라-도시-집중" class="slide level2">
+<h2>우리나라: 도시 집중</h2>
 
 <img data-src="images/Urbanization Rates in South Korea, 1949 to 2023.jpg" class="r-stretch"></section>
-<section id="우리나라-지역-소멸" class="slide level2">
-<h2>우리나라: 지역 소멸</h2>
+<section id="우리나라의-지역-소멸" class="slide level2">
+<h2>우리나라의 지역 소멸</h2>
 <ul>
 <li><p>’지방소멸’의 개념</p>
 <ul>
@@ -233,15 +327,15 @@
 </ul></li>
 </ul>
 </section>
-<section id="우리나라-지역-소멸-1" class="slide level2">
-<h2>우리나라: 지역 소멸</h2>
+<section id="우리나라의-지역-소멸-1" class="slide level2">
+<h2>우리나라의 지역 소멸</h2>
 <div class="quarto-layout-panel" data-layout="[65,55]">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 54.2%;justify-content: center;">
 <p><img data-src="images/인구소멸 막대-01.jpg"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 45.8%;justify-content: center;">
-<p><img data-src="images/Regional Extinction Index, 2023-01.jpg" width="568"></p>
+<p><img data-src="images/Regional Extinction Index, 2023-01.jpg" style="height:900px"></p>
 </div>
 </div>
 </div>
