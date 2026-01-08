@@ -1082,14 +1082,14 @@
     "href": "Lecture_1_1.html#section-7",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "",
-    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT"
+    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT"
   },
   {
     "objectID": "Lecture_1_1.html#section-8",
     "href": "Lecture_1_1.html#section-8",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "",
-    "text": "튜링 테스트  by  앨런 튜링  Alan Turing  (1949)\n\n\n\n\nhttps://en.wikipedia.org/wiki/Turing_test"
+    "text": "튜링 테스트  by  앨런 튜링  Alan Turing  (1949)\n\n\nhttps://en.wikipedia.org/wiki/Turing_test"
   },
   {
     "objectID": "Lecture_1_1.html#section-9",
@@ -1117,14 +1117,14 @@
     "href": "Lecture_1_1.html#section-12",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "",
-    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT\n\n\n\n“생성 능력을 가진, 사전학습된,  트랜스포머 구조 기반 언어모델”  Generative  Pre-tranind  Transformer"
+    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT\n“생성 능력을 가진, 사전학습된,  트랜스포머 구조 기반 언어모델”  Generative  Pre-tranind  Transformer"
   },
   {
     "objectID": "Lecture_1_1.html#gpt",
     "href": "Lecture_1_1.html#gpt",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
-    "section": "",
-    "text": "Generative 생성적\n\n입력을 분류 및 분석하는 것이 아니라 새로운 텍스트를 생성할 수 있음\n텍스트 뿐만 아니라, 이미지, 음성/오디오, 비디오, 코드, 멀티모달 생성\n\nPre-trained 사전학습된\n\n방대한 범용 텍스트 데이터로 일반 언어 패턴을 미리 학습\n문법, 의미, 맥락, 지식 패턴을 학습\n\nTransformer 트랜스포머\n\n학습 메커니즘: 딥러닝 신경망 구조\n‘셀프 어텐션(self attention)’\n\n문장 내 각 요소를 문장 전체 맥락 속에서 재정의\n문맥에 맞는 해석 및 문장 내에서 멀리 떨어진 단어 간 관계 포착에 유리"
+    "section": "GPT",
+    "text": "GPT\n\nGenerative 생성적\n\n입력을 분류 및 분석하는 것이 아니라 새로운 텍스트를 생성할 수 있음\n텍스트 뿐만 아니라, 이미지, 음성/오디오, 비디오, 코드, 멀티모달 생성\n\nPre-trained 사전학습된\n\n방대한 범용 텍스트 데이터로 일반 언어 패턴을 미리 학습\n문법, 의미, 맥락, 지식 패턴을 학습\n\nTransformer 트랜스포머\n\n학습 메커니즘: 딥러닝 신경망 구조\n‘셀프 어텐션(self attention)’\n\n문장 내 각 요소를 문장 전체 맥락 속에서 재정의\n문맥에 맞는 해석 및 문장 내에서 멀리 떨어진 단어 간 관계 포착에 유리"
   },
   {
     "objectID": "Lecture_1_1.html#section-13",
@@ -1243,7 +1243,7 @@
     "href": "Lecture_1_1.html#제작-도구",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "제작 도구",
-    "text": "제작 도구\n\n\n\nhttps://goldenowl.asia/blog/difference-between-html-css-and-javascript"
+    "text": "제작 도구\n\nhttps://goldenowl.asia/blog/difference-between-html-css-and-javascript"
   },
   {
     "objectID": "Lecture_1_1.html#제작-도구-1",
@@ -2412,7 +2412,7 @@
     "href": "Lecture_1_1.html#tpack-dbl-프레임워크-2",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "TPACK-DBL 프레임워크",
-    "text": "TPACK-DBL 프레임워크\n\n\n\n(Baran and Uygun, 2016,49) https://doi.org/10.14742/ajet.2551"
+    "text": "TPACK-DBL 프레임워크\n\n(Baran and Uygun, 2016,49) https://doi.org/10.14742/ajet.2551"
   },
   {
     "objectID": "Lecture_1_1.html#tpack-dbl-프레임워크-3",
@@ -2573,14 +2573,14 @@
     "href": "Lecture_1_1.html#제작-도구-r알-1",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "제작 도구: R(알)",
-    "text": "제작 도구: R(알)\n\n\n\nhttps://r4ds.hadley.nz/intro"
+    "text": "제작 도구: R(알)\n\nhttps://r4ds.hadley.nz/intro"
   },
   {
     "objectID": "Lecture_1_1.html#제작-도구-quarto쿼토",
     "href": "Lecture_1_1.html#제작-도구-quarto쿼토",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "제작 도구: Quarto(쿼토)",
-    "text": "제작 도구: Quarto(쿼토)\n\n\n\nhttps://allisonhorst.com/cetinkaya-rundel-lowndes-quarto-keynote"
+    "text": "제작 도구: Quarto(쿼토)\n\nhttps://allisonhorst.com/cetinkaya-rundel-lowndes-quarto-keynote"
   },
   {
     "objectID": "Lecture_1_1.html#제작-도구-shiny샤이니",
@@ -2853,7 +2853,7 @@
     "href": "Lecture_1_1.html#제작-도구-r알-2",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "제작 도구: R(알)",
-    "text": "제작 도구: R(알)\n\n\n\nhttps://r4ds.hadley.nz/intro.html"
+    "text": "제작 도구: R(알)\n\nhttps://r4ds.hadley.nz/intro.html"
   },
   {
     "objectID": "Lecture_1_2.html#원데이터-유형-1",
@@ -6977,5 +6977,166 @@
     "title": "Lab_10: 지리공간적 시각화",
     "section": "\n3 인터랙티브 지도 제작",
     "text": "3 인터랙티브 지도 제작\n위에서 사용한 plotly 패키지의 ggplotly() 함수를 활용하면 반응형 지도를 생성할 수 있다. 앞의 코드 둘째 줄에 aes()에 text = name_long이 설정되어 있는데, 마우스로 국가를 가리킬 때 이름이 나타날 수 있게 조치한 것이다.\n\nlibrary(plotly)\nggplotly(world_map)\n\n\n\n\n\n지도 위에서 plotly 가 제공하는 다양한 기능을 적용해 볼 필요가 있다. 인터랙티브 그래프에 비해 인터랙티브 지도의 유용성이 더 높아 보인다.\n우리나라 지도는 다른 방식으로 반응형으로 만들어 본다. 여기서는 ggiraph 패키지를 사용한다. 처음 사용하는 경우라면 먼저 패키지를 인스톨해야 한다. 코드의 전반부는 커서를 특정 시군구 위에 올렸을 때 나타나는 정보를 좀 더 다양하게 하려는 조치이다. 중간의 코드가 핵심인데, 찬찬히 살펴보면 그렇게 복잡하지 않다. 마지막은 완전히 지엽적인 것인데, 커서를 특정 시군구 위에 올렸을 때 색이 회색으로 변하게 하기 위한 것이다.\n\nlibrary(ggiraph)\nsigungu_data &lt;- sigungu_data |&gt; \n  mutate(\n    index = format(index, digits = 4, nsmall = 4),\n    my_tooltip = str_c(\"Name: \", SGG1_FNM, \"\\n Index: \", index)\n  )\n\ngg &lt;- ggplot() +\n  geom_sf_interactive(\n    data = sigungu_data, \n    aes(\n      fill = index_class, \n      tooltip = my_tooltip, \n      data_id = SGG1_FNM\n      ), \n    show.legend = TRUE) +\n  geom_sf(data = sido_shp, fill = NA, lwd = 0.5) +\n  scale_fill_manual(\n    name = \"Classes\", \n    labels = c(\"&lt; 0.2\", \"0.2 ~ 0.5\", \"0.5 ~ 1.0\", \"1.0 ~ 1.5\", \"&gt;= 1.5\"), \n    values = class_color, drop = FALSE) \ngirafe(ggobj = gg) |&gt; \n  girafe_options(\n    opts_hover(css = \"fill: gray\")\n  )\n\n\n\n\n\n그러나 반응형 지도 제작에 가장 널리 쓰이는 것은 leaflet이다. leaflet은 웹 상의 반응형 지도 제작에 특화된 JavaScript 라이브러리이다. 이 라이브러리를 R에서 쓸 수 있게 도와주는 래퍼 패키지가 leaflet 패키지이다. 패키지 홈페이지가 매우 상세하게 잘 되어 있다. 숙독하기를 권한다.\n\nlibrary(leaflet)\n\n매우 단순한 인터랙티브 지도를 만들어 본다. 자신이 원하는 경위도값과 설명문으로 수정하면 된다.\n\nleaflet() |&gt; \n  addTiles() |&gt; \n  addPopups(126.9556513, 37.4598712, \"VR Lab\",\n            options = popupOptions(closeButton = FALSE))\n\n\n\n\n\n\n위에서 작성했던 TFR 세계지도를 leaflet 패키지의 다양한 함수와 아규먼트를 활용하여 인터랙티브 지도를 제작해 본다.\n\nworld_data &lt;- world_data |&gt; filter(!is.na(TFR))\n\n# TFR 값의 범위 정의\nbins &lt;- c(0, 1.5, 2.1, 3, 4, 5, Inf)\n# 색상 팔레트 정의\npal &lt;- colorBin(\"YlOrRd\", domain = world_data$TFR, bins = bins)\n# 국가 위에 마우스를 올렸을 때 표시될 툴팁 정의\nlabels &lt;- sprintf(\"&lt;strong&gt;%s&lt;/strong&gt;&lt;br/&gt;%g\",\n  world_data$name_long, world_data$TFR) |&gt; lapply(htmltools::HTML)\n\nleaflet(world_data) |&gt; \n  addProviderTiles(providers$Esri.WorldTopoMap) |&gt; \n  addPolygons(\n    fillColor = ~pal(TFR),\n    weight =  2, \n    opacity = 1,\n    color = \"white\",\n    dashArray = \"3\",\n    fillOpacity = 0.6,\n    highlightOptions = highlightOptions(\n      weight = 5,\n      color = \"#666\",\n      dashArray = \"\",\n      fillOpacity = 0.6,\n      bringToFront = TRUE),\n    label = labels,\n    labelOptions = labelOptions(\n      style = list(\"font-weight\" = \"normal\", padding = \"3px 8px\"),\n      textsize = \"15px\",\n      direction = \"auto\")\n  ) |&gt; \n  addLegend(\n    pal = pal, values = ~TFR, opacity = 0.6, title = NULL,\n    position = \"bottomright\"\n  )\n\n\n\n\n\n\n우리나라 시군구 단위의 인구소멸위험지수에 대한 지도를 반응형으로 만들어 본다. 여기서는 tmap을 활용한다. 해당 시군구 위에 클릭하면 지역소멸위험지수가 나타난다.\n\nclass_color &lt;- c(\"#d7191c\", \"#fdae61\", \"#ffffbf\", \"#a6d96a\", \"#1a9641\")\nsigungu_data &lt;- sigungu_data |&gt; \n  mutate(\n    index = as.numeric(index)\n  )\n# 반응형 지도 모드\n# 정적 지도 제작을 위해서는 mode = \"plot\"으로 설정\ntmap_mode(mode = \"view\") \nmy_tmap &lt;- tm_shape(sigungu_data) + \n  tm_polygons(\n    fill = \"index\",\n    fill.scale = tm_scale_intervals(\n      values = class_color,\n      breaks = c(0, 0.2, 0.5, 1.0, 1.5, Inf), \n      labels = c(\"&lt; 0.2\", \"0.2~0.5\", \"0.5~1.0\", \"1.0~1.5\", \"&gt;= 1.5\")\n      ), \n    fill.legend = tm_legend(\n      title = \"Classes\"\n    ),\n    popup.vars=c(\"지역소멸위험지수: \" = \"index\"), \n    popup.format = list(index = list(digits = 3)), \n    id = \"SGG1_FNM\", \n    fill_alpha = 0.6, \n    col_alpha = 0.5\n  ) +\n  tm_shape(sido_shp) + tm_borders(lwd = 2)\nmy_tmap\n\n\n\n\n\ntmap_save(my_tmap, \"지방소멸위험지수.html\")"
+  },
+  {
+    "objectID": "Lecture_2_5.html#인터랙티브-웹-앱-구상-발표",
+    "href": "Lecture_2_5.html#인터랙티브-웹-앱-구상-발표",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "인터랙티브 웹 앱 구상 발표",
+    "text": "인터랙티브 웹 앱 구상 발표\n\n\n일시\n\n2026년 1월 12일(월)\n\n\n\n주제: 인구 관련\n\n저출산, 고령화, 인구 절벽, 지역 소멸, 학령 인구 감소 등\n인구 현상과 인문사회 콘텐츠 참고\n\n\n\n데이터\n\nWPP 2024 혹은 KOSIS\n\n\n\n발표 내용\n\n주제, 웹 앱 디자인(레이아웃 요소, 내용 요소, 상호작용 요소)\n\n\n\n발표 방식\n\n5~10분 정도의 프레젠테이션"
+  },
+  {
+    "objectID": "Lecture_2_5.html#shiny-서버-기반-웹-앱-개발-프레임워크",
+    "href": "Lecture_2_5.html#shiny-서버-기반-웹-앱-개발-프레임워크",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "Shiny: (서버-기반) 웹 앱 개발 프레임워크",
+    "text": "Shiny: (서버-기반) 웹 앱 개발 프레임워크\n\nhttps://shiny.posit.co/"
+  },
+  {
+    "objectID": "Lecture_2_5.html#리소스-shiny-홈페이지",
+    "href": "Lecture_2_5.html#리소스-shiny-홈페이지",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "리소스: Shiny 홈페이지",
+    "text": "리소스: Shiny 홈페이지\n\n\nhttps://shiny.posit.co/\n\nShiny for R(https://shiny.posit.co/r/)\nShiny for Python(https://shiny.posit.co/py/)\n\n\n\n11개 예시\n\n\n예시의 이름 검색: runExample()\n\n“01_hello”, “02_text”, “03_reactivity”, “04_mpg”, “05_sliders”, “06_tabsets”, “07_widgets”, “08_html”, “09_upload”, “10_download”, “11_timer”\n\n\n예시의 웹 앱 및 코드 보기: runExample(\"01_hello\", display = \"showcase\")"
+  },
+  {
+    "objectID": "Lecture_2_5.html#리소스-웹북",
+    "href": "Lecture_2_5.html#리소스-웹북",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "리소스: 웹북",
+    "text": "리소스: 웹북\n\nMastering Shiny by Hadley Wickham\nOutstanding User Interfaces with Shiny\nEngineering Production-Grade Shiny Apps\nInteractive Web-Based Data Visualization with R, plotly, and shiny\nR Shiny Applications in Finance, Medicine Pharma and Education Industry\nIntroduction to Data Science: 25 Shiny Applications\n데이터 사이언스를 위한 R 프로그래밍: 14 shiny"
+  },
+  {
+    "objectID": "Lecture_2_5.html#기본-구조",
+    "href": "Lecture_2_5.html#기본-구조",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "기본 구조",
+    "text": "기본 구조\n\n\nui 부분: 프론트엔드(front-end) 부분\n\n입력을 받고 출력을 표출하는 부분\n\n\n\nserver 부분: 백엔드(back-end) 부분\n\n받은 입력으로 출력을 산출하는 부분\n\n\n결합: shinyApp(ui = ui, server = server)\n\n\nhttps://bookdown.org/hneth/i2ds/shiny.html"
+  },
+  {
+    "objectID": "Lecture_2_5.html#기본-구조-ui-부분",
+    "href": "Lecture_2_5.html#기본-구조-ui-부분",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "기본 구조: ui 부분",
+    "text": "기본 구조: ui 부분\n\n\n입력(input)\n\n‘입력 함수’: 사용자로부터 입력을 받아 ’입력 객체’를 만드는 함수\n\n위젯(widget): ui를 위한 기본 시각 요소로, 미리 만들어져 있는 것\n\n버튼, 스크롤 바, 텍스트 상자, 체크박스, 라디오 버튼 등\n\n\n\n입력의 종류에 따라 다양: *Input()\n\nsliderInput(inputID = \"\")\n\n\n\n\n\n출력(output)\n\n‘출력 표출 함수’: 서버로부터 ’출력 객체’를 받아 디스플레이하는 함수\n\n출력의 종류에 따라 다양: *Output()\n\nplotOutput(outputID = \"\")"
+  },
+  {
+    "objectID": "Lecture_2_5.html#기본-구조-ui-부분-1",
+    "href": "Lecture_2_5.html#기본-구조-ui-부분-1",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "기본 구조: ui 부분",
+    "text": "기본 구조: ui 부분\n\n입력 함수(위젯): https://shiny.posit.co/r/components/"
+  },
+  {
+    "objectID": "Lecture_2_5.html#기본-구조-ui-부분-2",
+    "href": "Lecture_2_5.html#기본-구조-ui-부분-2",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "기본 구조: ui 부분",
+    "text": "기본 구조: ui 부분\n\n출력 함수: https://shiny.posit.co/r/components/\n\n주요 함수: *Output(outputID = \"\")\n\n플롯: plotOutput(outputID = \"\")\n테이블: tableOutput(outputID = \"\")\n일반 텍스트: textOutput(outputID = \"\")\n사전 포맷된 텍스트: verbatimeTextOutput(outputID = \"\")\n이미지: imageOutput(outputID = \"\")"
+  },
+  {
+    "objectID": "Lecture_2_5.html#기본-구조-server-부분",
+    "href": "Lecture_2_5.html#기본-구조-server-부분",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "기본 구조: server 부분",
+    "text": "기본 구조: server 부분\n\n\n입력 객체를 받아 특정한 출력 객체를 생성\n\n입력 객체: input$inputID\n\n\n\n\n출력 객체 생성 함수(렌더링 함수): render*({})\n\nrenderPlot({})\n출력 객체: output$outputID\n\n\n\n주요 함수: render*()\n\n플롯: renderPlot()\n테이블: renderTable()\n일반 텍스트: renderText()\n사전 포맷된 텍스트: renderPrint()\n이미지: renderImage()"
+  },
+  {
+    "objectID": "Lecture_2_5.html#기본-구조-ui-server-연계",
+    "href": "Lecture_2_5.html#기본-구조-ui-server-연계",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "기본 구조: ui-server 연계",
+    "text": "기본 구조: ui-server 연계\n\n출력 생성(렌더링) 함수와 출력 함수: https://shiny.posit.co/r/components/"
+  },
+  {
+    "objectID": "Lecture_2_5.html#기본-구조-ui-server-연계-1",
+    "href": "Lecture_2_5.html#기본-구조-ui-server-연계-1",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "기본 구조: ui-server 연계",
+    "text": "기본 구조: ui-server 연계\n\n기본 출력 함수 쌍\n\n\n\n\n\n\n\n\n형식\n출력 표출 함수(UI)\n출력 생성(렌더링) 함수(Server)\n\n\n\n플롯\nplotOutput(outputID = \"\")\nrenderPlot({})\n\n\n테이블\ntableOutput(outputID = \"\")\nrenderTable({})\n\n\n일반 텍스트\ntextOutput(outputID = \"\")\nrenderText({})\n\n\n사전 포맷된 텍스트\nverbatimeTextOutput(outputID = \"\")\nrenderPrint({})\n\n\n이미지\nimageOutput(outputID = \"\")\nrenderImage({})"
+  },
+  {
+    "objectID": "Lecture_2_5.html#반응성-함수-reactive",
+    "href": "Lecture_2_5.html#반응성-함수-reactive",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "반응성 함수 reactive({})\n",
+    "text": "반응성 함수 reactive({})\n\n\n\nrender*() 함수는 이미 반응성 함수\n\n사용자의 선택이 바뀔 때마다 갱신\n\n\n\n반응성 함수 reactive({})\n\n입력 객체를 받아 ‘반응성 표현식(reactive expression)’ 생성\n\n반응성 표현식: 단순히 최종 산출물(값이나 객체)만을 의미하지 않고, 그 산출물을 관리하는 메커니즘(종속성 추적, 지연 실행, 캐싱 등) 포함하는 동적인 객체\n\n반드시 함수 형태로 표기\n\n\n\n하나의 ’입력 객체’가 다양한 ’출력 객체(출력 생성 함수)’와 결부되는 경우\n\n동일한 입력 객체의 중복 사용 회피 목적\n해당 입력 객체를 반응성 표현식으로 전환\n다수의 출력 생성 함수에 입력 객체로 투입"
+  },
+  {
+    "objectID": "Lecture_2_5.html#확장-bslib-패키지",
+    "href": "Lecture_2_5.html#확장-bslib-패키지",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "확장: bslib 패키지",
+    "text": "확장: bslib 패키지\n\nhttps://rstudio.github.io/bslib/"
+  },
+  {
+    "objectID": "Lecture_2_5.html#웹-배포deployment",
+    "href": "Lecture_2_5.html#웹-배포deployment",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "웹 배포(deployment)",
+    "text": "웹 배포(deployment)\n\nhttps://www.shinyapps.io/\n\n계정 생성\n\n로그인 후 상단 오른쪽 끝 메뉴 “Tokens” 페이지로 이동\n페이지에서 Show를 통해 인증 토큰(Token)과 Secret 확보: Show secret를 클릭하여 secret까지 보이게 한 후 복사하기\n\n\n\nRStudio에 토큰 설정\n\nR 콘솔에 복사한 내용 붙여넣기 및 실행\n\n\n\nPublish 버튼 클릭\n\n스크립트 윈도우의 오른쪽 상단\n배포를 원하는 R 파일만 선택\n\n\n\nURL 생성: https://userid.shinyapps.io/project_name/\n\nhttps://sangillee.shinyapps.io/AIEDU2025_Example/"
+  },
+  {
+    "objectID": "Lecture_2_5.html#quarto와-shiny의-결합",
+    "href": "Lecture_2_5.html#quarto와-shiny의-결합",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "Quarto와 Shiny의 결합",
+    "text": "Quarto와 Shiny의 결합\n\n상황: Quarto 대시보드의 일부 영역에서 Shiny 사용\n\n두 가지 접근\n\n\nShiny 중심 방식: Shiny 웹 앱의 생성\n\nQuarto 대시보드 내에서 Quarto 문법으로 Shiny 웹 앱 구축\nQuarto 대시보드 전체가 Shiny 웹 앱화: shinyapps.io를 통해 배포\n사례: https://sangillee.shinyapps.io/Dashboard_Example/\n\n\n\nQuarto 중심 방식: Quarto 대시보드의 유지\n\nQuarto 대시보드 속에 독립적으로 구축된 Shiny 웹 앱 임베딩\n여전히 Quarto 대시보드: Quarto Pub을 통해 배포\n사례: https://sangillee.snu.ac.kr/dashboard_examples/"
+  },
+  {
+    "objectID": "Lecture_2_5.html#quarto와-shiny의-결합-shiny-중심-방식",
+    "href": "Lecture_2_5.html#quarto와-shiny의-결합-shiny-중심-방식",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "Quarto와 Shiny의 결합: Shiny 중심 방식",
+    "text": "Quarto와 Shiny의 결합: Shiny 중심 방식\n\n\n옵션 1: Quarto를 Shiny 웹 앱의 레이아웃 설정 도구로 사용\n\n\nshiny 패키지: fluidPage()\n\n\ntitlePanel(), SidebarLayout(), sidebarPanel(), mainPanel()\n\n\n\n\nbslib 패키지: page_sidebar()\n\n\nsidebar = sidebar(), card()\n\n\n\n\n\n옵션 2: Quarto 대시보드 내에서 Shiny 웹 앱 구축"
+  },
+  {
+    "objectID": "Lecture_2_5.html#quarto와-shiny의-결합-shiny-중심-방식-1",
+    "href": "Lecture_2_5.html#quarto와-shiny의-결합-shiny-중심-방식-1",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "Quarto와 Shiny의 결합: Shiny 중심 방식",
+    "text": "Quarto와 Shiny의 결합: Shiny 중심 방식\n\nhttps://quarto.org/docs/dashboards/interactivity/shiny-r.html\nYAML 헤더에 다음 첨가: server: shiny\n\nui 부분: 기본적으로는 r 코드 청크 속에 포함, 사이드바와 메인 병렬\n\n사이드바: 레이아웃 구성요소에 넣고 {.sidebar} CSS 클래스 지정 가능\n메인: 사이드바와 다른 레이아웃 구성요소에 넣기 가능\n\n\n\nserver 부분: r 코드 청크 속에 포함, 다음 지정\n\n\n#| context: server 지정\n\n\n\n기타(패키지, 데이터 등) 부분: r 코드 청크 속에 포함, 다음 지정\n\n#| context: setup\n#| include: false"
+  },
+  {
+    "objectID": "Lecture_2_5.html#quarto와-shiny의-결합-quarto-중심-방식",
+    "href": "Lecture_2_5.html#quarto와-shiny의-결합-quarto-중심-방식",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "Quarto와 Shiny의 결합: Quarto 중심 방식",
+    "text": "Quarto와 Shiny의 결합: Quarto 중심 방식\n\n보통 하나의 row에 임베딩\nsrc=\"\" 부분만 교체\n\n&lt;iframe src=\"https://...\" loading=\"lazy\" style=\"width: 100%; height: 600px; border: 0px none;\" allow=\"web-share; clipboard-write\"&gt;&lt;/iframe&gt;"
+  },
+  {
+    "objectID": "Lecture_2_5.html#chatbot-웹-앱",
+    "href": "Lecture_2_5.html#chatbot-웹-앱",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "Chatbot 웹 앱",
+    "text": "Chatbot 웹 앱\n\n\n\n\n\nhttps://ellmer.tidyverse.org/\n\n\n\n\n\nhttps://posit-dev.github.io/shinychat/r/"
+  },
+  {
+    "objectID": "Lecture_2_5.html#chatbot-웹-앱-1",
+    "href": "Lecture_2_5.html#chatbot-웹-앱-1",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "Chatbot 웹 앱",
+    "text": "Chatbot 웹 앱\n\n\n코드\n웹 앱\n\n\n\n\nlibrary(shiny)\nlibrary(shinychat)\nlibrary(bslib)\nlibrary(ellmer)\n\nui &lt;- page_fillable(\n  chat_ui(\n    id = \"chat\",\n    messages = \"your messages here\"\n  ),\n  fillable_mobile = TRUE\n)\n\nserver &lt;- function(input, output, session) {\n  chat &lt;-\n    chat_openai(\n      base_url = \"https://api.openai.com/v1\",\n      model = \"gpt-5.1\",\n      api_key = your_api_key_here,\n      system_prompt = \"\"\n    )\n\n  observeEvent(input$chat_user_input, {\n    stream &lt;- chat$stream_async(input$chat_user_input)\n    chat_append(\"chat\", stream)\n  })\n}\n\nshinyApp(ui, server)"
+  },
+  {
+    "objectID": "Lecture_2_5.html#shiny-프로젝트의-생성",
+    "href": "Lecture_2_5.html#shiny-프로젝트의-생성",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "Shiny 프로젝트의 생성",
+    "text": "Shiny 프로젝트의 생성\n\nNew Project &gt; New Directory &gt; Shiny Application"
+  },
+  {
+    "objectID": "Lecture_2_5.html#기본-구조-ui-server-연계-2",
+    "href": "Lecture_2_5.html#기본-구조-ui-server-연계-2",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "기본 구조: ui-server 연계",
+    "text": "기본 구조: ui-server 연계\n\n주요 패키지별 출력 함수 쌍\n\n\n\n주요 패키지\n출력 표출 함수(UI)\n출력 생성(렌더링) 함수(Server)\n\n\n\nDT\nDTOutput(outputID = \"\")\nrenderDT({})\n\n\nreactable\nreactableOutput(outputID = \"\")\nrenderReactable({})\n\n\nplotly\nplotlyOutput(outputID = \"\")\nrenderPlotyl({})\n\n\necharts4r\necharts4rOutput(outputID = \"\")\nrenderEcharts4r({})\n\n\nleaflet\nleafletOutput(outputID = \"\")\nrenderLeaflet({})\n\n\ntmap\ntmapOutput(outputID = \"\")\nrenderTmap({})"
+  },
+  {
+    "objectID": "Lecture_2_5.html#웹-앱-예시",
+    "href": "Lecture_2_5.html#웹-앱-예시",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2Shiny를 활용한 웹 앱 제작\n",
+    "section": "웹 앱 예시",
+    "text": "웹 앱 예시"
   }
 ]

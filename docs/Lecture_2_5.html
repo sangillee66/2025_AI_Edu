@@ -6,18 +6,18 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.26">
-
-  <meta name="author" content="  이상일(서울대학교 지리교육과 교수)">
-  <meta name="dcterms.date" content="2026-01-09">
-  <title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-input61502cb8541e9076</title>
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
-  <style>
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+<meta name="author" content="  이상일(서울대학교 지리교육과 교수)">
+<meta name="dcterms.date" content="2026-01-09">
+<title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-input1381ec973c16078b</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+<link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+<link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
+<style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -29,15 +29,81 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-379ada49d402fbc145bbc15eac7d5a0e.css">
-  <link rel="stylesheet" href="styles.css">
-  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="site_libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
-  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
-  <style type="text/css">
+<link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-379ada49d402fbc145bbc15eac7d5a0e.css">
+<link rel="stylesheet" href="styles.css">
+<link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+<link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+<link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+<link href="site_libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
+<link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+<style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
       overflow: auto;
@@ -129,9 +195,9 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title"><div class="line-block"><span style="color:coral;font-size:0.6em">인터랙티브 교수ㆍ학습 웹 앱의 디자인 2</span><br>
-<span style="font-size:1em">Shiny를 활용한 웹 앱 제작</span></div></h1>
+<section id="title-slide" class="quarto-title-block center"><h1 class="title"><div class="line-block">
+<span style="color:coral;font-size:0.6em">인터랙티브 교수ㆍ학습 웹 앱의 디자인 2</span><br><span style="font-size:1em">Shiny를 활용한 웹 앱 제작</span>
+</div></h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -142,25 +208,468 @@
 </div>
 
   <p class="date">2026-01-09</p>
-</section>
-<section>
-<section id="인터랙티브-시각화" class="title-slide slide level1 center">
-<h1><span style="color:coral">인터랙티브 시각화</span></h1>
-
-</section>
-<section id="데이터사이언스-프로세스-소통" class="slide level2">
-<h2>데이터사이언스 프로세스: 소통</h2>
-
-<img data-src="images/data_science_process_communicate-03.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://r4ds.hadley.nz/" style="font-size:1rem">https://r4ds.hadley.nz/</a></p><ul>
-<li>소통하기(communicate): 분석 과정과 결과를 대상 청중의 이해 수준과 목적에 맞게 해석ㆍ구성하여, 적절한 형식과 매체를 통해 의미있게 전달하는 과정</li>
+</section><section id="인터랙티브-웹-앱-구상-발표" class="slide level2"><h2>인터랙티브 웹 앱 구상 발표</h2>
+<ul>
+<li>
+<p>일시</p>
+<ul>
+<li>2026년 1월 12일(월)</li>
 </ul>
-</section></section>
-<section id="지리공간적-시각화" class="title-slide slide level1 center">
-<h1><span style="color:coral">지리공간적 시각화</span></h1>
+</li>
+<li>
+<p>주제: 인구 관련</p>
+<ul>
+<li><p>저출산, 고령화, 인구 절벽, 지역 소멸, 학령 인구 감소 등</p></li>
+<li><p>인구 현상과 인문사회 콘텐츠 참고</p></li>
+</ul>
+</li>
+<li>
+<p>데이터</p>
+<ul>
+<li>WPP 2024 혹은 KOSIS</li>
+</ul>
+</li>
+<li>
+<p>발표 내용</p>
+<ul>
+<li>주제, 웹 앱 디자인(레이아웃 요소, 내용 요소, 상호작용 요소)</li>
+</ul>
+</li>
+<li>
+<p>발표 방식</p>
+<ul>
+<li>5~10분 정도의 프레젠테이션</li>
+</ul>
+</li>
+</ul></section><section id="shiny-서버-기반-웹-앱-개발-프레임워크" class="slide level2"><h2>Shiny: (서버-기반) 웹 앱 개발 프레임워크</h2>
+
+<img data-src="images/hex_shiny.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://shiny.posit.co/" style="font-size:1.25rem">https://shiny.posit.co/</a></p></section><section id="리소스-shiny-홈페이지" class="slide level2"><h2>리소스: Shiny 홈페이지</h2>
+<ul>
+<li>
+<p><a href="https://shiny.posit.co/" class="uri">https://shiny.posit.co/</a></p>
+<ul>
+<li><p>Shiny for R(<a href="https://shiny.posit.co/r/" class="uri">https://shiny.posit.co/r/</a>)</p></li>
+<li><p>Shiny for Python(<a href="https://shiny.posit.co/py/" class="uri">https://shiny.posit.co/py/</a>)</p></li>
+</ul>
+</li>
+<li>
+<p>11개 예시</p>
+<ul>
+<li>
+<p>예시의 이름 검색: <code><a href="https://rdrr.io/pkg/shiny/man/runExample.html">runExample()</a></code></p>
+<ul>
+<li>“01_hello”, “02_text”, “03_reactivity”, “04_mpg”, “05_sliders”, “06_tabsets”, “07_widgets”, “08_html”, “09_upload”, “10_download”, “11_timer”</li>
+</ul>
+</li>
+<li><p>예시의 웹 앱 및 코드 보기: <code>runExample("01_hello", display = "showcase")</code></p></li>
+</ul>
+</li>
+</ul></section><section id="리소스-웹북" class="slide level2"><h2>리소스: 웹북</h2>
+<ul>
+<li><p><a href="https://mastering-shiny.org/">Mastering Shiny</a> by <a href="https://hadley.nz/">Hadley Wickham</a></p></li>
+<li><p><a href="https://unleash-shiny.rinterface.com/">Outstanding User Interfaces with Shiny</a></p></li>
+<li><p><a href="https://engineering-shiny.org/">Engineering Production-Grade Shiny Apps</a></p></li>
+<li><p><a href="https://plotly-r.com/">Interactive Web-Based Data Visualization with R, plotly, and shiny</a></p></li>
+<li><p><a href="https://bookdown.org/loankimrobinson/rshinybook/">R Shiny Applications in Finance, Medicine Pharma and Education Industry</a></p></li>
+<li><p><a href="https://bookdown.org/hneth/i2ds/shiny.html">Introduction to Data Science: 25 Shiny Applications</a></p></li>
+<li><p><a href="https://greendaygh.github.io/Rprog2021/shiny.html">데이터 사이언스를 위한 R 프로그래밍: 14 shiny</a></p></li>
+</ul></section><section id="확장-bslib-패키지" class="slide level2"><h2>확장: bslib 패키지</h2>
+
+<img data-src="images/hex_bslib.png" class="r-stretch quarto-figure-center"><p class="caption">https://rstudio.github.io/bslib/</p></section><section id="기본-구조" class="slide level2"><h2>기본 구조</h2>
+<ul>
+<li>
+<p>ui 부분: 프론트엔드(front-end) 부분</p>
+<ul>
+<li>입력을 받고 출력을 표출하는 부분</li>
+</ul>
+</li>
+<li>
+<p>server 부분: 백엔드(back-end) 부분</p>
+<ul>
+<li>받은 입력으로 출력을 산출하는 부분</li>
+</ul>
+</li>
+<li><p>결합: <code>shinyApp(ui = ui, server = server)</code></p></li>
+</ul>
+
+<img data-src="https://bookdown.org/hneth/i2ds/images/Shiny_ui_server.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://bookdown.org/hneth/i2ds/shiny.html" style="font-size:1.25rem">https://bookdown.org/hneth/i2ds/shiny.html</a></p></section><section id="shiny-프로젝트의-생성" class="slide level2"><h2>Shiny 프로젝트의 생성</h2>
+<ul>
+<li>New Project &gt; New Directory &gt; Shiny Application</li>
+</ul>
+
+<img data-src="https://sangillee.snu.ac.kr/data_science/images/clipboard-1356184653.png" class="quarto-figure quarto-figure-center r-stretch"></section><section id="웹-앱-예시" class="slide level2"><h2>웹 앱 예시</h2>
+<iframe src="https://sangillee.shinyapps.io/AIEDU2025_Example//" loading="lazy" style="width: 100%; height: 900px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+</section><section id="기본-구조-ui-부분" class="slide level2"><h2>기본 구조: ui 부분</h2>
+<ul>
+<li>
+<p>입력(input)</p>
+<ul>
+<li><p>‘입력 함수’: 사용자로부터 입력을 받아 ’입력 객체’를 만드는 함수</p></li>
+<li>
+<p>위젯(widget): ui를 위한 기본 시각 요소로, 미리 만들어져 있는 것</p>
+<ul>
+<li>버튼, 스크롤 바, 텍스트 상자, 체크박스, 라디오 버튼 등</li>
+</ul>
+</li>
+<li>
+<p>입력의 종류에 따라 다양: <code>*Input()</code></p>
+<ul>
+<li><code>sliderInput(inputID = "")</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>출력(output)</p>
+<ul>
+<li><p>‘출력 표출 함수’: 서버로부터 ’출력 객체’를 받아 디스플레이하는 함수</p></li>
+<li>
+<p>출력의 종류에 따라 다양: <code>*Output()</code></p>
+<ul>
+<li><code>plotOutput(outputID = "")</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></section><section id="기본-구조-ui-부분-1" class="slide level2"><h2>기본 구조: ui 부분</h2>
+<ul>
+<li>입력 함수(위젯): <a href="https://shiny.posit.co/r/components/" class="uri">https://shiny.posit.co/r/components/</a>
+</li>
+</ul>
+
+<img data-src="images/clipboard-2818742956.png" class="r-stretch"></section><section id="기본-구조-ui-부분-2" class="slide level2"><h2>기본 구조: ui 부분</h2>
+<ul>
+<li><p>출력 함수: <a href="https://shiny.posit.co/r/components/" class="uri">https://shiny.posit.co/r/components/</a></p></li>
+<li>
+<p>주요 함수: <code>*Output(outputID = "")</code></p>
+<ul>
+<li><p>플롯: <code>plotOutput(outputID = "")</code></p></li>
+<li><p>테이블: <code>tableOutput(outputID = "")</code></p></li>
+<li><p>일반 텍스트: <code>textOutput(outputID = "")</code></p></li>
+<li><p>사전 포맷된 텍스트: <code>verbatimeTextOutput(outputID = "")</code></p></li>
+<li><p>이미지: <code>imageOutput(outputID = "")</code></p></li>
+</ul>
+</li>
+</ul></section><section id="기본-구조-server-부분" class="slide level2"><h2>기본 구조: server 부분</h2>
+<ul>
+<li>
+<p>입력 객체를 받아 특정한 출력 객체를 생성</p>
+<ul>
+<li>입력 객체: <code>input$inputID</code>
+</li>
+</ul>
+</li>
+<li>
+<p>출력 객체 생성 함수(렌더링 함수): render*({})</p>
+<ul>
+<li><p><code>renderPlot({})</code></p></li>
+<li><p>출력 객체: <code>output$outputID</code></p></li>
+</ul>
+</li>
+<li>
+<p>주요 함수: <code>render*()</code></p>
+<ul>
+<li><p>플롯: <code><a href="https://rdrr.io/pkg/shiny/man/renderPlot.html">renderPlot()</a></code></p></li>
+<li><p>테이블: <code><a href="https://rdrr.io/pkg/shiny/man/renderTable.html">renderTable()</a></code></p></li>
+<li><p>일반 텍스트: <code><a href="https://rdrr.io/pkg/shiny/man/renderPrint.html">renderText()</a></code></p></li>
+<li><p>사전 포맷된 텍스트: <code><a href="https://rdrr.io/pkg/shiny/man/renderPrint.html">renderPrint()</a></code></p></li>
+<li><p>이미지: <code><a href="https://rdrr.io/pkg/shiny/man/renderImage.html">renderImage()</a></code></p></li>
+</ul>
+</li>
+</ul></section><section id="기본-구조-ui-server-연계" class="slide level2"><h2>기본 구조: ui-server 연계</h2>
+<ul>
+<li>출력 생성(렌더링) 함수와 출력 함수: <a href="https://shiny.posit.co/r/components/" class="uri">https://shiny.posit.co/r/components/</a>
+</li>
+</ul>
+
+<img data-src="images/clipboard-1333453652.png" class="r-stretch"></section><section id="기본-구조-ui-server-연계-1" class="slide level2 smaller"><h2>기본 구조: ui-server 연계</h2>
+<ul>
+<li>기본 출력 함수 쌍</li>
+</ul>
+<table class="caption-top">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 48%">
+<col style="width: 28%">
+</colgroup>
+<thead><tr class="header">
+<th>형식</th>
+<th>출력 표출 함수(UI)</th>
+<th>출력 생성(렌더링) 함수(Server)</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>플롯</td>
+<td><code>plotOutput(outputID = "")</code></td>
+<td><code>renderPlot({})</code></td>
+</tr>
+<tr class="even">
+<td>테이블</td>
+<td><code>tableOutput(outputID = "")</code></td>
+<td><code>renderTable({})</code></td>
+</tr>
+<tr class="odd">
+<td>일반 텍스트</td>
+<td><code>textOutput(outputID = "")</code></td>
+<td><code>renderText({})</code></td>
+</tr>
+<tr class="even">
+<td>사전 포맷된 텍스트</td>
+<td><code>verbatimeTextOutput(outputID = "")</code></td>
+<td><code>renderPrint({})</code></td>
+</tr>
+<tr class="odd">
+<td>이미지</td>
+<td><code>imageOutput(outputID = "")</code></td>
+<td><code>renderImage({})</code></td>
+</tr>
+</tbody>
+</table></section><section id="기본-구조-ui-server-연계-2" class="slide level2 smaller"><h2>기본 구조: ui-server 연계</h2>
+<ul>
+<li>주요 패키지별 출력 함수 쌍</li>
+</ul>
+<table class="caption-top">
+<thead><tr class="header">
+<th>주요 패키지</th>
+<th>출력 표출 함수(UI)</th>
+<th>출력 생성(렌더링) 함수(Server)</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://rstudio.github.io/DT/"><strong>DT</strong></a></td>
+<td><code>DTOutput(outputID = "")</code></td>
+<td><code>renderDT({})</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://glin.github.io/reactable/"><strong>reactable</strong></a></td>
+<td><code>reactableOutput(outputID = "")</code></td>
+<td><code>renderReactable({})</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://plotly.com/r/"><strong>plotly</strong></a></td>
+<td><code>plotlyOutput(outputID = "")</code></td>
+<td><code>renderPlotyl({})</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://echarts4r.john-coene.com/"><strong>echarts4r</strong></a></td>
+<td><code>echarts4rOutput(outputID = "")</code></td>
+<td><code>renderEcharts4r({})</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://rstudio.github.io/leaflet/"><strong>leaflet</strong></a></td>
+<td><code>leafletOutput(outputID = "")</code></td>
+<td><code>renderLeaflet({})</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://r-tmap.github.io/tmap/"><strong>tmap</strong></a></td>
+<td><code>tmapOutput(outputID = "")</code></td>
+<td><code>renderTmap({})</code></td>
+</tr>
+</tbody>
+</table></section><section id="반응성-함수-reactive" class="slide level2"><h2>반응성 함수 <code>reactive({})</code>
+</h2>
+<ul>
+<li>
+<p><code>render*()</code> 함수는 이미 반응성 함수</p>
+<ul>
+<li>사용자의 선택이 바뀔 때마다 갱신</li>
+</ul>
+</li>
+<li>
+<p>반응성 함수 <code>reactive({})</code></p>
+<ul>
+<li><p>입력 객체를 받아 ‘반응성 표현식(reactive expression)’ 생성</p></li>
+<li>
+<p>반응성 표현식: 단순히 최종 산출물(값이나 객체)만을 의미하지 않고, 그 산출물을 관리하는 메커니즘(종속성 추적, 지연 실행, 캐싱 등) 포함하는 동적인 객체</p>
+<ul>
+<li>반드시 함수 형태로 표기</li>
+</ul>
+</li>
+<li>
+<p>하나의 ’입력 객체’가 다양한 ’출력 객체(출력 생성 함수)’와 결부되는 경우</p>
+<ul>
+<li><p>동일한 입력 객체의 중복 사용 회피 목적</p></li>
+<li><p>해당 입력 객체를 반응성 표현식으로 전환</p></li>
+<li><p>다수의 출력 생성 함수에 입력 객체로 투입</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></section><section id="웹-배포deployment" class="slide level2"><h2>웹 배포(deployment)</h2>
+<ul>
+<li><p><a href="https://www.shinyapps.io/" class="uri">https://www.shinyapps.io/</a></p></li>
+<li>
+<p>계정 생성</p>
+<ul>
+<li><p>로그인 후 상단 오른쪽 끝 메뉴 “Tokens” 페이지로 이동</p></li>
+<li><p>페이지에서 Show를 통해 인증 토큰(Token)과 Secret 확보: Show secret를 클릭하여 secret까지 보이게 한 후 복사하기</p></li>
+</ul>
+</li>
+<li>
+<p>RStudio에 토큰 설정</p>
+<ul>
+<li>R 콘솔에 복사한 내용 붙여넣기 및 실행</li>
+</ul>
+</li>
+<li>
+<p>Publish 버튼 클릭</p>
+<ul>
+<li><p>스크립트 윈도우의 오른쪽 상단</p></li>
+<li><p>배포를 원하는 R 파일만 선택</p></li>
+</ul>
+</li>
+<li>
+<p>URL 생성: https://userid.shinyapps.io/project_name/</p>
+<ul>
+<li><a href="https://sangillee.shinyapps.io/AIEDU2025_Example/" class="uri">https://sangillee.shinyapps.io/AIEDU2025_Example/</a></li>
+</ul>
+</li>
+</ul></section><section id="quarto와-shiny의-결합" class="slide level2"><h2>Quarto와 Shiny의 결합</h2>
+<ul>
+<li><p>상황: Quarto 대시보드의 일부 영역에서 Shiny 사용</p></li>
+<li>
+<p>두 가지 접근</p>
+<ul>
+<li>
+<p>Shiny 중심 방식: Shiny 웹 앱의 생성</p>
+<ul>
+<li><p>Quarto 대시보드 내에서 Quarto 문법으로 Shiny 웹 앱 구축</p></li>
+<li><p>Quarto 대시보드 전체가 Shiny 웹 앱화: shinyapps.io를 통해 배포</p></li>
+<li><p>사례: <a href="https://sangillee.shinyapps.io/Dashboard_Example/" class="uri">https://sangillee.shinyapps.io/Dashboard_Example/</a></p></li>
+</ul>
+</li>
+<li>
+<p>Quarto 중심 방식: Quarto 대시보드의 유지</p>
+<ul>
+<li><p>Quarto 대시보드 속에 독립적으로 구축된 Shiny 웹 앱 임베딩</p></li>
+<li><p>여전히 Quarto 대시보드: Quarto Pub을 통해 배포</p></li>
+<li><p>사례: <a href="https://sangillee.snu.ac.kr/dashboard_examples/" class="uri">https://sangillee.snu.ac.kr/dashboard_examples/</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></section><section id="quarto와-shiny의-결합-shiny-중심-방식" class="slide level2"><h2>Quarto와 Shiny의 결합: Shiny 중심 방식</h2>
+<ul>
+<li>
+<p>옵션 1: Quarto를 Shiny 웹 앱의 레이아웃 설정 도구로 사용</p>
+<ul>
+<li>
+<p><strong>shiny</strong> 패키지: <code><a href="https://rdrr.io/pkg/shiny/man/fluidPage.html">fluidPage()</a></code></p>
+<ul>
+<li>
+<code><a href="https://rdrr.io/pkg/shiny/man/titlePanel.html">titlePanel()</a></code>, <code>SidebarLayout()</code>, <code><a href="https://rdrr.io/pkg/shiny/man/sidebarLayout.html">sidebarPanel()</a></code>, <code><a href="https://rdrr.io/pkg/shiny/man/sidebarLayout.html">mainPanel()</a></code>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>bslib</strong> 패키지: <code><a href="https://rstudio.github.io/bslib/reference/page_sidebar.html">page_sidebar()</a></code></p>
+<ul>
+<li>
+<code>sidebar = sidebar()</code>, <code><a href="https://rstudio.github.io/bslib/reference/card.html">card()</a></code>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>옵션 2: Quarto 대시보드 내에서 Shiny 웹 앱 구축</p></li>
+</ul></section><section id="quarto와-shiny의-결합-shiny-중심-방식-1" class="slide level2"><h2>Quarto와 Shiny의 결합: Shiny 중심 방식</h2>
+<ul>
+<li><p><a href="https://quarto.org/docs/dashboards/interactivity/shiny-r.html" class="uri">https://quarto.org/docs/dashboards/interactivity/shiny-r.html</a></p></li>
+<li><p>YAML 헤더에 다음 첨가: <code>server: shiny</code></p></li>
+<li>
+<p>ui 부분: 기본적으로는 <code>r</code> 코드 청크 속에 포함, 사이드바와 메인 병렬</p>
+<ul>
+<li><p>사이드바: 레이아웃 구성요소에 넣고 <code>{.sidebar}</code> CSS 클래스 지정 가능</p></li>
+<li><p>메인: 사이드바와 다른 레이아웃 구성요소에 넣기 가능</p></li>
+</ul>
+</li>
+<li>
+<p>server 부분: <code>r</code> 코드 청크 속에 포함, 다음 지정</p>
+<ul>
+<li>
+<code>#| context: server</code> 지정</li>
+</ul>
+</li>
+<li>
+<p>기타(패키지, 데이터 등) 부분: <code>r</code> 코드 청크 속에 포함, 다음 지정</p>
+<ul>
+<li><p><code>#| context: setup</code></p></li>
+<li><p><code>#| include: false</code></p></li>
+</ul>
+</li>
+</ul></section><section id="quarto와-shiny의-결합-quarto-중심-방식" class="slide level2"><h2>Quarto와 Shiny의 결합: Quarto 중심 방식</h2>
+<ul>
+<li><p>보통 하나의 row에 임베딩</p></li>
+<li><p><code>src=""</code> 부분만 교체</p></li>
+</ul>
+<pre><code>&lt;iframe src="https://..." loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"&gt;&lt;/iframe&gt;</code></pre>
+</section><section id="chatbot-웹-앱" class="slide level2"><h2>Chatbot 웹 앱</h2>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/hex_ellmer-02.png"></p>
+<figcaption><a href="https://ellmer.tidyverse.org/" style="font-size:1.25rem">https://ellmer.tidyverse.org/</a></figcaption></figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/hex_shinychat-01.png"></p>
+<figcaption><a href="https://posit-dev.github.io/shinychat/r/" style="font-size:1.25rem">https://posit-dev.github.io/shinychat/r/</a></figcaption></figure>
+</div>
+</div>
+</div>
+</div>
+</section><section id="chatbot-웹-앱-1" class="slide level2"><h2>Chatbot 웹 앱</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-1-1">코드</a></li>
+<li><a href="#tabset-1-2">웹 앱</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://shiny.posit.co/">shiny</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://posit-dev.github.io/shinychat/r/">shinychat</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://rstudio.github.io/bslib/">bslib</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://ellmer.tidyverse.org">ellmer</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">ui</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rstudio.github.io/bslib/reference/page_fillable.html">page_fillable</a></span><span class="op">(</span></span>
+<span>  <span class="fu"><a href="https://posit-dev.github.io/shinychat/r/reference/chat_ui.html">chat_ui</a></span><span class="op">(</span></span>
+<span>    id <span class="op">=</span> <span class="st">"chat"</span>,</span>
+<span>    messages <span class="op">=</span> <span class="st">"your messages here"</span></span>
+<span>  <span class="op">)</span>,</span>
+<span>  fillable_mobile <span class="op">=</span> <span class="cn">TRUE</span></span>
+<span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">server</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">input</span>, <span class="va">output</span>, <span class="va">session</span><span class="op">)</span> <span class="op">{</span></span>
+<span>  <span class="va">chat</span> <span class="op">&lt;-</span></span>
+<span>    <span class="fu"><a href="https://ellmer.tidyverse.org/reference/chat_openai.html">chat_openai</a></span><span class="op">(</span></span>
+<span>      base_url <span class="op">=</span> <span class="st">"https://api.openai.com/v1"</span>,</span>
+<span>      model <span class="op">=</span> <span class="st">"gpt-5.1"</span>,</span>
+<span>      api_key <span class="op">=</span> <span class="va">your_api_key_here</span>,</span>
+<span>      system_prompt <span class="op">=</span> <span class="st">""</span></span>
+<span>    <span class="op">)</span></span>
+<span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/pkg/shiny/man/observeEvent.html">observeEvent</a></span><span class="op">(</span><span class="va">input</span><span class="op">$</span><span class="va">chat_user_input</span>, <span class="op">{</span></span>
+<span>    <span class="va">stream</span> <span class="op">&lt;-</span> <span class="va">chat</span><span class="op">$</span><span class="fu">stream_async</span><span class="op">(</span><span class="va">input</span><span class="op">$</span><span class="va">chat_user_input</span><span class="op">)</span></span>
+<span>    <span class="fu"><a href="https://posit-dev.github.io/shinychat/r/reference/chat_append.html">chat_append</a></span><span class="op">(</span><span class="st">"chat"</span>, <span class="va">stream</span><span class="op">)</span></span>
+<span>  <span class="op">}</span><span class="op">)</span></span>
+<span><span class="op">}</span></span>
+<span></span>
+<span><span class="fu"><a href="https://rdrr.io/pkg/shiny/man/shinyApp.html">shinyApp</a></span><span class="op">(</span><span class="va">ui</span>, <span class="va">server</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+<div id="tabset-1-2">
+<iframe src="https://sangillee.shinyapps.io/my_shinychat/" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write">
+</iframe>
+</div>
+</div>
+</div>
 
 
 </section>
-    </div>
+</div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="snu_edu_1.png" class="slide-logo"></p>
 <div class="footer footer-default">
@@ -168,24 +677,7 @@
 </div>
 </div></div>
 
-  <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="site_libs/revealjs/dist/reveal.js"></script>
-  <!-- reveal.js plugins -->
-  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="site_libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
-  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
-  
-
-  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="site_libs/revealjs/plugin/search/search.js"></script>
-  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="site_libs/revealjs/plugin/math/math.js"></script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
-
-  <script>
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="site_libs/revealjs/dist/reveal.js"></script><!-- reveal.js plugins --><script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script><script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script><script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script><script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script><script src="site_libs/revealjs/plugin/reveal-pointer/pointer.js"></script><script src="site_libs/revealjs/plugin/quarto-support/support.js"></script><script src="site_libs/revealjs/plugin/notes/notes.js"></script><script src="site_libs/revealjs/plugin/search/search.js"></script><script src="site_libs/revealjs/plugin/zoom/zoom.js"></script><script src="site_libs/revealjs/plugin/math/math.js"></script><script>window.define = window.backupDefine; window.backupDefine = undefined;</script><script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
@@ -377,8 +869,42 @@
           RevealZoom
         ]
       });
-    </script>
-    <script id="quarto-html-after-body" type="application/javascript">
+    </script><script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+    
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+    
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+    
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+    
+      })();
+    </script><script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
         tabsets.forEach(function(tabset) {
@@ -546,6 +1072,6 @@
         }
       });
       </script>
-    
+
 
 </body></html>
