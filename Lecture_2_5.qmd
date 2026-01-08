@@ -109,15 +109,15 @@ editor_options:
 
 -   [데이터 사이언스를 위한 R 프로그래밍: 14 shiny](https://greendaygh.github.io/Rprog2021/shiny.html)
 
-## 확장: bslib 패키지
+## 확장: [bslib](https://rstudio.github.io/bslib/) 패키지
 
-![https://rstudio.github.io/bslib/](images/hex_bslib.png)
+![[https://rstudio.github.io/bslib/](https://rstudio.github.io/bslib/){style="font-size:1rem"}](images/hex_bslib.png)
 
 ## 기본 구조
 
 -   ui 부분: 프론트엔드(front-end) 부분
 
-    -   입력을 받고 출력을 표출하는 부분
+    -   입력을 받고 출력을 나타내는 부분
 
 -   server 부분: 백엔드(back-end) 부분
 
@@ -131,13 +131,61 @@ editor_options:
 
 -   New Project \> New Directory \> Shiny Application
 
-![](https://sangillee.snu.ac.kr/data_science/images/clipboard-1356184653.png){fig-align="center"}
+![](https://sangillee.snu.ac.kr/data_science/images/clipboard-1356184653.png){fig-align="center" style="height:700px"}
 
 ## 웹 앱 예시
 
+::: panel-tabset
+## 웹 앱
+
 ```{=html}
-<iframe src="https://sangillee.shinyapps.io/AIEDU2025_Example//" loading="lazy" style="width: 100%; height: 900px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+<iframe src="https://sangillee.shinyapps.io/AIEDU2025_Example//" loading="lazy" style="width: 100%; height: 800px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
 ```
+
+## 코드
+
+```{r}
+#| eval: false
+#| echo: true
+library(shiny)
+library(bslib)
+library(tidyverse)
+library(plotly)
+
+ui <- page_sidebar(
+  title = "A Simple Shiny App",
+  sidebar = sidebar(
+    sliderInput(
+      inputId = "bins",
+      label = "Number of bins:",
+      min = 1, max = 50, value = 30
+    )
+  ),
+  card(
+    card_header("Histogram"),
+    plotlyOutput(outputId = "distPlot")
+  )
+)
+
+server <- function(input, output) {
+  output$distPlot <- renderPlotly({
+    x    <- faithful[, 2]
+    gg <- ggplot() +
+      geom_histogram(
+        aes(x = x), bins = input$bins, fill = 'darkgray', color = 'white'
+      ) +
+      labs(
+        x = 'Waiting time to next eruption (in mins)',
+        y = "Frequencies",
+        title = 'Histogram of waiting times'
+      )
+    ggplotly(gg)
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
+:::
 
 ## 기본 구조: ui 부분
 
@@ -155,7 +203,7 @@ editor_options:
 
 -   출력(output)
 
-    -   '출력 표출 함수': 서버로부터 '출력 객체'를 받아 디스플레이하는 함수
+    -   '출력 함수': 서버로부터 '출력 객체'를 받아 디스플레이하는 함수
 
     -   출력의 종류에 따라 다양: `*Output()`
 
@@ -163,13 +211,13 @@ editor_options:
 
 ## 기본 구조: ui 부분
 
--   입력 함수(위젯): <https://shiny.posit.co/r/components/>
+-   **입력 함수**(위젯): <https://shiny.posit.co/r/components/>
 
 ![](images/clipboard-2818742956.png)
 
 ## 기본 구조: ui 부분
 
--   출력 함수: <https://shiny.posit.co/r/components/>
+-   **출력 함수**: <https://shiny.posit.co/r/components/>
 
 -   주요 함수: `*Output(outputID = "")`
 
@@ -189,7 +237,7 @@ editor_options:
 
     -   입력 객체: `input$inputID`
 
--   출력 객체 생성 함수(렌더링 함수): render\*({})
+-   **렌더링(rendering) 함수**: 출력 객체 생성 함수, render\*({})
 
     -   `renderPlot({})`
 
@@ -207,18 +255,18 @@ editor_options:
 
     -   이미지: `renderImage()`
 
-## 기본 구조: ui-server 연계
+## 기본 구조: ui-server 연계 {visibility="hidden"}
 
--   출력 생성(렌더링) 함수와 출력 함수: <https://shiny.posit.co/r/components/>
+-   렌더링 함수와 출력 함수: <https://shiny.posit.co/r/components/>
 
 ![](images/clipboard-1333453652.png)
 
 ## 기본 구조: ui-server 연계 {.smaller}
 
--   기본 출력 함수 쌍
+-   기본 형식의 출력 함수와 렌더링 함수 쌍
 
-| 형식 | 출력 표출 함수(UI) | 출력 생성(렌더링) 함수(Server) |
-|----|----|----|
+| 형식 | 출력 함수(UI) | 출력 생성(렌더링) 함수(Server) |
+|------------------|---------------------------|---------------------------|
 | 플롯 | `plotOutput(outputID = "")` | `renderPlot({})` |
 | 테이블 | `tableOutput(outputID = "")` | `renderTable({})` |
 | 일반 텍스트 | `textOutput(outputID = "")` | `renderText({})` |
@@ -229,13 +277,13 @@ editor_options:
 
 ## 기본 구조: ui-server 연계 {.smaller}
 
--   주요 패키지별 출력 함수 쌍
+-   주요 패키지의 출력 함수와 렌더링 함수 쌍
 
 | 주요 패키지 | 출력 표출 함수(UI) | 출력 생성(렌더링) 함수(Server) |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | [**DT**](https://rstudio.github.io/DT/) | `DTOutput(outputID = "")` | `renderDT({})` |
 | [**reactable**](https://glin.github.io/reactable/) | `reactableOutput(outputID = "")` | `renderReactable({})` |
-| [**plotly**](https://plotly.com/r/) | `plotlyOutput(outputID = "")` | `renderPlotyl({})` |
+| [**plotly**](https://plotly.com/r/) | `plotlyOutput(outputID = "")` | `renderPlotly({})` |
 | [**echarts4r**](https://echarts4r.john-coene.com/) | `echarts4rOutput(outputID = "")` | `renderEcharts4r({})` |
 | [**leaflet**](https://rstudio.github.io/leaflet/) | `leafletOutput(outputID = "")` | `renderLeaflet({})` |
 | [**tmap**](https://r-tmap.github.io/tmap/) | `tmapOutput(outputID = "")` | `renderTmap({})` |
@@ -254,7 +302,7 @@ editor_options:
 
         -   반드시 함수 형태로 표기
 
-    -   하나의 '입력 객체'가 다양한 '출력 객체(출력 생성 함수)'와 결부되는 경우
+    -   하나의 '입력 객체'가 다양한 '출력 객체(렌더링 함수)'와 결부되는 경우
 
         -   동일한 입력 객체의 중복 사용 회피 목적
 
@@ -353,57 +401,3 @@ editor_options:
 ```         
 <iframe src="https://..." loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
 ```
-
-## Chatbot 웹 앱
-
-::: {layout-ncol="2"}
-![[https://ellmer.tidyverse.org/](https://ellmer.tidyverse.org/){style="font-size:1.25rem"}](images/hex_ellmer-02.png)
-
-![[https://posit-dev.github.io/shinychat/r/](https://posit-dev.github.io/shinychat/r/){style="font-size:1.25rem"}](images/hex_shinychat-01.png)
-:::
-
-## Chatbot 웹 앱
-
-::: panel-tabset
-## 코드
-
-```{r}
-#| echo: true
-#| eval: false
-library(shiny)
-library(shinychat)
-library(bslib)
-library(ellmer)
-
-ui <- page_fillable(
-  chat_ui(
-    id = "chat",
-    messages = "your messages here"
-  ),
-  fillable_mobile = TRUE
-)
-
-server <- function(input, output, session) {
-  chat <-
-    chat_openai(
-      base_url = "https://api.openai.com/v1",
-      model = "gpt-5.1",
-      api_key = your_api_key_here,
-      system_prompt = ""
-    )
-
-  observeEvent(input$chat_user_input, {
-    stream <- chat$stream_async(input$chat_user_input)
-    chat_append("chat", stream)
-  })
-}
-
-shinyApp(ui, server)
-```
-
-## 웹 앱
-
-<iframe src="https://sangillee.shinyapps.io/my_shinychat/" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write">
-
-</iframe>
-:::
