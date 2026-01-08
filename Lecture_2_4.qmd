@@ -459,6 +459,8 @@ gapminder |>
 
 ```{r}
 #| echo: false
+#| fig-width: 11
+#| fig-asp: 0.618
 gapminder |> 
   plot_ly(
     x = ~log10(gdpPercap), 
@@ -1233,6 +1235,7 @@ ggplotly(world_map)
 
 ```{r}
 #| echo: false
+#| fig-width: 11
 library(plotly)
 ggplotly(world_map)
 ```
@@ -1320,6 +1323,8 @@ leaflet() |>
 
 ```{r}
 #| echo: false
+#| fig-height: 6.5
+#| fig-width: 10
 library(leaflet)
 leaflet() |> 
   addTiles() |> 
