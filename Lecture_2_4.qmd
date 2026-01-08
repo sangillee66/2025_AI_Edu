@@ -114,18 +114,15 @@ editor_options:
 
 ```         
 <iframe src="https://kosis.kr/edu/share.do?shareID=S0500_16" 
-loading="lazy" style="width: 100%; height: 600px; border: 
+loading="lazy" style="width: 100%; height: 400px; border: 
 0px none;" allow="web-share; clipboard-write"></iframe>
 ```
 
 ## Result
 
 ```{=html}
-<iframe data-external="1" src="https://kosis.kr/edu/share.do?shareID=S0500_16" loading="lazy" style="width: 100%; height: 600px; border:
-0px none;" allow="web-share; clipboard-write">
+<iframe data-external="1" src="https://kosis.kr/edu/share.do?shareID=S0500_16" loading="lazy" style="width: 100%; height: 400px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
 ```
-
-</iframe>
 :::
 
 ## 임베딩: 사례 2
@@ -194,8 +191,8 @@ loading="lazy" style="width: 100%; height: 600px; border:
 
 ## 테이블: 인터랙티브 테이블
 
-| 자바스크립트 라이브러리 | R 래퍼 패키지 |
-|----|----|
+| JS 라이브러리 | R 래퍼 패키지 |
+|------------------------------------|------------------------------------|
 | [DataTables](https://datatables.net/) | [DT](https://rstudio.github.io/DT/) |
 | [Tanstack Table](https://tanstack.com/table/v7/) | [reactable](https://glin.github.io/reactable/) |
 
@@ -287,7 +284,7 @@ P + transition_time(year) +
 
 ```{r}
 #| echo: false
-#| fig-width: 4
+#| fig-width: 6.5
 #| fig-asp: 0.618
 library(gganimate)
 P <- gapminder |> 
@@ -332,9 +329,8 @@ P + transition_time(year) +
 #| echo: true
 library(tidyverse)
 library(ggiraph)
-data <- mtcars
-data <- data |> rownames_to_column(var = "carname")
-gg_point = ggplot(data = data) +
+data <- mtcars |> rownames_to_column(var = "carname")
+gg_point <- ggplot(data = data) +
   geom_point_interactive(
     aes(x = wt, y = qsec, color = disp, 
         tooltip = carname, data_id = carname)
@@ -348,9 +344,8 @@ girafe(ggobj = gg_point)
 ```{r}
 library(tidyverse)
 library(ggiraph)
-data <- mtcars
-data <- data |> rownames_to_column(var = "carname")
-gg_point = ggplot(data = data) +
+data <- mtcars |> rownames_to_column(var = "carname")
+gg_point <- ggplot(data = data) +
   geom_point_interactive(
     aes(x = wt, y = qsec, color = disp, 
         tooltip = carname, data_id = carname)
@@ -362,8 +357,8 @@ girafe(ggobj = gg_point)
 
 ## 차트: 래퍼 패키지 활용
 
-| 자바스크립트 라이브러리 | R 래퍼 패키지 |
-|----|----|
+| JS 라이브러리 | R 래퍼 패키지 |
+|------------------------------------|------------------------------------|
 | [Plotly](https://plotly.com/graphing-libraries/) | [plotly](https://plotly.com/r/) |
 | [D3](https://d3js.org/) | [r2d3](https://rstudio.github.io/r2d3/) |
 | [Highcharts](https://www.highcharts.com/) | [highcharter](https://jkunst.com/highcharter/) |
@@ -380,6 +375,8 @@ girafe(ggobj = gg_point)
 -   [Plotly](https://plotly.com/graphing-libraries/): 자바스크립트 라이브러리
 
 -   R 래퍼 패키지: [**plotly**](https://plotly.com/r/) package
+
+    -   `plot_ly()` 함수
 
     -   `ggplotly()` 함수
 
@@ -403,7 +400,7 @@ gapminder |>
     text = ~paste(
       "Country: ", country, 
       "<br>GDP per capita: ", gdpPercap, 
-      "$<br>Life Expectancy at Birth:", lifeExp
+      "<br>Life Expectancy at Birth:", lifeExp
     )
   )
 ```
@@ -411,6 +408,8 @@ gapminder |>
 ## Result
 
 ```{r}
+#| fig-width: 11
+#| fig-asp: 0.618
 library(plotly)
 gapminder |> 
   filter(year == 2007) |> 
@@ -421,7 +420,7 @@ gapminder |>
     text = ~paste(
       "Country: ", country, 
       "<br>GDP per capita: ", gdpPercap, 
-      "$<br>Life Expectancy at Birth:", lifeExp
+      "<br>Life Expectancy at Birth:", lifeExp
     )
   )
 ```
@@ -437,11 +436,12 @@ gapminder |>
 #| echo: true
 gapminder |> 
   plot_ly(
-    x = ~log10(gdpPercap), y = ~lifeExp,
+    x = ~log10(gdpPercap), 
+    y = ~lifeExp,
     text = ~paste(
-      "Country:", country, 
-      "</br>Continent:", continent, 
-      "</br>lifeExp:", lifeExp
+      "Country: ", country, 
+      "<br>GDP per capita: ", gdpPercap, 
+      "<br>Life Expectancy at Birth:", lifeExp
     )
   ) |> 
   add_markers(
@@ -455,13 +455,16 @@ gapminder |>
 ## Result
 
 ```{r}
+#| fig-width: 11
+#| fig-asp: 0.618
 gapminder |> 
   plot_ly(
-    x = ~log10(gdpPercap), y = ~lifeExp,
+    x = ~log10(gdpPercap), 
+    y = ~lifeExp,
     text = ~paste(
-      "Country:", country, 
-      "</br>Continent:", continent, 
-      "</br>lifeExp:", lifeExp
+      "Country: ", country, 
+      "<br>GDP per capita: ", gdpPercap, 
+      "<br>Life Expectancy at Birth:", lifeExp
     )
   ) |> 
   add_markers(
@@ -494,6 +497,8 @@ ggplotly(P)
 
 ```{r}
 #| echo: false
+#| fig-width: 12
+#| fig-asp: 0.618
 P <- gapminder |> 
   filter(year == 2007) |> 
   ggplot(aes(x = gdpPercap, y = lifeExp, color = continent)) +
@@ -514,15 +519,13 @@ ggplotly(P)
 #| echo: true
 library(tidyverse)
 library(echarts4r)
-library(RColorBrewer)
-my.data <- read_rds("D:/My R/Population Geography/wpp_2024.rds")
-data.sel <- my.data |> 
+my_data <- read_rds("D:/My R/Population Geography/wpp_2024.rds")
+data_sel <- my_data |> 
   filter(
     type == "Subregion" | region_name == "Northern America",
     year == 2025
   )
-custom_colors <- brewer.pal(n = 6, name = "Set2")
-data.sel |> 
+data_sel |> 
   arrange(median_age) |> 
   mutate(
     median_age = round(median_age, digits = 1)
@@ -530,7 +533,7 @@ data.sel |>
   group_by(Region_NM) |> 
   e_charts(region_name, width = "100%", height = "800px") |> 
   e_bar(serie = median_age, stack = "grp") |> 
-  e_color(custom_colors) |> 
+  e_color() |> 
   e_flip_coords() |> 
   e_x_axis(name = "Median Age") |> 
   e_tooltip() |> 
@@ -543,20 +546,13 @@ data.sel |>
 #| echo: false
 library(tidyverse)
 library(echarts4r)
-library(RColorBrewer)
-my.data <- read_rds("D:/My R/Population Geography/wpp_2024.rds")
-# my.data |> 
-#   filter(
-#     type == "Region"
-#   ) |> 
-#   distinct(region_name) |> pull() -> UN.region.name
-data.sel <- my.data |> 
+my_data <- read_rds("D:/My R/Population Geography/wpp_2024.rds")
+data_sel <- my_data |> 
   filter(
     type == "Subregion" | region_name == "Northern America",
     year == 2025
   )
-custom_colors <- brewer.pal(n = 6, name = "Set2")
-data.sel |> 
+data_sel |> 
   arrange(median_age) |> 
   mutate(
     median_age = round(median_age, digits = 1)
@@ -564,7 +560,7 @@ data.sel |>
   group_by(Region_NM) |> 
   e_charts(region_name, width = "100%", height = "750px") |> 
   e_bar(serie = median_age, stack = "grp") |> 
-  e_color(custom_colors) |> 
+  e_color() |> 
   e_flip_coords() |> 
   e_x_axis(name = "Median Age") |> 
   e_tooltip() |> 
@@ -601,17 +597,17 @@ data.sel |>
 ## 사례: 전 세계 인구 분포 지도
 
 ::: {layout-ncol="2"}
-![[https://r-spatial.github.io/sf/](https://r-spatial.github.io/sf/){style="font-size:1.25rem"}](images/hex_sf.png){width="699"}
+![[https://r-spatial.github.io/sf/](https://r-spatial.github.io/sf/){style="font-size:1rem"}](images/hex_sf.png){width="699"}
 
-![[https://rspatial.github.io/terra/](https://rspatial.github.io/terra/){style="font-size:1.25rem"}](images/hex_terra.png)
+![[https://rspatial.github.io/terra/](https://rspatial.github.io/terra/){style="font-size:1rem"}](images/hex_terra.png)
 :::
 
 ## 사례: 전 세계 인구 분포 지도
 
 ::: {layout="[45, -10, 45]"}
-![[https://ggplot2.tidyverse.org/](https://ggplot2.tidyverse.org/){style="font-size:1.25rem"}](images/hex_ggplot2-01.png)
+![[https://ggplot2.tidyverse.org/](https://ggplot2.tidyverse.org/){style="font-size:1rem"}](images/hex_ggplot2-01.png)
 
-![[https://r-tmap.github.io/tmap/](https://r-tmap.github.io/tmap/){style="font-size:1.25rem"}](images/tmap_1-01.png)
+![[https://r-tmap.github.io/tmap/](https://r-tmap.github.io/tmap/){style="font-size:1rem"}](images/tmap_1-01.png)
 :::
 
 ## 지리공간적 데이터의 종류
@@ -630,29 +626,29 @@ data.sel |>
 
 ## 지리공간적 데이터의 종류
 
-![](images/clipboard-216726006.jpeg)
+![](images/clipboard-216726006.jpeg){fig-align="center"}
 
 ## 지리공간적 데이터의 종류
 
-![](images/clipboard-2659758028.png)
+![](images/clipboard-2659758028.png){fig-align="center"}
 
 ## 벡터 데이터
 
 -   벡터 데이터: 형상 데이터 + 속성 데이터
 
-    -   [**형상 데이터**]{style="color:coral"} (기하, 도형, 공간 데이터)
+-   형상 데이터
 
-        -   지리공간적 객체 자체에 대한 데이터
+    -   지리공간적 객체 자체에 대한 데이터
 
-        -   포인트(점), 라인(선), 폴리곤(면)으로 구분
+    -   포인트(점), 라인(선), 폴리곤(면)으로 구분
 
-        -   버텍스(vertex)의 좌표값
+    -   버텍스(vertex)의 좌표값
 
-    -   [**속성 데이터**]{style="color:coral"}
+-   **속성 데이터**
 
-        -   지리공간적 객체가 보유한 속성
+    -   지리공간적 객체가 보유한 속성
 
-        -   기존 일반 데이터와 동일
+    -   기존 일반 데이터와 동일
 
 ## 벡터 데이터
 
@@ -672,12 +668,12 @@ data.sel |>
 
 ## 벡터 데이터: [**sf**](https://r-spatial.github.io/sf/) 패키지
 
-![[https://allisonhorst.com/r-packages-functions](https://allisonhorst.com/r-packages-functions){style="font-size:1.25rem"}](images/clipboard-601191076.png)
+![[https://allisonhorst.com/r-packages-functions](https://allisonhorst.com/r-packages-functions){style="font-size:1rem"}](images/clipboard-601191076.png){fig-align="center"}
 
 ## 벡터 데이터: [**sf**](https://r-spatial.github.io/sf/) 패키지 {.smaller}
 
 | 구분 | 함수 |
-|----|----|
+|------------------------------------|------------------------------------|
 | 읽고 쓰기 | `st_read()`, `st_write()`, `read_sf()`, `write_sf()` |
 | 투영 관련 | `st_crs()`, `st_transform()` |
 | 기하 측정 | `st_area()`, `st_length()`, `st_perimeter()`, `st_distance()` |
@@ -692,26 +688,38 @@ data.sel |>
 ## 벡터 데이터: [**sf**](https://r-spatial.github.io/sf/) 패키지
 
 ::: panel-tabset
-## Code
+## 불러오기
 
 ```{r}
-#| eval: false
+#| results: false
 #| echo: true
 library(tidyverse)
 library(sf)
 sigungu_shp <- st_read("sigungu.shp", options = "ENCODING=CP949")
+sigungu_shp
+```
+
+## 내용
+
+```{r}
+#| echo: false
+sigungu_shp
+```
+
+## 지도: 코드
+
+```{r}
+#| eval: false
+#| echo: true
 ggplot() + geom_sf(data = sigungu_shp)
 ```
 
-## Result
+## 지도: 결과
 
 ```{r}
 #| results: false
 #| echo: false
 #| fig-height: 7.5
-library(tidyverse)
-library(sf)
-sigungu_shp <- st_read("sigungu.shp", options = "ENCODING=CP949")
 ggplot() + geom_sf(data = sigungu_shp)
 ```
 :::
@@ -750,7 +758,7 @@ ggplot() + geom_sf(data = sigungu_shp)
 
 ## CRS
 
-![[https://datacarpentry.github.io/organization-geospatial/03-crs.html](https://datacarpentry.github.io/organization-geospatial/03-crs.html){style="font-size:1.25rem"}](https://sangillee.snu.ac.kr/2024_AIEDAP/images/clipboard-215094760.png)
+![[https://datacarpentry.github.io/organization-geospatial/03-crs.html](https://datacarpentry.github.io/organization-geospatial/03-crs.html){style="font-size:1rem"}](https://sangillee.snu.ac.kr/2024_AIEDAP/images/clipboard-215094760.png){fig-align="center"}
 
 ## CRS: 정의
 
@@ -760,7 +768,7 @@ ggplot() + geom_sf(data = sigungu_shp)
 
     -   준거타원체
 
-    -   [**투영법(map projection)**]{style="color:coral"}
+    -   **투영법(map projection)**
 
     -   투영 파라미터: 투영축, 투영격, 중앙경선, 가상원점 등
 
@@ -770,14 +778,14 @@ ggplot() + geom_sf(data = sigungu_shp)
 
 ## CRS: 방식
 
--   [**PROJ 정형문자열**]{style="color:coral"}
+-   **PROJ 정형문자열**
 
     -   <https://proj.org/en/9.4/>
     -   준거타원체, 투영법, 투영 파라미터를 + 기호로 연결해 작성한 문자열
     -   UTM-K
         -   +proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +units=m
 
--   [**EPSG 숫자코드**]{style="color:coral"}
+-   **EPSG 숫자코드**
 
     -   <https://epsg.io/>
     -   모든 CRS에 1024\~32767 사이의 고유 숫자를 부여
@@ -789,19 +797,19 @@ ggplot() + geom_sf(data = sigungu_shp)
 -   세계지도를 위한 주요 투영법의 PROJ 별명(alias)
 
 ::: {style="font-size:2.1rem"}
-| 투영법 | PROJ 파라미터 |
-|----|----|
-| 정적원통 도법 Equal Area Cylindrical | +proj=cea |
-| 컴펙트 밀러 도법 Compact Miller | +proj=comill |
-| 에케르트 IV 도법 Eckert IV | +proj=eck4 |
-| 정거원통 도법 Equidistant Cylindrical | +proj=eqc |
-| 구드 도법 Goode Homolosine | +proj=goode |
-| 단열형 구드 도법 Interrupted Goode Homolosine | +proj=igh |
-| 메르카토르 도법 Mercator | +proj=merc |
-| 몰바이데 도법 Mollweide | +proj=moll |
-| [로빈슨 도법 Robinson]{style="color:coral"} | [+proj=robin]{style="color:coral"} |
-| 시뉴소이드 도법 Sinusoidal | +proj=sinu |
-| 빈켈트리펠 도법 Winkel Tripel | +proj=wintri |
+| 투영법                                        | PROJ 파라미터   |
+|-----------------------------------------------|-----------------|
+| 정적원통 도법 Equal Area Cylindrical          | +proj=cea       |
+| 컴펙트 밀러 도법 Compact Miller               | +proj=comill    |
+| 에케르트 IV 도법 Eckert IV                    | +proj=eck4      |
+| 정거원통 도법 Equidistant Cylindrical         | +proj=eqc       |
+| 구드 도법 Goode Homolosine                    | +proj=goode     |
+| 단열형 구드 도법 Interrupted Goode Homolosine | +proj=igh       |
+| 메르카토르 도법 Mercator                      | +proj=merc      |
+| 몰바이데 도법 Mollweide                       | +proj=moll      |
+| **로빈슨 도법 Robinson**                      | **+proj=robin** |
+| 시뉴소이드 도법 Sinusoidal                    | +proj=sinu      |
+| 빈켈트리펠 도법 Winkel Tripel                 | +proj=wintri    |
 :::
 
 ## CRS: EPSG 숫자코드
@@ -810,13 +818,13 @@ ggplot() + geom_sf(data = sigungu_shp)
 
 ::: {style="font-size:2.1rem"}
 | 적용 스케일 | EPSG 숫자코드 | 설명 |
-|----|----|----|
-| 전세계 | [EPSG:4326]{style="color:coral"} | WGS84, 측지좌표계, GPS에 사용 |
+|------------------------|------------------------|------------------------|
+| 전세계 | **EPSG:4326** | WGS84, 측지좌표계, GPS에 사용 |
 |  | EPSG:3857 | 웹 메르카토르 도법, 구글 맵스, 오픈스트리트맵에서 사용 |
 |  | EPSG:7789 | ITRF2014 |
 | 미국 | EPSG:2163 | 알베르스 정적원추 도법 |
 | 유럽 | EPSG:3035 | 람베르트 정적방위 도법 |
-| 우리나라 | [EPSG:5179]{style="color:coral"} | UTM-K |
+| 우리나라 | **EPSG:5179** | UTM-K |
 |  | EPSG:5185 | 서부원점 |
 |  | EPSG:5186 | 중부원점 |
 |  | EPSG:5187 | 동부원점 |
@@ -928,19 +936,19 @@ ggplot() +
 
 ## 정적 지도: 코로플레스 맵
 
-![](images/clipboard-3706145292.png)
+![](images/clipboard-3706145292.png){fig-align="center"}
 
 ## 정적 지도: 두 가지 관점
 
 -   "지도도 그래프다" 관점: 일반성
 
     -   [**ggplot2**](https://ggplot2.tidyverse.org/) 패키지
-        -   `geom_sf()`, `coord_sf()`
+    -   `geom_sf()`, `coord_sf()`
 
 -   "지도는 지도이다" 관점: 특수성
 
-    -   [**tmap**](https://r-tmap.github.io/tmap/) 패키지
-        -   4.2.0
+    -   [**tmap**](https://r-tmap.github.io/tmap/) 패키지: 4.2.0
+    -   웹북: [Spatial Data Visualization with tmap](https://tmap.geocompx.org/)
 
 ## [**ggplot2**](https://ggplot2.tidyverse.org/) vs [**tmap**](https://r-tmap.github.io/tmap/): 세계지도
 
@@ -1286,7 +1294,7 @@ girafe(ggobj = gg) |>
 
 -   R 래퍼 패키지: [**leaflet**](https://rstudio.github.io/leaflet/)
 
-![[https://leafletjs.com/](https://leafletjs.com/){style="font-size:1.25rem"}](https://sangillee.snu.ac.kr/2024_AIEDAP/images/clipboard-3712927039.png)
+![[https://leafletjs.com/](https://leafletjs.com/){style="font-size:1rem"}](https://sangillee.snu.ac.kr/2024_AIEDAP/images/clipboard-3712927039.png)
 
 ## [**leaflet**](https://rstudio.github.io/leaflet/): 단순 일반도
 

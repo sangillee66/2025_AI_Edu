@@ -1054,7 +1054,7 @@
     "href": "lecture.html#주차-2026년-1월-5일-9일",
     "title": "AI 융합교육을 위한 인문사회 콘텐츠 설계",
     "section": "2주차 (2026년 1월 5일 ~ 9일)",
-    "text": "2주차 (2026년 1월 5일 ~ 9일)\n\n\n\n\n\n\n\n\n\n날짜\n주제\n강의 자료\n실습 자료\n\n\n\n\n1월 5일  (월)\n오픈소스(R) 프로그래밍 4\n\nQuarto를 활용한 대시보드 만들기\n\nLecture_2_1\nLab_08_Quarto\n\n\n1월 6일  (화)  비대면\n인구 현상과 인문사회 콘텐츠 1\n\n인구 데이터, 인구 성장, 인구 분포\n\nLecture_2_2_1\n동영상\nLecture_2_2_2\n동영상\nLecture_2_2_3\n동영상\n\n\n\n1월 7일  (수)  비대면\n인구 현상과 인문사회 콘텐츠 2\n\n인구 구조, 인구 동태, 인구 이동\n\nLecture_2_3_1\n동영상\nLecture_2_3_2\n동영상\nLecture_2_3_3\n동영상\n\n\n\n1월 8일  (목)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n\n인터랙티브 및 지리공간적 시각화\n\n\n\n\n\n1월 9일  (금)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2\n\nShiny를 활용한 웹 앱 제작"
+    "text": "2주차 (2026년 1월 5일 ~ 9일)\n\n\n\n\n\n\n\n\n\n날짜\n주제\n강의 자료\n실습 자료\n\n\n\n\n1월 5일  (월)\n오픈소스(R) 프로그래밍 4\n\nQuarto를 활용한 대시보드 만들기\n\nLecture_2_1\nLab_08_Quarto\n\n\n1월 6일  (화)  비대면\n인구 현상과 인문사회 콘텐츠 1\n\n인구 데이터, 인구 성장, 인구 분포\n\nLecture_2_2_1\n동영상\nLecture_2_2_2\n동영상\nLecture_2_2_3\n동영상\n\n\n\n1월 7일  (수)  비대면\n인구 현상과 인문사회 콘텐츠 2\n\n인구 구조, 인구 동태, 인구 이동\n\nLecture_2_3_1\n동영상\nLecture_2_3_2\n동영상\nLecture_2_3_3\n동영상\n\n\n\n1월 8일  (목)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n\n인터랙티브 및 지리공간적 시각화\n\nLecture_2_4\n\n\n\n1월 9일  (금)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 2\n\nShiny를 활용한 웹 앱 제작"
   },
   {
     "objectID": "lecture.html#주차-2026년-1월-12일-16일",
@@ -3530,9 +3530,9 @@
   {
     "objectID": "Lecture_2_4.html#동적ㆍ반응형-시각화의-구현",
     "href": "Lecture_2_4.html#동적ㆍ반응형-시각화의-구현",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "역동성과 상호작용성이 부가된 시각화\n구현 방식\n\n임베딩(embedding): 외부 콘텐츠 삽입\n동적ㆍ반응형 내용 요소의 직접 제작"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "동적ㆍ반응형 시각화의 구현",
+    "text": "동적ㆍ반응형 시각화의 구현\n\n역동성과 상호작용성이 부가된 시각화\n\n구현 방식\n\n임베딩(embedding): 외부 콘텐츠 삽입\n동적ㆍ반응형 내용 요소의 직접 제작"
   },
   {
     "objectID": "Lecture_2_4.html#임베딩",
@@ -3698,373 +3698,373 @@
   {
     "objectID": "Lecture_2_4.html#사례-전-세계-인구-분포-지도",
     "href": "Lecture_2_4.html#사례-전-세계-인구-분포-지도",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "사례: 전 세계 인구 분포 지도",
     "text": "사례: 전 세계 인구 분포 지도"
   },
   {
     "objectID": "Lecture_2_4.html#사례-전-세계-인구-분포-지도-1",
     "href": "Lecture_2_4.html#사례-전-세계-인구-분포-지도-1",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "사례: 전 세계 인구 분포 지도",
-    "text": "사례: 전 세계 인구 분포 지도\n\n데이터 레이어\n\n국가 경계, 호수, 그래티큘: 벡터(vector) 데이터\n인구밀도, 수심: 래스터(raster) 데이터\n\n데이터 원천\n\nNatural Earth Data: 국가 경계, 호수, 그래티큘, 수심\nNASA’s Socioeconomic Data and Applications Center (SEDAC): 인구 밀도\n\n투영법: 로빈슨 도법(Robinson projection)\n\nCRS (coordinate reference system, 좌표참조계)\n\n지도화 기법: 컬러, 범례, 주기 표기 등"
+    "text": "사례: 전 세계 인구 분포 지도\n\n\n데이터 레이어\n\n국가 경계, 호수, 그래티큘: 벡터(vector) 데이터\n인구밀도, 수심: 래스터(raster) 데이터\n\n\n\n데이터 원천\n\nNatural Earth Data: 국가 경계, 호수, 그래티큘, 수심\nNASA’s Socioeconomic Data and Applications Center (SEDAC): 인구 밀도\n\n\n\n투영법: 로빈슨 도법(Robinson projection)\n\nCRS (coordinate reference system, 좌표참조계)\n\n\n지도화 기법: 컬러, 범례, 주기 표기 등"
   },
   {
     "objectID": "Lecture_2_4.html#사례-전-세계-인구-분포-지도-2",
     "href": "Lecture_2_4.html#사례-전-세계-인구-분포-지도-2",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "사례: 전 세계 인구 분포 지도",
-    "text": "사례: 전 세계 인구 분포 지도\n\n\n\n\n\n\nhttps://r-spatial.github.io/sf/\n\n\n\n\n\n\n\nhttps://rspatial.github.io/terra/"
+    "text": "사례: 전 세계 인구 분포 지도\n\n\n\n\n\nhttps://r-spatial.github.io/sf/\n\n\n\n\n\nhttps://rspatial.github.io/terra/"
   },
   {
     "objectID": "Lecture_2_4.html#사례-전-세계-인구-분포-지도-3",
     "href": "Lecture_2_4.html#사례-전-세계-인구-분포-지도-3",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "사례: 전 세계 인구 분포 지도",
-    "text": "사례: 전 세계 인구 분포 지도\n\n\n\n\n\n\nhttps://ggplot2.tidyverse.org/\n\n\n\n\n \n\n\n\n\n\nhttps://r-tmap.github.io/tmap/"
+    "text": "사례: 전 세계 인구 분포 지도\n\n\n\n\n\nhttps://ggplot2.tidyverse.org/\n\n\n\n \n\n\n\n\nhttps://r-tmap.github.io/tmap/"
   },
   {
     "objectID": "Lecture_2_4.html#지리공간적-데이터의-종류",
     "href": "Lecture_2_4.html#지리공간적-데이터의-종류",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "지리공간적 데이터의 종류",
-    "text": "지리공간적 데이터의 종류\n\n벡터(vector) 데이터\n\n포인트, 라인, 폴리곤\n형상 데이터 + 속성 데이터\n\n래스터(raster) 데이터\n\n그리드 셀(grid cell)\n일체형"
+    "text": "지리공간적 데이터의 종류\n\n\n벡터(vector) 데이터\n\n포인트, 라인, 폴리곤\n형상 데이터 + 속성 데이터\n\n\n\n래스터(raster) 데이터\n\n그리드 셀(grid cell)\n일체형"
   },
   {
     "objectID": "Lecture_2_4.html#지리공간적-데이터의-종류-1",
     "href": "Lecture_2_4.html#지리공간적-데이터의-종류-1",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "지리공간적 데이터의 종류",
     "text": "지리공간적 데이터의 종류"
   },
   {
     "objectID": "Lecture_2_4.html#지리공간적-데이터의-종류-2",
     "href": "Lecture_2_4.html#지리공간적-데이터의-종류-2",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "지리공간적 데이터의 종류",
     "text": "지리공간적 데이터의 종류"
   },
   {
     "objectID": "Lecture_2_4.html#벡터-데이터",
     "href": "Lecture_2_4.html#벡터-데이터",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "벡터 데이터",
-    "text": "벡터 데이터\n\n벡터 데이터: 형상 데이터 + 속성 데이터\n\n형상 데이터 (기하, 도형, 공간 데이터)\n\n지리공간적 객체 자체에 대한 데이터\n포인트(점), 라인(선), 폴리곤(면)으로 구분\n버텍스(vertex)의 좌표값\n\n속성 데이터\n\n지리공간적 객체가 보유한 속성\n기존 일반 데이터와 동일"
+    "text": "벡터 데이터\n\n벡터 데이터: 형상 데이터 + 속성 데이터\n\n형상 데이터\n\n지리공간적 객체 자체에 대한 데이터\n포인트(점), 라인(선), 폴리곤(면)으로 구분\n버텍스(vertex)의 좌표값\n\n\n\n속성 데이터\n\n지리공간적 객체가 보유한 속성\n기존 일반 데이터와 동일"
   },
   {
     "objectID": "Lecture_2_4.html#벡터-데이터-1",
     "href": "Lecture_2_4.html#벡터-데이터-1",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "벡터 데이터",
-    "text": "벡터 데이터\n\n형상 데이터: 셰이프 파일(shape file) (ESRI사)\n\nsigungu.shp: 버텍스의 좌표값이 포함된 핵심 파일\nsigungu.shx: 공간적 인덱싱 파일\nsigungu.dbf: 기본 속성 파일\nsigungu.prj: 투영 정보 파일\n\n특수한 패키지 필요: sf 패키지\n\nst_read() 혹은 read_sf() 함수"
+    "text": "벡터 데이터\n\n\n형상 데이터: 셰이프 파일(shape file) (ESRI사)\n\nsigungu.shp: 버텍스의 좌표값이 포함된 핵심 파일\nsigungu.shx: 공간적 인덱싱 파일\nsigungu.dbf: 기본 속성 파일\nsigungu.prj: 투영 정보 파일\n\n\n\n특수한 패키지 필요: sf 패키지\n\n\nst_read() 혹은 read_sf() 함수"
   },
   {
     "objectID": "Lecture_2_4.html#벡터-데이터-sf-패키지",
     "href": "Lecture_2_4.html#벡터-데이터-sf-패키지",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "벡터 데이터: sf 패키지",
-    "text": "벡터 데이터: sf 패키지\n\n\n\nhttps://allisonhorst.com/r-packages-functions"
+    "text": "벡터 데이터: sf 패키지\n\nhttps://allisonhorst.com/r-packages-functions"
   },
   {
     "objectID": "Lecture_2_4.html#벡터-데이터-sf-패키지-1",
     "href": "Lecture_2_4.html#벡터-데이터-sf-패키지-1",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "벡터 데이터: sf 패키지",
-    "text": "벡터 데이터: sf 패키지\n\n\n\n\n\n\n\n구분\n함수\n\n\n\n\n읽고 쓰기\nst_read(), st_write(), read_sf(), write_sf()\n\n\n투영 관련\nst_crs(), st_transform()\n\n\n기하 측정\nst_area(), st_length(), st_perimeter(), st_distance()\n\n\n기하 변형\nst_centroid(), st_buffer(), st_boundary(), st_simplify()\n\n\n기하 생성\nst_point(), st_voronoi() , st_convex_hull(), st_make_grid()\n\n\n기하 검토\nst_is_valid(), st_make_valid()\n\n\n기하 중첩\nst_filter(), st_intersection(), st_union(), st_crop()\n\n\n기타\nst_coordinates(), st_cast(), st_as_sf(), st_graticule(), st_join()"
+    "text": "벡터 데이터: sf 패키지\n\n\n\n\n\n\n구분\n함수\n\n\n\n읽고 쓰기\n\nst_read(), st_write(), read_sf(), write_sf()\n\n\n\n투영 관련\n\nst_crs(), st_transform()\n\n\n\n기하 측정\n\nst_area(), st_length(), st_perimeter(), st_distance()\n\n\n\n기하 변형\n\nst_centroid(), st_buffer(), st_boundary(), st_simplify()\n\n\n\n기하 생성\n\nst_point(), st_voronoi() , st_convex_hull(), st_make_grid()\n\n\n\n기하 검토\n\nst_is_valid(), st_make_valid()\n\n\n\n기하 중첩\n\nst_filter(), st_intersection(), st_union(), st_crop()\n\n\n\n기타\n\nst_coordinates(), st_cast(), st_as_sf(), st_graticule(), st_join()"
   },
   {
     "objectID": "Lecture_2_4.html#벡터-데이터-sf-패키지-2",
     "href": "Lecture_2_4.html#벡터-데이터-sf-패키지-2",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "벡터 데이터: sf 패키지",
-    "text": "벡터 데이터: sf 패키지\n\nCodeResult\n\n\n\nlibrary(tidyverse)\nlibrary(sf)\nsigungu_shp &lt;- st_read(\"sigungu.shp\", options = \"ENCODING=CP949\")\nggplot() + geom_sf(data = sigungu_shp)"
+    "text": "벡터 데이터: sf 패키지\n\n\n불러오기\n내용\n지도: 코드\n지도: 결과\n\n\n\n\nlibrary(tidyverse)\nlibrary(sf)\nsigungu_shp &lt;- st_read(\"sigungu.shp\", options = \"ENCODING=CP949\")\nsigungu_shp\n\n\n\n\n\nSimple feature collection with 229 features and 9 fields\nGeometry type: MULTIPOLYGON\nDimension:     XY\nBounding box:  xmin: 746255.1 ymin: 1458982 xmax: 1387941 ymax: 2068161\nProjected CRS: KGD2002 / Unified CS\nFirst 10 features:\n   SGG1_CD SD_CD      SD_NM SG1_CD     SG1_NM  SGG1_NM            SGG1_FNM\n1    11010    11 서울특별시     11 서울특별시   종로구   서울특별시 종로구\n2    11020    11 서울특별시     11 서울특별시     중구     서울특별시 중구\n3    11030    11 서울특별시     11 서울특별시   용산구   서울특별시 용산구\n4    11040    11 서울특별시     11 서울특별시   성동구   서울특별시 성동구\n5    11050    11 서울특별시     11 서울특별시   광진구   서울특별시 광진구\n6    11060    11 서울특별시     11 서울특별시 동대문구 서울특별시 동대문구\n7    11070    11 서울특별시     11 서울특별시   중랑구   서울특별시 중랑구\n8    11080    11 서울특별시     11 서울특별시   성북구   서울특별시 성북구\n9    11090    11 서울특별시     11 서울특별시   강북구   서울특별시 강북구\n10   11100    11 서울특별시     11 서울특별시   도봉구   서울특별시 도봉구\n          Eng_NM   Chn_NM                       geometry\n1      Jongno-gu   鐘路區 MULTIPOLYGON (((951756.1 19...\n2        Jung-gu     中區 MULTIPOLYGON (((955244.1 19...\n3     Yongsan-gu   龍山區 MULTIPOLYGON (((952446.3 19...\n4   Seongdong-gu   城東區 MULTIPOLYGON (((957375.8 19...\n5    Gwangjin-gu   廣津區 MULTIPOLYGON (((962216.2 19...\n6  Dongdaemun-gu 東大門區 MULTIPOLYGON (((959605.5 19...\n7    Jungnang-gu   中浪區 MULTIPOLYGON (((962496.9 19...\n8    Seongbuk-gu   城北區 MULTIPOLYGON (((956780.3 19...\n9     Gangbuk-gu   江北區 MULTIPOLYGON (((956574.1 19...\n10     Dobong-gu   道峰區 MULTIPOLYGON (((958126.2 19...\n\n\n\n\n\nggplot() + geom_sf(data = sigungu_shp)"
   },
   {
     "objectID": "Lecture_2_4.html#벡터-데이터-2",
     "href": "Lecture_2_4.html#벡터-데이터-2",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "벡터 데이터",
-    "text": "벡터 데이터\n\n속성 데이터\n\ncsv 파일: readr 패키지의 read_csv() 함수\n엑셀 파일: readxl 패키지의 read_excel() 함수\nOpen API를 통해 수집: tibble 객체\n\n형상 데이터와 속성 데이터의 결합: dplyr 패키지의 left_join() 함수\n\n왼편: 형상 데이터\n오른편: 속성 데이터"
+    "text": "벡터 데이터\n\n\n속성 데이터\n\ncsv 파일: readr 패키지의 read_csv() 함수\n엑셀 파일: readxl 패키지의 read_excel() 함수\nOpen API를 통해 수집: tibble 객체\n\n\n\n형상 데이터와 속성 데이터의 결합: dplyr 패키지의 left_join() 함수\n\n왼편: 형상 데이터\n오른편: 속성 데이터"
   },
   {
     "objectID": "Lecture_2_4.html#래스터-데이터",
     "href": "Lecture_2_4.html#래스터-데이터",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "래스터 데이터",
-    "text": "래스터 데이터\n\n데이터 형식\n\nTIFF 혹은 GeoTIFF\n\n패키지: terra 패키지\n\n불러오기: rast()\n변환하기: project(), mosaic(), crop()\n계산하기: global(), focal(), zonal()\n수 많은 다른 함수들"
+    "text": "래스터 데이터\n\n\n데이터 형식\n\nTIFF 혹은 GeoTIFF\n\n\n\n패키지: terra 패키지\n\n불러오기: rast()\n변환하기: project(), mosaic(), crop()\n계산하기: global(), focal(), zonal()\n수 많은 다른 함수들"
   },
   {
     "objectID": "Lecture_2_4.html#crs",
     "href": "Lecture_2_4.html#crs",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "CRS",
-    "text": "CRS\n\n\n\nhttps://datacarpentry.github.io/organization-geospatial/03-crs.html"
+    "text": "CRS\n\nhttps://datacarpentry.github.io/organization-geospatial/03-crs.html"
   },
   {
     "objectID": "Lecture_2_4.html#crs-정의",
     "href": "Lecture_2_4.html#crs-정의",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "CRS: 정의",
-    "text": "CRS: 정의\n\n좌표참조계 Coordinate Reference System\n모든 지리공간데이터는 특정한 좌표참조계에 의거해 제작되며 이러한 좌표참조계는 매우 다양함\n\n준거타원체\n투영법(map projection)\n투영 파라미터: 투영축, 투영격, 중앙경선, 가상원점 등\n\n지리공간데이터의 SRID(Spatial Reference System Identifiers, 공간참조계식별자)\nsf 패키지: st_crs() 함수"
+    "text": "CRS: 정의\n\n좌표참조계 Coordinate Reference System\n\n모든 지리공간데이터는 특정한 좌표참조계에 의거해 제작되며 이러한 좌표참조계는 매우 다양함\n\n준거타원체\n투영법(map projection)\n투영 파라미터: 투영축, 투영격, 중앙경선, 가상원점 등\n\n\n지리공간데이터의 SRID(Spatial Reference System Identifiers, 공간참조계식별자)\nsf 패키지: st_crs() 함수"
   },
   {
     "objectID": "Lecture_2_4.html#crs-방식",
     "href": "Lecture_2_4.html#crs-방식",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "CRS: 방식",
-    "text": "CRS: 방식\n\nPROJ 정형문자열\n\nhttps://proj.org/en/9.4/\n준거타원체, 투영법, 투영 파라미터를 + 기호로 연결해 작성한 문자열\nUTM-K\n\n+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +units=m\n\n\nEPSG 숫자코드\n\nhttps://epsg.io/\n모든 CRS에 1024~32767 사이의 고유 숫자를 부여\nUTM-K\n\nEPSG: 5179"
+    "text": "CRS: 방식\n\n\nPROJ 정형문자열\n\nhttps://proj.org/en/9.4/\n준거타원체, 투영법, 투영 파라미터를 + 기호로 연결해 작성한 문자열\nUTM-K\n\n+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +units=m\n\n\n\n\n\nEPSG 숫자코드\n\nhttps://epsg.io/\n모든 CRS에 1024~32767 사이의 고유 숫자를 부여\nUTM-K\n\nEPSG: 5179"
   },
   {
     "objectID": "Lecture_2_4.html#crs-proj-정형문자열",
     "href": "Lecture_2_4.html#crs-proj-정형문자열",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "CRS: PROJ 정형문자열",
-    "text": "CRS: PROJ 정형문자열\n\n세계지도를 위한 주요 투영법의 PROJ 별명(alias)\n\n\n\n\n\n\n\n\n\n투영법\nPROJ 파라미터\n\n\n\n\n정적원통 도법 Equal Area Cylindrical\n+proj=cea\n\n\n컴펙트 밀러 도법 Compact Miller\n+proj=comill\n\n\n에케르트 IV 도법 Eckert IV\n+proj=eck4\n\n\n정거원통 도법 Equidistant Cylindrical\n+proj=eqc\n\n\n구드 도법 Goode Homolosine\n+proj=goode\n\n\n단열형 구드 도법 Interrupted Goode Homolosine\n+proj=igh\n\n\n메르카토르 도법 Mercator\n+proj=merc\n\n\n몰바이데 도법 Mollweide\n+proj=moll\n\n\n로빈슨 도법 Robinson\n+proj=robin\n\n\n시뉴소이드 도법 Sinusoidal\n+proj=sinu\n\n\n빈켈트리펠 도법 Winkel Tripel\n+proj=wintri"
+    "text": "CRS: PROJ 정형문자열\n\n세계지도를 위한 주요 투영법의 PROJ 별명(alias)\n\n\n\n\n투영법\nPROJ 파라미터\n\n\n\n정적원통 도법 Equal Area Cylindrical\n+proj=cea\n\n\n컴펙트 밀러 도법 Compact Miller\n+proj=comill\n\n\n에케르트 IV 도법 Eckert IV\n+proj=eck4\n\n\n정거원통 도법 Equidistant Cylindrical\n+proj=eqc\n\n\n구드 도법 Goode Homolosine\n+proj=goode\n\n\n단열형 구드 도법 Interrupted Goode Homolosine\n+proj=igh\n\n\n메르카토르 도법 Mercator\n+proj=merc\n\n\n몰바이데 도법 Mollweide\n+proj=moll\n\n\n로빈슨 도법 Robinson\n+proj=robin\n\n\n시뉴소이드 도법 Sinusoidal\n+proj=sinu\n\n\n빈켈트리펠 도법 Winkel Tripel\n+proj=wintri"
   },
   {
     "objectID": "Lecture_2_4.html#crs-epsg-숫자코드",
     "href": "Lecture_2_4.html#crs-epsg-숫자코드",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "CRS: EPSG 숫자코드",
-    "text": "CRS: EPSG 숫자코드\n\n널리 사용되는 CRS의 EPSG\n\n\n\n\n\n\n\n\n\n\n적용 스케일\nEPSG 숫자코드\n설명\n\n\n\n\n전세계\nEPSG:4326\nWGS84, 측지좌표계, GPS에 사용\n\n\n\nEPSG:3857\n웹 메르카토르 도법, 구글 맵스, 오픈스트리트맵에서 사용\n\n\n\nEPSG:7789\nITRF2014\n\n\n미국\nEPSG:2163\n알베르스 정적원추 도법\n\n\n유럽\nEPSG:3035\n람베르트 정적방위 도법\n\n\n우리나라\nEPSG:5179\nUTM-K\n\n\n\nEPSG:5185\n서부원점\n\n\n\nEPSG:5186\n중부원점\n\n\n\nEPSG:5187\n동부원점\n\n\n\nEPSG:5188\n동해원점"
+    "text": "CRS: EPSG 숫자코드\n\n널리 사용되는 CRS의 EPSG\n\n\n\n\n\n\n\n\n\n적용 스케일\nEPSG 숫자코드\n설명\n\n\n\n전세계\nEPSG:4326\nWGS84, 측지좌표계, GPS에 사용\n\n\n\nEPSG:3857\n웹 메르카토르 도법, 구글 맵스, 오픈스트리트맵에서 사용\n\n\n\nEPSG:7789\nITRF2014\n\n\n미국\nEPSG:2163\n알베르스 정적원추 도법\n\n\n유럽\nEPSG:3035\n람베르트 정적방위 도법\n\n\n우리나라\nEPSG:5179\nUTM-K\n\n\n\nEPSG:5185\n서부원점\n\n\n\nEPSG:5186\n중부원점\n\n\n\nEPSG:5187\n동부원점\n\n\n\nEPSG:5188\n동해원점"
   },
   {
     "objectID": "Lecture_2_4.html#crs-세계지도에-적용",
     "href": "Lecture_2_4.html#crs-세계지도에-적용",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "CRS: 세계지도에 적용",
-    "text": "CRS: 세계지도에 적용\n\n플라트카레컴펙트 밀러 도법로빈슨에케르트 IV\n\n\n\nggplot() +\n  geom_sf(data = world) +\n  geom_sf(data = ne_bbox, fill = NA) +\n  coord_sf(crs = \"+proj=eqc\") +\n  scale_x_continuous(breaks = seq(-180, 180, 30)) +\n  scale_y_continuous(breaks = c(-89.9, seq(-60, 60, 30), 89.9)) +\n  theme(\n    panel.background = element_rect(\"white\"),\n    panel.grid = element_line(color = \"gray80\")\n  )\n\n\n\n\n\n\n\n\n\n\n\nggplot() +\n  geom_sf(data = world) +\n  geom_sf(data = ne_bbox, fill = NA) +\n  coord_sf(crs = \"+proj=comill\") +\n  scale_x_continuous(breaks = seq(-180, 180, 30)) +\n  scale_y_continuous(breaks = c(-89.9, seq(-60, 60, 30), 89.9)) +\n  theme(\n    panel.background = element_rect(\"white\"),\n    panel.grid = element_line(color = \"gray80\")\n  )\n\n\n\n\n\n\n\n\n\n\n\nggplot() +\n  geom_sf(data = world) +\n  geom_sf(data = ne_bbox, fill = NA) +\n  coord_sf(crs = \"+proj=robin\") +\n  scale_x_continuous(breaks = seq(-180, 180, 30)) +\n  scale_y_continuous(breaks = c(-89.9, seq(-60, 60, 30), 89.9)) +\n  theme(\n    panel.background = element_rect(\"white\"),\n    panel.grid = element_line(color = \"gray80\")\n  )\n\n\n\n\n\n\n\n\n\n\n\nggplot() +\n  geom_sf(data = world) +\n  geom_sf(data = ne_bbox, fill = NA) +\n  coord_sf(crs = \"+proj=eck4\") +\n  scale_x_continuous(breaks = seq(-180, 180, 30)) +\n  scale_y_continuous(breaks = c(-89.9, seq(-60, 60, 30), 89.9)) +\n  theme(\n    panel.background = element_rect(\"white\"),\n    panel.grid = element_line(color = \"gray80\")\n  )"
+    "text": "CRS: 세계지도에 적용\n\n\n플라트카레\n컴펙트 밀러 도법\n로빈슨\n에케르트 IV"
   },
   {
     "objectID": "Lecture_2_4.html#지리공간적-시각화-정적-vs.-동적",
     "href": "Lecture_2_4.html#지리공간적-시각화-정적-vs.-동적",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "지리공간적 시각화: 정적 vs. 동적",
-    "text": "지리공간적 시각화: 정적 vs. 동적\n\n정적(static) 지도\n\nggplot2 패키지, tmap 패키지\n\n동적(animated) 지도\n\ngganimate 패키지\ntmap 패키지\n\n인터랙티브(interactive) 지도\n\nplotly 패키지의 ggplotly() 함수\nggiraph 패키지\nleaflet 패키지: Leaflet JS 라이브러리의 래퍼 패키지"
+    "text": "지리공간적 시각화: 정적 vs. 동적\n\n\n정적(static) 지도\n\n\nggplot2 패키지, tmap 패키지\n\n\n\n동적(animated) 지도\n\ngganimate 패키지\ntmap 패키지\n\n\n\n인터랙티브(interactive) 지도\n\nplotly 패키지의 ggplotly() 함수\nggiraph 패키지\nleaflet 패키지: Leaflet JS 라이브러리의 래퍼 패키지"
   },
   {
     "objectID": "Lecture_2_4.html#정적-지도-코로플레스-맵",
     "href": "Lecture_2_4.html#정적-지도-코로플레스-맵",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "정적 지도: 코로플레스 맵",
     "text": "정적 지도: 코로플레스 맵"
   },
   {
     "objectID": "Lecture_2_4.html#정적-지도-두-가지-관점",
     "href": "Lecture_2_4.html#정적-지도-두-가지-관점",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "정적 지도: 두 가지 관점",
-    "text": "정적 지도: 두 가지 관점\n\n“지도도 그래프다” 관점: 일반성\n\nggplot2 패키지\n\ngeom_sf(), coord_sf()\n\n\n“지도는 지도이다” 관점: 특수성\n\ntmap 패키지\n\n4.2.0"
+    "text": "정적 지도: 두 가지 관점\n\n\n“지도도 그래프다” 관점: 일반성\n\n\nggplot2 패키지\n\ngeom_sf(), coord_sf()\n\n\n\n\n“지도는 지도이다” 관점: 특수성\n\n\ntmap 패키지: 4.2.0\n웹북: Spatial Data Visualization with tmap"
   },
   {
     "objectID": "Lecture_2_4.html#ggplot2-vs-tmap-세계지도",
     "href": "Lecture_2_4.html#ggplot2-vs-tmap-세계지도",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "ggplot2 vs tmap: 세계지도",
-    "text": "ggplot2 vs tmap: 세계지도\n\n데이터 정리ggplot2: Codeggplot2: Resulttmap: Codetmap: Result\n\n\n\nlibrary(tidyverse)\nlibrary(spData)\nlibrary(sf)\ndata(world)\nworld &lt;- st_as_sf(world)\nwpp_2024 &lt;- read_rds(\"wpp_2024.rds\")\nmy_wpp &lt;- wpp_2024 |&gt; \n  filter(year == 2025)\nworld_data &lt;- world |&gt;\n  left_join(my_wpp, join_by(iso_a2 == ISO2))\n\n\n\n\nworld_map &lt;- ggplot() +\n  geom_sf(data = world_data, aes(fill = TFR, text = name_long)) +\n  coord_sf(crs = \"+proj=robin\") +\n  scale_fill_viridis_c() +\n  scale_x_continuous(breaks = seq(-180, 180, 30)) +\n  scale_y_continuous(breaks = c(-89.5, seq(-60, 60, 30), 89.5)) +\n  theme(\n    panel.background = element_rect(\"white\"),\n    panel.grid = element_line(color = \"gray80\")\n  )\nworld_map\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(tmap)\ntm_world_map &lt;- tm_shape(world_data, crs = \"+proj=robin\") +\n  tm_graticules(\n    labels.show = FALSE,\n    x = seq(-180, 180, 30), \n    y = c(-89.5, seq(-60, 60, 30), 89.5)\n  ) + \n  tm_polygons(\n    fill = \"TFR\", \n    fill.scale = tm_scale_continuous(values = \"viridis\")\n  ) +\n  tm_layout(frame = FALSE)\ntm_world_map"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "\nggplot2 vs tmap: 세계지도",
+    "text": "ggplot2 vs tmap: 세계지도\n\n\n데이터 정리\nggplot2: Code\nggplot2: Result\ntmap: Code\ntmap: Result\n\n\n\n\nlibrary(tidyverse)\nlibrary(spData)\nlibrary(sf)\ndata(world)\nworld &lt;- st_as_sf(world)\nwpp_2024 &lt;- read_rds(\"wpp_2024.rds\")\nmy_wpp &lt;- wpp_2024 |&gt; \n  filter(year == 2025)\nworld_data &lt;- world |&gt;\n  left_join(my_wpp, join_by(iso_a2 == ISO2))\n\n\n\n\nworld_map &lt;- ggplot() +\n  geom_sf(data = world_data, aes(fill = TFR, text = name_long)) +\n  coord_sf(crs = \"+proj=robin\") +\n  scale_fill_viridis_c() +\n  scale_x_continuous(breaks = seq(-180, 180, 30)) +\n  scale_y_continuous(breaks = c(-89.5, seq(-60, 60, 30), 89.5)) +\n  theme(\n    panel.background = element_rect(\"white\"),\n    panel.grid = element_line(color = \"gray80\")\n  )\nworld_map\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(tmap)\ntm_world_map &lt;- tm_shape(world_data, crs = \"+proj=robin\") +\n  tm_graticules(\n    labels.show = FALSE,\n    x = seq(-180, 180, 30), \n    y = c(-89.5, seq(-60, 60, 30), 89.5)\n  ) + \n  tm_polygons(\n    fill = \"TFR\", \n    fill.scale = tm_scale_continuous(values = \"viridis\")\n  ) +\n  tm_layout(frame = FALSE)\ntm_world_map"
   },
   {
     "objectID": "Lecture_2_4.html#ggplot2-vs-tmap-우리나라-지도",
     "href": "Lecture_2_4.html#ggplot2-vs-tmap-우리나라-지도",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "ggplot2 vs tmap: 우리나라 지도",
-    "text": "ggplot2 vs tmap: 우리나라 지도\n\n데이터 정리ggplot2: Codeggplot2: Resulttmap: Codetmap: Result\n\n\n\nlibrary(tidyverse)\nlibrary(sf)\nsido_shp &lt;- st_read(\"sido.shp\", options = \"ENCODING=CP949\")\nsigungu_shp &lt;- st_read(\"sigungu.shp\", options = \"ENCODING=CP949\")\ndata_sigungu &lt;- read_rds(\"data_sigungu.rds\")\nsigungu_data &lt;- sigungu_shp |&gt; \n  left_join(data_sigungu, join_by(SGG1_CD == C1))\n\n\n\n\nlibrary(ggspatial)\nsigungu_data &lt;- sigungu_data |&gt; \n  mutate(\n    index_class = case_when(\n      index &lt; 0.2 ~ \"1\",\n      index &gt;= 0.2 & index &lt; 0.5 ~ \"2\",\n      index &gt;= 0.5 & index &lt; 1.0 ~ \"3\",\n      index &gt;= 1.0 & index &lt; 1.5 ~ \"4\",\n      index &gt;= 1.5 ~ \"5\"\n    ),\n    index_class = fct(index_class, levels = as.character(1:5))\n  )\nclass_color &lt;- c(\"1\" = \"#d7191c\", \"2\" = \"#fdae61\",\n                 \"3\" = \"#ffffbf\", \"4\" = \"#a6d96a\", \n                 \"5\" = \"#1a9641\")\nggplot_map &lt;- ggplot() +\n  geom_sf(\n    data = sigungu_data, \n    aes(fill = index_class, text = SGG1_FNM), \n    show.legend = TRUE\n  ) +\n  geom_sf(\n    data = sido_shp, \n    fill = NA, \n    lwd = 0.5\n  ) +\n  scale_fill_manual(\n    name = \"Classes\", \n    labels = c(\"&lt; 0.2\", \"0.2 ~ 0.5\", \"0.5 ~ 1.0\", \n               \"1.0 ~ 1.5\", \"&gt;= 1.5\"), \n    values = class_color, drop = FALSE\n  ) +\n  annotation_scale(\n    location = \"br\", \n    bar_cols = c(\"gray40\", \"white\"), \n    width_hint = 0.4\n  )\nggplot_map\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nclass_color &lt;- c(\"#d7191c\", \"#fdae61\", \"#ffffbf\", \"#a6d96a\", \"#1a9641\")\ntmap_map &lt;- tm_graticules(labels.cardinal = TRUE) +\n  tm_shape(sigungu_data) + \n  tm_polygons(\n    fill = \"index\", id = \"SGG1_FNM\", \n    fill.scale = tm_scale_intervals(\n      values = class_color, \n      breaks = c(0, 0.2, 0.5, 1.0, 1.5, Inf), \n      labels = c(\"&lt; 0.2\", \"0.2 ~ 0.5\", \"0.5 ~ 1.0\", \n               \"1.0 ~ 1.5\", \"&gt;= 1.5\")\n    ),\n    fill.legend = tm_legend(title = \"Classes\")\n  ) +\n  tm_shape(sido_shp) + tm_borders(lwd = 1.5) +\n  tm_scalebar(breaks = seq(0, 200, 50)) \ntmap_map"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "\nggplot2 vs tmap: 우리나라 지도",
+    "text": "ggplot2 vs tmap: 우리나라 지도\n\n\n데이터 정리\nggplot2: Code\nggplot2: Result\ntmap: Code\ntmap: Result\n\n\n\n\nlibrary(tidyverse)\nlibrary(sf)\nsido_shp &lt;- st_read(\"sido.shp\", options = \"ENCODING=CP949\")\nsigungu_shp &lt;- st_read(\"sigungu.shp\", options = \"ENCODING=CP949\")\ndata_sigungu &lt;- read_rds(\"data_sigungu.rds\")\nsigungu_data &lt;- sigungu_shp |&gt; \n  left_join(data_sigungu, join_by(SGG1_CD == C1))\n\n\n\n\nlibrary(ggspatial)\nsigungu_data &lt;- sigungu_data |&gt; \n  mutate(\n    index_class = case_when(\n      index &lt; 0.2 ~ \"1\",\n      index &gt;= 0.2 & index &lt; 0.5 ~ \"2\",\n      index &gt;= 0.5 & index &lt; 1.0 ~ \"3\",\n      index &gt;= 1.0 & index &lt; 1.5 ~ \"4\",\n      index &gt;= 1.5 ~ \"5\"\n    ),\n    index_class = fct(index_class, levels = as.character(1:5))\n  )\nclass_color &lt;- c(\"1\" = \"#d7191c\", \"2\" = \"#fdae61\",\n                 \"3\" = \"#ffffbf\", \"4\" = \"#a6d96a\", \n                 \"5\" = \"#1a9641\")\nggplot_map &lt;- ggplot() +\n  geom_sf(\n    data = sigungu_data, \n    aes(fill = index_class, text = SGG1_FNM), \n    show.legend = TRUE\n  ) +\n  geom_sf(\n    data = sido_shp, \n    fill = NA, \n    lwd = 0.5\n  ) +\n  scale_fill_manual(\n    name = \"Classes\", \n    labels = c(\"&lt; 0.2\", \"0.2 ~ 0.5\", \"0.5 ~ 1.0\", \n               \"1.0 ~ 1.5\", \"&gt;= 1.5\"), \n    values = class_color, drop = FALSE\n  ) +\n  annotation_scale(\n    location = \"br\", \n    bar_cols = c(\"gray40\", \"white\"), \n    width_hint = 0.4\n  )\nggplot_map\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nclass_color &lt;- c(\"#d7191c\", \"#fdae61\", \"#ffffbf\", \"#a6d96a\", \"#1a9641\")\ntmap_map &lt;- tm_graticules(labels.cardinal = TRUE) +\n  tm_shape(sigungu_data) + \n  tm_polygons(\n    fill = \"index\", id = \"SGG1_FNM\", \n    fill.scale = tm_scale_intervals(\n      values = class_color, \n      breaks = c(0, 0.2, 0.5, 1.0, 1.5, Inf), \n      labels = c(\"&lt; 0.2\", \"0.2 ~ 0.5\", \"0.5 ~ 1.0\", \n               \"1.0 ~ 1.5\", \"&gt;= 1.5\")\n    ),\n    fill.legend = tm_legend(title = \"Classes\")\n  ) +\n  tm_shape(sido_shp) + tm_borders(lwd = 1.5) +\n  tm_scalebar(breaks = seq(0, 200, 50)) \ntmap_map"
   },
   {
     "objectID": "Lecture_2_4.html#인터랙티브-지도-ggplotly-함수",
     "href": "Lecture_2_4.html#인터랙티브-지도-ggplotly-함수",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "인터랙티브 지도: ggplotly() 함수",
-    "text": "인터랙티브 지도: ggplotly() 함수\n\nCodeResult\n\n\n\nlibrary(plotly)\nggplotly(world_map)\n\n\n\n\nlibrary(plotly)\nggplotly(world_map)"
+    "text": "인터랙티브 지도: ggplotly() 함수\n\n\nCode\nResult\n\n\n\n\nlibrary(plotly)\nggplotly(world_map)"
   },
   {
     "objectID": "Lecture_2_4.html#인터렉티브-지도-ggiraph-패키지",
     "href": "Lecture_2_4.html#인터렉티브-지도-ggiraph-패키지",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
     "section": "인터렉티브 지도: ggiraph 패키지",
-    "text": "인터렉티브 지도: ggiraph 패키지\n\nCodeResult\n\n\n\nlibrary(ggiraph)\nsigungu_data &lt;- sigungu_data |&gt; \n  mutate(\n    index = format(index, digits = 4, nsmall = 4),\n    my_tooltip = str_c(\"Name: \", SGG1_FNM, \"\\n Index: \", index)\n  )\ngg &lt;- ggplot() +\n  geom_sf_interactive(\n    data = sigungu_data, \n    aes(fill = index_class, tooltip = my_tooltip, data_id = SGG1_FNM), \n    show.legend = TRUE\n  ) +\n  geom_sf(data = sido_shp, fill = NA, lwd = 0.5) +\n  scale_fill_manual(\n    name = \"Classes\", \n    labels = c(\"&lt; 0.2\", \"0.2 ~ 0.5\", \"0.5 ~ 1.0\", \"1.0 ~ 1.5\", \"&gt;= 1.5\"), \n    values = class_color, drop = FALSE\n  ) \ngirafe(ggobj = gg) |&gt; \n  girafe_options(opts_hover(css = \"fill: gray\"))"
+    "text": "인터렉티브 지도: ggiraph 패키지\n\n\nCode\nResult\n\n\n\n\nlibrary(ggiraph)\nsigungu_data &lt;- sigungu_data |&gt; \n  mutate(\n    index = format(index, digits = 4, nsmall = 4),\n    my_tooltip = str_c(\"Name: \", SGG1_FNM, \"\\n Index: \", index)\n  )\ngg &lt;- ggplot() +\n  geom_sf_interactive(\n    data = sigungu_data, \n    aes(fill = index_class, tooltip = my_tooltip, data_id = SGG1_FNM), \n    show.legend = TRUE\n  ) +\n  geom_sf(data = sido_shp, fill = NA, lwd = 0.5) +\n  scale_fill_manual(\n    name = \"Classes\", \n    labels = c(\"&lt; 0.2\", \"0.2 ~ 0.5\", \"0.5 ~ 1.0\", \"1.0 ~ 1.5\", \"&gt;= 1.5\"), \n    values = class_color, drop = FALSE\n  ) \ngirafe(ggobj = gg) |&gt; \n  girafe_options(opts_hover(css = \"fill: gray\"))"
   },
   {
     "objectID": "Lecture_2_4.html#leaflet-자바스크립트-라이브러리",
     "href": "Lecture_2_4.html#leaflet-자바스크립트-라이브러리",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "leaflet: 자바스크립트 라이브러리",
-    "text": "leaflet: 자바스크립트 라이브러리\n\nR 래퍼 패키지: leaflet\n\n\n\n\nhttps://leafletjs.com/"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "\nleaflet: 자바스크립트 라이브러리",
+    "text": "leaflet: 자바스크립트 라이브러리\n\nR 래퍼 패키지: leaflet\n\n\n\nhttps://leafletjs.com/"
   },
   {
     "objectID": "Lecture_2_4.html#leaflet-단순-일반도",
     "href": "Lecture_2_4.html#leaflet-단순-일반도",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "leaflet: 단순 일반도",
-    "text": "leaflet: 단순 일반도\n\nCodeResult\n\n\n\nlibrary(leaflet)\nleaflet() |&gt; \n  addTiles() |&gt; \n  addPopups(126.955184, 37.460422, \"Sang-Il's Office\",\n            options = popupOptions(closeButton = FALSE))"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "\nleaflet: 단순 일반도",
+    "text": "leaflet: 단순 일반도\n\n\nCode\nResult\n\n\n\n\nlibrary(leaflet)\nleaflet() |&gt; \n  addTiles() |&gt; \n  addPopups(126.955184, 37.460422, \"Sang-Il's Office\",\n            options = popupOptions(closeButton = FALSE))"
   },
   {
     "objectID": "Lecture_2_4.html#leaflet-매시업mashup-주제도",
     "href": "Lecture_2_4.html#leaflet-매시업mashup-주제도",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "leaflet: 매시업(mashup) 주제도",
-    "text": "leaflet: 매시업(mashup) 주제도\n\n세계: Code세계: Result우리나라: Code우리나라: Result\n\n\n\nlibrary(leaflet)\nworld_data &lt;- world_data |&gt; filter(!is.na(TFR))\n\nbins &lt;- c(0, 1.5, 2.1, 3, 4, 5, Inf)\npal &lt;- colorBin(\"YlOrRd\", domain = world_data$TFR, bins = bins)\nlabels &lt;- sprintf(\"&lt;strong&gt;%s&lt;/strong&gt;&lt;br/&gt;%g\",\n  world_data$name_long, world_data$TFR) |&gt; lapply(htmltools::HTML)\n\nleaflet(world_data) |&gt; \n  addProviderTiles(providers$Esri.WorldTopoMap) |&gt; \n  addPolygons(\n    fillColor = ~pal(TFR), weight =  2, opacity = 1, color = \"white\", \n    dashArray = \"3\", fillOpacity = 0.6,\n    highlightOptions = highlightOptions(\n      weight = 5, color = \"#666\", dashArray = \"\", \n      fillOpacity = 0.6, bringToFront = TRUE\n    ),\n    label = labels,\n    labelOptions = labelOptions(\n      style = list(\"font-weight\" = \"normal\", padding = \"3px 8px\"), \n      textsize = \"15px\", direction = \"auto\"\n    )\n  ) |&gt; \n  addLegend(\n    pal = pal, values = ~TFR, opacity = 0.6, title = NULL, position = \"bottomright\"\n  )\n\n\n\n\nlibrary(leaflet)\n\nworld_data &lt;- world_data |&gt; filter(!is.na(TFR))\n\nbins &lt;- c(0, 1.5, 2.1, 3, 4, 5, Inf)\npal &lt;- colorBin(\"YlOrRd\", domain = world_data$TFR, bins = bins)\nlabels &lt;- sprintf(\"&lt;strong&gt;%s&lt;/strong&gt;&lt;br/&gt;%g\",\n  world_data$name_long, world_data$TFR) |&gt; lapply(htmltools::HTML)\n\nleaflet(world_data) |&gt; \n  addProviderTiles(providers$Esri.WorldTopoMap) |&gt; \n  addPolygons(\n    fillColor = ~pal(TFR), weight =  2, opacity = 1, color = \"white\", \n    dashArray = \"3\", fillOpacity = 0.6,\n    highlightOptions = highlightOptions(\n      weight = 5, color = \"#666\", dashArray = \"\", \n      fillOpacity = 0.6, bringToFront = TRUE\n    ),\n    label = labels,\n    labelOptions = labelOptions(\n      style = list(\"font-weight\" = \"normal\", padding = \"3px 8px\"), \n      textsize = \"15px\", direction = \"auto\"\n    )\n  ) |&gt; \n  addLegend(\n    pal = pal, values = ~TFR, opacity = 0.6, title = NULL, position = \"bottomright\"\n  )\n\n\n\n\n\n\n\n\nlibrary(tmap)\nclass_color &lt;- c(\"#d7191c\", \"#fdae61\", \"#ffffbf\", \"#a6d96a\", \"#1a9641\")\nsigungu_data &lt;- sigungu_data |&gt; mutate(index = as.numeric(index))\ntmap_mode(mode = \"view\")\nmy_tmap &lt;- tm_shape(sigungu_data) + \n  tm_polygons(\n    fill = \"index\", fill_alpha = 0.6, col_alpha = 0.5,\n    popup.vars = c(\"지역소멸위험지수: \" = \"index\"), \n    popup.format = list(index = list(digits = 3)), \n    id = \"SGG1_FNM\", \n    fill.scale = tm_scale_intervals(\n      values = class_color, breaks = c(0, 0.2, 0.5, 1.0, 1.5, Inf), \n      labels = c(\"&lt; 0.2\", \"0.2~0.5\", \"0.5~1.0\", \"1.0~1.5\", \"&gt;= 1.5\")\n    ),\n    fill.legend = tm_legend(title = \"Classes\")\n  ) +\n  tm_shape(sido_shp) + tm_borders(lwd = 2)\nmy_tmap\n\n\n\n\nclass_color &lt;- c(\"#d7191c\", \"#fdae61\", \"#ffffbf\", \"#a6d96a\", \"#1a9641\")\nsigungu_data &lt;- sigungu_data |&gt; mutate(index = as.numeric(index))\ntmap_mode(mode = \"view\")\nmy_tmap &lt;- tm_shape(sigungu_data) + \n  tm_polygons(\n    fill = \"index\", fill_alpha = 0.6, col_alpha = 0.5,\n    popup.vars = c(\"지역소멸위험지수: \" = \"index\"), \n    popup.format = list(index = list(digits = 3)), \n    id = \"SGG1_FNM\", \n    fill.scale = tm_scale_intervals(\n      values = class_color, breaks = c(0, 0.2, 0.5, 1.0, 1.5, Inf), \n      labels = c(\"&lt; 0.2\", \"0.2~0.5\", \"0.5~1.0\", \"1.0~1.5\", \"&gt;= 1.5\")\n    ),\n    fill.legend = tm_legend(title = \"Classes\")\n  ) +\n  tm_shape(sido_shp) + tm_borders(lwd = 2)\nmy_tmap"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "\nleaflet: 매시업(mashup) 주제도",
+    "text": "leaflet: 매시업(mashup) 주제도\n\n\n세계: Code\n세계: Result\n우리나라: Code\n우리나라: Result\n\n\n\n\nlibrary(leaflet)\nworld_data &lt;- world_data |&gt; filter(!is.na(TFR))\n\nbins &lt;- c(0, 1.5, 2.1, 3, 4, 5, Inf)\npal &lt;- colorBin(\"YlOrRd\", domain = world_data$TFR, bins = bins)\nlabels &lt;- sprintf(\"&lt;strong&gt;%s&lt;/strong&gt;&lt;br/&gt;%g\",\n  world_data$name_long, world_data$TFR) |&gt; lapply(htmltools::HTML)\n\nleaflet(world_data) |&gt; \n  addProviderTiles(providers$Esri.WorldTopoMap) |&gt; \n  addPolygons(\n    fillColor = ~pal(TFR), weight =  2, opacity = 1, color = \"white\", \n    dashArray = \"3\", fillOpacity = 0.6,\n    highlightOptions = highlightOptions(\n      weight = 5, color = \"#666\", dashArray = \"\", \n      fillOpacity = 0.6, bringToFront = TRUE\n    ),\n    label = labels,\n    labelOptions = labelOptions(\n      style = list(\"font-weight\" = \"normal\", padding = \"3px 8px\"), \n      textsize = \"15px\", direction = \"auto\"\n    )\n  ) |&gt; \n  addLegend(\n    pal = pal, values = ~TFR, opacity = 0.6, title = NULL, position = \"bottomright\"\n  )\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(tmap)\nclass_color &lt;- c(\"#d7191c\", \"#fdae61\", \"#ffffbf\", \"#a6d96a\", \"#1a9641\")\nsigungu_data &lt;- sigungu_data |&gt; mutate(index = as.numeric(index))\ntmap_mode(mode = \"view\")\nmy_tmap &lt;- tm_shape(sigungu_data) + \n  tm_polygons(\n    fill = \"index\", fill_alpha = 0.6, col_alpha = 0.5,\n    popup.vars = c(\"지역소멸위험지수: \" = \"index\"), \n    popup.format = list(index = list(digits = 3)), \n    id = \"SGG1_FNM\", \n    fill.scale = tm_scale_intervals(\n      values = class_color, breaks = c(0, 0.2, 0.5, 1.0, 1.5, Inf), \n      labels = c(\"&lt; 0.2\", \"0.2~0.5\", \"0.5~1.0\", \"1.0~1.5\", \"&gt;= 1.5\")\n    ),\n    fill.legend = tm_legend(title = \"Classes\")\n  ) +\n  tm_shape(sido_shp) + tm_borders(lwd = 2)\nmy_tmap"
   },
   {
     "objectID": "Lecture_2_4.html#옵션-1-임베딩",
     "href": "Lecture_2_4.html#옵션-1-임베딩",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "개념\n\n외부 웹 사이트/앱의 콘텐츠를 현재 웹 사이트/앱 안에 삽입하여 보여주는 기법\nHTML의 iframe 태그 활용\n별도의 페이지 전환 없이 다른 서비스나 시각화 결과를 한 웹 앱에 통합\n일부 사이트는 임베딩 불가능\n\n대상\n\n동적ㆍ반응형 시각화 웹 사이트/앱\n상호작용형 교육ㆍ협업 도구: Padlet, Mentimeter, Google Forms 등\n동영상: YouTube"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "옵션 1: 임베딩",
+    "text": "옵션 1: 임베딩\n\n\n개념\n\n외부 웹 사이트/앱의 콘텐츠를 현재 웹 사이트/앱 안에 삽입하여 보여주는 기법\nHTML의 iframe 태그 활용\n별도의 페이지 전환 없이 다른 서비스나 시각화 결과를 한 웹 앱에 통합\n일부 사이트는 임베딩 불가능\n\n\n\n대상\n\n동적ㆍ반응형 시각화 웹 사이트/앱\n상호작용형 교육ㆍ협업 도구: Padlet, Mentimeter, Google Forms 등\n동영상: YouTube"
   },
   {
     "objectID": "Lecture_2_4.html#옵션-2-직접-제작",
     "href": "Lecture_2_4.html#옵션-2-직접-제작",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "R 패키지 활용\n\n동적ㆍ반응형 내용 요소 제작을 지원하는 R 자체 패키지\ngganimate, ggiraph\n\nR 래퍼 패키지 활용\n\nJS 라이브러리와의 가교\nDT, plotly\n\n결합\n\nR 패키지로 제작한 정적 콘텐츠를 R 래퍼 패키지를 통해 동적ㆍ반응형 콘텐츠로 전환\nggplot2 + plotly"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "옵션 2: 직접 제작",
+    "text": "옵션 2: 직접 제작\n\n\nR 패키지 활용\n\n동적ㆍ반응형 내용 요소 제작을 지원하는 R 자체 패키지\ngganimate, ggiraph\n\n\n\nR 래퍼 패키지 활용\n\nJS 라이브러리와의 가교\nDT, plotly\n\n\n\n결합\n\nR 패키지로 제작한 정적 콘텐츠를 R 래퍼 패키지를 통해 동적ㆍ반응형 콘텐츠로 전환\nggplot2 + plotly"
   },
   {
     "objectID": "Lecture_2_4.html#임베딩-사례-1",
     "href": "Lecture_2_4.html#임베딩-사례-1",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "통계놀이터(https://kosis.kr/edu/)\n\n\nCodeResult\n\n\n&lt;iframe src=\"https://kosis.kr/edu/share.do?shareID=S0500_16\" \nloading=\"lazy\" style=\"width: 100%; height: 600px; border: \n0px none;\" allow=\"web-share; clipboard-write\"&gt;&lt;/iframe&gt;"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "임베딩: 사례 1",
+    "text": "임베딩: 사례 1\n\n통계놀이터(https://kosis.kr/edu/)\n\n\n\nCode\nResult\n\n\n\n&lt;iframe src=\"https://kosis.kr/edu/share.do?shareID=S0500_16\" \nloading=\"lazy\" style=\"width: 100%; height: 400px; border: \n0px none;\" allow=\"web-share; clipboard-write\"&gt;&lt;/iframe&gt;"
   },
   {
     "objectID": "Lecture_2_4.html#임베딩-사례-2",
     "href": "Lecture_2_4.html#임베딩-사례-2",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "Our World in Data(https://ourworldindata.org/)\n\n\nCodeResult\n\n\n&lt;iframe src=\"https://ourworldindata.org/explorers/population-and-demography?indicator=Fertility+rate&Sex=Both+sexes&Age=Total&Projection+scenario=Medium&country=Asia+%28UN%29~Europe+%28UN%29~Africa+%28UN%29~Oceania+%28UN%29~Northern+America+%28UN%29~Latin+America+and+the+Caribbean+%28UN%29~OWID_WRL~KOR&tab=chart&hideControls=true\" loading=\"lazy\" style=\"width: 70%; height: 600px; border: 0px none;\" allow=\"web-share; clipboard-write\"&gt;&lt;/iframe&gt;"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "임베딩: 사례 2",
+    "text": "임베딩: 사례 2\n\nOur World in Data(https://ourworldindata.org/)\n\n\n\nCode\nResult\n\n\n\n&lt;iframe src=\"https://ourworldindata.org/explorers/population-and-demography?indicator=Fertility+rate&Sex=Both+sexes&Age=Total&Projection+scenario=Medium&country=Asia+%28UN%29~Europe+%28UN%29~Africa+%28UN%29~Oceania+%28UN%29~Northern+America+%28UN%29~Latin+America+and+the+Caribbean+%28UN%29~OWID_WRL~KOR&tab=chart&hideControls=true\" loading=\"lazy\" style=\"width: 70%; height: 600px; border: 0px none;\" allow=\"web-share; clipboard-write\"&gt;&lt;/iframe&gt;"
   },
   {
     "objectID": "Lecture_2_4.html#테이블-개요",
     "href": "Lecture_2_4.html#테이블-개요",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "테이블 역시 시각화의 일부\n\n데이터 변형 및 요약을 거친 정적 테이블\n시각성이 가미된 정적 테이블\n인터랙티브 테이블\n\n테이블 디자인 원칙(핸즈온 데이터 시각화, 2022)\n\n열 제목을 데이터 상단에 눈에 띄게 만들어라.\n밝은 음영을 사용해 열이나 행을 구분하라.\n읽기 쉽도록 텍스트는 왼쪽 정렬하고 숫자는 오른쪽 정렬하라.\n레이블을 첫 번째 행에만 배치하여 중복을 피하라.\n테이터를 그룹화 및 정렬하여 의미 있는 패턴을 강조하라."
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "테이블: 개요",
+    "text": "테이블: 개요\n\n\n테이블 역시 시각화의 일부\n\n데이터 변형 및 요약을 거친 정적 테이블\n시각성이 가미된 정적 테이블\n인터랙티브 테이블\n\n\n\n테이블 디자인 원칙(핸즈온 데이터 시각화, 2022)\n\n열 제목을 데이터 상단에 눈에 띄게 만들어라.\n밝은 음영을 사용해 열이나 행을 구분하라.\n읽기 쉽도록 텍스트는 왼쪽 정렬하고 숫자는 오른쪽 정렬하라.\n레이블을 첫 번째 행에만 배치하여 중복을 피하라.\n테이터를 그룹화 및 정렬하여 의미 있는 패턴을 강조하라."
   },
   {
     "objectID": "Lecture_2_4.html#테이블-도구의-분류",
     "href": "Lecture_2_4.html#테이블-도구의-분류",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "https://r-graph-gallery.com/table.html"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "테이블: 도구의 분류",
+    "text": "테이블: 도구의 분류\n\nhttps://r-graph-gallery.com/table.html"
   },
   {
     "objectID": "Lecture_2_4.html#테이블-gt-패키지",
     "href": "Lecture_2_4.html#테이블-gt-패키지",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "https://gt.rstudio.com/"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "테이블: gt 패키지",
+    "text": "테이블: gt 패키지\n\nhttps://gt.rstudio.com/"
   },
   {
     "objectID": "Lecture_2_4.html#테이블-gt-패키지-1",
     "href": "Lecture_2_4.html#테이블-gt-패키지-1",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "https://gt.rstudio.com/"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "테이블: gt 패키지",
+    "text": "테이블: gt 패키지\n\nhttps://gt.rstudio.com/"
   },
   {
     "objectID": "Lecture_2_4.html#테이블-gt-패키지-2",
     "href": "Lecture_2_4.html#테이블-gt-패키지-2",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "https://towardsdatascience.com/exploring-the-gt-grammar-of-tables-package-in-r-7fff9d0b40cd"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "테이블: gt 패키지",
+    "text": "테이블: gt 패키지\n\nhttps://towardsdatascience.com/exploring-the-gt-grammar-of-tables-package-in-r-7fff9d0b40cd"
   },
   {
     "objectID": "Lecture_2_4.html#테이블-flextable패키지",
     "href": "Lecture_2_4.html#테이블-flextable패키지",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "웹북(https://ardata-fr.github.io/flextable-book/)\n\n\n\n\nhttps://twitter.com/DavidGohel/status/1376892794627883016/photo/1"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "테이블: flextable패키지",
+    "text": "테이블: flextable패키지\n\n웹북(https://ardata-fr.github.io/flextable-book/)\n\n\nhttps://twitter.com/DavidGohel/status/1376892794627883016/photo/1"
   },
   {
     "objectID": "Lecture_2_4.html#테이블-인터랙티브-테이블",
     "href": "Lecture_2_4.html#테이블-인터랙티브-테이블",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "자바스크립트 라이브러리\nR 래퍼 패키지\n\n\n\n\nDataTables\nDT\n\n\nTanstack Table\nreactable"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "테이블: 인터랙티브 테이블",
+    "text": "테이블: 인터랙티브 테이블\n\n\nJS 라이브러리\nR 래퍼 패키지\n\n\n\nDataTables\nDT\n\n\nTanstack Table\nreactable"
   },
   {
     "objectID": "Lecture_2_4.html#테이블-래퍼-패키지-dt",
     "href": "Lecture_2_4.html#테이블-래퍼-패키지-dt",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "DataTables: 자바스크립트 라이브러리\nR 래퍼 패키지: DT\n\n웹북: D3 for R Users\n\n\n\n\n\nhttps://datatables.net/"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "테이블: 래퍼 패키지 DT\n",
+    "text": "테이블: 래퍼 패키지 DT\n\n\nDataTables: 자바스크립트 라이브러리\n\nR 래퍼 패키지: DT\n\n웹북: D3 for R Users\n\n\n\n\n\nhttps://datatables.net/"
   },
   {
     "objectID": "Lecture_2_4.html#테이블-래퍼-패키지-dt-1",
     "href": "Lecture_2_4.html#테이블-래퍼-패키지-dt-1",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "Pagination: 페이지 이동 기능\nInstant search: 즉각적 검색 기능(Search에 타이핑하기 시작하면 즉각적으로 검색 결과 보여줌)\nOrdering/sorging: 컬럼 정렬 기능\nMulti-column ordering: 다중 컬럼 정렬 기능(컬럼 하나를 선택한 후 ctrl을 누른 상태에서 다른 컬럼을 선택)\nFiltering: 값 추림 기능\nEditable: 셀 값 수정 기능\nButtons: 셀 숨기기 기능, CSV, PDF, XLSX 등의 확장자로 내보내기 등을 수행하는 버튼 생성 기능"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "테이블: 래퍼 패키지 DT\n",
+    "text": "테이블: 래퍼 패키지 DT\n\n\nPagination: 페이지 이동 기능\nInstant search: 즉각적 검색 기능(Search에 타이핑하기 시작하면 즉각적으로 검색 결과 보여줌)\nOrdering/sorging: 컬럼 정렬 기능\nMulti-column ordering: 다중 컬럼 정렬 기능(컬럼 하나를 선택한 후 ctrl을 누른 상태에서 다른 컬럼을 선택)\nFiltering: 값 추림 기능\nEditable: 셀 값 수정 기능\nButtons: 셀 숨기기 기능, CSV, PDF, XLSX 등의 확장자로 내보내기 등을 수행하는 버튼 생성 기능"
   },
   {
     "objectID": "Lecture_2_4.html#테이블-래퍼-패키지-dt-2",
     "href": "Lecture_2_4.html#테이블-래퍼-패키지-dt-2",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "CodeResult\n\n\n\ngapminder |&gt; \n  datatable(\n    filter = \"top\",\n    extensions = \"Buttons\",\n    options = list(\n      pageLength = 5,\n      autoWidth = TRUE,\n      dom = \"Bfrtip\",\n      buttons = c(\"copy\", \"excel\", \"pdf\", \"print\")\n    )\n  )\n\n\n\n\nlibrary(DT)\nlibrary(gapminder)\ngapminder |&gt; \n  datatable(\n    filter = \"top\",\n    extensions = \"Buttons\",\n    options = list(\n      pageLength = 5,\n      autoWidth = TRUE,\n      dom = \"Bftip\",\n      buttons = c(\"copy\", \"excel\", \"pdf\", \"print\")\n    )\n  )"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "테이블: 래퍼 패키지 DT\n",
+    "text": "테이블: 래퍼 패키지 DT\n\n\n\nCode\nResult\n\n\n\n\ngapminder |&gt; \n  datatable(\n    filter = \"top\",\n    extensions = \"Buttons\",\n    options = list(\n      pageLength = 5,\n      autoWidth = TRUE,\n      dom = \"Bfrtip\",\n      buttons = c(\"copy\", \"excel\", \"pdf\", \"print\")\n    )\n  )"
   },
   {
     "objectID": "Lecture_2_4.html#차트-gganimate패키지",
     "href": "Lecture_2_4.html#차트-gganimate패키지",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "CodeResult\n\n\n\nlibrary(gganimate)\nP &lt;- gapminder |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp, size = pop, color = continent)) +\n  geom_point(show.legend = FALSE, alpha = 0.7) +\n  scale_x_log10() +\n  scale_size(range = c(2, 12))\nP + transition_time(year) +\n  labs(title = \"Year: {frame_time}\")"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "차트: gganimate패키지",
+    "text": "차트: gganimate패키지\n\n\nCode\nResult\n\n\n\n\nlibrary(gganimate)\nP &lt;- gapminder |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp, size = pop, color = continent)) +\n  geom_point(show.legend = FALSE, alpha = 0.7) +\n  scale_x_log10() +\n  scale_size(range = c(2, 12))\nP + transition_time(year) +\n  labs(title = \"Year: {frame_time}\")"
   },
   {
     "objectID": "Lecture_2_4.html#차트-ggiraph-패키지",
     "href": "Lecture_2_4.html#차트-ggiraph-패키지",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "ggplot2 패키지의 확장\n상호작용형 기하객체(geometry): geom_*_interactive\n\ngeom_point(): geom_point_interactive()\ngeom_sf(): geom_sf_interactive()\n…\n\n상호작용형 시각속성(aethetics)\n\ntoolitp\nonclick\ndata_id\n\n웹북: ggiraph-book"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "차트: ggiraph 패키지",
+    "text": "차트: ggiraph 패키지\n\nggplot2 패키지의 확장\n\n상호작용형 기하객체(geometry): geom_*_interactive\n\ngeom_point(): geom_point_interactive()\ngeom_sf(): geom_sf_interactive()\n…\n\n\n\n상호작용형 시각속성(aethetics)\n\ntoolitp\nonclick\ndata_id\n\n\n웹북: ggiraph-book"
   },
   {
     "objectID": "Lecture_2_4.html#차트-ggiraph-패키지-1",
     "href": "Lecture_2_4.html#차트-ggiraph-패키지-1",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "CodeResult\n\n\n\nlibrary(tidyverse)\nlibrary(ggiraph)\ndata &lt;- mtcars\ndata &lt;- data |&gt; rownames_to_column(var = \"carname\")\ngg_point = ggplot(data = data) +\n  geom_point_interactive(\n    aes(x = wt, y = qsec, color = disp, \n        tooltip = carname, data_id = carname)\n  ) + \n  theme_minimal()\ngirafe(ggobj = gg_point)\n\n\n\n\nlibrary(tidyverse)\nlibrary(ggiraph)\ndata &lt;- mtcars\ndata &lt;- data |&gt; rownames_to_column(var = \"carname\")\ngg_point = ggplot(data = data) +\n  geom_point_interactive(\n    aes(x = wt, y = qsec, color = disp, \n        tooltip = carname, data_id = carname)\n  ) + \n  theme_minimal()\ngirafe(ggobj = gg_point)"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "차트: ggiraph 패키지",
+    "text": "차트: ggiraph 패키지\n\n\nCode\nResult\n\n\n\n\nlibrary(tidyverse)\nlibrary(ggiraph)\ndata &lt;- mtcars |&gt; rownames_to_column(var = \"carname\")\ngg_point &lt;- ggplot(data = data) +\n  geom_point_interactive(\n    aes(x = wt, y = qsec, color = disp, \n        tooltip = carname, data_id = carname)\n  ) + \n  theme_minimal()\ngirafe(ggobj = gg_point)"
   },
   {
     "objectID": "Lecture_2_4.html#차트-래퍼-패키지-활용",
     "href": "Lecture_2_4.html#차트-래퍼-패키지-활용",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "자바스크립트 라이브러리\nR 래퍼 패키지\n\n\n\n\nPlotly\nplotly\n\n\nD3\nr2d3\n\n\nHighcharts\nhighcharter\n\n\nECharts\necharts4r, echarty\n\n\ndygraphs\ndygraphs\n\n\nGoogle Charts\ngoogleVis\n\n\nChart.js\nchartjs\n\n\nthree.js\nr3js"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "차트: 래퍼 패키지 활용",
+    "text": "차트: 래퍼 패키지 활용\n\n\n\n\n\n\nJS 라이브러리\nR 래퍼 패키지\n\n\n\nPlotly\nplotly\n\n\nD3\nr2d3\n\n\nHighcharts\nhighcharter\n\n\nECharts\n\necharts4r, echarty\n\n\n\ndygraphs\ndygraphs\n\n\nGoogle Charts\ngoogleVis\n\n\nChart.js\nchartjs\n\n\nthree.js\nr3js"
   },
   {
     "objectID": "Lecture_2_4.html#차트-plotly-패키지",
     "href": "Lecture_2_4.html#차트-plotly-패키지",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "Plotly: 자바스크립트 라이브러리\nR 래퍼 패키지: plotly package\n\nggplotly() 함수\n\n\n\n\n\nhttps://plotly.com/"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "차트: plotly 패키지",
+    "text": "차트: plotly 패키지\n\nPlotly: 자바스크립트 라이브러리\n\nR 래퍼 패키지: plotly package\n\nplot_ly() 함수\nggplotly() 함수\n\n\n\n\nhttps://plotly.com/"
   },
   {
     "objectID": "Lecture_2_4.html#차트-plotly-패키지-1",
     "href": "Lecture_2_4.html#차트-plotly-패키지-1",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "CodeResult\n\n\n\nlibrary(plotly)\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  plot_ly(\n    x = ~gdpPercap, \n    y = ~lifeExp, \n    color = ~continent,\n    text = ~paste(\n      \"Country: \", country, \n      \"&lt;br&gt;GDP per capita: \", gdpPercap, \n      \"$&lt;br&gt;Life Expectancy at Birth:\", lifeExp\n    )\n  )\n\n\n\n\nlibrary(plotly)\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  plot_ly(\n    x = ~gdpPercap, \n    y = ~lifeExp, \n    color = ~continent,\n    text = ~paste(\n      \"Country: \", country, \n      \"&lt;br&gt;GDP per capita: \", gdpPercap, \n      \"$&lt;br&gt;Life Expectancy at Birth:\", lifeExp\n    )\n  )"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "차트: plotly 패키지",
+    "text": "차트: plotly 패키지\n\n\nCode\nResult\n\n\n\n\nlibrary(plotly)\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  plot_ly(\n    x = ~gdpPercap, \n    y = ~lifeExp, \n    color = ~continent,\n    text = ~paste(\n      \"Country: \", country, \n      \"&lt;br&gt;GDP per capita: \", gdpPercap, \n      \"&lt;br&gt;Life Expectancy at Birth:\", lifeExp\n    )\n  )"
   },
   {
     "objectID": "Lecture_2_4.html#차트-plotly-패키지-2",
     "href": "Lecture_2_4.html#차트-plotly-패키지-2",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "CodeResult\n\n\n\ngapminder |&gt; \n  plot_ly(\n    x = ~log10(gdpPercap), y = ~lifeExp,\n    text = ~paste(\n      \"Country:\", country, \n      \"&lt;/br&gt;Continent:\", continent, \n      \"&lt;/br&gt;lifeExp:\", lifeExp\n    )\n  ) |&gt; \n  add_markers(\n    color = ~continent, \n    size = ~pop, \n    frame = ~year, \n    marker = list(sizeref = 0.2, sizemode = \"area\")\n  )\n\n\n\n\ngapminder |&gt; \n  plot_ly(\n    x = ~log10(gdpPercap), y = ~lifeExp,\n    text = ~paste(\n      \"Country:\", country, \n      \"&lt;/br&gt;Continent:\", continent, \n      \"&lt;/br&gt;lifeExp:\", lifeExp\n    )\n  ) |&gt; \n  add_markers(\n    color = ~continent, \n    size = ~pop, \n    frame = ~year, \n    marker = list(sizeref = 0.2, sizemode = \"area\")\n  )"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "차트: plotly 패키지",
+    "text": "차트: plotly 패키지\n\n\nCode\nResult\n\n\n\n\ngapminder |&gt; \n  plot_ly(\n    x = ~log10(gdpPercap), \n    y = ~lifeExp,\n    text = ~paste(\n      \"Country: \", country, \n      \"&lt;br&gt;GDP per capita: \", gdpPercap, \n      \"&lt;br&gt;Life Expectancy at Birth:\", lifeExp\n    )\n  ) |&gt; \n  add_markers(\n    color = ~continent, \n    size = ~pop, \n    frame = ~year, \n    marker = list(sizeref = 0.2, sizemode = \"area\")\n  )"
   },
   {
     "objectID": "Lecture_2_4.html#차트-plotly-패키지의-ggplotly-함수",
     "href": "Lecture_2_4.html#차트-plotly-패키지의-ggplotly-함수",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "CodeResult\n\n\n\nP &lt;- gapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent)) +\n  geom_point() + \n  scale_color_brewer(palette = \"Set2\") +\n  theme_minimal()\nggplotly(P)"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "차트: plotly 패키지의 ggplotly() 함수",
+    "text": "차트: plotly 패키지의 ggplotly() 함수\n\n\nCode\nResult\n\n\n\n\nP &lt;- gapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent)) +\n  geom_point() + \n  scale_color_brewer(palette = \"Set2\") +\n  theme_minimal()\nggplotly(P)"
   },
   {
     "objectID": "Lecture_2_4.html#차트-echarts4r-패키지",
     "href": "Lecture_2_4.html#차트-echarts4r-패키지",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 1\n인터랙티브 및 지리공간 시각화",
-    "section": "",
-    "text": "CodeResult\n\n\n\nlibrary(tidyverse)\nlibrary(echarts4r)\nlibrary(RColorBrewer)\nmy.data &lt;- read_rds(\"D:/My R/Population Geography/wpp_2024.rds\")\ndata.sel &lt;- my.data |&gt; \n  filter(\n    type == \"Subregion\" | region_name == \"Northern America\",\n    year == 2025\n  )\ncustom_colors &lt;- brewer.pal(n = 6, name = \"Set2\")\ndata.sel |&gt; \n  arrange(median_age) |&gt; \n  mutate(\n    median_age = round(median_age, digits = 1)\n  ) |&gt; \n  group_by(Region_NM) |&gt; \n  e_charts(region_name, width = \"100%\", height = \"800px\") |&gt; \n  e_bar(serie = median_age, stack = \"grp\") |&gt; \n  e_color(custom_colors) |&gt; \n  e_flip_coords() |&gt; \n  e_x_axis(name = \"Median Age\") |&gt; \n  e_tooltip() |&gt; \n  e_legend()"
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 1인터랙티브 및 지리공간 시각화\n",
+    "section": "차트: echarts4r 패키지",
+    "text": "차트: echarts4r 패키지\n\n\nCode\nResult\n\n\n\n\nlibrary(tidyverse)\nlibrary(echarts4r)\nmy_data &lt;- read_rds(\"D:/My R/Population Geography/wpp_2024.rds\")\ndata_sel &lt;- my_data |&gt; \n  filter(\n    type == \"Subregion\" | region_name == \"Northern America\",\n    year == 2025\n  )\ndata_sel |&gt; \n  arrange(median_age) |&gt; \n  mutate(\n    median_age = round(median_age, digits = 1)\n  ) |&gt; \n  group_by(Region_NM) |&gt; \n  e_charts(region_name, width = \"100%\", height = \"800px\") |&gt; \n  e_bar(serie = median_age, stack = \"grp\") |&gt; \n  e_color() |&gt; \n  e_flip_coords() |&gt; \n  e_x_axis(name = \"Median Age\") |&gt; \n  e_tooltip() |&gt; \n  e_legend()"
   },
   {
     "objectID": "Lab_06.html",
