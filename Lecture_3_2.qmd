@@ -1,0 +1,119 @@
+---
+title: |
+  | [인터랙티브 교수ㆍ학습 웹 앱의 제작]{style="color:coral;font-size:0.6em"}   
+  | [Shiny를 활용한 웹 앱 제작]{style="font-size:1em"} 
+author: <br> 이상일(서울대학교 지리교육과 교수)
+date: 2026-01-13
+format: 
+  revealjs:
+    logo: snu_edu_1.png
+    footer: https://sangillee.snu.ac.kr/
+    transition: fade
+    transition-speed: fast
+    margin: 0.05
+    center: false
+    # smaller: false
+    # scrollable: false
+    code-link: true
+    code-line-numbers: false
+    code-copy: true
+    code-overflow: scroll
+    slide-number: true
+    width: 960 * 1.5
+    height: 700 * 1.5
+    lightbox: false
+    # min-scale: 1
+    # max-scale: 1
+    pointer:
+      pointerSize: 20
+      color: red
+    menu: true
+    embed-resources: false
+    theme: [default, custom_hq_pretendard_step.scss] # 슬라이드 본문 폰트 크기 조정
+    revealjs-plugins:
+      - pointer
+    css: styles.css
+execute: 
+  warning: false
+  error: false
+  freeze: auto  
+dpi: 600
+editor: visual
+webr: 
+  show-startup-message: false     
+  packages: []
+filters:
+  - webr
+# suppress-bibliography: true
+editor_options: 
+  chunk_output_type: console
+---
+
+
+## Quarto와 Shiny의 결합
+
+-   상황: Quarto 대시보드의 일부 영역에서 Shiny 사용
+
+-   두 가지 접근
+
+    -   Shiny 중심 방식: Shiny 웹 앱의 생성
+
+        -   Quarto 대시보드 내에서 Quarto 문법으로 Shiny 웹 앱 구축
+
+        -   Quarto 대시보드 전체가 Shiny 웹 앱화: shinyapps.io를 통해 배포
+
+        -   사례: <https://sangillee.shinyapps.io/Dashboard_Example/>
+
+    -   Quarto 중심 방식: Quarto 대시보드의 유지
+
+        -   Quarto 대시보드 속에 독립적으로 구축된 Shiny 웹 앱 임베딩
+
+        -   여전히 Quarto 대시보드: Quarto Pub을 통해 배포
+
+        -   사례: <https://sangillee.snu.ac.kr/dashboard_examples/>
+
+## Quarto와 Shiny의 결합: Shiny 중심 방식
+
+-   옵션 1: Quarto를 Shiny 웹 앱의 레이아웃 설정 도구로 사용
+
+    -   **shiny** 패키지: `fluidPage()`
+
+        -   `titlePanel()`, `SidebarLayout()`, `sidebarPanel()`, `mainPanel()`
+
+    -   **bslib** 패키지: `page_sidebar()`
+
+        -   `sidebar = sidebar()`, `card()`
+
+-   옵션 2: Quarto 대시보드 내에서 Shiny 웹 앱 구축
+
+## Quarto와 Shiny의 결합: Shiny 중심 방식
+
+-   <https://quarto.org/docs/dashboards/interactivity/shiny-r.html>
+
+-   YAML 헤더에 다음 첨가: `server: shiny`
+
+-   UI 부분: 기본적으로는 `r` 코드 청크 속에 포함, 사이드바와 메인 병렬
+
+    -   사이드바: 레이아웃 구성요소에 넣고 `{.sidebar}` CSS 클래스 지정 가능
+
+    -   메인: 사이드바와 다른 레이아웃 구성요소에 넣기 가능
+
+-   Server 부분: `r` 코드 청크 속에 포함, 다음을 지정
+
+    -   `#| context: server` 지정
+
+-   기타(패키지, 데이터 등) 부분: `r` 코드 청크 속에 포함, 다음을 지정
+
+    -   `#| context: setup`
+
+    -   `#| include: false`
+
+## Quarto와 Shiny의 결합: Quarto 중심 방식
+
+-   보통 하나의 row에 임베딩
+
+-   `src=""` 부분만 교체
+
+```         
+<iframe src="https://..." loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+```

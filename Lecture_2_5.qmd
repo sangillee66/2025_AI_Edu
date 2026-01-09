@@ -49,31 +49,30 @@ editor_options:
   chunk_output_type: console
 ---
 
-## 인터랙티브 웹 앱 구상 발표
+## [인터랙티브 웹 앱 구상 발표]{style="color:coral"}
 
--   일시
+-   일시: 2026년 1월 12일(월)
 
-    -   2026년 1월 12일(월)
+-   주제: 사회과의 통합형 주제로서의 **인구**
 
--   주제: 인구 관련
+    -   고출산, 저출산, 고령화, 인구 편중, 인구 절벽, 지역 소멸, 학령 인구 감소 등
 
-    -   저출산, 고령화, 인구 절벽, 지역 소멸, 학령 인구 감소 등
+    -   전공 교과와 결합 혹은 통합형 사회과 수업
 
-    -   인구 현상과 인문사회 콘텐츠 참고
-
--   데이터
-
-    -   WPP 2024 혹은 KOSIS
+-   데이터: WPP 2024 그리고/혹은 KOSIS
 
 -   발표 내용
 
-    -   주제, 웹 앱 디자인(레이아웃 요소, 내용 요소, 상호작용 요소)
+    -   주제 선정 이유, 교수ㆍ학습 설계(학교급, 단원, 차시 등)
+    -   웹 앱 디자인: 레이아웃 요소, 내용 요소, 상호작용 요소
 
--   발표 방식
+-   발표 방식: 5\~10분 정도의 프레젠테이션
 
-    -   5\~10분 정도의 프레젠테이션
+## Quarto/R 기반의 웹 앱 개발 프레임워크
 
-## Shiny: (서버-기반) 웹 앱 개발 프레임워크
+![](images/clipboard-4226295984.png)
+
+## [**Shiny**](https://shiny.posit.co/): 서버-기반 웹 앱 개발 프레임워크
 
 ![[https://shiny.posit.co/](https://shiny.posit.co/){style="font-size:1.25rem"}](images/hex_shiny.png)
 
@@ -109,21 +108,21 @@ editor_options:
 
 -   [데이터 사이언스를 위한 R 프로그래밍: 14 shiny](https://greendaygh.github.io/Rprog2021/shiny.html)
 
-## 확장: [bslib](https://rstudio.github.io/bslib/) 패키지
+## 확장: [**bslib**](https://rstudio.github.io/bslib/) 패키지
 
 ![[https://rstudio.github.io/bslib/](https://rstudio.github.io/bslib/){style="font-size:1rem"}](images/hex_bslib.png)
 
 ## 기본 구조
 
--   ui 부분: 프론트엔드(front-end) 부분
+-   `UI` 부분: 프론트엔드(front-end) 부분
 
-    -   입력을 받고 출력을 나타내는 부분
+    -   입력을 받는 부분 + 출력을 나타내는 부분
 
--   server 부분: 백엔드(back-end) 부분
+-   `Server` 부분: 백엔드(back-end) 부분
 
-    -   받은 입력으로 출력을 산출하는 부분
+    -   받은 입력을 바탕으로 출력을 산출하는 부분
 
--   결합: `shinyApp(ui = ui, server = server)`
+-   결합: `shinyApp(ui = UI, server = Server)`
 
 ![[https://bookdown.org/hneth/i2ds/shiny.html](https://bookdown.org/hneth/i2ds/shiny.html){style="font-size:1.25rem"}](https://bookdown.org/hneth/i2ds/images/Shiny_ui_server.png)
 
@@ -131,7 +130,7 @@ editor_options:
 
 -   New Project \> New Directory \> Shiny Application
 
-![](https://sangillee.snu.ac.kr/data_science/images/clipboard-1356184653.png){fig-align="center" style="height:700px"}
+![](https://sangillee.snu.ac.kr/data_science/images/clipboard-1356184653.png){fig-align="center" height="700px"}
 
 ## 웹 앱 예시
 
@@ -187,39 +186,39 @@ shinyApp(ui = ui, server = server)
 ```
 :::
 
-## 기본 구조: ui 부분
+## UI 부분: 입력
 
--   입력(input)
+-   **입력 함수**: 사용자가 값을 입력할 수 있는 **입력 위젯**을 UI에 생성하고, 해당 위젯에 고유한 **입력 ID**(inputID)를 부여하는 함수
 
-    -   '입력 함수': 사용자로부터 입력을 받아 '입력 객체'를 만드는 함수
+    -   입력 위젯(widget): UI를 위한 시각적 입력 요소로, 미리 만들어져 있는 것(슬라이더, 버튼, 스크롤 바, 텍스트 상자, 체크박스, 라디오 버튼 등)
 
-    -   위젯(widget): ui를 위한 기본 시각 요소로, 미리 만들어져 있는 것
+-   입력의 종류에 따라 다양: `*Input(inputID = "")`
 
-        -   버튼, 스크롤 바, 텍스트 상자, 체크박스, 라디오 버튼 등
+    -   `sliderInput(inputID = "")`
 
-    -   입력의 종류에 따라 다양: `*Input()`
+-   사용자의 입력값은 자동으로 Server의 `input` 객체로 전달
 
-        -   `sliderInput(inputID = "")`
+## UI 부분: 입력
 
--   출력(output)
+-   **입력 함수**: <https://shiny.posit.co/r/components/>
 
-    -   '출력 함수': 서버로부터 '출력 객체'를 받아 디스플레이하는 함수
+![](images/clipboard-2818742956.png){fig-align="center" height="750px"}
 
-    -   출력의 종류에 따라 다양: `*Output()`
+## UI 부분: 출력
 
-        -   `plotOutput(outputID = "")`
+-   **출력 함수**: 서버에서 생성된 출력값을 화면에 표시하기 위한 **출력 영역**을 UI에 생성하고, 해당 영역에 고유한 **출력 ID**(outputID)를 부여하는 함수
 
-## 기본 구조: ui 부분
+-   출력의 종류에 따라 다양: `*Output(outputID = "")`
 
--   **입력 함수**(위젯): <https://shiny.posit.co/r/components/>
+    -   `plotOutput(outputID = "")`
 
-![](images/clipboard-2818742956.png)
+-   Server에서 생성된 `output` 객체 중 출력 ID에 대응하는 것이 표출
 
-## 기본 구조: ui 부분
+## UI 부분: 출력
 
 -   **출력 함수**: <https://shiny.posit.co/r/components/>
 
--   주요 함수: `*Output(outputID = "")`
+-   출력의 종류와 출력 함수
 
     -   플롯: `plotOutput(outputID = "")`
 
@@ -231,84 +230,231 @@ shinyApp(ui = ui, server = server)
 
     -   이미지: `imageOutput(outputID = "")`
 
-## 기본 구조: server 부분
+## Server 부분
 
--   입력 객체를 받아 특정한 출력 객체를 생성
+-   **입력 객체**의 값을 읽어, **렌더링 함수**를 통해 출력값을 생성하고, 이를 **출력 객체**에 저장
 
-    -   입력 객체: `input$inputID`
+-   **입력 객체**
 
--   **렌더링(rendering) 함수**: 출력 객체 생성 함수, render\*({})
+    -   UI의 입력 함수 -\> `input$inputID`
 
-    -   `renderPlot({})`
+-   **렌더링(rendering) 함수**: 출력값 생성 함수, `render*({})`
 
-    -   출력 객체: `output$outputID`
+    -   플롯: `renderPlot({})`
 
--   주요 함수: `render*()`
+    -   테이블: `renderTable({})`
 
-    -   플롯: `renderPlot()`
+    -   일반 텍스트: `renderText({})`
 
-    -   테이블: `renderTable()`
+    -   사전 포맷된 텍스트: `renderPrint({})`
 
-    -   일반 텍스트: `renderText()`
+    -   이미지: `renderImage({})`
 
-    -   사전 포맷된 텍스트: `renderPrint()`
+-   **출력 객체**
 
-    -   이미지: `renderImage()`
+    -   `output$outputID` `<-` `render*({})`
 
-## 기본 구조: ui-server 연계 {visibility="hidden"}
+## UI-Server 연결 {visibility="hidden"}
 
--   렌더링 함수와 출력 함수: <https://shiny.posit.co/r/components/>
+-   UI의 출력 함수와 Server의 렌더링 함수: <https://shiny.posit.co/r/components/>
 
 ![](images/clipboard-1333453652.png)
 
-## 기본 구조: ui-server 연계 {.smaller}
+## UI-Server 연결 {.smaller}
 
--   기본 형식의 출력 함수와 렌더링 함수 쌍
+-   UI의 출력 함수와 Server의 렌더링 함수: 기본
 
-| 형식 | 출력 함수(UI) | 출력 생성(렌더링) 함수(Server) |
-|------------------|---------------------------|---------------------------|
-| 플롯 | `plotOutput(outputID = "")` | `renderPlot({})` |
-| 테이블 | `tableOutput(outputID = "")` | `renderTable({})` |
-| 일반 텍스트 | `textOutput(outputID = "")` | `renderText({})` |
-| 사전 포맷된 텍스트 | `verbatimeTextOutput(outputID = "")` | `renderPrint({})` |
-| 이미지 | `imageOutput(outputID = "")` | `renderImage({})` |
++--------------------+--------------------------------------+---------------------+
+| 형식               | 출력 함수(UI)                        | 렌더링 함수(Server) |
++====================+======================================+=====================+
+| 플롯               | `plotOutput(outputID = "")`          | `renderPlot({})`    |
++--------------------+--------------------------------------+---------------------+
+| 테이블             | `tableOutput(outputID = "")`         | `renderTable({})`   |
++--------------------+--------------------------------------+---------------------+
+| 일반 텍스트        | `textOutput(outputID = "")`          | `renderText({})`    |
++--------------------+--------------------------------------+---------------------+
+| 사전 포맷된 텍스트 | `verbatimeTextOutput(outputID = "")` | `renderPrint({})`   |
++--------------------+--------------------------------------+---------------------+
+| 이미지             | `imageOutput(outputID = "")`         | `renderImage({})`   |
++--------------------+--------------------------------------+---------------------+
 
 : {tbl-colwidths="\[24, 48, 28\]"}
 
-## 기본 구조: ui-server 연계 {.smaller}
+## UI-Server 연결 {.smaller}
 
--   주요 패키지의 출력 함수와 렌더링 함수 쌍
+-   UI의 출력 함수와 Server의 렌더링 함수: 주요 패키지의 경우
 
-| 주요 패키지 | 출력 표출 함수(UI) | 출력 생성(렌더링) 함수(Server) |
-|------------------------|------------------------|------------------------|
-| [**DT**](https://rstudio.github.io/DT/) | `DTOutput(outputID = "")` | `renderDT({})` |
++----------------------------------------------------+----------------------------------+-----------------------+
+| 주요 패키지                                        | 출력 함수(UI)                    | 렌더링 함수(Server)   |
++====================================================+==================================+=======================+
+| [**DT**](https://rstudio.github.io/DT/)            | `DTOutput(outputID = "")`        | `renderDT({})`        |
++----------------------------------------------------+----------------------------------+-----------------------+
 | [**reactable**](https://glin.github.io/reactable/) | `reactableOutput(outputID = "")` | `renderReactable({})` |
-| [**plotly**](https://plotly.com/r/) | `plotlyOutput(outputID = "")` | `renderPlotly({})` |
++----------------------------------------------------+----------------------------------+-----------------------+
+| [**plotly**](https://plotly.com/r/)                | `plotlyOutput(outputID = "")`    | `renderPlotly({})`    |
++----------------------------------------------------+----------------------------------+-----------------------+
 | [**echarts4r**](https://echarts4r.john-coene.com/) | `echarts4rOutput(outputID = "")` | `renderEcharts4r({})` |
-| [**leaflet**](https://rstudio.github.io/leaflet/) | `leafletOutput(outputID = "")` | `renderLeaflet({})` |
-| [**tmap**](https://r-tmap.github.io/tmap/) | `tmapOutput(outputID = "")` | `renderTmap({})` |
++----------------------------------------------------+----------------------------------+-----------------------+
+| [**leaflet**](https://rstudio.github.io/leaflet/)  | `leafletOutput(outputID = "")`   | `renderLeaflet({})`   |
++----------------------------------------------------+----------------------------------+-----------------------+
+| [**tmap**](https://r-tmap.github.io/tmap/)         | `tmapOutput(outputID = "")`      | `renderTmap({})`      |
++----------------------------------------------------+----------------------------------+-----------------------+
 
-## 반응성 함수 `reactive({})`
+## 반응성 함수: 정의 및 특징
 
--   `render*()` 함수는 이미 반응성 함수
+-   정의
 
-    -   사용자의 선택이 바뀔 때마다 갱신
+    -   입력값의 변화에 따라 관련된 계산과 출력이 자동으로 재실행ㆍ갱신되는 메커니즘
 
--   반응성 함수 `reactive({})`
+    -   입력(`input`)의 변화가 의존 관계(dependency)를 따라 전파되어, 반응형 표현식과 출력이 자동으로 갱신되는 실행 모델
 
+-   특징
+
+    -   `input$*`에 의존
+
+    -   입력이 바뀌면 자동으로 재실행
+
+    -   사용자가 직접 호출하지 않음
+
+    -   Shiny의 의존성 그래프(dependency graph)에 의해 관리됨
+
+## 반응성 함수: 종류
+
+-   렌더링 함수: `render*({})` 계열
+    -   반응형 계산을 통해 출력물을 생성하고, 그 결과를 `output` 객체의 요소로 저장
+-   반응형 표현식 함수: `reactive({})`
     -   입력 객체를 받아 '반응성 표현식(reactive expression)' 생성
-
-    -   반응성 표현식: 단순히 최종 산출물(값이나 객체)만을 의미하지 않고, 그 산출물을 관리하는 메커니즘(종속성 추적, 지연 실행, 캐싱 등) 포함하는 동적인 객체
-
-        -   반드시 함수 형태로 표기
-
+        -   반응성 표현식: 단순히 최종 출력값만을 의미하지 않고, 그 출력값을 관리하는 메커니즘(종속성 추적, 지연 실행, 캐싱 등)을 포함하는 동적인 객체 -\> 반드시 함수 형태로 표기
     -   하나의 '입력 객체'가 다양한 '출력 객체(렌더링 함수)'와 결부되는 경우
+        -   동일한 입력 객체의 중복 사용 회피 목적: 해당 입력 객체를 반응성 표현식으로 전환, 다수의 렌더링 함수에 입력 객체로 투입
+-   반응형 관찰자 함수: `observe*()` 계열
+    -   입력 변화에 반응하여 특정 동작(side effect)을 수행하는 함수
 
-        -   동일한 입력 객체의 중복 사용 회피 목적
+    -   종류: [`observe()`](https://rdrr.io/pkg/shiny/man/observe.html) , [`observeEvent()`](https://rdrr.io/pkg/shiny/man/observeEvent.html), [`eventReactive()`](https://rdrr.io/pkg/shiny/man/observeEvent.html) 
 
-        -   해당 입력 객체를 반응성 표현식으로 전환
+## [**bslib**](https://rstudio.github.io/bslib/) 패키지: 새로운 UI
 
-        -   다수의 출력 생성 함수에 입력 객체로 투입
+-   [**Shiny**](https://shiny.posit.co/r/getstarted/)의 전통적인 UI 구조 함수
+
+![[https://mastering-shiny.org/action-layout.html](https://mastering-shiny.org/action-layout.html){style="font-size:1rem"}](https://mastering-shiny.org/diagrams/action-layout/sidebar.png){fig-align="center" height="400"}
+
+-   [**bslib**](https://rstudio.github.io/bslib/)의 혁신
+    -   UI 구조 함수: `page_sidebar()`
+    -   UI 구성요소: `card()`, `sidebar()` 등
+
+## [**bslib**](https://rstudio.github.io/bslib/) 패키지: UI 구조 함수(컨테이너 함수)
+
+-   웹 앱 전체의 구조, 전환, 계층 구조를 정의하는 함수
+-   내부에 **UI 구성요소를 컨테인**함
+-   종류
+    -   **페이지** 컨테이너: 페이지 전체의 폭, 높이, 스크롤 방식 등 최상위 UI 구조를 정의하는 컨테이너로, `page_*()` 형태를 띤다.
+    -   **레이아웃** 컨테이너: 페이지 내부에서 여러 UI 구성요소를 동시에 어떻게 배치할지를 결정하는 컨테이너로, `layout_*()` 형태를 띤다.
+    -   **내비게이션** 컨테이너: 여러 UI 패널을 묶어 사용자 상호작용에 따라 표시되는 콘텐츠를 전환하는 컨테이너로, `navset_*()`의 형태를 띤다.
+
+## [**bslib**](https://rstudio.github.io/bslib/) 패키지: UI 구조 함수(컨테이너 함수)
+
+::: {style="font-size:2rem"}
++------------------------+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 분류                   | 함수                                                                                        | 특징                                                                                                                                                        |
++========================+=============================================================================================+=============================================================================================================================================================+
+| 페이지 컨테이너(기본)  | [`page_fixed()`](https://rstudio.github.io/bslib/reference/page.html)                       | 고정형(고정폭: 940픽셀)                                                                                                                                     |
+|                        |                                                                                             |                                                                                                                                                             |
+|                        | [`page_fluid()`](https://rstudio.github.io/bslib/reference/page.html)                       | 유동형(웹페이지의 전체 폭)                                                                                                                                  |
+|                        |                                                                                             |                                                                                                                                                             |
+|                        | [`page_fillable()`](https://rstudio.github.io/bslib/reference/page_fillable.html)           | 대시보드형(웹페이지의 전체 폭/높이)                                                                                                                         |
++------------------------+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 페이지 컨테이너(확장)  | [`page_sidebar()`](https://rstudio.github.io/bslib/reference/page_sidebar.html)             | 표준형(전역적 사이드바 포함)                                                                                                                                |
+|                        |                                                                                             |                                                                                                                                                             |
+|                        | [`page_navbar()`](https://rstudio.github.io/bslib/reference/page_navbar.html)               | 다중 페이지, [`nav_panel()`](https://rstudio.github.io/bslib/reference/nav-items.html)의 집합                                                               |
++------------------------+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 레이아웃 컨테이너      | `layout_siderbar()`                                                                         | `page_*()`, [`card()`](https://rstudio.github.io/bslib/reference/card.html), [`nav_panel()`](https://rstudio.github.io/bslib/reference/nav-items.html) 내부 |
+|                        |                                                                                             |                                                                                                                                                             |
+|                        | [`layout_columns()`](https://rstudio.github.io/bslib/reference/layout_columns.html)         | [`page_sidebar()`](https://rstudio.github.io/bslib/reference/page_sidebar.html) 내부                                                                        |
+|                        |                                                                                             |                                                                                                                                                             |
+|                        | [`layout_column_wrap()`](https://rstudio.github.io/bslib/reference/layout_column_wrap.html) | [`nav_panel()`](https://rstudio.github.io/bslib/reference/nav-items.html) 내부                                                                              |
++------------------------+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 내비게이션 컨테이너    | [`navset_tab()`](https://rstudio.github.io/bslib/reference/navset.html)                     | [`nav_panel()`](https://rstudio.github.io/bslib/reference/nav-items.html)의 집합                                                                            |
+|                        |                                                                                             |                                                                                                                                                             |
+| (페이지/레이아웃 레벨) | [`navset_pill()`](https://rstudio.github.io/bslib/reference/navset.html)                    |                                                                                                                                                             |
+|                        |                                                                                             |                                                                                                                                                             |
+|                        | [`navset_underline()`](https://rstudio.github.io/bslib/reference/navset.html)               |                                                                                                                                                             |
++------------------------+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 내비게이션 컨테이너    | [`navset_card_tab()`](https://rstudio.github.io/bslib/reference/navset.html)                | [`nav_panel()`](https://rstudio.github.io/bslib/reference/nav-items.html)의 집합                                                                            |
+|                        |                                                                                             |                                                                                                                                                             |
+| (카드 레벨)            | [`navset_card_pill()`](https://rstudio.github.io/bslib/reference/navset.html)               |                                                                                                                                                             |
+|                        |                                                                                             |                                                                                                                                                             |
+|                        | [`navset_card_underline()`](https://rstudio.github.io/bslib/reference/navset.html)          |                                                                                                                                                             |
++------------------------+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+:::
+
+## [**bslib**](https://rstudio.github.io/bslib/) 패키지: UI 구성요소(콘텐츠 컴포넌트)
+
+-   정의
+
+    -   UI 구조(컨테이너) 함수 내부에서 정보와 기능을 하나의 의미 있는 **시각적 단위**로 표현하는 재사용 가능한 UI 컴포넌트
+
+    -   UI 구조 함수와 달리 구조에 관여하지 않으며, 사용자가 하나의 UI 블록으로 인식하는 부분. 내부에 **입력 및 출력함수(콘텐츠)를 컨테인**함.
+
+-   종류
+
+    -   **카드**(card): 현대적인 UI에서 가장 널리 사용되는 정보 구성 단위
+    -   **사이드바**(sidebar): 입력 요소를 사용자가 쉽게 접근할 수 있도록 제공하는 핵심 UI 컴포넌트
+    -   **밸류 박스**(value box): 핵심적인 수치나 지표를 한눈에 전달하기 위해 사용되는 UI 컴포넌트
+    -   **툴팁**(tooltip)과 **팝오버**(popover): 화면을 방해하지 않으면서 추가 정보를 제공하거나 상호작용을 가능하게 하는 유용한 UI 요소
+
+## 웹 앱 예시
+
+::: panel-tabset
+## 웹 앱
+
+```{=html}
+<iframe src="https://sangillee.shinyapps.io/AIEDU2025_Example//" loading="lazy" style="width: 100%; height: 800px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+```
+
+## 코드
+
+```{r}
+#| eval: false
+#| echo: true
+library(shiny)
+library(bslib)
+library(tidyverse)
+library(plotly)
+
+ui <- page_sidebar(
+  title = "A Simple Shiny App",
+  sidebar = sidebar(
+    sliderInput(
+      inputId = "bins",
+      label = "Number of bins:",
+      min = 1, max = 50, value = 30
+    )
+  ),
+  card(
+    card_header("Histogram"),
+    plotlyOutput(outputId = "distPlot")
+  )
+)
+
+server <- function(input, output) {
+  output$distPlot <- renderPlotly({
+    x    <- faithful[, 2]
+    gg <- ggplot() +
+      geom_histogram(
+        aes(x = x), bins = input$bins, fill = 'darkgray', color = 'white'
+      ) +
+      labs(
+        x = 'Waiting time to next eruption (in mins)',
+        y = "Frequencies",
+        title = 'Histogram of waiting times'
+      )
+    ggplotly(gg)
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
+:::
 
 ## 웹 배포(deployment)
 
@@ -334,70 +480,7 @@ shinyApp(ui = ui, server = server)
 
     -   <https://sangillee.shinyapps.io/AIEDU2025_Example/>
 
-## Quarto와 Shiny의 결합
+## 고차 Shiny 웹 앱: 예시
 
--   상황: Quarto 대시보드의 일부 영역에서 Shiny 사용
+<https://sangillee.shinyapps.io/ThiessenPolygon/>
 
--   두 가지 접근
-
-    -   Shiny 중심 방식: Shiny 웹 앱의 생성
-
-        -   Quarto 대시보드 내에서 Quarto 문법으로 Shiny 웹 앱 구축
-
-        -   Quarto 대시보드 전체가 Shiny 웹 앱화: shinyapps.io를 통해 배포
-
-        -   사례: <https://sangillee.shinyapps.io/Dashboard_Example/>
-
-    -   Quarto 중심 방식: Quarto 대시보드의 유지
-
-        -   Quarto 대시보드 속에 독립적으로 구축된 Shiny 웹 앱 임베딩
-
-        -   여전히 Quarto 대시보드: Quarto Pub을 통해 배포
-
-        -   사례: <https://sangillee.snu.ac.kr/dashboard_examples/>
-
-## Quarto와 Shiny의 결합: Shiny 중심 방식
-
--   옵션 1: Quarto를 Shiny 웹 앱의 레이아웃 설정 도구로 사용
-
-    -   **shiny** 패키지: `fluidPage()`
-
-        -   `titlePanel()`, `SidebarLayout()`, `sidebarPanel()`, `mainPanel()`
-
-    -   **bslib** 패키지: `page_sidebar()`
-
-        -   `sidebar = sidebar()`, `card()`
-
--   옵션 2: Quarto 대시보드 내에서 Shiny 웹 앱 구축
-
-## Quarto와 Shiny의 결합: Shiny 중심 방식
-
--   <https://quarto.org/docs/dashboards/interactivity/shiny-r.html>
-
--   YAML 헤더에 다음 첨가: `server: shiny`
-
--   ui 부분: 기본적으로는 `r` 코드 청크 속에 포함, 사이드바와 메인 병렬
-
-    -   사이드바: 레이아웃 구성요소에 넣고 `{.sidebar}` CSS 클래스 지정 가능
-
-    -   메인: 사이드바와 다른 레이아웃 구성요소에 넣기 가능
-
--   server 부분: `r` 코드 청크 속에 포함, 다음 지정
-
-    -   `#| context: server` 지정
-
--   기타(패키지, 데이터 등) 부분: `r` 코드 청크 속에 포함, 다음 지정
-
-    -   `#| context: setup`
-
-    -   `#| include: false`
-
-## Quarto와 Shiny의 결합: Quarto 중심 방식
-
--   보통 하나의 row에 임베딩
-
--   `src=""` 부분만 교체
-
-```         
-<iframe src="https://..." loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
-```

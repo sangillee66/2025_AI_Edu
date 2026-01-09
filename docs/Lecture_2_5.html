@@ -11,7 +11,7 @@
 <meta name="generator" content="quarto-1.8.26">
 <meta name="author" content="  이상일(서울대학교 지리교육과 교수)">
 <meta name="dcterms.date" content="2026-01-09">
-<title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-inputd298f06e90d0203</title>
+<title>AI 융합교육을 위한 인문사회 콘텐츠 설계 – quarto-input5f588e365a0a1cfb</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -208,40 +208,29 @@
 </div>
 
   <p class="date">2026-01-09</p>
-</section><section id="인터랙티브-웹-앱-구상-발표" class="slide level2"><h2>인터랙티브 웹 앱 구상 발표</h2>
+</section><section id="인터랙티브-웹-앱-구상-발표" class="slide level2"><h2><span style="color:coral">인터랙티브 웹 앱 구상 발표</span></h2>
 <ul>
+<li><p>일시: 2026년 1월 12일(월)</p></li>
 <li>
-<p>일시</p>
+<p>주제: 사회과의 통합형 주제로서의 <strong>인구</strong></p>
 <ul>
-<li>2026년 1월 12일(월)</li>
+<li><p>고출산, 저출산, 고령화, 인구 편중, 인구 절벽, 지역 소멸, 학령 인구 감소 등</p></li>
+<li><p>전공 교과와 결합 혹은 통합형 사회과 수업</p></li>
 </ul>
 </li>
-<li>
-<p>주제: 인구 관련</p>
-<ul>
-<li><p>저출산, 고령화, 인구 절벽, 지역 소멸, 학령 인구 감소 등</p></li>
-<li><p>인구 현상과 인문사회 콘텐츠 참고</p></li>
-</ul>
-</li>
-<li>
-<p>데이터</p>
-<ul>
-<li>WPP 2024 혹은 KOSIS</li>
-</ul>
-</li>
+<li><p>데이터: WPP 2024 그리고/혹은 KOSIS</p></li>
 <li>
 <p>발표 내용</p>
 <ul>
-<li>주제, 웹 앱 디자인(레이아웃 요소, 내용 요소, 상호작용 요소)</li>
+<li>주제 선정 이유, 교수ㆍ학습 설계(학교급, 단원, 차시 등)</li>
+<li>웹 앱 디자인: 레이아웃 요소, 내용 요소, 상호작용 요소</li>
 </ul>
 </li>
-<li>
-<p>발표 방식</p>
-<ul>
-<li>5~10분 정도의 프레젠테이션</li>
-</ul>
-</li>
-</ul></section><section id="shiny-서버-기반-웹-앱-개발-프레임워크" class="slide level2"><h2>Shiny: (서버-기반) 웹 앱 개발 프레임워크</h2>
+<li><p>발표 방식: 5~10분 정도의 프레젠테이션</p></li>
+</ul></section><section id="quartor-기반의-웹-앱-개발-프레임워크" class="slide level2"><h2>Quarto/R 기반의 웹 앱 개발 프레임워크</h2>
+
+<img data-src="images/clipboard-4226295984.png" class="r-stretch"></section><section id="shiny-서버-기반-웹-앱-개발-프레임워크" class="slide level2"><h2>
+<a href="https://shiny.posit.co/"><strong>Shiny</strong></a>: 서버-기반 웹 앱 개발 프레임워크</h2>
 
 <img data-src="images/hex_shiny.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://shiny.posit.co/" style="font-size:1.25rem">https://shiny.posit.co/</a></p></section><section id="리소스-shiny-홈페이지" class="slide level2"><h2>리소스: Shiny 홈페이지</h2>
 <ul>
@@ -273,23 +262,23 @@
 <li><p><a href="https://bookdown.org/loankimrobinson/rshinybook/">R Shiny Applications in Finance, Medicine Pharma and Education Industry</a></p></li>
 <li><p><a href="https://bookdown.org/hneth/i2ds/shiny.html">Introduction to Data Science: 25 Shiny Applications</a></p></li>
 <li><p><a href="https://greendaygh.github.io/Rprog2021/shiny.html">데이터 사이언스를 위한 R 프로그래밍: 14 shiny</a></p></li>
-</ul></section><section id="확장-bslib-패키지" class="slide level2"><h2>확장: <a href="https://rstudio.github.io/bslib/">bslib</a> 패키지</h2>
+</ul></section><section id="확장-bslib-패키지" class="slide level2"><h2>확장: <a href="https://rstudio.github.io/bslib/"><strong>bslib</strong></a> 패키지</h2>
 
 <img data-src="images/hex_bslib.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://rstudio.github.io/bslib/" style="font-size:1rem">https://rstudio.github.io/bslib/</a></p></section><section id="기본-구조" class="slide level2"><h2>기본 구조</h2>
 <ul>
 <li>
-<p>ui 부분: 프론트엔드(front-end) 부분</p>
+<p><code>UI</code> 부분: 프론트엔드(front-end) 부분</p>
 <ul>
-<li>입력을 받고 출력을 나타내는 부분</li>
+<li>입력을 받는 부분 + 출력을 나타내는 부분</li>
 </ul>
 </li>
 <li>
-<p>server 부분: 백엔드(back-end) 부분</p>
+<p><code>Server</code> 부분: 백엔드(back-end) 부분</p>
 <ul>
-<li>받은 입력으로 출력을 산출하는 부분</li>
+<li>받은 입력을 바탕으로 출력을 산출하는 부분</li>
 </ul>
 </li>
-<li><p>결합: <code>shinyApp(ui = ui, server = server)</code></p></li>
+<li><p>결합: <code>shinyApp(ui = UI, server = Server)</code></p></li>
 </ul>
 
 <img data-src="https://bookdown.org/hneth/i2ds/images/Shiny_ui_server.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://bookdown.org/hneth/i2ds/shiny.html" style="font-size:1.25rem">https://bookdown.org/hneth/i2ds/shiny.html</a></p></section><section id="shiny-프로젝트의-생성" class="slide level2"><h2>Shiny 프로젝트의 생성</h2>
@@ -297,7 +286,7 @@
 <li>New Project &gt; New Directory &gt; Shiny Application</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="https://sangillee.snu.ac.kr/data_science/images/clipboard-1356184653.png" class="quarto-figure quarto-figure-center" style="height:700px"></p>
+<figure><p><img data-src="https://sangillee.snu.ac.kr/data_science/images/clipboard-1356184653.png" class="quarto-figure quarto-figure-center" height="700"></p>
 </figure>
 </div>
 </section><section id="웹-앱-예시" class="slide level2"><h2>웹 앱 예시</h2>
@@ -353,50 +342,46 @@
 </div>
 </div>
 </div>
-</section><section id="기본-구조-ui-부분" class="slide level2"><h2>기본 구조: ui 부분</h2>
+</section><section id="ui-부분-입력" class="slide level2"><h2>UI 부분: 입력</h2>
 <ul>
 <li>
-<p>입력(input)</p>
+<p><strong>입력 함수</strong>: 사용자가 값을 입력할 수 있는 <strong>입력 위젯</strong>을 UI에 생성하고, 해당 위젯에 고유한 <strong>입력 ID</strong>(inputID)를 부여하는 함수</p>
 <ul>
-<li><p>‘입력 함수’: 사용자로부터 입력을 받아 ’입력 객체’를 만드는 함수</p></li>
-<li>
-<p>위젯(widget): ui를 위한 기본 시각 요소로, 미리 만들어져 있는 것</p>
-<ul>
-<li>버튼, 스크롤 바, 텍스트 상자, 체크박스, 라디오 버튼 등</li>
+<li>입력 위젯(widget): UI를 위한 시각적 입력 요소로, 미리 만들어져 있는 것(슬라이더, 버튼, 스크롤 바, 텍스트 상자, 체크박스, 라디오 버튼 등)</li>
 </ul>
 </li>
 <li>
-<p>입력의 종류에 따라 다양: <code>*Input()</code></p>
+<p>입력의 종류에 따라 다양: <code>*Input(inputID = "")</code></p>
 <ul>
 <li><code>sliderInput(inputID = "")</code></li>
 </ul>
 </li>
-</ul>
-</li>
-<li>
-<p>출력(output)</p>
+<li><p>사용자의 입력값은 자동으로 Server의 <code>input</code> 객체로 전달</p></li>
+</ul></section><section id="ui-부분-입력-1" class="slide level2"><h2>UI 부분: 입력</h2>
 <ul>
-<li><p>‘출력 함수’: 서버로부터 ’출력 객체’를 받아 디스플레이하는 함수</p></li>
 <li>
-<p>출력의 종류에 따라 다양: <code>*Output()</code></p>
+<strong>입력 함수</strong>: <a href="https://shiny.posit.co/r/components/" class="uri">https://shiny.posit.co/r/components/</a>
+</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/clipboard-2818742956.png" class="quarto-figure quarto-figure-center" height="750"></p>
+</figure>
+</div>
+</section><section id="ui-부분-출력" class="slide level2"><h2>UI 부분: 출력</h2>
+<ul>
+<li><p><strong>출력 함수</strong>: 서버에서 생성된 출력값을 화면에 표시하기 위한 <strong>출력 영역</strong>을 UI에 생성하고, 해당 영역에 고유한 <strong>출력 ID</strong>(outputID)를 부여하는 함수</p></li>
+<li>
+<p>출력의 종류에 따라 다양: <code>*Output(outputID = "")</code></p>
 <ul>
 <li><code>plotOutput(outputID = "")</code></li>
 </ul>
 </li>
-</ul>
-</li>
-</ul></section><section id="기본-구조-ui-부분-1" class="slide level2"><h2>기본 구조: ui 부분</h2>
-<ul>
-<li>
-<strong>입력 함수</strong>(위젯): <a href="https://shiny.posit.co/r/components/" class="uri">https://shiny.posit.co/r/components/</a>
-</li>
-</ul>
-
-<img data-src="images/clipboard-2818742956.png" class="r-stretch"></section><section id="기본-구조-ui-부분-2" class="slide level2"><h2>기본 구조: ui 부분</h2>
+<li><p>Server에서 생성된 <code>output</code> 객체 중 출력 ID에 대응하는 것이 표출</p></li>
+</ul></section><section id="ui-부분-출력-1" class="slide level2"><h2>UI 부분: 출력</h2>
 <ul>
 <li><p><strong>출력 함수</strong>: <a href="https://shiny.posit.co/r/components/" class="uri">https://shiny.posit.co/r/components/</a></p></li>
 <li>
-<p>주요 함수: <code>*Output(outputID = "")</code></p>
+<p>출력의 종류와 출력 함수</p>
 <ul>
 <li><p>플롯: <code>plotOutput(outputID = "")</code></p></li>
 <li><p>테이블: <code>tableOutput(outputID = "")</code></p></li>
@@ -405,35 +390,37 @@
 <li><p>이미지: <code>imageOutput(outputID = "")</code></p></li>
 </ul>
 </li>
-</ul></section><section id="기본-구조-server-부분" class="slide level2"><h2>기본 구조: server 부분</h2>
+</ul></section><section id="server-부분" class="slide level2"><h2>Server 부분</h2>
 <ul>
+<li><p><strong>입력 객체</strong>의 값을 읽어, <strong>렌더링 함수</strong>를 통해 출력값을 생성하고, 이를 <strong>출력 객체</strong>에 저장</p></li>
 <li>
-<p>입력 객체를 받아 특정한 출력 객체를 생성</p>
+<p><strong>입력 객체</strong></p>
 <ul>
-<li>입력 객체: <code>input$inputID</code>
+<li>UI의 입력 함수 -&gt; <code>input$inputID</code>
 </li>
 </ul>
 </li>
 <li>
-<p><strong>렌더링(rendering) 함수</strong>: 출력 객체 생성 함수, render*({})</p>
+<p><strong>렌더링(rendering) 함수</strong>: 출력값 생성 함수, <code>render*({})</code></p>
 <ul>
-<li><p><code>renderPlot({})</code></p></li>
-<li><p>출력 객체: <code>output$outputID</code></p></li>
+<li><p>플롯: <code>renderPlot({})</code></p></li>
+<li><p>테이블: <code>renderTable({})</code></p></li>
+<li><p>일반 텍스트: <code>renderText({})</code></p></li>
+<li><p>사전 포맷된 텍스트: <code>renderPrint({})</code></p></li>
+<li><p>이미지: <code>renderImage({})</code></p></li>
 </ul>
 </li>
 <li>
-<p>주요 함수: <code>render*()</code></p>
+<p><strong>출력 객체</strong></p>
 <ul>
-<li><p>플롯: <code><a href="https://rdrr.io/pkg/shiny/man/renderPlot.html">renderPlot()</a></code></p></li>
-<li><p>테이블: <code><a href="https://rdrr.io/pkg/shiny/man/renderTable.html">renderTable()</a></code></p></li>
-<li><p>일반 텍스트: <code><a href="https://rdrr.io/pkg/shiny/man/renderPrint.html">renderText()</a></code></p></li>
-<li><p>사전 포맷된 텍스트: <code><a href="https://rdrr.io/pkg/shiny/man/renderPrint.html">renderPrint()</a></code></p></li>
-<li><p>이미지: <code><a href="https://rdrr.io/pkg/shiny/man/renderImage.html">renderImage()</a></code></p></li>
+<li>
+<code>output$outputID</code> <code>&lt;-</code> <code>render*({})</code>
+</li>
 </ul>
 </li>
-</ul></section><section id="기본-구조-ui-server-연계-1" class="slide level2 smaller"><h2>기본 구조: ui-server 연계</h2>
+</ul></section><section id="ui-server-연결-1" class="slide level2 smaller"><h2>UI-Server 연결</h2>
 <ul>
-<li>기본 형식의 출력 함수와 렌더링 함수 쌍</li>
+<li>UI의 출력 함수와 Server의 렌더링 함수: 기본</li>
 </ul>
 <table class="caption-top">
 <colgroup>
@@ -444,7 +431,7 @@
 <thead><tr class="header">
 <th>형식</th>
 <th>출력 함수(UI)</th>
-<th>출력 생성(렌더링) 함수(Server)</th>
+<th>렌더링 함수(Server)</th>
 </tr></thead>
 <tbody>
 <tr class="odd">
@@ -473,15 +460,15 @@
 <td><code>renderImage({})</code></td>
 </tr>
 </tbody>
-</table></section><section id="기본-구조-ui-server-연계-2" class="slide level2 smaller"><h2>기본 구조: ui-server 연계</h2>
+</table></section><section id="ui-server-연결-2" class="slide level2 smaller"><h2>UI-Server 연결</h2>
 <ul>
-<li>주요 패키지의 출력 함수와 렌더링 함수 쌍</li>
+<li>UI의 출력 함수와 Server의 렌더링 함수: 주요 패키지의 경우</li>
 </ul>
 <table class="caption-top">
 <thead><tr class="header">
 <th>주요 패키지</th>
-<th>출력 표출 함수(UI)</th>
-<th>출력 생성(렌더링) 함수(Server)</th>
+<th>출력 함수(UI)</th>
+<th>렌더링 함수(Server)</th>
 </tr></thead>
 <tbody>
 <tr class="odd">
@@ -515,36 +502,238 @@
 <td><code>renderTmap({})</code></td>
 </tr>
 </tbody>
-</table></section><section id="반응성-함수-reactive" class="slide level2"><h2>반응성 함수 <code>reactive({})</code>
-</h2>
+</table></section><section id="반응성-함수-정의-및-특징" class="slide level2"><h2>반응성 함수: 정의 및 특징</h2>
 <ul>
 <li>
-<p><code>render*()</code> 함수는 이미 반응성 함수</p>
+<p>정의</p>
 <ul>
-<li>사용자의 선택이 바뀔 때마다 갱신</li>
+<li><p>입력값의 변화에 따라 관련된 계산과 출력이 자동으로 재실행ㆍ갱신되는 메커니즘</p></li>
+<li><p>입력(<code>input</code>)의 변화가 의존 관계(dependency)를 따라 전파되어, 반응형 표현식과 출력이 자동으로 갱신되는 실행 모델</p></li>
 </ul>
 </li>
 <li>
-<p>반응성 함수 <code>reactive({})</code></p>
+<p>특징</p>
 <ul>
-<li><p>입력 객체를 받아 ‘반응성 표현식(reactive expression)’ 생성</p></li>
+<li><p><code>input$*</code>에 의존</p></li>
+<li><p>입력이 바뀌면 자동으로 재실행</p></li>
+<li><p>사용자가 직접 호출하지 않음</p></li>
+<li><p>Shiny의 의존성 그래프(dependency graph)에 의해 관리됨</p></li>
+</ul>
+</li>
+</ul></section><section id="반응성-함수-종류" class="slide level2"><h2>반응성 함수: 종류</h2>
+<ul>
+<li>렌더링 함수: <code>render*({})</code> 계열
+<ul>
+<li>반응형 계산을 통해 출력물을 생성하고, 그 결과를 <code>output</code> 객체의 요소로 저장</li>
+</ul>
+</li>
+<li>반응형 표현식 함수: <code>reactive({})</code>
+<ul>
+<li>입력 객체를 받아 ‘반응성 표현식(reactive expression)’ 생성
+<ul>
+<li>반응성 표현식: 단순히 최종 출력값만을 의미하지 않고, 그 출력값을 관리하는 메커니즘(종속성 추적, 지연 실행, 캐싱 등)을 포함하는 동적인 객체 -&gt; 반드시 함수 형태로 표기</li>
+</ul>
+</li>
+<li>하나의 ’입력 객체’가 다양한 ’출력 객체(렌더링 함수)’와 결부되는 경우
+<ul>
+<li>동일한 입력 객체의 중복 사용 회피 목적: 해당 입력 객체를 반응성 표현식으로 전환, 다수의 렌더링 함수에 입력 객체로 투입</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>반응형 관찰자 함수: <code>observe*()</code> 계열
+<ul>
+<li><p>입력 변화에 반응하여 특정 동작(side effect)을 수행하는 함수</p></li>
+<li><p>종류: <a href="https://rdrr.io/pkg/shiny/man/observe.html"><code>observe()</code></a> , <a href="https://rdrr.io/pkg/shiny/man/observeEvent.html"><code>observeEvent()</code></a>, <a href="https://rdrr.io/pkg/shiny/man/observeEvent.html"><code>eventReactive()</code></a>&nbsp;</p></li>
+</ul>
+</li>
+</ul></section><section id="bslib-패키지-새로운-ui" class="slide level2"><h2>
+<a href="https://rstudio.github.io/bslib/"><strong>bslib</strong></a> 패키지: 새로운 UI</h2>
+<ul>
 <li>
-<p>반응성 표현식: 단순히 최종 산출물(값이나 객체)만을 의미하지 않고, 그 산출물을 관리하는 메커니즘(종속성 추적, 지연 실행, 캐싱 등) 포함하는 동적인 객체</p>
+<a href="https://shiny.posit.co/r/getstarted/"><strong>Shiny</strong></a>의 전통적인 UI 구조 함수</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="https://mastering-shiny.org/diagrams/action-layout/sidebar.png" height="400"></p>
+<figcaption><a href="https://mastering-shiny.org/action-layout.html" style="font-size:1rem">https://mastering-shiny.org/action-layout.html</a></figcaption></figure>
+</div>
 <ul>
-<li>반드시 함수 형태로 표기</li>
+<li>
+<a href="https://rstudio.github.io/bslib/"><strong>bslib</strong></a>의 혁신
+<ul>
+<li>UI 구조 함수: <code><a href="https://rstudio.github.io/bslib/reference/page_sidebar.html">page_sidebar()</a></code>
+</li>
+<li>UI 구성요소: <code><a href="https://rstudio.github.io/bslib/reference/card.html">card()</a></code>, <code><a href="https://rstudio.github.io/bslib/reference/sidebar.html">sidebar()</a></code> 등</li>
+</ul>
+</li>
+</ul></section><section id="bslib-패키지-ui-구조-함수컨테이너-함수" class="slide level2"><h2>
+<a href="https://rstudio.github.io/bslib/"><strong>bslib</strong></a> 패키지: UI 구조 함수(컨테이너 함수)</h2>
+<ul>
+<li>웹 앱 전체의 구조, 전환, 계층 구조를 정의하는 함수</li>
+<li>내부에 <strong>UI 구성요소를 컨테인</strong>함</li>
+<li>종류
+<ul>
+<li>
+<strong>페이지</strong> 컨테이너: 페이지 전체의 폭, 높이, 스크롤 방식 등 최상위 UI 구조를 정의하는 컨테이너로, <code>page_*()</code> 형태를 띤다.</li>
+<li>
+<strong>레이아웃</strong> 컨테이너: 페이지 내부에서 여러 UI 구성요소를 동시에 어떻게 배치할지를 결정하는 컨테이너로, <code>layout_*()</code> 형태를 띤다.</li>
+<li>
+<strong>내비게이션</strong> 컨테이너: 여러 UI 패널을 묶어 사용자 상호작용에 따라 표시되는 콘텐츠를 전환하는 컨테이너로, <code>navset_*()</code>의 형태를 띤다.</li>
+</ul>
+</li>
+</ul></section><section id="bslib-패키지-ui-구조-함수컨테이너-함수-1" class="slide level2"><h2>
+<a href="https://rstudio.github.io/bslib/"><strong>bslib</strong></a> 패키지: UI 구조 함수(컨테이너 함수)</h2>
+<div style="font-size:2rem">
+<table class="caption-top">
+<thead><tr class="header">
+<th>분류</th>
+<th>함수</th>
+<th>특징</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>페이지 컨테이너(기본)</td>
+<td>
+<p><a href="https://rstudio.github.io/bslib/reference/page.html"><code>page_fixed()</code></a></p>
+<p><a href="https://rstudio.github.io/bslib/reference/page.html"><code>page_fluid()</code></a></p>
+<p><a href="https://rstudio.github.io/bslib/reference/page_fillable.html"><code>page_fillable()</code></a></p>
+</td>
+<td>
+<p>고정형(고정폭: 940픽셀)</p>
+<p>유동형(웹페이지의 전체 폭)</p>
+<p>대시보드형(웹페이지의 전체 폭/높이)</p>
+</td>
+</tr>
+<tr class="even">
+<td>페이지 컨테이너(확장)</td>
+<td>
+<p><a href="https://rstudio.github.io/bslib/reference/page_sidebar.html"><code>page_sidebar()</code></a></p>
+<p><a href="https://rstudio.github.io/bslib/reference/page_navbar.html"><code>page_navbar()</code></a></p>
+</td>
+<td>
+<p>표준형(전역적 사이드바 포함)</p>
+<p>다중 페이지, <a href="https://rstudio.github.io/bslib/reference/nav-items.html"><code>nav_panel()</code></a>의 집합</p>
+</td>
+</tr>
+<tr class="odd">
+<td>레이아웃 컨테이너</td>
+<td>
+<p><code>layout_siderbar()</code></p>
+<p><a href="https://rstudio.github.io/bslib/reference/layout_columns.html"><code>layout_columns()</code></a></p>
+<p><a href="https://rstudio.github.io/bslib/reference/layout_column_wrap.html"><code>layout_column_wrap()</code></a></p>
+</td>
+<td>
+<p><code>page_*()</code>, <a href="https://rstudio.github.io/bslib/reference/card.html"><code>card()</code></a>, <a href="https://rstudio.github.io/bslib/reference/nav-items.html"><code>nav_panel()</code></a> 내부</p>
+<p><a href="https://rstudio.github.io/bslib/reference/page_sidebar.html"><code>page_sidebar()</code></a> 내부</p>
+<p><a href="https://rstudio.github.io/bslib/reference/nav-items.html"><code>nav_panel()</code></a> 내부</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p>내비게이션 컨테이너</p>
+<p>(페이지/레이아웃 레벨)</p>
+</td>
+<td>
+<p><a href="https://rstudio.github.io/bslib/reference/navset.html"><code>navset_tab()</code></a></p>
+<p><a href="https://rstudio.github.io/bslib/reference/navset.html"><code>navset_pill()</code></a></p>
+<p><a href="https://rstudio.github.io/bslib/reference/navset.html"><code>navset_underline()</code></a></p>
+</td>
+<td>
+<a href="https://rstudio.github.io/bslib/reference/nav-items.html"><code>nav_panel()</code></a>의 집합</td>
+</tr>
+<tr class="odd">
+<td>
+<p>내비게이션 컨테이너</p>
+<p>(카드 레벨)</p>
+</td>
+<td>
+<p><a href="https://rstudio.github.io/bslib/reference/navset.html"><code>navset_card_tab()</code></a></p>
+<p><a href="https://rstudio.github.io/bslib/reference/navset.html"><code>navset_card_pill()</code></a></p>
+<p><a href="https://rstudio.github.io/bslib/reference/navset.html"><code>navset_card_underline()</code></a></p>
+</td>
+<td>
+<a href="https://rstudio.github.io/bslib/reference/nav-items.html"><code>nav_panel()</code></a>의 집합</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section><section id="bslib-패키지-ui-구성요소콘텐츠-컴포넌트" class="slide level2"><h2>
+<a href="https://rstudio.github.io/bslib/"><strong>bslib</strong></a> 패키지: UI 구성요소(콘텐츠 컴포넌트)</h2>
+<ul>
+<li>
+<p>정의</p>
+<ul>
+<li><p>UI 구조(컨테이너) 함수 내부에서 정보와 기능을 하나의 의미 있는 <strong>시각적 단위</strong>로 표현하는 재사용 가능한 UI 컴포넌트</p></li>
+<li><p>UI 구조 함수와 달리 구조에 관여하지 않으며, 사용자가 하나의 UI 블록으로 인식하는 부분. 내부에 <strong>입력 및 출력함수(콘텐츠)를 컨테인</strong>함.</p></li>
 </ul>
 </li>
 <li>
-<p>하나의 ’입력 객체’가 다양한 ’출력 객체(렌더링 함수)’와 결부되는 경우</p>
+<p>종류</p>
 <ul>
-<li><p>동일한 입력 객체의 중복 사용 회피 목적</p></li>
-<li><p>해당 입력 객체를 반응성 표현식으로 전환</p></li>
-<li><p>다수의 출력 생성 함수에 입력 객체로 투입</p></li>
+<li>
+<strong>카드</strong>(card): 현대적인 UI에서 가장 널리 사용되는 정보 구성 단위</li>
+<li>
+<strong>사이드바</strong>(sidebar): 입력 요소를 사용자가 쉽게 접근할 수 있도록 제공하는 핵심 UI 컴포넌트</li>
+<li>
+<strong>밸류 박스</strong>(value box): 핵심적인 수치나 지표를 한눈에 전달하기 위해 사용되는 UI 컴포넌트</li>
+<li>
+<strong>툴팁</strong>(tooltip)과 <strong>팝오버</strong>(popover): 화면을 방해하지 않으면서 추가 정보를 제공하거나 상호작용을 가능하게 하는 유용한 UI 요소</li>
 </ul>
 </li>
+</ul></section><section id="웹-앱-예시-1" class="slide level2"><h2>웹 앱 예시</h2>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby">
+<li><a data-tabby-default="" href="#tabset-2-1">웹 앱</a></li>
+<li><a href="#tabset-2-2">코드</a></li>
 </ul>
-</li>
-</ul></section><section id="웹-배포deployment" class="slide level2"><h2>웹 배포(deployment)</h2>
+<div class="tab-content">
+<div id="tabset-2-1">
+<iframe src="https://sangillee.shinyapps.io/AIEDU2025_Example//" loading="lazy" style="width: 100%; height: 800px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+</div>
+<div id="tabset-2-2">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://shiny.posit.co/">shiny</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://rstudio.github.io/bslib/">bslib</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://plotly-r.com">plotly</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">ui</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rstudio.github.io/bslib/reference/page_sidebar.html">page_sidebar</a></span><span class="op">(</span></span>
+<span>  title <span class="op">=</span> <span class="st">"A Simple Shiny App"</span>,</span>
+<span>  sidebar <span class="op">=</span> <span class="fu"><a href="https://rstudio.github.io/bslib/reference/sidebar.html">sidebar</a></span><span class="op">(</span></span>
+<span>    <span class="fu"><a href="https://rdrr.io/pkg/shiny/man/sliderInput.html">sliderInput</a></span><span class="op">(</span></span>
+<span>      inputId <span class="op">=</span> <span class="st">"bins"</span>,</span>
+<span>      label <span class="op">=</span> <span class="st">"Number of bins:"</span>,</span>
+<span>      min <span class="op">=</span> <span class="fl">1</span>, max <span class="op">=</span> <span class="fl">50</span>, value <span class="op">=</span> <span class="fl">30</span></span>
+<span>    <span class="op">)</span></span>
+<span>  <span class="op">)</span>,</span>
+<span>  <span class="fu"><a href="https://rstudio.github.io/bslib/reference/card.html">card</a></span><span class="op">(</span></span>
+<span>    <span class="fu"><a href="https://rstudio.github.io/bslib/reference/card_body.html">card_header</a></span><span class="op">(</span><span class="st">"Histogram"</span><span class="op">)</span>,</span>
+<span>    <span class="fu"><a href="https://rdrr.io/pkg/plotly/man/plotly-shiny.html">plotlyOutput</a></span><span class="op">(</span>outputId <span class="op">=</span> <span class="st">"distPlot"</span><span class="op">)</span></span>
+<span>  <span class="op">)</span></span>
+<span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">server</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">input</span>, <span class="va">output</span><span class="op">)</span> <span class="op">{</span></span>
+<span>  <span class="va">output</span><span class="op">$</span><span class="va">distPlot</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/plotly/man/plotly-shiny.html">renderPlotly</a></span><span class="op">(</span><span class="op">{</span></span>
+<span>    <span class="va">x</span>    <span class="op">&lt;-</span> <span class="va">faithful</span><span class="op">[</span>, <span class="fl">2</span><span class="op">]</span></span>
+<span>    <span class="va">gg</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
+<span>      <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_histogram.html">geom_histogram</a></span><span class="op">(</span></span>
+<span>        <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">x</span><span class="op">)</span>, bins <span class="op">=</span> <span class="va">input</span><span class="op">$</span><span class="va">bins</span>, fill <span class="op">=</span> <span class="st">'darkgray'</span>, color <span class="op">=</span> <span class="st">'white'</span></span>
+<span>      <span class="op">)</span> <span class="op">+</span></span>
+<span>      <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op">(</span></span>
+<span>        x <span class="op">=</span> <span class="st">'Waiting time to next eruption (in mins)'</span>,</span>
+<span>        y <span class="op">=</span> <span class="st">"Frequencies"</span>,</span>
+<span>        title <span class="op">=</span> <span class="st">'Histogram of waiting times'</span></span>
+<span>      <span class="op">)</span></span>
+<span>    <span class="fu"><a href="https://rdrr.io/pkg/plotly/man/ggplotly.html">ggplotly</a></span><span class="op">(</span><span class="va">gg</span><span class="op">)</span></span>
+<span>  <span class="op">}</span><span class="op">)</span></span>
+<span><span class="op">}</span></span>
+<span></span>
+<span><span class="fu"><a href="https://rdrr.io/pkg/shiny/man/shinyApp.html">shinyApp</a></span><span class="op">(</span>ui <span class="op">=</span> <span class="va">ui</span>, server <span class="op">=</span> <span class="va">server</span><span class="op">)</span></span></code></pre></div><button title="클립보드 복사" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="웹-배포deployment" class="slide level2"><h2>웹 배포(deployment)</h2>
 <ul>
 <li><p><a href="https://www.shinyapps.io/" class="uri">https://www.shinyapps.io/</a></p></li>
 <li>
@@ -573,85 +762,8 @@
 <li><a href="https://sangillee.shinyapps.io/AIEDU2025_Example/" class="uri">https://sangillee.shinyapps.io/AIEDU2025_Example/</a></li>
 </ul>
 </li>
-</ul></section><section id="quarto와-shiny의-결합" class="slide level2"><h2>Quarto와 Shiny의 결합</h2>
-<ul>
-<li><p>상황: Quarto 대시보드의 일부 영역에서 Shiny 사용</p></li>
-<li>
-<p>두 가지 접근</p>
-<ul>
-<li>
-<p>Shiny 중심 방식: Shiny 웹 앱의 생성</p>
-<ul>
-<li><p>Quarto 대시보드 내에서 Quarto 문법으로 Shiny 웹 앱 구축</p></li>
-<li><p>Quarto 대시보드 전체가 Shiny 웹 앱화: shinyapps.io를 통해 배포</p></li>
-<li><p>사례: <a href="https://sangillee.shinyapps.io/Dashboard_Example/" class="uri">https://sangillee.shinyapps.io/Dashboard_Example/</a></p></li>
-</ul>
-</li>
-<li>
-<p>Quarto 중심 방식: Quarto 대시보드의 유지</p>
-<ul>
-<li><p>Quarto 대시보드 속에 독립적으로 구축된 Shiny 웹 앱 임베딩</p></li>
-<li><p>여전히 Quarto 대시보드: Quarto Pub을 통해 배포</p></li>
-<li><p>사례: <a href="https://sangillee.snu.ac.kr/dashboard_examples/" class="uri">https://sangillee.snu.ac.kr/dashboard_examples/</a></p></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul></section><section id="quarto와-shiny의-결합-shiny-중심-방식" class="slide level2"><h2>Quarto와 Shiny의 결합: Shiny 중심 방식</h2>
-<ul>
-<li>
-<p>옵션 1: Quarto를 Shiny 웹 앱의 레이아웃 설정 도구로 사용</p>
-<ul>
-<li>
-<p><strong>shiny</strong> 패키지: <code><a href="https://rdrr.io/pkg/shiny/man/fluidPage.html">fluidPage()</a></code></p>
-<ul>
-<li>
-<code><a href="https://rdrr.io/pkg/shiny/man/titlePanel.html">titlePanel()</a></code>, <code>SidebarLayout()</code>, <code><a href="https://rdrr.io/pkg/shiny/man/sidebarLayout.html">sidebarPanel()</a></code>, <code><a href="https://rdrr.io/pkg/shiny/man/sidebarLayout.html">mainPanel()</a></code>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>bslib</strong> 패키지: <code><a href="https://rstudio.github.io/bslib/reference/page_sidebar.html">page_sidebar()</a></code></p>
-<ul>
-<li>
-<code>sidebar = sidebar()</code>, <code><a href="https://rstudio.github.io/bslib/reference/card.html">card()</a></code>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>옵션 2: Quarto 대시보드 내에서 Shiny 웹 앱 구축</p></li>
-</ul></section><section id="quarto와-shiny의-결합-shiny-중심-방식-1" class="slide level2"><h2>Quarto와 Shiny의 결합: Shiny 중심 방식</h2>
-<ul>
-<li><p><a href="https://quarto.org/docs/dashboards/interactivity/shiny-r.html" class="uri">https://quarto.org/docs/dashboards/interactivity/shiny-r.html</a></p></li>
-<li><p>YAML 헤더에 다음 첨가: <code>server: shiny</code></p></li>
-<li>
-<p>ui 부분: 기본적으로는 <code>r</code> 코드 청크 속에 포함, 사이드바와 메인 병렬</p>
-<ul>
-<li><p>사이드바: 레이아웃 구성요소에 넣고 <code>{.sidebar}</code> CSS 클래스 지정 가능</p></li>
-<li><p>메인: 사이드바와 다른 레이아웃 구성요소에 넣기 가능</p></li>
-</ul>
-</li>
-<li>
-<p>server 부분: <code>r</code> 코드 청크 속에 포함, 다음 지정</p>
-<ul>
-<li>
-<code>#| context: server</code> 지정</li>
-</ul>
-</li>
-<li>
-<p>기타(패키지, 데이터 등) 부분: <code>r</code> 코드 청크 속에 포함, 다음 지정</p>
-<ul>
-<li><p><code>#| context: setup</code></p></li>
-<li><p><code>#| include: false</code></p></li>
-</ul>
-</li>
-</ul></section><section id="quarto와-shiny의-결합-quarto-중심-방식" class="slide level2"><h2>Quarto와 Shiny의 결합: Quarto 중심 방식</h2>
-<ul>
-<li><p>보통 하나의 row에 임베딩</p></li>
-<li><p><code>src=""</code> 부분만 교체</p></li>
-</ul>
-<pre><code>&lt;iframe src="https://..." loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"&gt;&lt;/iframe&gt;</code></pre>
+</ul></section><section id="고차-shiny-웹-앱-예시" class="slide level2"><h2>고차 Shiny 웹 앱: 예시</h2>
+<p><a href="https://sangillee.shinyapps.io/ThiessenPolygon/" class="uri">https://sangillee.shinyapps.io/ThiessenPolygon/</a></p>
 
 
 </section>
