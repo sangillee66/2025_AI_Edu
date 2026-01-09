@@ -1082,14 +1082,14 @@
     "href": "Lecture_1_1.html#section-7",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "",
-    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT"
+    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT"
   },
   {
     "objectID": "Lecture_1_1.html#section-8",
     "href": "Lecture_1_1.html#section-8",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "",
-    "text": "튜링 테스트  by  앨런 튜링  Alan Turing  (1949)\n\n\n\n\nhttps://en.wikipedia.org/wiki/Turing_test"
+    "text": "튜링 테스트  by  앨런 튜링  Alan Turing  (1949)\n\n\nhttps://en.wikipedia.org/wiki/Turing_test"
   },
   {
     "objectID": "Lecture_1_1.html#section-9",
@@ -1117,14 +1117,14 @@
     "href": "Lecture_1_1.html#section-12",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "",
-    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT\n\n\n\n“생성 능력을 가진, 사전학습된,  트랜스포머 구조 기반 언어모델”  Generative  Pre-tranind  Transformer"
+    "text": "ChatGPT  by  OpenAI  (2022.11.30.)\n\n\nhttps://en.wikipedia.org/wiki/ChatGPT\n“생성 능력을 가진, 사전학습된,  트랜스포머 구조 기반 언어모델”  Generative  Pre-tranind  Transformer"
   },
   {
     "objectID": "Lecture_1_1.html#gpt",
     "href": "Lecture_1_1.html#gpt",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
-    "section": "",
-    "text": "Generative 생성적\n\n입력을 분류 및 분석하는 것이 아니라 새로운 텍스트를 생성할 수 있음\n텍스트 뿐만 아니라, 이미지, 음성/오디오, 비디오, 코드, 멀티모달 생성\n\nPre-trained 사전학습된\n\n방대한 범용 텍스트 데이터로 일반 언어 패턴을 미리 학습\n문법, 의미, 맥락, 지식 패턴을 학습\n\nTransformer 트랜스포머\n\n학습 메커니즘: 딥러닝 신경망 구조\n‘셀프 어텐션(self attention)’\n\n문장 내 각 요소를 문장 전체 맥락 속에서 재정의\n문맥에 맞는 해석 및 문장 내에서 멀리 떨어진 단어 간 관계 포착에 유리"
+    "section": "GPT",
+    "text": "GPT\n\nGenerative 생성적\n\n입력을 분류 및 분석하는 것이 아니라 새로운 텍스트를 생성할 수 있음\n텍스트 뿐만 아니라, 이미지, 음성/오디오, 비디오, 코드, 멀티모달 생성\n\nPre-trained 사전학습된\n\n방대한 범용 텍스트 데이터로 일반 언어 패턴을 미리 학습\n문법, 의미, 맥락, 지식 패턴을 학습\n\nTransformer 트랜스포머\n\n학습 메커니즘: 딥러닝 신경망 구조\n‘셀프 어텐션(self attention)’\n\n문장 내 각 요소를 문장 전체 맥락 속에서 재정의\n문맥에 맞는 해석 및 문장 내에서 멀리 떨어진 단어 간 관계 포착에 유리"
   },
   {
     "objectID": "Lecture_1_1.html#section-13",
@@ -1243,7 +1243,7 @@
     "href": "Lecture_1_1.html#제작-도구",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "제작 도구",
-    "text": "제작 도구\n\n\n\nhttps://goldenowl.asia/blog/difference-between-html-css-and-javascript"
+    "text": "제작 도구\n\nhttps://goldenowl.asia/blog/difference-between-html-css-and-javascript"
   },
   {
     "objectID": "Lecture_1_1.html#제작-도구-1",
@@ -2412,7 +2412,7 @@
     "href": "Lecture_1_1.html#tpack-dbl-프레임워크-2",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "TPACK-DBL 프레임워크",
-    "text": "TPACK-DBL 프레임워크\n\n\n\n(Baran and Uygun, 2016,49) https://doi.org/10.14742/ajet.2551"
+    "text": "TPACK-DBL 프레임워크\n\n(Baran and Uygun, 2016,49) https://doi.org/10.14742/ajet.2551"
   },
   {
     "objectID": "Lecture_1_1.html#tpack-dbl-프레임워크-3",
@@ -2573,14 +2573,14 @@
     "href": "Lecture_1_1.html#제작-도구-r알-1",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "제작 도구: R(알)",
-    "text": "제작 도구: R(알)\n\n\n\nhttps://r4ds.hadley.nz/intro"
+    "text": "제작 도구: R(알)\n\nhttps://r4ds.hadley.nz/intro"
   },
   {
     "objectID": "Lecture_1_1.html#제작-도구-quarto쿼토",
     "href": "Lecture_1_1.html#제작-도구-quarto쿼토",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "제작 도구: Quarto(쿼토)",
-    "text": "제작 도구: Quarto(쿼토)\n\n\n\nhttps://allisonhorst.com/cetinkaya-rundel-lowndes-quarto-keynote"
+    "text": "제작 도구: Quarto(쿼토)\n\nhttps://allisonhorst.com/cetinkaya-rundel-lowndes-quarto-keynote"
   },
   {
     "objectID": "Lecture_1_1.html#제작-도구-shiny샤이니",
@@ -2853,7 +2853,7 @@
     "href": "Lecture_1_1.html#제작-도구-r알-2",
     "title": "교사의 AIㆍ디지털 역량과 세 가지 사이언스의 융합 1\n교사의 AIㆍ디지털 역량",
     "section": "제작 도구: R(알)",
-    "text": "제작 도구: R(알)\n\n\n\nhttps://r4ds.hadley.nz/intro.html"
+    "text": "제작 도구: R(알)\n\nhttps://r4ds.hadley.nz/intro.html"
   },
   {
     "objectID": "Lecture_1_2.html#원데이터-유형-1",
