@@ -17,6 +17,8 @@ website:
         text: 웹 앱 예시
       - href: reference.qmd
         text: 참고문헌
+      - href: board.qmd
+        text: 게시판    
     right: 
       - icon: house-door
         href: https://sangillee.snu.ac.kr/

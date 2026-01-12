@@ -1,0 +1,12 @@
+---
+title: ""
+date-modified: last-modified
+---
+
+## 게시판
+
+```{=html}
+<iframe src="https://sangillee.shinyapps.io/shiny_board/" 
+loading="lazy" style="width: 100%; height: 600px; border: 
+0px none;" allow="web-share; clipboard-write"></iframe>
+```
