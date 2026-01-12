@@ -3,7 +3,7 @@ title: ""
 date-modified: last-modified
 ---
 
-## 게시판
+## 의견을 올려 주세요.
 
 ```{=html}
 <iframe src="https://sangillee.shinyapps.io/shiny_board/" 
