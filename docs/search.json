@@ -1061,7 +1061,7 @@
     "href": "lecture.html#주차-2026년-1월-12일-16일",
     "title": "AI 융합교육을 위한 인문사회 콘텐츠 설계",
     "section": "3주차 (2026년 1월 12일 ~ 16일)",
-    "text": "3주차 (2026년 1월 12일 ~ 16일)\n\n\n\n\n\n\n\n\n\n날짜\n주제\n강의 자료\n실습 자료\n\n\n\n\n1월 12일  (월)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 3\n\nR 프로그래밍 시험\n웹 앱 디자인 발표 및 피드백\n\n\n\n\n\n1월 13일  (화)  비대면\n인터랙티브 교수ㆍ학습 웹 앱의 제작 1\n\n\n\n\n1월 14일  (수)\n인터랙티브 교수ㆍ학습 웹 앱의 제작 2\n\n\n\n\n1월 15일  (목)\n인터랙티브 교수ㆍ학습 웹 앱의 제작 3\n\n\n\n\n1월 16일  (금)\n인터랙티브 교수ㆍ학습 웹 앱의 제작 4\n\n최종 발표"
+    "text": "3주차 (2026년 1월 12일 ~ 16일)\n\n\n\n\n\n\n\n\n\n날짜\n주제\n강의 자료\n실습 자료\n\n\n\n\n1월 12일  (월)\n인터랙티브 교수ㆍ학습 웹 앱의 디자인 3\n\nR 프로그래밍 시험\n웹 앱 디자인 발표 및 피드백\n\n\n\n\n\n1월 13일  (화)  비대면\n인터랙티브 교수ㆍ학습 웹 앱의 제작 1\nLecture_3_2\n동영상\n\n\n\n1월 14일  (수)\n인터랙티브 교수ㆍ학습 웹 앱의 제작 2\n\n\n\n\n1월 15일  (목)\n인터랙티브 교수ㆍ학습 웹 앱의 제작 3\n\n\n\n\n1월 16일  (금)\n인터랙티브 교수ㆍ학습 웹 앱의 제작 4\n\n최종 발표"
   },
   {
     "objectID": "Lecture_1_1.html#section-3",
@@ -2349,7 +2349,7 @@
     "href": "Lecture_0.html#연수생",
     "title": "개회식\n연수 프로그램 소개",
     "section": "연수생",
-    "text": "연수생\n\n\n\n성명\n소속청\n구분\n소속고\n입학 예정 학과\n팀\n\n\n\n\n강성\n북부\n사립\n염광중\n사회교육\nA\n\n\n서현지\n본청\n공립\n경기여고\n역사교육\nC\n\n\n박래혁\n강동송파\n공립\n오주중\n윤리교육\nD\n\n\n백지영\n동부\n공립\n숭인중\nAI융합교육\nA\n\n\n신유나\n강서양천\n공립\n삼정중\n역사교육\nC\n\n\n장미경\n남부\n공립\n개웅중\n윤리교육\nD\n\n\n김근홍\n동부\n공립\n숭인중\n사회교육\nB\n\n\n전지원\n본청\n공립\n경기여고\n사회교육\nB"
+    "text": "연수생\n\n\n\n성명\n소속청\n구분\n소속고\n입학 예정 학과\n팀\n\n\n\n\n강성\n북부\n사립\n염광중\n사회교육\nA\n\n\n서현지\n본청\n공립\n경기여고\n역사교육\nC\n\n\n박래혁\n강동송파\n공립\n오주중\n윤리교육\nA/B/D\n\n\n백지영\n동부\n공립\n숭인중\nAI융합교육\nA\n\n\n신유나\n강서양천\n공립\n삼정중\n역사교육\nC\n\n\n김근홍\n동부\n공립\n숭인중\n사회교육\nB\n\n\n전지원\n본청\n공립\n경기여고\n사회교육\nB"
   },
   {
     "objectID": "Lecture_0.html#목표",
@@ -7303,28 +7303,28 @@
   {
     "objectID": "Lecture_3_2.html#quarto와-shiny의-결합",
     "href": "Lecture_3_2.html#quarto와-shiny의-결합",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 제작\nShiny를 활용한 웹 앱 제작",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 제작웹 앱 제작의 실제\n",
     "section": "Quarto와 Shiny의 결합",
-    "text": "Quarto와 Shiny의 결합\n\n상황: Quarto 대시보드의 일부 영역에서 Shiny 사용\n두 가지 접근\n\nShiny 중심 방식: Shiny 웹 앱의 생성\n\nQuarto 대시보드 내에서 Quarto 문법으로 Shiny 웹 앱 구축\nQuarto 대시보드 전체가 Shiny 웹 앱화: shinyapps.io를 통해 배포\n사례: https://sangillee.shinyapps.io/Dashboard_Example/\n\nQuarto 중심 방식: Quarto 대시보드의 유지\n\nQuarto 대시보드 속에 독립적으로 구축된 Shiny 웹 앱 임베딩\n여전히 Quarto 대시보드: Quarto Pub을 통해 배포\n사례: https://sangillee.snu.ac.kr/dashboard_examples/"
+    "text": "Quarto와 Shiny의 결합\n\n상황: Quarto 대시보드의 일부 영역에서 Shiny 사용\n\n두 가지 접근\n\n\nShiny 중심 방식: Shiny 웹 앱의 생성\n\nQuarto 대시보드 내에서 Quarto 문법으로 Shiny 웹 앱 구축\nQuarto 대시보드 전체가 Shiny 웹 앱화: shinyapps.io를 통해 배포\n사례: https://sangillee.shinyapps.io/Dashboard_Example/\n\n\n\nQuarto 중심 방식: Quarto 대시보드의 유지\n\nQuarto 대시보드 속에 독립적으로 구축된 Shiny 웹 앱 임베딩\n여전히 Quarto 대시보드: Quarto Pub을 통해 배포\n사례: https://sangillee.snu.ac.kr/dashboard_examples/"
   },
   {
     "objectID": "Lecture_3_2.html#quarto와-shiny의-결합-shiny-중심-방식",
     "href": "Lecture_3_2.html#quarto와-shiny의-결합-shiny-중심-방식",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 제작\nShiny를 활용한 웹 앱 제작",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 제작웹 앱 제작의 실제\n",
     "section": "Quarto와 Shiny의 결합: Shiny 중심 방식",
-    "text": "Quarto와 Shiny의 결합: Shiny 중심 방식\n\n옵션 1: Quarto를 Shiny 웹 앱의 레이아웃 설정 도구로 사용\n\nshiny 패키지: fluidPage()\n\ntitlePanel(), SidebarLayout(), sidebarPanel(), mainPanel()\n\nbslib 패키지: page_sidebar()\n\nsidebar = sidebar(), card()\n\n\n옵션 2: Quarto 대시보드 내에서 Shiny 웹 앱 구축"
+    "text": "Quarto와 Shiny의 결합: Shiny 중심 방식\n\n\nQuarto의 행렬 분할을 통한 레이아웃 설정 방식을 활용: 입력 함수와 출력 함수를 포함\n\n\nshiny 패키지: fluidPage()\n\n\ntitlePanel(), SidebarLayout(), sidebarPanel(), mainPanel()\n\n\n\n\nbslib 패키지: page_sidebar()\n\n\nsidebar = sidebar(), card()\n\n\n\n\n\nQuarto 문법을 통해 Shiny 웹 앱 구축"
   },
   {
     "objectID": "Lecture_3_2.html#quarto와-shiny의-결합-shiny-중심-방식-1",
     "href": "Lecture_3_2.html#quarto와-shiny의-결합-shiny-중심-방식-1",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 제작\nShiny를 활용한 웹 앱 제작",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 제작웹 앱 제작의 실제\n",
     "section": "Quarto와 Shiny의 결합: Shiny 중심 방식",
-    "text": "Quarto와 Shiny의 결합: Shiny 중심 방식\n\nhttps://quarto.org/docs/dashboards/interactivity/shiny-r.html\nYAML 헤더에 다음 첨가: server: shiny\nUI 부분: 기본적으로는 r 코드 청크 속에 포함, 사이드바와 메인 병렬\n\n사이드바: 레이아웃 구성요소에 넣고 {.sidebar} CSS 클래스 지정 가능\n메인: 사이드바와 다른 레이아웃 구성요소에 넣기 가능\n\nServer 부분: r 코드 청크 속에 포함, 다음을 지정\n\n#| context: server 지정\n\n기타(패키지, 데이터 등) 부분: r 코드 청크 속에 포함, 다음을 지정\n\n#| context: setup\n#| include: false"
+    "text": "Quarto와 Shiny의 결합: Shiny 중심 방식\n\nhttps://quarto.org/docs/dashboards/interactivity/shiny-r.html\nYAML 헤더에 다음 첨가: server: shiny\n\nUI 부분: 기본적으로는 r 코드 청크 속에 포함, 사이드바와 메인 병렬\n\n사이드바: 레이아웃 구성요소에 넣고 {.sidebar} CSS 클래스 지정 가능\n메인: 사이드바와 다른 레이아웃 구성요소에 넣기 가능\n\n\n\nServer 부분: r 코드 청크 속에 포함, 다음을 지정\n\n\n#| context: server 지정\n\n\n\n기타(패키지, 데이터 등) 부분: r 코드 청크 속에 포함, 다음을 지정\n\n#| context: setup\n#| include: false"
   },
   {
     "objectID": "Lecture_3_2.html#quarto와-shiny의-결합-quarto-중심-방식",
     "href": "Lecture_3_2.html#quarto와-shiny의-결합-quarto-중심-방식",
-    "title": "인터랙티브 교수ㆍ학습 웹 앱의 제작\nShiny를 활용한 웹 앱 제작",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 제작웹 앱 제작의 실제\n",
     "section": "Quarto와 Shiny의 결합: Quarto 중심 방식",
     "text": "Quarto와 Shiny의 결합: Quarto 중심 방식\n\n보통 하나의 row에 임베딩\nsrc=\"\" 부분만 교체\n\n&lt;iframe src=\"https://...\" loading=\"lazy\" style=\"width: 100%; height: 600px; border: 0px none;\" allow=\"web-share; clipboard-write\"&gt;&lt;/iframe&gt;"
   },
@@ -7383,5 +7383,40 @@
     "title": "Lab_11: Shiny를 활용한 웹 앱 제작",
     "section": "\n6 웹 앱의 공유",
     "text": "6 웹 앱의 공유\n\n6.1 웹 앱 배포(deployment)\n웹 앱을 배포하는 방법은 다양할 수 있지만 여기서는 shinyapp.io를 이용하는 방법에 대해 배운다.\n첫째, 해당 홈페이지(https://www.shinyapps.io/)에 접속한다.\n둘째, 계정을 생성한다.\n\n로그인 후 상단 오른쪽 끝 메뉴 “Tokens” 페이지로 이동\n페이지에서 Show를 통해 인증 토큰(Token)과 Secret 확보: Show secret를 클릭하여 secret까지 보이게 한 후 복사하기\n\n셋째, RStudio에 토큰을 설정한다. 단 한 번만 하면 된다.\n\nR 콘솔에 위에서 복사한 내용 붙여넣기 및 실행\n\n넷째, Publish 버튼 클릭\n\n스크립트 윈도우의 오른쪽 상단에 있는 Publish 버튼 클릭\n배포를 원하는 R 파일만 선택\n\n다섯째, URL을 얻는다. 다음의 형식으로 생성된다.\n\nhttps://userid.shinyapps.io/project_name/\n\n6.2 Quarto와 Shiny의 결합\n\n상황: Quarto 대시보드의 일부 영역에서 Shiny 사용\n\n두 가지 접근\n\n\nShiny 중심 방식: Shiny 웹 앱의 생성\n\nQuarto 대시보드 내에서 Quarto 문법으로 Shiny 웹 앱 구축\nQuarto 대시보드 전체가 Shiny 웹 앱화: shinyapps.io를 통해 배포\n사례: https://sangillee.shinyapps.io/Dashboard_Example/\n\n\n\nQuarto 중심 방식: Quarto 대시보드의 유지\n\nQuarto 대시보드 속에 독립적으로 구축된 Shiny 웹 앱 임베딩\n여전히 Quarto 대시보드: Quarto Pub을 통해 배포\n사례: https://sangillee.snu.ac.kr/dashboard_examples/\n\n\n\n\n\n\n6.2.1 Shiny 중심 방식\n\n\n옵션 1: Quarto를 Shiny 웹 앱의 레이아웃 설정 도구로 사용\n\n\nshiny 패키지: fluidPage()\n\n\ntitlePanel(), SidebarLayout(), sidebarPanel(), mainPanel()\n\n\n\n\nbslib 패키지: page_sidebar()\n\n\nsidebar = sidebar(), card()\n\n\n\n\n\n옵션 2: Quarto 대시보드 내에서 Shiny 웹 앱 구축\nhttps://quarto.org/docs/dashboards/interactivity/shiny-r.html\nYAML 헤더에 다음 첨가: server: shiny\n\nui 부분: 기본적으로는 r 코드 청크 속에 포함, 사이드바와 메인 병렬\n\n사이드바: 레이아웃 구성요소에 넣고 {.sidebar} CSS 클래스 지정 가능\n메인: 사이드바와 다른 레이아웃 구성요소에 넣기 가능\n\n\n\nserver 부분: r 코드 청크 속에 포함, 다음 지정\n\n\n#| context: server 지정\n\n\n\n기타(패키지, 데이터 등) 부분: r 코드 청크 속에 포함, 다음 지정\n\n#| context: setup\n#| include: false\n\n\n\n6.2.2 Quarto 중심 방식\n\n보통 하나의 row에 임베딩\nsrc=\"\" 부분만 교체\n\n&lt;iframe src=\"https://...\" loading=\"lazy\" style=\"width: 100%; height: 600px; border: 0px none;\" allow=\"web-share; clipboard-write\"&gt;&lt;/iframe&gt;"
+  },
+  {
+    "objectID": "Lecture_3_2.html#chatbot-웹-앱",
+    "href": "Lecture_3_2.html#chatbot-웹-앱",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 제작웹 앱 제작의 실제\n",
+    "section": "Chatbot 웹 앱",
+    "text": "Chatbot 웹 앱\n\n\n\n\n\nhttps://ellmer.tidyverse.org/\n\n\n\n\n\nhttps://posit-dev.github.io/shinychat/r/"
+  },
+  {
+    "objectID": "Lecture_3_2.html#chatbot-웹-앱-1",
+    "href": "Lecture_3_2.html#chatbot-웹-앱-1",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 제작웹 앱 제작의 실제\n",
+    "section": "Chatbot 웹 앱",
+    "text": "Chatbot 웹 앱\n\n\n코드\n웹 앱\n\n\n\n\nlibrary(shiny)\nlibrary(shinychat)\nlibrary(bslib)\nlibrary(ellmer)\n\nui &lt;- page_fillable(\n  chat_ui(\n    id = \"chat\",\n    messages = \"your messages here\"\n  ),\n  fillable_mobile = TRUE\n)\n\nserver &lt;- function(input, output, session) {\n  chat &lt;-\n    chat_openai(\n      base_url = \"https://api.openai.com/v1\",\n      model = \"gpt-5.1\",\n      api_key = your_api_key_here,\n      system_prompt = \"\"\n    )\n\n  observeEvent(input$chat_user_input, {\n    stream &lt;- chat$stream_async(input$chat_user_input)\n    chat_append(\"chat\", stream)\n  })\n}\n\nshinyApp(ui, server)"
+  },
+  {
+    "objectID": "Lecture_3_2.html#웹-배포deployment",
+    "href": "Lecture_3_2.html#웹-배포deployment",
+    "title": "\n인터랙티브 교수ㆍ학습 웹 앱의 제작웹 앱 제작의 실제\n",
+    "section": "웹 배포(deployment)",
+    "text": "웹 배포(deployment)\n\nhttps://www.shinyapps.io/\n\n계정 생성\n\n로그인 후 상단 오른쪽 끝 메뉴 “Tokens” 페이지로 이동\n페이지에서 Show를 통해 인증 토큰(Token)과 Secret 확보: Show secret를 클릭하여 secret까지 보이게 한 후 복사하기\n\n\n\nRStudio에 토큰 설정\n\nR 콘솔에 복사한 내용 붙여넣기 및 실행\n\n\n\nPublish 버튼 클릭\n\n스크립트 윈도우의 오른쪽 상단\n배포를 원하는 R 파일만 선택\n\n\n\nURL 생성: https://userid.shinyapps.io/project_name/\n\nhttps://sangillee.shinyapps.io/AIEDU2025_Example/"
+  },
+  {
+    "objectID": "Lecture_2_5.html",
+    "href": "Lecture_2_5.html",
+    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 2\nShiny를 활용한 웹 앱 제작",
+    "section": "",
+    "text": "일시: 2026년 1월 12일(월)\n주제: 사회과의 통합형 주제로서의 인구\n\n고출산, 저출산, 고령화, 인구 편중, 인구 절벽, 지역 소멸, 학령 인구 감소 등\n전공 교과와 결합 혹은 통합형 사회과 수업\n\n데이터: WPP 2024 그리고/혹은 KOSIS\n발표 내용\n\n주제 선정 이유, 교수ㆍ학습 설계(학교급, 단원, 차시 등)\n웹 앱 디자인: 레이아웃 요소, 내용 요소, 상호작용 요소\n\n발표 방식: 5~10분 정도의 프레젠테이션"
+  },
+  {
+    "objectID": "Lecture_2_5.html#ui-server-연결",
+    "href": "Lecture_2_5.html#ui-server-연결",
+    "title": "인터랙티브 교수ㆍ학습 웹 앱의 디자인 2\nShiny를 활용한 웹 앱 제작",
+    "section": "UI-Server 연결",
+    "text": "UI-Server 연결\n\nUI의 출력 함수와 Server의 렌더링 함수: https://shiny.posit.co/r/components/"
   }
 ]

@@ -1,7 +1,7 @@
 ---
 title: |
   | [인터랙티브 교수ㆍ학습 웹 앱의 제작]{style="color:coral;font-size:0.6em"}   
-  | [Shiny를 활용한 웹 앱 제작]{style="font-size:1em"} 
+  | [웹 앱 제작의 실제]{style="font-size:1em"} 
 author: <br> 이상일(서울대학교 지리교육과 교수)
 date: 2026-01-13
 format: 
@@ -49,6 +49,29 @@ editor_options:
   chunk_output_type: console
 ---
 
+## 웹 배포(deployment)
+
+-   <https://www.shinyapps.io/>
+
+-   계정 생성
+
+    -   로그인 후 상단 오른쪽 끝 메뉴 "Tokens" 페이지로 이동
+
+    -   페이지에서 Show를 통해 인증 토큰(Token)과 Secret 확보: Show secret를 클릭하여 secret까지 보이게 한 후 복사하기
+
+-   RStudio에 토큰 설정
+
+    -   R 콘솔에 복사한 내용 붙여넣기 및 실행
+
+-   Publish 버튼 클릭
+
+    -   스크립트 윈도우의 오른쪽 상단
+
+    -   배포를 원하는 R 파일만 선택
+
+-   URL 생성: https://userid.shinyapps.io/project_name/
+
+    -   <https://sangillee.shinyapps.io/AIEDU2025_Example/>
 
 ## Quarto와 Shiny의 결합
 
@@ -74,7 +97,7 @@ editor_options:
 
 ## Quarto와 Shiny의 결합: Shiny 중심 방식
 
--   옵션 1: Quarto를 Shiny 웹 앱의 레이아웃 설정 도구로 사용
+-   Quarto의 행렬 분할을 통한 레이아웃 설정 방식을 활용: 입력 함수와 출력 함수를 포함
 
     -   **shiny** 패키지: `fluidPage()`
 
@@ -84,7 +107,7 @@ editor_options:
 
         -   `sidebar = sidebar()`, `card()`
 
--   옵션 2: Quarto 대시보드 내에서 Shiny 웹 앱 구축
+-   Quarto 문법을 통해 Shiny 웹 앱 구축
 
 ## Quarto와 Shiny의 결합: Shiny 중심 방식
 
@@ -117,3 +140,57 @@ editor_options:
 ```         
 <iframe src="https://..." loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
 ```
+
+## Chatbot 웹 앱
+
+::: {layout-ncol="2"}
+![[https://ellmer.tidyverse.org/](https://ellmer.tidyverse.org/){style="font-size:1.25rem"}](images/hex_ellmer-02.png)
+
+![[https://posit-dev.github.io/shinychat/r/](https://posit-dev.github.io/shinychat/r/){style="font-size:1.25rem"}](images/hex_shinychat-01.png)
+:::
+
+## Chatbot 웹 앱
+
+::: panel-tabset
+## 코드
+
+```{r}
+#| echo: true
+#| eval: false
+library(shiny)
+library(shinychat)
+library(bslib)
+library(ellmer)
+
+ui <- page_fillable(
+  chat_ui(
+    id = "chat",
+    messages = "your messages here"
+  ),
+  fillable_mobile = TRUE
+)
+
+server <- function(input, output, session) {
+  chat <-
+    chat_openai(
+      base_url = "https://api.openai.com/v1",
+      model = "gpt-5.1",
+      api_key = your_api_key_here,
+      system_prompt = ""
+    )
+
+  observeEvent(input$chat_user_input, {
+    stream <- chat$stream_async(input$chat_user_input)
+    chat_append("chat", stream)
+  })
+}
+
+shinyApp(ui, server)
+```
+
+## 웹 앱
+
+<iframe src="https://sangillee.shinyapps.io/my_shinychat/" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write">
+
+</iframe>
+:::

@@ -264,19 +264,13 @@ shinyApp(ui = ui, server = server)
 
 -   UI의 출력 함수와 Server의 렌더링 함수: 기본
 
-+--------------------+--------------------------------------+---------------------+
-| 형식               | 출력 함수(UI)                        | 렌더링 함수(Server) |
-+====================+======================================+=====================+
-| 플롯               | `plotOutput(outputID = "")`          | `renderPlot({})`    |
-+--------------------+--------------------------------------+---------------------+
-| 테이블             | `tableOutput(outputID = "")`         | `renderTable({})`   |
-+--------------------+--------------------------------------+---------------------+
-| 일반 텍스트        | `textOutput(outputID = "")`          | `renderText({})`    |
-+--------------------+--------------------------------------+---------------------+
-| 사전 포맷된 텍스트 | `verbatimeTextOutput(outputID = "")` | `renderPrint({})`   |
-+--------------------+--------------------------------------+---------------------+
-| 이미지             | `imageOutput(outputID = "")`         | `renderImage({})`   |
-+--------------------+--------------------------------------+---------------------+
+| 형식 | 출력 함수(UI) | 렌더링 함수(Server) |
+|----|----|----|
+| 플롯 | `plotOutput(outputID = "")` | `renderPlot({})` |
+| 테이블 | `tableOutput(outputID = "")` | `renderTable({})` |
+| 일반 텍스트 | `textOutput(outputID = "")` | `renderText({})` |
+| 사전 포맷된 텍스트 | `verbatimeTextOutput(outputID = "")` | `renderPrint({})` |
+| 이미지 | `imageOutput(outputID = "")` | `renderImage({})` |
 
 : {tbl-colwidths="\[24, 48, 28\]"}
 
@@ -284,21 +278,14 @@ shinyApp(ui = ui, server = server)
 
 -   UI의 출력 함수와 Server의 렌더링 함수: 주요 패키지의 경우
 
-+----------------------------------------------------+----------------------------------+-----------------------+
-| 주요 패키지                                        | 출력 함수(UI)                    | 렌더링 함수(Server)   |
-+====================================================+==================================+=======================+
-| [**DT**](https://rstudio.github.io/DT/)            | `DTOutput(outputID = "")`        | `renderDT({})`        |
-+----------------------------------------------------+----------------------------------+-----------------------+
+| 주요 패키지 | 출력 함수(UI) | 렌더링 함수(Server) |
+|----|----|----|
+| [**DT**](https://rstudio.github.io/DT/) | `DTOutput(outputID = "")` | `renderDT({})` |
 | [**reactable**](https://glin.github.io/reactable/) | `reactableOutput(outputID = "")` | `renderReactable({})` |
-+----------------------------------------------------+----------------------------------+-----------------------+
-| [**plotly**](https://plotly.com/r/)                | `plotlyOutput(outputID = "")`    | `renderPlotly({})`    |
-+----------------------------------------------------+----------------------------------+-----------------------+
+| [**plotly**](https://plotly.com/r/) | `plotlyOutput(outputID = "")` | `renderPlotly({})` |
 | [**echarts4r**](https://echarts4r.john-coene.com/) | `echarts4rOutput(outputID = "")` | `renderEcharts4r({})` |
-+----------------------------------------------------+----------------------------------+-----------------------+
-| [**leaflet**](https://rstudio.github.io/leaflet/)  | `leafletOutput(outputID = "")`   | `renderLeaflet({})`   |
-+----------------------------------------------------+----------------------------------+-----------------------+
-| [**tmap**](https://r-tmap.github.io/tmap/)         | `tmapOutput(outputID = "")`      | `renderTmap({})`      |
-+----------------------------------------------------+----------------------------------+-----------------------+
+| [**leaflet**](https://rstudio.github.io/leaflet/) | `leafletOutput(outputID = "")` | `renderLeaflet({})` |
+| [**tmap**](https://r-tmap.github.io/tmap/) | `tmapOutput(outputID = "")` | `renderTmap({})` |
 
 ## 반응성 함수: 정의 및 특징
 
@@ -483,4 +470,3 @@ shinyApp(ui = ui, server = server)
 ## 고차 Shiny 웹 앱: 예시
 
 <https://sangillee.shinyapps.io/ThiessenPolygon/>
-
