@@ -78,6 +78,8 @@ date-modified: last-modified
 
     -   훌륭한 책입니다. 샤이니를 일부 다루고 있다는 것도 좋습니다.
 
+-   Rennie, Nicola, 2026, [*The Art of Data Visualization with ggplot2: The TidyTuesday Cookbook*](https://nrennie.rbind.io/art-of-viz/), Boca Raton: CRC Press.
+
 -   Kabacoff, Robert, 2024, [*Modern Data Visualization with R*](https://rkabacoff.github.io/datavis/), Boca Raton: CRC Press.
 
 -   Alexander, Rohan. 2023. [*Telling Stories with Data With Applications in R*](https://tellingstorieswithdata.com/). Boca Raton: CRC Press.
