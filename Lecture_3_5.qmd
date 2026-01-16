@@ -1,0 +1,86 @@
+---
+title: |
+  | [인터랙티브 교수ㆍ학습 웹 앱의 제작]{style="color:coral;font-size:0.6em"}   
+  | [연수를 끝내며]{style="font-size:1em"} 
+author: <br> 이상일(서울대학교 지리교육과 교수)
+date: 2026-01-16
+format: 
+  revealjs:
+    logo: snu_edu_1.png
+    footer: https://sangillee.snu.ac.kr/
+    transition: fade
+    transition-speed: fast
+    margin: 0.05
+    center: false
+    # smaller: false
+    # scrollable: false
+    code-link: true
+    code-line-numbers: false
+    code-copy: true
+    code-overflow: scroll
+    slide-number: true
+    width: 960 * 1.5
+    height: 700 * 1.5
+    lightbox: false
+    # min-scale: 1
+    # max-scale: 1
+    pointer:
+      pointerSize: 20
+      color: red
+    menu: true
+    embed-resources: false
+    theme: [default, custom_hq_pretendard_step.scss] # 슬라이드 본문 폰트 크기 조정
+    revealjs-plugins:
+      - pointer
+    css: styles.css
+execute: 
+  warning: false
+  error: false
+  freeze: auto  
+dpi: 600
+editor: visual
+webr: 
+  show-startup-message: false     
+  packages: []
+filters:
+  - webr
+# suppress-bibliography: true
+editor_options: 
+  chunk_output_type: console
+---
+
+##  {.center}
+
+::: {style="text-align: center; font-size:10rem; color:#e41a1c"}
+재앙 vs. 축복
+:::
+
+##  {.center}
+
+::: {style="text-align: center; font-size:10rem; color:#377eb8"}
+펀더멘털 <br> & <br> 지속가능성
+:::
+
+##  {.center}
+
+::: {style="text-align: center; font-size:10rem; color:#4daf4a"}
+적임자
+:::
+
+## TPACK-DBL 프레임워크
+
+::: {layout-ncol="2" layout-valign="center"}
+![](images/clipboard-1131372429.png)
+
+![](images/clipboard-3692320336.png)
+:::
+
+## 
+
+![](images/clipboard-1292444055.png){fig-align="center" height="950px"}
+
+##  {.center}
+
+::: {style="text-align: center; font-size:10rem; color:#984ea3"}
+설문조사 <br> [<https://forms.gle/B25nQbvBN8wuTC1a6>]{style="font-size:4rem"}
+:::
